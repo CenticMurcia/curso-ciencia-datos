@@ -1,0 +1,26 @@
+# Pandas summary
+- The data table is a Pandas **dataframe**
+- The data column is a Pandas **series**
+- We can obtain information of the **dataset**:
+  - 10 top rows: `df.head(10)`
+  - Number of rows & variables: `df.shape`
+  - Names of variables: `df.columns`
+  - Types of variables: `df.info()`
+  - Stats of numerical variables: `df.describe()`
+  - Stats of numerical variables: `df.describe(include=['object', 'bool'])`
+- Information of **numerical variables**:
+  - Minimum `df.num_var.min()`
+  - Maximun `df.num_var.max()`
+  - Mean `df.num_var.mean()`
+  - Median `df.num_var.median()`
+  - Std `df.variable.std()`
+- Information of **categorial variables**:
+  - Unique values (count): `df.cat_var.value_counts()`
+  - Unique values (percen): `df.cat_var.value_counts(normalize=True)`
+  - 2 categorial vars (count): `pd.crosstab(df.cat_var1, df.cat_var2, margins=True)`
+  - 2 categorial vars (percen): `pd.crosstab(df.cat_var1, df.cat_var2, margins=True, normalize=True)`
+- Information of **numerical & categorial variables**:
+  - Pivot table: `df.pivot_table([num_var1, num_var2, ...], [cat_var1, cat_var2], aggfunc='mean')`
+- **Fitering rows**:
+  - One filter: `df[ condition ]`
+  - Multiple filters: `df[ (condition1) & (condition2)]`
