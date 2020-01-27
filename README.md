@@ -52,23 +52,31 @@
   <!----------------------------------- 🌳 4. Tree based models ----------------------------------->
   <tr>
     <th rowspan="4" width="150"><h3>🌳</br><a href="#">4. Tree based models</a></h3></th>
-    <th align="left"><a href="#">3.1 Decission Tree</b></a></th>
+    <th align="left"><a href="#">4.1 Decission Tree</b></a></th>
   </tr>
   <tr>
-    <th align="left"><a href="#">3.2 Random Forest</b></a></th>
+    <th align="left"><a href="#">4.2 Random Forest</b></a></th>
   </tr>
     <tr>
-    <th align="left"><a href="#">3.3 Gradient Boosting</b></a></th>
+    <th align="left"><a href="#">4.3 Gradient Boosting</b></a></th>
   </tr>
     <tr>
-    <th align="left"><a href="#">3.4 Exercise</b></a></th>
+    <th align="left"><a href="#">4.4 Exercise</b></a></th>
+  </tr>
+
+  <!-----------------------------------  🌐 5. Web scrapping ----------------------------------->
+  <tr>
+    <th rowspan="4" width="150"><h3>🌳</br><a href="#">5. Web Scrapping</a></h3></th>
+    <th align="left"><a href="/5.%20Web%20scrapping/5.1%Beautiful%20Soup.ipynb">5.1 Beautiful Soup (faster)</b></a></th>
+  </tr>
+  <tr>
+    <th align="left"><a href="#">5.2 Selenium (rendering)</b></a></th>
   </tr>
   
 </table>
 
 Other topics to cover:
 
-- 🌐 Web scrapping
 - 🕐 Time series
 - 🔤 NLP
 - 📷 Images
