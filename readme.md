@@ -67,7 +67,7 @@
   <!-----------------------------------  🌐 5. Web scrapping ----------------------------------->
   <tr>
     <th rowspan="3" width="150"><h3>🌐</br><a href="#">5. Web Scrapping</a></h3></th>
-    <th align="left"><a href="/5.%20Web%20scrapping/5.1%Beautiful%20Soup.ipynb">5.1 Beautiful Soup (faster)</b></a></th>
+    <th align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">5.1 Beautiful Soup (faster)</b></a></th>
   </tr>
   <tr>
     <th align="left"><a href="#">5.2 Selenium (rendering)</b></a></th>
