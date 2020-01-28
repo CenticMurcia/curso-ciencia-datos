@@ -31,7 +31,7 @@
     <th align="left"><a href="/2.%20EDA/#">2.3 Exercise</a></th>
   </tr>
   
-  <!----------------------------------- 📏 3. Linear models ----------------------------------->
+  <!----------------------------------- 📏 3. Linear models -----------------------------------
   <tr>
     <th rowspan="5" width="150"><h3>📏</br><a href="/3.%20Linear%20models">3. Linear models</a></h3></th>
     <th align="left"><a href="3.%20Linear%20models">3.1 Linear Regression</b></a></th>
@@ -49,7 +49,7 @@
     <th align="left"><a href="/1.%20Python%20y%20Pandas/1.3%20Pandas%20exercise.ipynb">3.5 Exercise</a></th>
   </tr>
   
-  <!----------------------------------- 🌳 4. Tree based models ----------------------------------->
+  <!----------------------------------- 🌳 4. Tree based models -----------------------------------
   <tr>
     <th rowspan="4" width="150"><h3>🌳</br><a href="#">4. Tree based models</a></h3></th>
     <th align="left"><a href="#">4.1 Decission Tree</a></th>
@@ -64,7 +64,7 @@
     <th align="left"><a href="#">4.4 Exercise</a></th>
   </tr>
 
-  <!-----------------------------------  🌐 5. Web scrapping ----------------------------------->
+  <!-----------------------------------  🌐 5. Web scrapping -----------------------------------
   <tr>
     <th rowspan="3" width="150"><h3>🌐</br><a href="#">5. Web Scrapping</a></h3></th>
     <th align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">5.1 Beautiful Soup (faster)</b></a></th>
@@ -76,13 +76,13 @@
     <th align="left"><a href="#">5.3 Exercise</b></a></th>
   </tr>
   
-  <!-----------------------------------  🔤 6. NLP ----------------------------------->
+  <!-----------------------------------  🔤 6. NLP -----------------------------------
   <tr>
     <th rowspan="1" width="150"><h3>🔤</br><a href="#">6. NLP</a></h3></th>
     <th align="left"><a href="#">Blablabla</a></th>
   </tr>
   
-  <!-----------------------------------  🕐 Time series ----------------------------------->
+  <!-----------------------------------  🕐 Time series -----------------------------------
   <tr>
     <th rowspan="4" width="150"><h3>🕐</br><a href="#">Time series</a></h3></th>
     <th align="left"><a href="#">Feature engineering for temporal data</a></th>
@@ -97,7 +97,7 @@
     <th align="left"><a href="#">Exercise</a></th>
   </tr>
   
-  <!-----------------------------------  🗄️ Big data ----------------------------------->
+  <!-----------------------------------  🗄️ Big data -----------------------------------
   <tr>
     <th rowspan="4" width="150"><h3>🗄️</br><a href="#">Big data</a></h3></th>
     <th align="left"><a href="#">Efficient Pandas (reduce memory, datatable...)</a></th>
@@ -111,16 +111,15 @@
   <tr>
     <th align="left"><a href="#">Exercise</a></th>
   </tr>
+
+- **Ditributed ML**: Pyspark
+  - [A Neanderthal’s Guide to pyspark](https://towardsdatascience.com/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427)
+  - [collaborative filtering with Pyspark](https://www.kaggle.com/vchulski/tutorial-collaborative-filtering-with-pyspark)
+- **ML on the GPU**: RAPIDS (cuDF & cuML)
+
+-->
   
 </table>
-
-Other topics to cover:
-- 🗄️ Big data
-  - Big datasets in pandas (reduce memory, datatable...)
-  - **Ditributed ML**: Pyspark
-    - [A Neanderthal’s Guide to pyspark](https://towardsdatascience.com/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427)
-    - [collaborative filtering with Pyspark](https://www.kaggle.com/vchulski/tutorial-collaborative-filtering-with-pyspark)
-  - **ML on the GPU**: RAPIDS (cuDF & cuML)
 
 
 ## Top 3 best resources:
