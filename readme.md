@@ -19,7 +19,7 @@
     <th align="left"><a href="https://forms.gle/NivU7hQfvsxysTwz6">📝 Send responses</a> </th>
   </tr>
   
-  <!----------------------------------- 📊 2. EDA ----------------------------------->
+  <!----------------------------------- 📊 2. EDA -----------------------------------
   <tr>
     <th rowspan="3" width="150"><h3>📊</br><a href="/2.%20EDA">2. EDA</a></h3></th>
     <th align="left"><a href="/2.%20EDA/#">2.1 Exploratory Data Analysis</a></th>
