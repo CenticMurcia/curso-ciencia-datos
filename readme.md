@@ -52,16 +52,16 @@
   <!----------------------------------- 🌳 4. Tree based models ----------------------------------->
   <tr>
     <th rowspan="4" width="150"><h3>🌳</br><a href="#">4. Tree based models</a></h3></th>
-    <th align="left"><a href="#">4.1 Decission Tree</b></a></th>
+    <th align="left"><a href="#">4.1 Decission Tree</a></th>
   </tr>
   <tr>
-    <th align="left"><a href="#">4.2 Random Forest</b></a></th>
+    <th align="left"><a href="#">4.2 Random Forest</a></th>
   </tr>
     <tr>
-    <th align="left"><a href="#">4.3 Gradient Boosting</b></a></th>
+    <th align="left"><a href="#">4.3 Gradient Boosting</a></th>
   </tr>
   <tr>
-    <th align="left"><a href="#">4.4 Exercise</b></a></th>
+    <th align="left"><a href="#">4.4 Exercise</a></th>
   </tr>
 
   <!-----------------------------------  🌐 5. Web scrapping ----------------------------------->
@@ -76,6 +76,42 @@
     <th align="left"><a href="#">5.3 Exercise</b></a></th>
   </tr>
   
+  <!-----------------------------------  🔤 6. NLP ----------------------------------->
+  <tr>
+    <th rowspan="1" width="150"><h3>🔤</br><a href="#">6. NLP</a></h3></th>
+    <th align="left"><a href="#">Blablabla</a></th>
+  </tr>
+  
+  <!-----------------------------------  🕐 Time series ----------------------------------->
+  <tr>
+    <th rowspan="4" width="150"><h3>🕐</br><a href="#">Time series</a></h3></th>
+    <th align="left"><a href="#">Feature engineering for temporal data</a></th>
+  </tr>
+  <tr>
+    <th align="left"><a href="#">ARIMA</a></th>
+  </tr>
+  <tr>
+    <th align="left"><a href="#">Facebook Prophet</a></th>
+  </tr>
+  <tr>
+    <th align="left"><a href="#">Exercise</a></th>
+  </tr>
+  
+  <!-----------------------------------  🗄️ Big data ----------------------------------->
+  <tr>
+    <th rowspan="4" width="150"><h3>🗄️</br><a href="#">Big data</a></h3></th>
+    <th align="left"><a href="#">Efficient Pandas (reduce memory, datatable...)</a></th>
+  </tr>
+  <tr>
+    <th align="left"><a href="#">Distributed ML: Pyspark</a></th>
+  </tr>
+  <tr>
+    <th align="left"><a href="#">GPU ML: RAPIDS (cuDF & cuML)</a></th>
+  </tr>
+  <tr>
+    <th align="left"><a href="#">Exercise</a></th>
+  </tr>
+  
 </table>
 
 Other topics to cover:
@@ -85,7 +121,11 @@ Other topics to cover:
     - [A Neanderthal’s Guide to pyspark](https://towardsdatascience.com/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427)
     - [collaborative filtering with Pyspark](https://www.kaggle.com/vchulski/tutorial-collaborative-filtering-with-pyspark)
   - **ML on the GPU**: RAPIDS (cuDF & cuML)
-- 🕐 Time series
-- 🔤 NLP
-- 📷 Images
+
+
+## Top 3 best resources:
+1. [**Mlcourse.ai**](http://mlcourse.ai) (advanced)
+2. [**Kaggle learn**](https://www.kaggle.com/learn) (easy)
+3. [**Fast.ai ML**](http://course18.fast.ai/ml) (easy)
+
 
