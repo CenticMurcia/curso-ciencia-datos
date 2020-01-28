@@ -116,7 +116,7 @@
   - [A Neanderthal’s Guide to pyspark](https://towardsdatascience.com/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427)
   - [collaborative filtering with Pyspark](https://www.kaggle.com/vchulski/tutorial-collaborative-filtering-with-pyspark)
 - **ML on the GPU**: RAPIDS (cuDF & cuML)
-
+- Process mining with pm4py
 -->
   
 </table>
