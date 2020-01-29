@@ -38,112 +38,73 @@
   
   <!----------------------------------- 📏 3. Linear models ----------------------------------->
   <tr>
-    <th rowspan="5"><h3>📏<a href="/3.%20Linear%20models">3. Linear models</a></h3></th>
-    <td align="left"><a href="3.%20Linear%20models">3.1 Linear Regression</a></td>
+    <th rowspan="5"><h3>📏<a href="/03.%20Linear%20models">3. Linear models</a></h3></th>
+    <td align="left">3.1 Linear Regression</a></td>
   </tr>
-  <tr>
-    <td align="left"><a href="3.%20Linear%20models">3.2 Logistic Regression</a></td>
-  </tr>
-    <tr>
-    <td align="left"><a href="3.%20Linear%20models">3.3 Regulated linear models</a></td>
-  </tr>
-    <tr>
-    <td align="left"><a href="3.%20Linear%20models">3.4 Non linear modifications</a></td>
-  </tr>
-  <tr>
-    <td align="left"><a href="/1.%20Python%20y%20Pandas/1.3%20Pandas%20exercise.ipynb">3.5 Exercise</a></td>
-  </tr>
+  <tr><td>3.2 Logistic Regression</td></tr>
+  <tr><td>3.3 Regulated linear models</td></tr>
+  <tr><td>3.4 Non linear modifications</td></tr>
+  <tr><td>3.5 Exercise</td></tr>
   
   <!----------------------------------- 🌳 4. Tree models ----------------------------------->
   <tr>
     <th rowspan="4"><h3>🌳<a href="#">4. Tree models</a></h3></th>
-    <td align="left"><a href="#">4.1 Decission Tree</a></td>
+    <td>4.1 Decission Tree</td>
   </tr>
-  <tr>
-    <td align="left"><a href="#">4.2 Random Forest</a></td>
-  </tr>
-    <tr>
-    <td align="left"><a href="#">4.3 Gradient Boosting</a></td>
-  </tr>
-  <tr>
-    <td align="left"><a href="#">4.4 Exercise</a></td>
-  </tr>
+  <tr><td>4.2 Random Forest</td></tr>
+  <tr><td>4.3 Gradient Boosting</td></tr>
+  <tr><td>4.4 Exercise</td></tr>
 
   <!-----------------------------------  🤹 5. Unsupervised Learning ----------------------------------->
   <tr>
     <th rowspan="4"><h3>🤹<a href="#">5. Unsupervised Learning</a></h3></th>
-    <td align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">5.1 Clustering (K-Means , DBSCAN)</a></td>
+    <td>5.1 Clustering (K-Means , DBSCAN)</td>
   </tr>
-  <tr>
-    <td align="left"><a href="#">5.2 Hierarchical Clustering</a></td>
-  </tr>
-  <tr>
-    <td align="left"><a href="#">5.3 Dimensionality reduction (PCA, t-SNE, UMAP)</a></td>
-  </tr>
-    <tr>
-    <td align="left"><a href="#">5.4 Exercise</a></td>
-  </tr>
+  <tr><td>5.2 Hierarchical Clustering</td></tr>
+  <tr><td>5.3 Dimensionality reduction (PCA, t-SNE, UMAP)</td></tr>
+  <tr><td>5.4 Exercise</td></tr>
   
   <!-----------------------------------  🌐 6. Web scrapping ----------------------------------->
   <tr>
     <th rowspan="3"><h3>🌐<a href="#">6. Web Scrapping</a></h3></th>
-    <td align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">6.1 Beautiful Soup (faster)</a></td>
+    <td>6.1 Beautiful Soup (faster)</td>
   </tr>
-  <tr>
-    <td align="left"><a href="#">6.2 Selenium (rendering)</a></td>
-  </tr>
-  <tr>
-    <td align="left"><a href="#">6.3 Exercise</a></td>
-  </tr>
+  <tr><td>6.2 Selenium (rendering)</td></tr>
+  <tr><td>6.3 Exercise</td></tr>
   
   <!-----------------------------------  🔤 7. NLP ----------------------------------->
   <tr>
     <th rowspan="1"><h3>🔤<a href="#">7. NLP</a></h3></th>
-    <td align="left"><a href="#">7.1 Feature engineering for NLP</a></td>
+    <td>7.1 Feature engineering for NLP</td>
   </tr>
   
   <!-----------------------------------  🕐 8. Time series ----------------------------------->
   <tr>
     <th rowspan="4"><h3>🕐<a href="#">8. Time series</a></h3></th>
-    <td align="left"><a href="#">8.1 Feature engineering for temporal data</a></td>
+    <td>8.1 Feature engineering for temporal data</td>
   </tr>
-  <tr>
-    <td align="left"><a href="#">8.2 ARIMA</a></td>
-  </tr>
-  <tr>
-    <td align="left"><a href="#">8.3 Facebook Prophet</a></td>
-  </tr>
-  <tr>
-    <td align="left"><a href="#">8.4 Exercise</a></td>
-  </tr>
+  <tr><td>8.2 ARIMA</td></tr>
+  <tr><td>8.3 Facebook Prophet</td></tr>
+  <tr><td>8.4 Exercise</td></tr>
   
   <!---------------------------------  ⛏️ 9. Process Mining --------------------------------->
   <tr>
     <th rowspan="2"><h3>⛏️<a href="#">9. Process Mining</a></h3></th>
-    <td align="left"><a href="#">9.1 PY4PY package</a></td>
+    <td>9.1 PY4PY package</td>
   </tr>
-
   <tr>
-    <td align="left"><a href="#">9.2 Exercise</a></td>
+    <td>9.2 Exercise</td>
   </tr>
   
   <!-----------------------------------  🗄️ 10. Big data ----------------------------------->
   <tr>
     <th rowspan="5"><h3>🗄️<a href="#">10. Big data</a></h3></th>
-    <td align="left"><a href="#">10.1 Efficient Pandas (reduce memory...)</a></td>
+    <td>10.1 Efficient Pandas (reduce memory...)</td>
   </tr>
-  <tr>
-    <td align="left"><a href="#">10.2 H20 datatable</a></td>
-  </tr>
-  <tr>
-    <td align="left"><a href="#">10.3 Distributed ML: Pyspark</a></td>
-  </tr>
-  <tr>
-    <td align="left"><a href="#">10.4 GPU ML: RAPIDS (cuDF & cuML)</a></td>
-  </tr>
-  <tr>
-    <td align="left"><a href="#">10.5 Exercise</a></td>
-  </tr>
+  <tr><td>10.2 H20 datatable</td></tr>
+  <tr><td>10.3 Distributed ML: Pyspark</td></tr>
+  <tr><td>10.4 GPU ML: RAPIDS (cuDF & cuML)</td></tr>
+  <tr><td>10.5 Exercise</td></tr>
 
 </table>
 
