@@ -1,5 +1,10 @@
 <!-- <h1 align="center">Curso de Ciencia Datos</h1> -->
 
+prueba $\sum_n (x)$ sdfgds
+
+$$
+\sum_n (x)
+$$
 
 <table>
   
