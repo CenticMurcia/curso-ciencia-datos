@@ -68,65 +68,80 @@
     <td align="left"><a href="#">4.4 Exercise</a></td>
   </tr>
 
-  <!-----------------------------------  🌐 5. Web scrapping ----------------------------------->
+  <!-----------------------------------  🤹 5. Unsupervised Learning ----------------------------------->
   <tr>
-    <th rowspan="3"><h3>🌐</br><a href="#">5. Web Scrapping</a></h3></th>
-    <td align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">5.1 Beautiful Soup (faster)</b></a></td>
+    <th rowspan="4"><h3>🤹</br><a href="#">5. Unsupervised Learning</a></h3></th>
+    <td align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">5.1 Clustering (K-Means , DBSCAN)</b></a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">5.2 Selenium (rendering)</b></a></td>
+    <td align="left"><a href="#">5.2 Hierarchical Clustering</b></a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">5.3 Exercise</b></a></td>
+    <td align="left"><a href="#">5.3 Dimensionality reduction (PCA, t-SNE, UMAP)</b></a></td>
   </tr>
-  
-  <!-----------------------------------  🔤 6. NLP ----------------------------------->
-  <tr>
-    <th rowspan="1"><h3>🔤</br><a href="#">6. NLP</a></h3></th>
-    <td align="left"><a href="#">6.1 Feature engineering for NLP</a></td>
+    <tr>
+    <td align="left"><a href="#">5.4 Exercise</b></a></td>
   </tr>
   
-  <!-----------------------------------  🕐 7. Time series ----------------------------------->
+  <!-----------------------------------  🌐 6. Web scrapping ----------------------------------->
   <tr>
-    <th rowspan="4"><h3>🕐</br><a href="#">7. Time series</a></h3></th>
-    <td align="left"><a href="#">7.1 Feature engineering for temporal data</a></td>
+    <th rowspan="3"><h3>🌐</br><a href="#">6. Web Scrapping</a></h3></th>
+    <td align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">6.1 Beautiful Soup (faster)</b></a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">7.2 ARIMA</a></td>
+    <td align="left"><a href="#">6.2 Selenium (rendering)</b></a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">7.3 Facebook Prophet</a></td>
-  </tr>
-  <tr>
-    <td align="left"><a href="#">7.4 Exercise</a></td>
+    <td align="left"><a href="#">6.3 Exercise</b></a></td>
   </tr>
   
-  <!---------------------------------  ⛏️ 8. Process Mining --------------------------------->
+  <!-----------------------------------  🔤 7. NLP ----------------------------------->
   <tr>
-    <th rowspan="2"><h3>⛏️</br><a href="#">8. Process Mining</a></h3></th>
-    <td align="left"><a href="#">8.1 PY4PY package</a></td>
+    <th rowspan="1"><h3>🔤</br><a href="#">7. NLP</a></h3></th>
+    <td align="left"><a href="#">7.1 Feature engineering for NLP</a></td>
+  </tr>
+  
+  <!-----------------------------------  🕐 8. Time series ----------------------------------->
+  <tr>
+    <th rowspan="4"><h3>🕐</br><a href="#">8. Time series</a></h3></th>
+    <td align="left"><a href="#">8.1 Feature engineering for temporal data</a></td>
+  </tr>
+  <tr>
+    <td align="left"><a href="#">8.2 ARIMA</a></td>
+  </tr>
+  <tr>
+    <td align="left"><a href="#">8.3 Facebook Prophet</a></td>
+  </tr>
+  <tr>
+    <td align="left"><a href="#">8.4 Exercise</a></td>
+  </tr>
+  
+  <!---------------------------------  ⛏️ 9. Process Mining --------------------------------->
+  <tr>
+    <th rowspan="2"><h3>⛏️</br><a href="#">9. Process Mining</a></h3></th>
+    <td align="left"><a href="#">9.1 PY4PY package</a></td>
   </tr>
 
   <tr>
-    <td align="left"><a href="#">8.2 Exercise</a></td>
+    <td align="left"><a href="#">9.2 Exercise</a></td>
   </tr>
   
-  <!-----------------------------------  🗄️ Big data ----------------------------------->
+  <!-----------------------------------  🗄️ 10. Big data ----------------------------------->
   <tr>
-    <th rowspan="5"><h3>🗄️</br><a href="#">Big data</a></h3></th>
-    <td align="left"><a href="#">Efficient Pandas (reduce memory...)</a></td>
+    <th rowspan="5"><h3>🗄️</br><a href="#">10. Big data</a></h3></th>
+    <td align="left"><a href="#">10.1 Efficient Pandas (reduce memory...)</a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">H20 datatable</a></td>
+    <td align="left"><a href="#">10.2 H20 datatable</a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">Distributed ML: Pyspark</a></td>
+    <td align="left"><a href="#">10.3 Distributed ML: Pyspark</a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">GPU ML: RAPIDS (cuDF & cuML)</a></td>
+    <td align="left"><a href="#">10.4 GPU ML: RAPIDS (cuDF & cuML)</a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">Exercise</a></td>
+    <td align="left"><a href="#">10.5 Exercise</a></td>
   </tr>
 
 </table>
