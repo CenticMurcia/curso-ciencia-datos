@@ -1,10 +1,8 @@
 title: Curso de Ciencia de Datos
 description: Curso sobre Análisis de Datos, Machine Learning, Big Data, Web Scraping, NLP, Minería de Procesos...
 
-github_username: jph00
-
-# Email and twitter are optional:
-email: 
+email: centic@centic.es
+github_username: CenticMurcia
 twitter_username: CenticTwitt
 
 # OPTIONAL: override baseurl and url if using a custom domain
