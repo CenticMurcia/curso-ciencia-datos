@@ -1,4 +1,4 @@
-<h1 align="center">Curso de Ciencia Datos</h1>
+<!-- <h1 align="center">Curso de Ciencia Datos</h1> -->
 
 
 <table>
