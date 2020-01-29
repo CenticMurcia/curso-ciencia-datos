@@ -25,7 +25,7 @@
     
   <!----------------------------------- 📊 2. EDA ----------------------------------->
   <tr>
-    <th rowspan="3" width="150"><h3>📊</br><a href="/2.%20EDA">2. EDA</a></h3></th>
+    <th rowspan="3"><h3>📊</br><a href="/2.%20EDA">2. EDA</a></h3></th>
     <th align="left"><a href="/2.%20EDA/#">2.1 Exploratory Data Analysis</a></th>
   </tr>
   <tr>
@@ -37,7 +37,7 @@
   
   <!----------------------------------- 📏 3. Linear models ----------------------------------->
   <tr>
-    <th rowspan="5" width="150"><h3>📏</br><a href="/3.%20Linear%20models">3. Linear models</a></h3></th>
+    <th rowspan="5"><h3>📏</br><a href="/3.%20Linear%20models">3. Linear models</a></h3></th>
     <th align="left"><a href="3.%20Linear%20models">3.1 Linear Regression</b></a></th>
   </tr>
   <tr>
@@ -55,7 +55,7 @@
   
   <!----------------------------------- 🌳 4. Tree models ----------------------------------->
   <tr>
-    <th rowspan="4" width="150"><h3>🌳</br><a href="#">4. Tree models</a></h3></th>
+    <th rowspan="4"><h3>🌳</br><a href="#">4. Tree models</a></h3></th>
     <th align="left"><a href="#">4.1 Decission Tree</a></th>
   </tr>
   <tr>
@@ -70,7 +70,7 @@
 
   <!-----------------------------------  🌐 5. Web scrapping ----------------------------------->
   <tr>
-    <th rowspan="3" width="150"><h3>🌐</br><a href="#">5. Web Scrapping</a></h3></th>
+    <th rowspan="3"><h3>🌐</br><a href="#">5. Web Scrapping</a></h3></th>
     <th align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">5.1 Beautiful Soup (faster)</b></a></th>
   </tr>
   <tr>
@@ -82,13 +82,13 @@
   
   <!-----------------------------------  🔤 6. NLP ----------------------------------->
   <tr>
-    <th rowspan="1" width="150"><h3>🔤</br><a href="#">6. NLP</a></h3></th>
+    <th rowspan="1"><h3>🔤</br><a href="#">6. NLP</a></h3></th>
     <th align="left"><a href="#">Feature engineering for NLP</a></th>
   </tr>
   
   <!-----------------------------------  🕐 7. Time series ----------------------------------->
   <tr>
-    <th rowspan="4" width="200"><h3>🕐</br><a href="#">7. Time series</a></h3></th>
+    <th rowspan="4"><h3>🕐</br><a href="#">7. Time series</a></h3></th>
     <th align="left"><a href="#">7.1 Feature engineering for temporal data</a></th>
   </tr>
   <tr>
@@ -103,7 +103,7 @@
   
   <!---------------------------------  ⛏️ 8. Process Mining --------------------------------->
   <tr>
-    <th rowspan="2" width="150"><h3>⛏️</br><a href="#">8. Process Mining</a></h3></th>
+    <th rowspan="2"><h3>⛏️</br><a href="#">8. Process Mining</a></h3></th>
     <th align="left"><a href="#">8.1 PY4PY package</a></th>
   </tr>
 
@@ -113,7 +113,7 @@
   
   <!-----------------------------------  🗄️ Big data ----------------------------------->
   <tr>
-    <th rowspan="5" width="150"><h3>🗄️</br><a href="#">Big data</a></h3></th>
+    <th rowspan="5"><h3>🗄️</br><a href="#">Big data</a></h3></th>
     <th align="left"><a href="#">Efficient Pandas (reduce memory...)</a></th>
   </tr>
   <tr>
