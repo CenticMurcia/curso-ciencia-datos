@@ -38,16 +38,16 @@
   <!----------------------------------- 📏 3. Linear models ----------------------------------->
   <tr>
     <th rowspan="5"><h3>📏<a href="/3.%20Linear%20models">3. Linear models</a></h3></th>
-    <td align="left"><a href="3.%20Linear%20models">3.1 Linear Regression</b></a></td>
+    <td align="left"><a href="3.%20Linear%20models">3.1 Linear Regression</a></td>
   </tr>
   <tr>
-    <td align="left"><a href="3.%20Linear%20models">3.2 Logistic Regression</b></a></td>
+    <td align="left"><a href="3.%20Linear%20models">3.2 Logistic Regression</a></td>
   </tr>
     <tr>
-    <td align="left"><a href="3.%20Linear%20models">3.3 Regulated linear models</b></a></td>
+    <td align="left"><a href="3.%20Linear%20models">3.3 Regulated linear models</a></td>
   </tr>
     <tr>
-    <td align="left"><a href="3.%20Linear%20models">3.4 Non linear modifications</b></a></td>
+    <td align="left"><a href="3.%20Linear%20models">3.4 Non linear modifications</a></td>
   </tr>
   <tr>
     <td align="left"><a href="/1.%20Python%20y%20Pandas/1.3%20Pandas%20exercise.ipynb">3.5 Exercise</a></td>
@@ -71,28 +71,28 @@
   <!-----------------------------------  🤹 5. Unsupervised Learning ----------------------------------->
   <tr>
     <th rowspan="4"><h3>🤹<a href="#">5. Unsupervised Learning</a></h3></th>
-    <td align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">5.1 Clustering (K-Means , DBSCAN)</b></a></td>
+    <td align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">5.1 Clustering (K-Means , DBSCAN)</a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">5.2 Hierarchical Clustering</b></a></td>
+    <td align="left"><a href="#">5.2 Hierarchical Clustering</a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">5.3 Dimensionality reduction (PCA, t-SNE, UMAP)</b></a></td>
+    <td align="left"><a href="#">5.3 Dimensionality reduction (PCA, t-SNE, UMAP)</a></td>
   </tr>
     <tr>
-    <td align="left"><a href="#">5.4 Exercise</b></a></td>
+    <td align="left"><a href="#">5.4 Exercise</a></td>
   </tr>
   
   <!-----------------------------------  🌐 6. Web scrapping ----------------------------------->
   <tr>
     <th rowspan="3"><h3>🌐<a href="#">6. Web Scrapping</a></h3></th>
-    <td align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">6.1 Beautiful Soup (faster)</b></a></td>
+    <td align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">6.1 Beautiful Soup (faster)</a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">6.2 Selenium (rendering)</b></a></td>
+    <td align="left"><a href="#">6.2 Selenium (rendering)</a></td>
   </tr>
   <tr>
-    <td align="left"><a href="#">6.3 Exercise</b></a></td>
+    <td align="left"><a href="#">6.3 Exercise</a></td>
   </tr>
   
   <!-----------------------------------  🔤 7. NLP ----------------------------------->
