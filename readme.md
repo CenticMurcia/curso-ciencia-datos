@@ -1,16 +1,10 @@
 <!-- <h1 align="center">Curso de Ciencia Datos</h1> -->
 
-prueba $\sum_n (x)$ sdfgds
-
-$$
-\sum_n (x)
-$$
-
 <table>
   
   <!----------------------------------- 🐼 1. Pandas ----------------------------------->
   <tr>
-    <th rowspan="4" width="150"><h3>🐼<a href="/1.%20Python%20y%20Pandas">1. Pandas</a></h3></th>
+    <th rowspan="4" width="200"><h3>🐼<a href="/01.%20Python%20y%20Pandas">1. Pandas</a></h3></th>
     <td align="left"><a href="/01.%20Python%20y%20Pandas/1.1%20Python.ipynb">1.1 Intro to Python</a></td>
     <td align="left"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -19,9 +13,8 @@ $$
     <td align="left"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%20y%20Pandas/1.2%20Pandas.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td align="left"><a href="/01.%20Python%20y%20Pandas/1.3%20Pandas%20exercise.ipynb">1.3 Exercise</a></td>
+    <td align="left"><a href="/01.%20Python%20y%20Pandas/1.3%20Pandas%20exercise.ipynb">1.3 Exercise</a> <a href="https://forms.gle/NivU7hQfvsxysTwz6">📝 Send responses</a></td>
     <td align="left"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%20y%20Pandas/1.3%20Pandas%20exercise.ipynb"><img src="img/colab.svg"/></a></td>
-    <td align="left"><a href="https://forms.gle/NivU7hQfvsxysTwz6">📝 Send responses</a> </td>
   </tr>
   <tr>
     <td align="left"><a href="/01.%20Python%20y%20Pandas/1.4%20Pandas%20solution.ipynb">1.4 Solution</a></td>
@@ -30,14 +23,17 @@ $$
     
   <!----------------------------------- 📊 2. EDA ----------------------------------->
   <tr>
-    <th rowspan="3"><h3>📊<a href="/2.%20EDA">2. EDA</a></h3></th>
-    <td align="left"><a href="/2.%20EDA/#">2.1 Exploratory Data Analysis</a></td>
+    <th rowspan="3"><h3>📊<a href="/02.%20EDA">2. Exploratory Data Analysis</a></h3></th>
+    <td align="left"><a href="/02.%20EDA/2.1%20EDA%20teoria.ipynb">2.1 EDA theory</a></td>
+    <td align="left"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20teoria.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td align="left"><a href="/2.%20EDA/#">2.2 Exploratory Data Analysis extra</a></td>
+    <td align="left"><a href="/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb">2.2 EDA theory 2</a></td>
+    <td align="left"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td align="left"><a href="/2.%20EDA/#">2.3 Exercise</a></td>
+    <td align="left"><a href="/02.%20EDA/2.3%20EDA%20ejercicio.ipynb">2.3 Exercise</a></td>
+    <td align="left"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.3%20EDA%20ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   
   <!----------------------------------- 📏 3. Linear models ----------------------------------->
