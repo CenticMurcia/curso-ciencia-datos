@@ -6,7 +6,7 @@
   <!----------------------------------- 🐼 1. Pandas ----------------------------------->
   <tr>
     <th rowspan="4" width="150"><h3>🐼</br><a href="/1.%20Python%20y%20Pandas">1. Pandas</a></h3></th>
-    <th align="left"><a href="/1.%20Python%20y%20Pandas/1.1%20Python.ipynb">1.1 Intro to Python</b></a></th>
+    <th align="left"><a href="/1.%20Python%20y%20Pandas/1.1%20Python.ipynb">1.1 Intro to Python</a></th>
     <th align="left"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/1.%20Python%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></th>
   </tr>
   <tr>
@@ -23,7 +23,7 @@
     <th align="left"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/1.%20Python%20y%20Pandas/1.4%20Pandas%20solution.ipynb"><img src="img/colab.svg"/></a></th>
   </tr>
     
-  <!----------------------------------- 📊 2. EDA -----------------------------------
+  <!----------------------------------- 📊 2. EDA ----------------------------------->
   <tr>
     <th rowspan="3" width="150"><h3>📊</br><a href="/2.%20EDA">2. EDA</a></h3></th>
     <th align="left"><a href="/2.%20EDA/#">2.1 Exploratory Data Analysis</a></th>
@@ -35,7 +35,7 @@
     <th align="left"><a href="/2.%20EDA/#">2.3 Exercise</a></th>
   </tr>
   
-  <!----------------------------------- 📏 3. Linear models -----------------------------------
+  <!----------------------------------- 📏 3. Linear models ----------------------------------->
   <tr>
     <th rowspan="5" width="150"><h3>📏</br><a href="/3.%20Linear%20models">3. Linear models</a></h3></th>
     <th align="left"><a href="3.%20Linear%20models">3.1 Linear Regression</b></a></th>
@@ -53,9 +53,9 @@
     <th align="left"><a href="/1.%20Python%20y%20Pandas/1.3%20Pandas%20exercise.ipynb">3.5 Exercise</a></th>
   </tr>
   
-  <!----------------------------------- 🌳 4. Tree based models -----------------------------------
+  <!----------------------------------- 🌳 4. Tree models ----------------------------------->
   <tr>
-    <th rowspan="4" width="150"><h3>🌳</br><a href="#">4. Tree based models</a></h3></th>
+    <th rowspan="4" width="150"><h3>🌳</br><a href="#">4. Tree models</a></h3></th>
     <th align="left"><a href="#">4.1 Decission Tree</a></th>
   </tr>
   <tr>
@@ -68,7 +68,7 @@
     <th align="left"><a href="#">4.4 Exercise</a></th>
   </tr>
 
-  <!-----------------------------------  🌐 5. Web scrapping -----------------------------------
+  <!-----------------------------------  🌐 5. Web scrapping ----------------------------------->
   <tr>
     <th rowspan="3" width="150"><h3>🌐</br><a href="#">5. Web Scrapping</a></h3></th>
     <th align="left"><a href="/5.%20Web%20scrapping/5.1%20Beautiful%20Soup.ipynb">5.1 Beautiful Soup (faster)</b></a></th>
@@ -80,31 +80,44 @@
     <th align="left"><a href="#">5.3 Exercise</b></a></th>
   </tr>
   
-  <!-----------------------------------  🔤 6. NLP -----------------------------------
+  <!-----------------------------------  🔤 6. NLP ----------------------------------->
   <tr>
     <th rowspan="1" width="150"><h3>🔤</br><a href="#">6. NLP</a></h3></th>
-    <th align="left"><a href="#">Blablabla</a></th>
+    <th align="left"><a href="#">Feature engineering for NLP</a></th>
   </tr>
   
-  <!-----------------------------------  🕐 Time series -----------------------------------
+  <!-----------------------------------  🕐 7. Time series ----------------------------------->
   <tr>
-    <th rowspan="4" width="150"><h3>🕐</br><a href="#">Time series</a></h3></th>
-    <th align="left"><a href="#">Feature engineering for temporal data</a></th>
+    <th rowspan="4" width="200"><h3>🕐</br><a href="#">7. Time series</a></h3></th>
+    <th align="left"><a href="#">7.1 Feature engineering for temporal data</a></th>
   </tr>
   <tr>
-    <th align="left"><a href="#">ARIMA</a></th>
+    <th align="left"><a href="#">7.2 ARIMA</a></th>
   </tr>
   <tr>
-    <th align="left"><a href="#">Facebook Prophet</a></th>
+    <th align="left"><a href="#">7.3 Facebook Prophet</a></th>
   </tr>
   <tr>
-    <th align="left"><a href="#">Exercise</a></th>
+    <th align="left"><a href="#">7.4 Exercise</a></th>
   </tr>
   
-  <!-----------------------------------  🗄️ Big data -----------------------------------
+  <!---------------------------------  ⛏️ 8. Process Mining --------------------------------->
   <tr>
-    <th rowspan="4" width="150"><h3>🗄️</br><a href="#">Big data</a></h3></th>
-    <th align="left"><a href="#">Efficient Pandas (reduce memory, datatable...)</a></th>
+    <th rowspan="2" width="150"><h3>⛏️</br><a href="#">8. Process Mining</a></h3></th>
+    <th align="left"><a href="#">8.1 PY4PY package</a></th>
+  </tr>
+
+  <tr>
+    <th align="left"><a href="#">8.2 Exercise</a></th>
+  </tr>
+  
+  <!-----------------------------------  🗄️ Big data ----------------------------------->
+  <tr>
+    <th rowspan="5" width="150"><h3>🗄️</br><a href="#">Big data</a></h3></th>
+    <th align="left"><a href="#">Efficient Pandas (reduce memory...)</a></th>
+  </tr>
+  <tr>
+    <th align="left"><a href="#">H20 datatable</a></th>
   </tr>
   <tr>
     <th align="left"><a href="#">Distributed ML: Pyspark</a></th>
@@ -116,15 +129,15 @@
     <th align="left"><a href="#">Exercise</a></th>
   </tr>
 
+</table>
+
+<!--
 - **Ditributed ML**: Pyspark
   - [A Neanderthal’s Guide to pyspark](https://towardsdatascience.com/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427)
   - [collaborative filtering with Pyspark](https://www.kaggle.com/vchulski/tutorial-collaborative-filtering-with-pyspark)
 - **ML on the GPU**: RAPIDS (cuDF & cuML)
-- Process mining with pm4py
--->
-  
-</table>
 
+-->
 
 ## Top 3 best resources:
 1. [**Mlcourse.ai**](http://mlcourse.ai) (advanced)
