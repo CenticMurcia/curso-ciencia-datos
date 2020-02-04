@@ -54,25 +54,25 @@
 <table>
   <!----------------------------------- 🌳 4. Tree models ----------------------------------->
   <tr>
-    <th width="50%" rowspan="5"><h3>🌳<a href="/2.%20Tabular%20data%20(clas)">4. Tree models</a></h3></th>
-    <td width="30%"><a href="2.%20Tabular%20data%20(clas)/2.1%20EDA.ipynb">📊 EDA</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/2.%20Tabular%20data%20(clas)/2.1%20EDA.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="50%" rowspan="5"><h3>🌳<a href="/04.%20Tree%20models">4. Tree models</a></h3></th>
+    <td width="30%"><a href="04.%20Tree%20models/2.1%20EDA.ipynb">📊 EDA</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.1%20EDA.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/2.%20Tabular%20data%20(clas)/2.2%20Decission%20tree.ipynb">🌳 Decission Tree</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/2.%20Tabular%20data%20(clas)/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Tree%20models/2.2%20Decission%20tree.ipynb">🌳 Decission Tree</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/2.%20Tabular%20data%20(clas)/2.3%20Random%20Forest.ipynb">🌲 Random Forest</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/2.%20Tabular%20data%20(clas)/2.3%20Random%20Forest.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Tree%20models/2.3%20Random%20Forest.ipynb">🌲 Random Forest</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.3%20Random%20Forest.ipynb"><img src="img/colab.svg"/></a></td>
   </tr> 
   <tr>
-    <td><a href="/2.%20Tabular%20data%20(clas)/2.4%20Gradient%20Boosting.ipynb">🌴 Gradient Boosting</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/2.%20Tabular%20data%20(clas)/2.4%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb">🌴 Gradient Boosting</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/2.%20Tabular%20data%20(clas)/2.5%20Neural%20Network.ipynb">🧠 Neural Network</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/2.%20Tabular%20data%20(clas)/2.5%20Neural%20Network.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Tree%20models/2.5%20Neural%20Network.ipynb">🧠 Neural Network</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.5%20Neural%20Network.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table> 
 
