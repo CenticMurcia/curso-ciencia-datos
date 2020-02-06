@@ -43,8 +43,8 @@
   <!----------------------------------- 📏 3. Linear models ----------------------------------->
   <tr>
     <th rowspan="5"><h3>📏<a href="/03.%20Linear%20models">3. Linear models</a></h3></th>
-    <td align="left"><a href="/02.%20EDA/3.1%20Linear%20Regression.ipynb">3.1 Linear Regression</a></td>
-    <td align="left"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20Linear/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td align="left"><a href="/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb">3.1 Linear Regression</a></td>
+    <td align="left"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td align="left"><a href="/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.2 Logistic Regression</a></td>
