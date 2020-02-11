@@ -4,7 +4,7 @@
   
   <!----------------------------------- 🐼 1. Pandas ----------------------------------->
   <tr>
-    <th width="30%" rowspan="4"><h3>🐼<a href="/01.%20Python%20y%20Pandas">1. Pandas</a></h3></th>
+    <th width="40%" rowspan="4"><h3>🐼<a href="/01.%20Python%20y%20Pandas">1. Pandas</a></h3></th>
     <td width="40%"><a href="/01.%20Python%20y%20Pandas/1.1%20Python.ipynb">1.1 Intro to Python</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -27,7 +27,7 @@
 <table>
   <!----------------------------------- 📊 2. EDA ----------------------------------->
   <tr>
-    <th width="30%" rowspan="3"><h3>📊<a href="/02.%20EDA">2. Exploratory<br>Data Analysis</a></h3></th>
+    <th width="40%" rowspan="3"><h3>📊<a href="/02.%20EDA">2. Exploratory<br>Data Analysis</a></h3></th>
     <td width="40%"><a href="/02.%20EDA/2.1%20EDA%20teoria.ipynb">2.1 EDA theory</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20teoria.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -46,7 +46,7 @@
 <table>
   <!----------------------------------- 📏 3. Linear models ----------------------------------->
   <tr>
-    <th width="30%" rowspan="5"><h3>📏<a href="/03.%20Linear%20models">3. Linear models</a></h3></th>
+    <th width="40%" rowspan="5"><h3>📏<a href="/03.%20Linear%20models">3. Linear models</a></h3></th>
     <td width="40%"><a href="/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb">3.1 Linear Regression</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -73,7 +73,7 @@
 <table>
   <!----------------------------------- 🌳 4. Tree models ----------------------------------->
   <tr>
-    <th width="30%" rowspan="5"><h3>🌳<a href="/04.%20Tree%20models">4. Tree models</a></h3></th>
+    <th width="40%" rowspan="5"><h3>🌳<a href="/04.%20Tree%20models">4. Tree models</a></h3></th>
     <td width="40%"><a href="04.%20Tree%20models/2.1%20EDA.ipynb">📊 EDA</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.1%20EDA.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -100,7 +100,7 @@
 <table>
   <!-----------------------------------  🤹 5. Unsupervised Learning ----------------------------------->
   <tr>
-    <th width="30%" rowspan="4"><h3>🤹<a href="#">5. Unsupervised<br>Learning</a></h3></th>
+    <th width="40%" rowspan="4"><h3>🤹<a href="#">5. Unsupervised<br>Learning</a></h3></th>
     <td width="40%">5.1 Clustering (K-Means , DBSCAN)</td>
   </tr>
   <tr><td>5.2 Hierarchical Clustering</td></tr>
