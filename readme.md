@@ -1,4 +1,4 @@
-<!-- <h1 align="center">Curso de Ciencia Datos</h1> -->
+<h1 align="center">Curso de Ciencia Datos de CENTIC</h1>
 
 <table>
   
@@ -20,9 +20,8 @@
     <td><a href="/01.%20Python%20y%20Pandas/1.4%20Pandas%20solution.ipynb">1.4 Solution</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%20y%20Pandas/1.4%20Pandas%20solution.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
-</table>   
+</table>
 
-<br>
 
 <table>
   <!----------------------------------- 📊 2. EDA ----------------------------------->
@@ -39,9 +38,8 @@
     <td><a href="/02.%20EDA/2.3%20EDA%20ejercicio.ipynb">2.3 Exercise</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.3%20EDA%20ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
-</table>   
+</table>
 
-<br>
 
 <table>
   <!----------------------------------- 📏 3. Linear models ----------------------------------->
@@ -58,9 +56,8 @@
     <td><a href="/03.%20Linear%20models/3.3%20-%20Logistic%20Regression%20NLP.ipynb">3.3 Logistic Regression NLP</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.3%20-%20Logistic%20Regression%20NLP.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
-</table>   
+</table>
 
-<br>
 
 <table>
   <!----------------------------------- 🌳 4. Tree models ----------------------------------->
@@ -85,9 +82,7 @@
     <td><a href="/04.%20Tree%20models/2.5%20Neural%20Network.ipynb">🧠 Neural Network</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.5%20Neural%20Network.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
-</table> 
-
-<br>
+</table>
 
 
 <table>
@@ -101,9 +96,8 @@
     <td><a href="/05.%20Unsupervised/5.2%20Clustering.ipynb">5.2 Clustering</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Unsupervised/5.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
-</table>   
+</table>
 
-<br>
 
 <table>
   <!-----------------------------------  🌐 6. Web scrapping ----------------------------------->
