@@ -98,8 +98,8 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Unsupervised/5.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/05.%20Unsupervised/05.%20Unsupervised/5.2%20Clustering.ipynb">5.2 Clustering</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Unsupervised/05.%20Unsupervised/5.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/05.%20Unsupervised/5.2%20Clustering.ipynb">5.2 Clustering</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Unsupervised/5.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>   
 
