@@ -103,18 +103,7 @@
   </tr>
 </table>   
 
-
-<table>
-  <!-----------------------------------  🤹 5. Unsupervised Learning ----------------------------------->
-  <tr>
-    <th width="40%" rowspan="2"><h3>🤹<a href="#">5. Unsupervised<br>Learning</a></h3></th>
-    <td width="40%">5.1 Clustering (K-Means , DBSCAN)</td>
-  </tr>
-  <tr><td>5.2 Hierarchical Clustering</td></tr>
-  <tr><td>5.3 Dimensionality reduction (PCA, t-SNE, UMAP)</td></tr>
-  <tr><td>5.4 Exercise</td></tr>
-</table>
-
+<br>
 
 <table>
   <!-----------------------------------  🌐 6. Web scrapping ----------------------------------->
