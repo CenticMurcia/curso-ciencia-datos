@@ -63,23 +63,23 @@
   <!----------------------------------- 🌳 4. Tree models ----------------------------------->
   <tr>
     <th width="40%" rowspan="5"><h3>🌳<a href="/04.%20Tree%20models">4. Tree models</a></h3></th>
-    <td width="40%"><a href="04.%20Tree%20models/2.1%20EDA.ipynb">📊 EDA</a></td>
+    <td width="40%"><a href="04.%20Tree%20models/2.1%20EDA.ipynb">4.1 EDA</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.1%20EDA.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Tree%20models/2.2%20Decission%20tree.ipynb">🌳 Decission Tree</a></td>
+    <td><a href="/04.%20Tree%20models/2.2%20Decission%20tree.ipynb">4.2 Decission Tree</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Tree%20models/2.3%20Random%20Forest.ipynb">🌲 Random Forest</a></td>
+    <td><a href="/04.%20Tree%20models/2.3%20Random%20Forest.ipynb">4.3 Random Forest</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.3%20Random%20Forest.ipynb"><img src="img/colab.svg"/></a></td>
   </tr> 
   <tr>
-    <td><a href="/04.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb">🌴 Gradient Boosting</a></td>
+    <td><a href="/04.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb">4.4 Gradient Boosting</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Tree%20models/2.5%20Neural%20Network.ipynb">🧠 Neural Network</a></td>
+    <td><a href="/04.%20Tree%20models/2.5%20Neural%20Network.ipynb">4.5 Neural Network</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.5%20Neural%20Network.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
