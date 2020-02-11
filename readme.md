@@ -46,25 +46,17 @@
 <table>
   <!----------------------------------- 📏 3. Linear models ----------------------------------->
   <tr>
-    <th width="40%" rowspan="5"><h3>📏<a href="/03.%20Linear%20models">3. Linear models</a></h3></th>
+    <th width="40%" rowspan="3"><h3>📏<a href="/03.%20Linear%20models">3. Linear models</a></h3></th>
     <td width="40%"><a href="/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb">3.1 Linear Regression</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.2 Logistic Regression</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.2%20EDA%20teoria%20extra.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.3%20Regularization.ipynb">3.3 Regulated linear models</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.3%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
-  </tr>
-  <tr>
-    <td><a href="/03.%20Linear%20models/3.4%20Polynomical.ipynb">3.4 Non linear modifications</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.4%20Polynomical.ipynb"><img src="img/colab.svg"/></a></td>
-  </tr>
-  <tr>
-    <td><a href="/03.%20Linear%20models/3.5%20Curves.ipynb">3.5 Validation Curves</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.5%20Curves.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/03.%20Linear%20models/3.3%20-%20Logistic%20Regression%20NLP.ipynb">3.3 Logistic Regression NLP</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.3%20-%20Logistic%20Regression%20NLP.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>   
 
