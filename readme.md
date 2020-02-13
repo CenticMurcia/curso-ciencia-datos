@@ -44,7 +44,7 @@
 <table>
   <!----------------------------------- 📏 3. Linear models ----------------------------------->
   <tr>
-    <th width="40%" rowspan="3"><h3>📏<a href="/03.%20Linear%20models">3. Linear models</a></h3></th>
+    <th width="40%" rowspan="5"><h3>📏<a href="/03.%20Linear%20models">3. Linear models</a></h3></th>
     <td width="40%"><a href="/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb">3.1 Linear Regression</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -55,6 +55,14 @@
   <tr>
     <td><a href="/03.%20Linear%20models/3.3%20-%20Logistic%20Regression%20NLP.ipynb">3.3 Logistic Regression NLP</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.3%20-%20Logistic%20Regression%20NLP.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/03.%20Linear%20models/3.4%20Regularization.ipynb.ipynb">3.4 Regularization</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.4%20Regularization.ipynb.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb">3.5 Polynomial regression</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
