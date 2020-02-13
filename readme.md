@@ -102,12 +102,14 @@
 <table>
   <!-----------------------------------  🌐 6. Web scrapping ----------------------------------->
   <tr>
-    <th rowspan="3"><h3>🌐<a href="#">6. Web Scrapping</a></h3></th>
-    <td>6.1 Beautiful Soup (faster)</td>
+    <th width="40%" rowspan="1"><h3>🌐<a href="/06.%20Web%20scrapping">6. Web Scrapping</a></h3></th>
+    <td width="40%"><a href="/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb">6.1 Beautiful Soup</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
-  <tr><td>6.2 Selenium (rendering)</td></tr>
-  <tr><td>6.3 Exercise</td></tr>
-  
+</table>
+
+
+<table>
   <!-----------------------------------  🔤 7. NLP ----------------------------------->
   <tr>
     <th rowspan="1"><h3>🔤<a href="#">7. NLP</a></h3></th>
