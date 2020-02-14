@@ -154,6 +154,23 @@
 
 </table>
 
+
+# Otros temas
+
+- Imagen
+  - Clasificanción: (ej: clases de perros)
+  - Localización: (bounding boxes)
+  - Segementacion: (pixel level)
+  
+- Sonido
+  - Clasificación
+  - Clasificación temporal
+  - Separar fuentes de sonidos
+  
+- Puesta de modelos en producción
+  - Poner en web: Creación de un API
+  - Poner en sensor: Puesta en RaspberryPi
+
 <!--
 - **Ditributed ML**: Pyspark
   - [A Neanderthal’s Guide to pyspark](https://towardsdatascience.com/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427)
