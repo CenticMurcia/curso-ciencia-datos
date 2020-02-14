@@ -1,6 +1,70 @@
 <h1 align="center">Tabular data </h1>
 
+
+## Feature preprocessing
+
+<table>
+  <tr>
+    <tD></tD>
+    <tD>
+      <h4>Tree based models</h4>
+      <ul>
+        <li>Decission tree</li>
+        <li>Random Forest</li>
+        <li>Extra trees</li>
+        <li>Adaboost</li>
+        <li>Gradient Boosting</li>
+        <li>XGBoost</li>
+        <li>LightGBM</li>
+        <li>CatBoost</li>
+      </ul>
+    </tD>
+    <td>
+      <h4>No-tree based models</h4>
+      <ul>
+        <li>Linear Models</li>
+        <li>Neural Networks</li>
+        <li>K-Nearest Neighbors</li>
+        <li>Suport Vector Machines</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th>Categorical<br>Ordinal</th>
+    <td>
+      <ul>
+        <li>Label encoding</li>
+        <li>Frequency encoding</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>One hot encoding</li>
+        <li>Embedding</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th>Numerical</th>
+    <td>Nothing</td>
+    <td>
+      <ul>
+        <li>MinMaxScaler</li>
+        <li>StandarScaler</li>
+        <li>Skewed?
+          <ul>
+            <li>np.log(1+x)</li>
+            <li>np.sqrt(x+2/3)</li>
+          </ul>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
 ## Models
+
 | Model                 | Comment                              | Library                    | More info |
 |:---------------------:|--------------------------------------|----------------------------|-----------|
 | **Decission Tree**    | Simple and explicable.               | Sklearn                    |           |
@@ -8,8 +72,6 @@
 | **Random Forest**     | Good starting point (tree enesemble) | Sklearn                    |           |
 | **Gradient Boosting** | Usually the best (tree enesemble)    | XGBoost, LighGBM, Catboost |           |
 | **Neural Network**    | Good if lot of data.                 | Fast.ai v2                 | [blog](https://hackernoon.com/gain-state-of-the-art-results-on-tabular-data-with-deep-learning-and-embedding-layers-a-how-to-guide-r17b36k8) |
-
-## [Jeremy Howard on twitter](https://twitter.com/jeremyphoward/status/1223777020934361088): Our advice for tabular modeling
 
 We have two approaches to tabular modelling: decision tree ensembles, and neural networks. And we have mentioned two different decision tree ensembles: random forests, and gradient boosting. Each is very effective, but each also has compromises:
 
