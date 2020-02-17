@@ -128,7 +128,7 @@
   <tr>
     <th rowspan="4"><h3>🕐<a href="#">8. Time series</a></h3></th>
     <td>8.1 Feature engineering for temporal data</td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20%Series/8.1%20TimeSeries%20with%20Prophet%202.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%202.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr><td>8.2 ARIMA</td></tr>
   <tr><td>8.3 Facebook Prophet</td></tr>
