@@ -142,7 +142,7 @@
 <table>  
   <!-----------------------------------  🕐 8. Time series ----------------------------------->
   <tr>
-    <th width="40%" rowspan="4"><h3>🔤<a href="/08.%20Time%20Series">8. Time Series</a></h3></th>
+    <th width="40%" rowspan="3"><h3>🔤<a href="/08.%20Time%20Series">8. Time Series</a></h3></th>
     <td width="40%"><a href="/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">8.1 TimeSeries with Prophet: Walmart</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
