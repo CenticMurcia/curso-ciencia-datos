@@ -160,7 +160,7 @@
   <!---------------------------------  ⛏️ 9. Process Mining --------------------------------->
   <tr>
     <th rowspan="2"><h3>⛏️<a href="#">9. Process Mining</a></h3></th>
-    <td>9.1 PY4PY package</td>
+    <td>9.1 PM4PY package</td>
   </tr>
   <tr>
     <td>9.2 Exercise</td>
