@@ -142,7 +142,7 @@
 <table>  
   <!-----------------------------------  🕐 8. Time series ----------------------------------->
   <tr>
-    <th width="40%" rowspan="3"><h3>🔤<a href="/08.%20Time%20Series">8. Time Series</a></h3></th>
+    <th width="40%" rowspan="3"><h3>🕐<a href="/08.%20Time%20Series">8. Time Series</a></h3></th>
     <td width="40%"><a href="/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">8.1 TimeSeries with Prophet 1</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -156,44 +156,39 @@
   </tr>
 </table>
 
+
 <table>
-  <!---------------------------------  ⛏️ 9. Process Mining --------------------------------->
+  <!-----------------------------------  🖼️ 6. Image ----------------------------------->
   <tr>
-    <th rowspan="2"><h3>⛏️<a href="#">9. Process Mining</a></h3></th>
+    <th width="40%" rowspan="1"><h3>🖼️<a href="/09.%20Image">9. Image</a></h3></th>
+    <td width="40%"><a href="/09.%20Image/Fastai.ipynb">9.1 Clasification Fast.ai</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+</table>
+
+<table>
+  <!---------------------------------  ⛏️ 10. Process Mining --------------------------------->
+  <tr>
+    <th rowspan="2"><h3>⛏️<a href="#">10. Process Mining</a></h3></th>
     <td>9.1 PM4PY package</td>
   </tr>
   <tr>
     <td>9.2 Exercise</td>
   </tr>
-  
-  <!-----------------------------------  🗄️ 10. Big data ----------------------------------->
-  <tr>
-    <th rowspan="5"><h3>🗄️<a href="#">10. Big data</a></h3></th>
-    <td>10.1 Efficient Pandas (reduce memory...)</td>
-  </tr>
-  <tr><td>10.2 H20 datatable</td></tr>
-  <tr><td>10.3 Distributed ML: Pyspark</td></tr>
-  <tr><td>10.4 GPU ML: RAPIDS (cuDF & cuML)</td></tr>
-  <tr><td>10.5 Exercise</td></tr>
-
 </table>
 
+<table>
+  <!-----------------------------------  🗄️ EXTRA ----------------------------------->
+  <tr>
+    <th rowspan="5"><h3>🗄️<a href="#">EXTRA</a></h3></th>
+    <td>Efficient Pandas (H20 datatable, reduce memory...)</td>
+  </tr>
+  <tr><td>Big data (Distributed ML, Pyspark)</td></tr>
+  <tr><td>GPU ML (RAPIDS, cuDF, cuML)</td></tr>
+  <tr><td>ML in production (API,etc)</td></tr>
+  <tr><td>Sonido (clasificacion, clasificacion temporal, separar fuentes)</td></tr>
+</table>
 
-# Otros temas
-
-- Imagen
-  - Clasificanción: (ej: clases de perros)
-  - Localización: (bounding boxes)
-  - Segementacion: (pixel level)
-  
-- Sonido
-  - Clasificación
-  - Clasificación temporal
-  - Separar fuentes de sonidos
-  
-- Puesta de modelos en producción
-  - Poner en web: Creación de un API
-  - Poner en sensor: Puesta en RaspberryPi
 
 <!--
 - **Ditributed ML**: Pyspark
