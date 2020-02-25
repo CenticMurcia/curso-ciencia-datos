@@ -23,3 +23,8 @@
 
 ![](img/overffiting.jpg)
 <br>
+
+
+## EXTRA: Learning Rate Finder
+![](img/lr-finder.png)
+<br>
