@@ -174,8 +174,7 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/10.%20Process%20Mining/10.2%20Process%20Mining%20with%20BupaR.R">10.2 Process Mining con BupaR</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Process%20Mining/10.2%20Process%20Mining%20con%20BupaR.R"><img src="img/colab.svg"/></a></td>
+    <td><a href="/10.%20Process%20Mining/10.2%20Process%20Mining%20con%20BupaR.R">10.2 Process Mining con BupaR</a></td>
   </tr>
 </table>
 
