@@ -33,8 +33,6 @@ sample <- eventlog %>%
 
 sample %>% head(n = 50) %>% print.data.frame()
 
-write.csv(sample, file='eventlog.txt')  
-
 #################################################################################
 ### ESTADÍSTICA BÁSICA
 #################################################################################
@@ -80,6 +78,8 @@ eventlog %>% group_by_case() %>% trace_explorer(cov = 1, type = 'frequent')
 eventlog %>% dotted_chart(x='absolute', sort='start', color='handling')
 eventlog %>% dotted_chart(x='relative', sort='duration', units='days', 
                           color='handling')
+
+# eventlog %>% idotted_chart()
 
 #################################################################################
 ### DOTTED CHARTS RECURSOS
