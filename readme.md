@@ -169,11 +169,13 @@
 <table>
   <!---------------------------------  ⛏️ 10. Process Mining --------------------------------->
   <tr>
-    <th rowspan="2"><h3>⛏️<a href="#">10. Process Mining</a></h3></th>
-    <td>9.1 PM4PY package</td>
+    <th width="40%" rowspan="2"><h3>🕐<a href="/10.%20Process%20Mining">10. Process Mining</a></h3></th>
+    <td width="40%"><a href="/10.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">10.1 Process Mining con PM4PY</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Process%20Mining/10.1%20Process%20Mining%20with%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td>9.2 Exercise</td>
+    <td><a href="/10.%20Process%20Mining/10.2%20Process%20Mining%20with%20BupaR.R">10.2 Process Mining with BupaR</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Process%20Mining/10.2%20Process%20Mining%20with%20BupaR.R"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
