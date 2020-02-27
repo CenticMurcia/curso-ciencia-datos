@@ -6,14 +6,6 @@ cat("\014")
 
 rm(list = ls())
 
-# setwd(paste('F:/Bolarín/49 - Process Mining/7 - BupaR datos ejemplo',
-#             sep=''))
-
-# setwd(paste('F:/Nube/jmbolarin@selectasterisco.es/49 - Process Mining/',
-#             '7 - BupaR datos ejemplo', sep=''))
-
-setwd(paste('/home/centic/Data/curso-ciencia-datos/10. Process Mining', sep=''))
-
 #################################################################################
 ### CARGAR LIBRERÍAS
 #################################################################################
