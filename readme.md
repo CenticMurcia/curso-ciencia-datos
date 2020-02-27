@@ -160,9 +160,13 @@
 <table>
   <!-----------------------------------  🖼️ 6. Image ----------------------------------->
   <tr>
-    <th width="40%" rowspan="1"><h3>🖼️<a href="/09.%20Image">9. Image</a></h3></th>
-    <td width="40%"><a href="/09.%20Image/Fastai.ipynb">9.1 Clasification Fast.ai</a></td>
+    <th width="40%" rowspan="2"><h3>🖼️<a href="/09.%20Image">9. Image</a></h3></th>
+    <td width="40%"><a href="/09.%20Image/Classification%20-%20Fastai.ipynb">9.1 Clasification with Fast.ai</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/09.%20Image/Segmentation%20-%20Fastai.ipynb">9.2 Segmentation with Fast.ai</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
