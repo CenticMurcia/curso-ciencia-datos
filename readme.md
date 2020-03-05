@@ -26,7 +26,7 @@
 <table>
   <!----------------------------------- 📊 2. EDA ----------------------------------->
   <tr>
-    <th width="40%" rowspan="3"><h3>📊<a href="/02.%20EDA">2. Exploratory<br>Data Analysis</a></h3></th>
+    <th width="40%" rowspan="4"><h3>📊<a href="/02.%20EDA">2. Exploratory<br>Data Analysis</a></h3></th>
     <td width="40%"><a href="/02.%20EDA/2.1%20EDA%20teoria.ipynb">2.1 EDA theory</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20teoria.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -39,7 +39,7 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.3%20EDA%20ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/02.%20EDA/2.4%20EDA%20ejercicio%20solucion.ipynb">2.3 Exercise</a></td>
+    <td><a href="/02.%20EDA/2.4%20EDA%20ejercicio%20solucion.ipynb">2.4 Exercise solution</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.3%20EDA%20ejercicio%20solucion.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
