@@ -38,6 +38,10 @@
     <td><a href="/02.%20EDA/2.3%20EDA%20ejercicio.ipynb">2.3 Exercise</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.3%20EDA%20ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
+  <tr>
+    <td><a href="/02.%20EDA/2.4%20EDA%20ejercicio%20solucion.ipynb">2.3 Exercise</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.3%20EDA%20ejercicio%20solucion.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
 </table>
 
 
