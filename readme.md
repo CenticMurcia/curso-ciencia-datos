@@ -57,15 +57,11 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.3%20-%20Logistic%20Regression%20NLP.ipynb">3.3 Logistic Regression NLP</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.3%20-%20Logistic%20Regression%20NLP.ipynb"><img src="img/colab.svg"/></a></td>
-  </tr>
-  <tr>
-    <td><a href="/03.%20Linear%20models/3.4%20Regularization.ipynb">3.4 Regularization</a></td>
+    <td><a href="/03.%20Linear%20models/3.4%20Regularization.ipynb">3.3 Regularization</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb">3.5 Polynomial regression</a></td>
+    <td><a href="/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb">3.4 Polynomial regression</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
