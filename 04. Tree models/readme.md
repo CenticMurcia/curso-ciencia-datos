@@ -40,7 +40,7 @@
     <td>
       <ul>
         <li><b>One hot encoding</b></li>
-        <li>Othre: Embedding</li>
+        <li>Other: Embedding</li>
       </ul>
     </td>
   </tr>
