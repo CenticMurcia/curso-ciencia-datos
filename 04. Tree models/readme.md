@@ -33,14 +33,14 @@
     <th>Categorical<br>Ordinal</th>
     <td>
       <ul>
-        <li>Label encoding</li>
-        <li>Frequency encoding</li>
+        <li>Ordianl encoding</li>
+        <li>Other: Frequency encoding</li>
       </ul>
     </td>
     <td>
       <ul>
         <li>One hot encoding</li>
-        <li>Embedding</li>
+        <li>Othre: Embedding</li>
       </ul>
     </td>
   </tr>
