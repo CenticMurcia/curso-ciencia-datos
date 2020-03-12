@@ -33,24 +33,24 @@
     <th>Categorical<br>Ordinal</th>
     <td>
       <ul>
-        <li>Ordianl encoding</li>
+        <li><b>Ordinal encoding</b></li>
         <li>Other: Frequency encoding</li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>One hot encoding</li>
+        <li><b>One hot encoding</b></li>
         <li>Othre: Embedding</li>
       </ul>
     </td>
   </tr>
   <tr>
     <th>Numerical</th>
-    <td>Nothing</td>
+    <td><b>Nothing</b></td>
     <td>
       <ul>
         <li>MinMaxScaler</li>
-        <li>StandarScaler</li>
+        <li><b>StandarScaler</b></li>
         <li>Skewed?
           <ul>
             <li>np.log(1+x)</li>
