@@ -127,7 +127,7 @@
 <table>
   <!-----------------------------------  7. NLP ----------------------------------->
   <tr>
-    <th width="250" rowspan="4"><h3><a href="/07.%20NLP">7. NLP</a></h3><img src="img/7nlp.svg" width="120px" height="100px"></th>
+    <th width="250" rowspan="4"><h3><a href="/07.%20NLP">7. Procesamiento del Lenguaje</a></h3><img src="img/7nlp.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/07.%20NLP/4.1%20Bag%20of%20words%20Logistic%20Regression.ipynb">7.1 BOW + Logistic Regression</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20NLP/4.1%20Bag%20of%20words%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -149,7 +149,7 @@
 <table>  
   <!-----------------------------------  🕐 8. Time series ----------------------------------->
   <tr>
-    <th width="250" rowspan="3"><h3><a href="/08.%20Time%20Series">8. Time Series</a></h3><img src="img/8time.svg" width="120px" height="100px"></th>
+    <th width="250" rowspan="3"><h3><a href="/08.%20Time%20Series">8. Series Temporales</a></h3><img src="img/8time.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">8.1 TimeSeries with Prophet 1</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -167,7 +167,7 @@
 <table>
   <!-----------------------------------  🖼️ 9. Image ----------------------------------->
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/09.%20Imágenes">9. Image</a></h3><img src="img/9raw.svg" width="120px" height="100px"></th>
+    <th width="250" rowspan="2"><h3><a href="/09.%20Imágenes">9. Imágenes</a></h3><img src="img/9raw.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/09.%20Image/Classification%20-%20Fastai.ipynb">9.1 Clasification with Fast.ai</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
