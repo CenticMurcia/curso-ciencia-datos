@@ -4,9 +4,9 @@
   
   <!----------------------------------- 1. Pandas ----------------------------------->
   <tr>
-    <th width="200" rowspan="5"><h3><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Numpy y Pandas</a></h3>
+    <th width="250" rowspan="5"><h3><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Numpy y Pandas</a></h3>
       <img src="img/1pandas.svg" width="120px" height="100px"></th>
-    <td width="300"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
+    <td width="350"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
@@ -180,9 +180,9 @@
 <table>
   <!---------------------------------  ⛏️ 10. Process Mining --------------------------------->
   <tr>
-    <th width="40%" rowspan="2"><h3><a href="/10.%20Process%20Mining">10.Minería de Procesos</a></h3><img src="img/10log.svg" width="120px" height="100px"></th>
-    <td width="40%"><a href="/10.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">10.1 Process Mining con PM4PY</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="250" rowspan="2"><h3><a href="/10.%20Process%20Mining">10.Minería de Procesos</a></h3><img src="img/10log.svg" width="120px" height="100px"></th>
+    <td width="300"><a href="/10.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">10.1 Process Mining con PM4PY</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/10.%20Process%20Mining/10.2%20Process%20Mining%20con%20BupaR.R">10.2 Process Mining con BupaR</a></td>
