@@ -4,21 +4,25 @@
   
   <!----------------------------------- 🐼 1. Pandas ----------------------------------->
   <tr>
-    <th width="40%" rowspan="4"><h3>🐼<a href="/01.%20Python%20y%20Pandas">1. Pandas</a></h3></th>
-    <td width="40%"><a href="/01.%20Python%20y%20Pandas/1.1%20Python.ipynb">1.1 Intro to Python</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="40%" rowspan="5"><h2><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Python, Numpy y Pandas</a></h2></th>
+    <td width="40%"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
+    <td width="20%"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/01.%20Python%20y%20Pandas/1.2%20Pandas.ipynb">1.2 Pandas</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%20y%20Pandas/1.2%20Pandas.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.2%20Numpy.ipynb">1.2 Numpy</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.2%20Numpy.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/01.%20Python%20y%20Pandas/1.3%20Pandas%20exercise.ipynb">1.3 Exercise</a> <a href="https://forms.gle/NivU7hQfvsxysTwz6">📝 Send responses</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%20y%20Pandas/1.3%20Pandas%20exercise.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Pandas.ipynb">🐼 1.3 Pandas</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Pandas.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/01.%20Python%20y%20Pandas/1.4%20Pandas%20solution.ipynb">1.4 Solution</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%20y%20Pandas/1.4%20Pandas%20solution.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.4%20Ejercicio.ipynb">1.4 Ejercicio</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.5%20Solucion.ipynb">1.5 Solución</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.5%20Solucion.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
