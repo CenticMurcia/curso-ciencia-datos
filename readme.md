@@ -22,8 +22,8 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.5%20Solucion.ipynb">1.5 Solución</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.5%20Solucion.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.5%20Solución.ipynb">1.5 Solución</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.5%20Solución.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
