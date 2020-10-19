@@ -4,7 +4,8 @@
   
   <!----------------------------------- 🐼 1. Pandas ----------------------------------->
   <tr>
-    <th width="40%" rowspan="5"><h2><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Python, Numpy y Pandas</a></h2></th>
+    <th width="40%" rowspan="5"><h3><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Python, Numpy y Pandas</a></h3>
+      <img src="img/1pandas.svg" width="106px" height="122px"></th>
     <td width="40%"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
     <td width="20%"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
