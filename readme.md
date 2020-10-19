@@ -4,10 +4,10 @@
   
   <!----------------------------------- 1. Pandas ----------------------------------->
   <tr>
-    <th width="40%" rowspan="5"><h3><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Numpy y Pandas</a></h3>
+    <th width="200" rowspan="5"><h3><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Numpy y Pandas</a></h3>
       <img src="img/1pandas.svg" width="120px" height="100px"></th>
-    <td width="40%"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
-    <td width="20%"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="300"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.2%20Numpy.ipynb">1.2 Numpy</a></td>
@@ -31,9 +31,9 @@
 <table>
   <!----------------------------------- 📊 2. EDA ----------------------------------->
   <tr>
-    <th width="40%" rowspan="4"><h3><a href="/02.%20EDA">2. Visualización</a></h3><img src="img/2eda.svg" width="120px" height="100px"></th>
-    <td width="40%"><a href="/02.%20EDA/2.1%20EDA%20teoria.ipynb">2.1 EDA theory</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20teoria.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="4"><h3><a href="/02.%20EDA">2. Visualización</a></h3><img src="img/2eda.svg" width="120px" height="100px"></th>
+    <td width="300"><a href="/02.%20EDA/2.1%20EDA%20teoria.ipynb">2.1 EDA theory</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20teoria.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb">2.2 EDA theory 2</a></td>
