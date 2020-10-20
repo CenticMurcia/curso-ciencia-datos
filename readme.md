@@ -102,8 +102,7 @@
 <table>
   <!-----------------------------------  5.Redes Neuronales ----------------------------------->
   <tr>
-    <th width="250" rowspan="1"><h3><a href="/06.%20Web%20scrapping">5. Modelos Neuronales</a><img src="img/5nn.svg" width="120px" height="100px"></th>
-    </th>
+    <th width="250" rowspan="1"><h3><a href="/06.%20Web%20scrapping">5. Modelos Neuronales</a></h3><img src="img/5nn.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb">5.1 Red Neuronal</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -190,8 +189,10 @@
   </tr>
 </table>
 
+
+<!-----------------------------------  🗄️ EXTRA ----------------------------------->
+<!--
 <table>
-  <!-----------------------------------  🗄️ EXTRA ----------------------------------->
   <tr>
     <th rowspan="5"><h3>🗄️<a href="#">EXTRA</a></h3></th>
     <td>Efficient Pandas (H20 datatable, reduce memory...)</td>
@@ -203,7 +204,7 @@
 </table>
 
 
-<!--
+
 - **Ditributed ML**: Pyspark
   - [A Neanderthal’s Guide to pyspark](https://towardsdatascience.com/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427)
   - [collaborative filtering with Pyspark](https://www.kaggle.com/vchulski/tutorial-collaborative-filtering-with-pyspark)
