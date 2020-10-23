@@ -1,5 +1,6 @@
-<h1 align="center">Tabular data </h1>
+<h1 align="center">Modelos de Árbol</h1>
 
+> TODO: https://medium.com/ai-in-plain-english/hyperparameter-tuning-of-decision-tree-classifier-using-gridsearchcv-2a6ebcaffeda
 
 ## Feature preprocessing
 
