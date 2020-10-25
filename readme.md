@@ -2,9 +2,9 @@
 
 <table>
   
-  <!----------------------------------- 1. Pandas ----------------------------------->
+  <!----------------------------------- 1. Python, Numpy y Pandas ----------------------------------->
   <tr>
-    <th width="250" rowspan="5"><h3><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Numpy y Pandas</a></h3>
+    <th width="250" rowspan="5"><h3><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Python, Numpy y Pandas</a></h3>
       <img src="img/1pandas.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
@@ -31,20 +31,24 @@
 <table>
   <!----------------------------------- 📊 2. EDA ----------------------------------->
   <tr>
-    <th width="250" rowspan="4"><h3><a href="/02.%20EDA">2. Visualización</a></h3><img src="img/2eda.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/02.%20EDA/2.1%20EDA%20teoria.ipynb">2.1 EDA theory</a></td>
+    <th width="250" rowspan="5"><h3><a href="/02.%20EDA%20y%20gráficas">2. EDA y gráficas</a></h3><img src="img/2eda.svg" width="120px" height="100px"></th>
+    <td width="350"><a href="/02.%20EDA/2.1%20EDA%20teoria.ipynb">2.1 EDA básico con Pandas y Matplotib</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20teoria.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb">2.2 EDA theory 2</a></td>
+    <td><a href="/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb">2.2 EDA avanzado con Seaborn</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/02.%20EDA/2.3%20EDA%20ejercicio.ipynb">2.3 Exercise</a></td>
+    <td><a href="/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb">2.3 EDA interactivo con Altair y Plotly</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/02.%20EDA/2.3%20EDA%20ejercicio.ipynb">2.4 Ejercicio</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.3%20EDA%20ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/02.%20EDA/2.4%20EDA%20ejercicio%20solucion.ipynb">2.4 Exercise solution</a></td>
+    <td><a href="/02.%20EDA/2.4%20EDA%20ejercicio%20solucion.ipynb">2.5 Solución</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.4%20EDA%20ejercicio%20solucion.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
