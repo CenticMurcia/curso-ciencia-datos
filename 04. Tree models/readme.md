@@ -74,6 +74,25 @@
 | **Gradient Boosting** | Usually the best (tree enesemble)    | XGBoost, LighGBM, Catboost |           |
 | **Neural Network**    | Good if lot of data.                 | Fast.ai v2                 | [blog](https://hackernoon.com/gain-state-of-the-art-results-on-tabular-data-with-deep-learning-and-embedding-layers-a-how-to-guide-r17b36k8) |
 
+
+# Trees based models
+
+|          | Model                     | Import                                                                             |
+|----------|---------------------------|------------------------------------------------------------------------------------|
+| **DT**   | Decision Tree             | from sklearn.tree     import DecisionTreeClassifier,     DecisionTreeRegressor     |
+| **RF**   | Random Forest             | from sklearn.ensemble import RandomForestClassifier,     RandomForestRegressor     |
+| **RF**   | Random Forest (RAPIDS)    | from cuml.ensemble    import RandomForestClassifier,     RandomForestRegressor     |
+| **ET**   | Extra (Randomized) Trees  | from sklearn.ensemble import ExtraTreesClassifier,       ExtraTreesRegressor       |
+| **AB**   | AdaBoost                  | from sklearn.ensemble import AdaBoostClassifier,         AdaBoostRegressor         |
+| **GB**   | Gradient Boosting         | from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor |
+| **XGB**  | XGBoost                   | from xgboost          import XGBClassifier,              XGBRegressor              |
+| **LGBM** | LightGBM                  | from lightgbm         import LGBMClassifier,             LGBMRegressor             |
+| **CB**   | CatBoost                  | from catboost         import CatBoostClassifier,         CatBoostRegressor         |
+| **NGB**  | NGBoost                   | from ngboost          import NGBClassifier,              NGBRegressor              |
+| **RGF**  | Regularized Greedy Forest | from rgf.sklearn      import RGFClassifier,              RGFRegressor              |
+|          |                           | from rgf.sklearn      import FastRGFClassifier,          FastRGFRegressor          |
+
+
 We have two approaches to tabular modelling: decision tree ensembles, and neural networks. And we have mentioned two different decision tree ensembles: random forests, and gradient boosting. Each is very effective, but each also has compromises:
 
 ### Random Forest
