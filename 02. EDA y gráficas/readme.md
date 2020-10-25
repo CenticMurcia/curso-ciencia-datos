@@ -14,3 +14,6 @@
 | Ver     | `report.to_notebook_iframe() `                                           | `report.show_html()`                                |
 | Guardar | `report.to_file("report.html")`                                          |                                                     |
 |  | ![](http://jaipancholi.com/static/automating-eda/variable-1.png) | ![](https://miro.medium.com/max/700/1*jx_ShECen95-F_M5PH9HCA.png) |
+
+
+**[PandasGUI](https://github.com/adamerose/pandasgui)** es otra opción.
