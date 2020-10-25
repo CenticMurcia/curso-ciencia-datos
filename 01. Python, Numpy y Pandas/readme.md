@@ -1,5 +1,4 @@
-<h1 align="center">1. Introducción:<br>Python, Numpy y Pandas</h1>
-
+<p align="center"><img src="../img/miniaturas YT/1-Pandas.png" height="200px"></p>
 
 <table>
   <tr>
