@@ -7,16 +7,16 @@
     <td>Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Aprende más en <a href="https://www.kaggle.com/learn/python">Kaggle learn</a></td>
   </tr>
   <tr>
-    <th width="200"><a href="https://www.python.org"><img src="../img/logos/NumPy.png"/></a></th>
-    <td>FALTA</td>
-  </tr>
-  <tr>
     <th><a href="https://jupyter.org"><img height="100" src="../img/logos/Jupyter.png"/></a></th>
     <td>Jupyter Notebook es un entorno interactivo de Python, que se ejecuta de forma local en el navegador. En los cuadernos de Jupyter se puede incluir (en forma de celdas) tanto código Python, como gráficas y documentación en formato markdown que te ayuden en el análisis e explicación de tus datos.</td>
   </tr>
   <tr>
     <th><a href="https://colab.research.google.com/notebooks/welcome.ipynb"><img src="../img/logos/Colab.png"/></a></th>
     <td>Google Colab es un entorno gratuito de Jupyter Notebook que no requiere configuración y que se ejecuta completamente en la nube. Colabo te permite escribir y ejecutar código, guardar y compartir tus análisis y tener acceso a recursos informáticos muy potentes (GPUs y TPUs por tiempo limitado), todo de forma gratuita desde el navegador.</td>
+  </tr>
+  <tr>
+    <th width="200"><a href="https://www.python.org"><img src="../img/logos/NumPy.png"/></a></th>
+    <td>Numpy es una librería de Python para crear y operar con vectores y matrices. Esta librería (programada en C) ofrece a Python eficiencia en la computación numérica.</td>
   </tr>
   <tr>
     <th width="200"><a href="https://pandas.pydata.org"><img src="../img/logos/Pandas.png"/></a></th>
@@ -31,11 +31,12 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 
 
 
-# Pandas summary
-- The data table is a Pandas **dataframe**
-- The data column is a Pandas **series**
-- We can obtain information of the **dataset**:
-  - 10 top rows: `df.head(10)`
+# Resumen de Pandas
+- Una tabla es un **dataframe** en Pandas.
+- Una columna es una **serie** en Pandas.
+- Podemos obtener información sobre el dataframe:
+  - Primeras 10 filas: `df.head(10)`
+  - Últimas 7 filas: `df.tail(7)`
   - Number of rows & variables: `df.shape`
   - Names of variables: `df.columns`
   - Types of variables: `df.info()`
