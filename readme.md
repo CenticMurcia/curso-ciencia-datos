@@ -122,7 +122,7 @@
 <table>
   <!----------------------------------- 6. No Supervisado ----------------------------------->
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/05.%20Unsupervised">6. No Supervisado</a></h3><img src="img/6unsupervised.svg" width="120px" height="100px"></th>
+    <th width="250" rowspan="2"><h3><a href="/05.%20Unsupervised">6. Análisis No Supervisado</a></h3><img src="img/6unsupervised.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/05.%20Unsupervised/5.1%20Dim%20Red.ipynb">6.1 Reducción de Dimensionalidad</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Unsupervised/5.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
