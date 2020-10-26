@@ -61,7 +61,38 @@
 
 
 <table>
-  <!----------------------------------- 📏 3. Linear models ----------------------------------->
+  <!----------------------------------- 3. Prparación de los datos ----------------------------------->
+  <tr>
+    <th width="250" rowspan="6"><h3><a href="/03.%20Linear%20models">3. Preparación de los datos</a></h3>
+    <img src="img/3prepro.svg" width="120px" height="100px"></th>
+    <td width="350"><a href="/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb">3.1 Definición del problema y métricas</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.2 Seleccionar el conjunto de validación</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/03.%20Linear%20models/3.4%20Regularization.ipynb">3.3 Preprocesamiento y valores perdidos</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.4 Ingeniería de caracteristicas</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/03.%20Linear%20models/3.4%20Regularization.ipynb">3.5 Ejercicio</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb">3.6 Solución</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+</table>
+
+
+<table>
+  <!----------------------------------- 📏 4. Modelos Lineales ----------------------------------->
   <tr>
     <th width="250" rowspan="5"><h3><a href="/03.%20Linear%20models">3. Modelos Lineales</a></h3>
     <img src="img/3linear.svg" width="120px" height="100px"></th>
@@ -112,10 +143,13 @@
 <table>
   <!-----------------------------------  5.Redes Neuronales ----------------------------------->
   <tr>
-    <th width="250" rowspan="1"><h3><a href="/06.%20Web%20scrapping">5. Modelos Neuronales</a></h3><img src="img/5nn.svg" width="120px" height="100px"></th>
+    <th width="250" rowspan="2"><h3><a href="/06.%20Web%20scrapping">5. Modelos Neuronales</a></h3><img src="img/5nn.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb">5.1 Red Neuronal</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
+  <tr>
+    <td><a href="/05.%20Unsupervised/5.2%20Clustering.ipynb">6.2 Técnicas de Regularización</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Unsupervised/5.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
 </table>
 
 
@@ -176,12 +210,18 @@
 <table>
   <!-----------------------------------  🖼️ 9. Image ----------------------------------->
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/09.%20Imágenes">9. Imágenes</a></h3><img src="img/9raw.svg" width="120px" height="100px"></th>
+    <th width="250" rowspan="4"><h3><a href="/09.%20Imágenes">9. Imágenes</a></h3><img src="img/9raw.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/09.%20Image/Classification%20-%20Fastai.ipynb">9.1 Clasification with Fast.ai</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
+    <tr>
+    <td><a href="/09.%20Image/Segmentation%20-%20Fastai.ipynb">9.2 Data augmentation</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   <tr>
-    <td><a href="/09.%20Image/Segmentation%20-%20Fastai.ipynb">9.2 Segmentation with Fast.ai</a></td>
+    <td><a href="/09.%20Image/Segmentation%20-%20Fastai.ipynb">9.5 Locacización (bboxes) con Fast.ai 2</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+  <tr>
+    <td><a href="/09.%20Image/Segmentation%20-%20Fastai.ipynb">9.6 Segmentación con Fast.ai 2</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
