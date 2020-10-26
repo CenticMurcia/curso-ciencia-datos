@@ -1,5 +1,7 @@
 <h1 align="center">Natural Language Processing</h1>
 
+<p align="center"><img src="img/path.jpg" height="380px"></p>
+
 
 # Bag of words (Term Frequency)
 ![](img/countVectorizer.png)
