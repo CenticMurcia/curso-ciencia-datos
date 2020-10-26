@@ -1,5 +1,6 @@
 <h1 align="center">Curso de Ciencia Datos de CENTIC</h1>
 
+
 <table>
   
   <!----------------------------------- 1. Python, Numpy y Pandas ----------------------------------->
@@ -8,22 +9,27 @@
       <img src="img/1pandas.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href=""><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
     <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.2%20Numpy.ipynb">1.2 Numpy</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.2%20Numpy.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href=""><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
     <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Pandas.ipynb">1.3 Pandas</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Pandas.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href=""><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
     <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.4%20Ejercicio.ipynb">1.4 Ejercicio</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.4%20Ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href=""><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
     <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.5%20Solución.ipynb">1.5 Solución</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.5%20Solución.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href=""><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
 </table>
 
