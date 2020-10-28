@@ -1,6 +1,10 @@
 <p align="center"><img src="../img/miniaturas YT/2-EDA.png" height="200px"></p>
 
 
+
+El Análisis Exploratorio de Datos (por sus siglas EDA en inglés) es una parte fundamental de cualquier proyecto de análisis de datos. En este capítulo veremos cuáles son las técnicas y herramientas más comunes para realizar nuestras visualizacionbes en Python.
+
+
 ## Librerías
 
 <table>
@@ -20,6 +24,14 @@
     <th><a href="https://plot.ly/python"><img src="../img/logos/Plotly.png"/></a></th>
     <td>Plotly es una librería para gráficos interactivos. Es particularmente útil para cuando queremos hacer gráficos en 3 dimensiones. Plotly está disponible como una biblioteca para Python, R, JavaScript, Julia y MATLAB.</td>
   </tr>
+  <tr>
+    <th><a href="https://github.com/pandas-profiling/pandas-profiling"><img src="../img/logos/Pandasprofiling.png"/></a></th>
+    <td>Una librería que nos permite realizar un EDA completo de nuestro dataframe con tan solo un par de lineas de código.</td>
+  </tr>
+    <tr>
+    <th><a href="https://github.com/fbdesignpro/sweetviz"><img src="../img/logos/Sweetviz.png"/></a></th>
+    <td>Otra librería al igual que Pandas Profiling que nos permite realizar un EDA con pocas líneas.</td>
+  </tr>
 </table>
 
 ## EDA automático
@@ -28,7 +40,7 @@
 - Correlaciones
 - Valores perdidos
 
-|         | [Pandas profiling](https://github.com/pandas-profiling/pandas-profiling) | [Sweetviz](https://github.com/fbdesignpro/sweetviz) |
+|         | [Pandas profiling](https://github.com/pandas-profiling/pandas-profiling) | <a href="https://github.com/fbdesignpro/sweetviz"><img src="../img/logos/Sweetviz.png"/></a> |
 |---------|--------------------------------------------------------------------------|-----------------------------------------------------|
 | Import  | `from pandas_profiling import ProfileReport`                             | `import sweetviz as sv`                             |
 | Crear   | `report = ProfileReport(df)`                                             | `report = sv.analyze(df)`                           |
