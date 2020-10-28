@@ -12,11 +12,13 @@
    - ElasticNet Regression (L1 & L2 Regularization)
 4. **Non linear modifications**
    - Polynomial Regression
+   - Generalized Linear Model (GLM) [H20 doc](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glm.html)
+   - Generalized Additive Models (GAM) [H20 doc](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gam.html)
+5. **SGD**
+   - Perceptron
+   - Vowpal Wabbit
 
 ---
-
-1. TOC
-{:toc}
 
 ## 3.1 Linear Regression
 
