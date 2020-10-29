@@ -1,8 +1,20 @@
 <h1 align="center">Neural Networks</h1>
 
 
-
-
+# TODO
+- Parameters and activations
+- Random initialization and transfer learning
+- SGD, Momentum, Adam, and other optimizers
+- Convolutions
+- Batch normalization
+- Dropout y DropConnect
+- Data augmentation
+- Label smoothing
+- Weight decay
+- Entity embeddings
+- Recurrent neural networks (RNNs)
+- Segmentation
+- Collaborative filtering (ej. movie recommendation)
 
 ### Neural Network
 
@@ -20,9 +32,3 @@ Take the longest time to train, and require extra preprocessing such as normalis
 
 
 # Train Hyperparms
-
-
-
-
-## Other:
-- Label smoothing
