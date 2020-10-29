@@ -116,7 +116,7 @@ pipe.fit(x, y)
 - **LOESS** (locally estimated scatterplot smoothing)
 - **LOWESS** (locally weighted scatterplot smoothing)
 
-Se crean muchas regresesione lineales, donde cada una se entrena con los puntos de su región.
+Se crean muchas regresesione lineales, donde cada una se entrena con los puntos de su región. Luego se sueviza.
 
 ![](img/lowess.png)
 
