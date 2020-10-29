@@ -112,5 +112,16 @@ pipe.fit(x, y)
 - **LOESS** (locally estimated scatterplot smoothing)
 - **LOWESS** (locally weighted scatterplot smoothing)
 
-![]()
+Se crean muchas regresesione lineales, donde cada una se entrena con los puntos de su región.
+
+![](img/lowess.png)
+
+Desventaja: solo vale para x con 1 varaible
+
+```python
+from statsmodels.nonparametric.smoothers_lowess import lowess
+
+smooth = lowess(endog=y, exog=x)
+index, pred = np.transpose(smooth)
+```
 
