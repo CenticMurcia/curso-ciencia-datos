@@ -61,15 +61,15 @@
 
 
 <table>
-  <!----------------------------------- 3. Preparación de los datos ----------------------------------->
+  <!----------------------------------- 3. Introducción al ML ----------------------------------->
   <tr>
-    <th width="250" rowspan="6"><h3><a href="/03.%20Preprocessing">3. Preparación de los datos</a></h3>
+    <th width="250" rowspan="6"><h3><a href="/03.%20Preprocessing">3. Introducción al ML</a></h3>
     <img src="img/3prepro.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/04.%20Linear%20models/3.1%20Linear%20Regression.ipynb">3.1 Definición del problema y métricas</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.2 Seleccionar el conjunto de validación</a></td>
+    <td><a href="/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.2 Selección del conjunto de validación</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
@@ -77,7 +77,7 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.4 Ingeniería de caracteristicas</a></td>
+    <td><a href="/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.4 AutoML con H2O</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
