@@ -1,5 +1,6 @@
-<h1 align="center">3. Linear models</h1>
-   
+<p align="center"><img src="../img/miniaturas YT/3-Linear.png" height="200px"></p>
+
+
 1. **Linear Regression**
    - How to split the data between training and test
    - Ordinary Least Squares
