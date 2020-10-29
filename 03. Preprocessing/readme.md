@@ -1,7 +1,24 @@
 <h1 align="center">Preparación de los datos</h1>
 
 
-## Definir el problema: Clasificación o Regresión
+## Definir el problema
+
+
+|          | <h3>Regresión</h3> | <h3>Clasificación</h3>   | Clasificación binaria | Clasificacón mulietiqueta |
+|----------|--------------------|--------------------------|-----------------------|---------------------------|
+|          | ![](img/regla.jpg) | ![](img/perro.jpg)       | ![](img/yesno.png)    | ![](img/perro-gato.jpg)   |
+| Descripc | Predecir cualquier valor medible | Predecir 1 clase entre muchas | Predecir si/no | Predecir varias clases entre muchas |
+| Ejemplos | | | | |
+| Métricas | <ul><li>MAE</li><li>MSE</li></ul> | <ul><li>Accuracy</li><li>Bal Accuracy</li></ul> | <ul><li>Accuracy</li><li>AUC</li></ul> | |
+
+Estos son los tipos de problema más comunes a resolver.
+
+## Métricas de regresión
+
+| Mean Absolute Error (MAE)   |  Mean Squared Error (MSE) |
+|-----------------------------|---------------------------|
+| ![](img/MAE_plot.jpg)       | ![](img/MSE_plot.jpg)     |
+
 
 
 
