@@ -1,6 +1,8 @@
 <p align="center"><img src="../img/miniaturas YT/4-Árbol.png" height="200px"></p>
 
-> TODO: https://medium.com/ai-in-plain-english/hyperparameter-tuning-of-decision-tree-classifier-using-gridsearchcv-2a6ebcaffeda
+> TODO:
+> - https://medium.com/ai-in-plain-english/hyperparameter-tuning-of-decision-tree-classifier-using-gridsearchcv-2a6ebcaffeda
+> - Puesta en producción
 
 ## Software
 
