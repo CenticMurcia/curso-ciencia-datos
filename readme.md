@@ -61,32 +61,32 @@
 
 
 <table>
-  <!----------------------------------- 3. Prparación de los datos ----------------------------------->
+  <!----------------------------------- 3. Preparación de los datos ----------------------------------->
   <tr>
-    <th width="250" rowspan="6"><h3><a href="/03.%20Linear%20models">3. Preparación de los datos</a></h3>
+    <th width="250" rowspan="6"><h3><a href="/03.%20Preprocessing">3. Preparación de los datos</a></h3>
     <img src="img/3prepro.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb">3.1 Definición del problema y métricas</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="350"><a href="/04.%20Linear%20models/3.1%20Linear%20Regression.ipynb">3.1 Definición del problema y métricas</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.2 Seleccionar el conjunto de validación</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.2 Seleccionar el conjunto de validación</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.4%20Regularization.ipynb">3.3 Preprocesamiento y valores perdidos</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/3.4%20Regularization.ipynb">3.3 Preprocesamiento y valores perdidos</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.4 Ingeniería de caracteristicas</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.4 Ingeniería de caracteristicas</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.4%20Regularization.ipynb">3.5 Ejercicio</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/3.4%20Regularization.ipynb">3.5 Ejercicio</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb">3.6 Solución</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/3.5%20Polynomial%20regression.ipynb">3.6 Solución</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
@@ -94,83 +94,83 @@
 <table>
   <!----------------------------------- 📏 4. Modelos Lineales ----------------------------------->
   <tr>
-    <th width="250" rowspan="5"><h3><a href="/03.%20Linear%20models">3. Modelos Lineales</a></h3>
+    <th width="250" rowspan="5"><h3><a href="/04.%20Linear%20models">4. Modelos Lineales</a></h3>
     <img src="img/3linear.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb">3.1 Linear Regression</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="350"><a href="/04.%20Linear%20models/4.1%20Linear%20Regression.ipynb">4.1 Linear Regression</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.2 Logistic Regression</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/4.2%20Logistic%20Regression.ipynb">4.2 Logistic Regression</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.4%20Regularization.ipynb">3.3 Regularization</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/4.4%20Regularization.ipynb">4.3 Regularization</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb">3.4 Polynomial regression</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20Linear%20models/3.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/4.5%20Polynomial%20regression.ipynb">4.4 Polynomial regression</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
 
 <table>
-  <!----------------------------------- 🌳 4. Tree models ----------------------------------->
+  <!----------------------------------- 🌳 5. Tree models ----------------------------------->
   <tr>
-    <th width="250" rowspan="5"><h3><a href="/04.%20Tree%20models">4. Modelos de Árboles</a></h3><img src="img/4tree.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="04.%20Tree%20models/2.1%20EDA.ipynb">4.1 EDA</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.1%20EDA.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="250" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Modelos de Árboles</a></h3><img src="img/4tree.svg" width="120px" height="100px"></th>
+    <td width="350"><a href="05.%20Tree%20models/2.1%20EDA.ipynb">5.1 EDA</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.1%20EDA.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Tree%20models/2.2%20Decission%20tree.ipynb">4.2 Decission Tree</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/05.%20Tree%20models/2.2%20Decission%20tree.ipynb">5.2 Decission Tree</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Tree%20models/2.3%20Random%20Forest.ipynb">4.3 Random Forest</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.3%20Random%20Forest.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/05.%20Tree%20models/2.3%20Random%20Forest.ipynb">5.3 Random Forest</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.3%20Random%20Forest.ipynb"><img src="img/colab.svg"/></a></td>
   </tr> 
   <tr>
-    <td><a href="/04.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb">4.4 Gradient Boosting</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/05.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb">5.4 Gradient Boosting</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Tree%20models/2.5%20Neural%20Network.ipynb">4.5 Optimización de Hiperparámetros</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Tree%20models/2.5%20Neural%20Network.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/05.%20Tree%20models/2.5%20Neural%20Network.ipynb">5.5 Optimización de Hiperparámetros</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.5%20Neural%20Network.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
 
 <table>
-  <!-----------------------------------  5.Redes Neuronales ----------------------------------->
+  <!-----------------------------------  6. Redes Neuronales ----------------------------------->
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/06.%20Web%20scrapping">5. Modelos Neuronales</a></h3><img src="img/5nn.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb">5.1 Red Neuronal</a></td>
+    <th width="250" rowspan="2"><h3><a href="/06.%20Neural%20Networks">6. Modelos Neuronales</a></h3><img src="img/5nn.svg" width="120px" height="100px"></th>
+    <td width="350"><a href="/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb">6.1 Red Neuronal</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/05.%20Unsupervised/5.2%20Clustering.ipynb">6.2 Técnicas de Regularización</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Unsupervised/5.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/07.%20Unsupervised/5.2%20Clustering.ipynb">6.2 Técnicas de Regularización</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/5.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
 </table>
 
 
 <table>
-  <!----------------------------------- 6. No Supervisado ----------------------------------->
+  <!----------------------------------- 7. No Supervisado ----------------------------------->
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/05.%20Unsupervised">6. Análisis No Supervisado</a></h3><img src="img/6unsupervised.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/05.%20Unsupervised/5.1%20Dim%20Red.ipynb">6.1 Reducción de Dimensionalidad</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Unsupervised/5.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="250" rowspan="2"><h3><a href="/07.%20Unsupervised">7. Análisis No Supervisado</a></h3><img src="img/6unsupervised.svg" width="120px" height="100px"></th>
+    <td width="350"><a href="/07.%20Unsupervised/5.1%20Dim%20Red.ipynb">7.1 Reducción de Dimensionalidad</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/5.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/05.%20Unsupervised/5.2%20Clustering.ipynb">6.2 Clustering</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Unsupervised/5.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/07.%20Unsupervised/5.2%20Clustering.ipynb">7.2 Clustering</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/5.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
 
 <table>
-  <!-----------------------------------  7. NLP ----------------------------------->
+  <!-----------------------------------  8. NLP ----------------------------------->
   <tr>
-    <th width="250" rowspan="4"><h3><a href="/07.%20NLP">7. Procesamiento del Lenguaje</a></h3><img src="img/7nlp.svg" width="120px" height="100px"></th>
+    <th width="250" rowspan="4"><h3><a href="/08.%20NLP">8. Procesamiento del Lenguaje</a></h3><img src="img/7nlp.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/07.%20NLP/4.1%20Bag%20of%20words%20Logistic%20Regression.ipynb">7.1 BOW + Logistic Regression</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20NLP/4.1%20Bag%20of%20words%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -190,9 +190,9 @@
 
 
 <table>  
-  <!-----------------------------------  🕐 8. Time series ----------------------------------->
+  <!-----------------------------------  🕐 9. Time series ----------------------------------->
   <tr>
-    <th width="250" rowspan="3"><h3><a href="/08.%20Time%20Series">8. Series Temporales</a></h3><img src="img/8time.svg" width="120px" height="100px"></th>
+    <th width="250" rowspan="3"><h3><a href="/09.%20Time%20Series">9. Series Temporales</a></h3><img src="img/8time.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">8.1 TimeSeries with Prophet 1</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -210,31 +210,31 @@
 <table>
   <!-----------------------------------  🖼️ 9. Image ----------------------------------->
   <tr>
-    <th width="250" rowspan="4"><h3><a href="/09.%20Imágenes">9. Imágenes</a></h3><img src="img/9raw.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/09.%20Image/Classification%20-%20Fastai.ipynb">9.1 Clasification with Fast.ai</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="250" rowspan="4"><h3><a href="/10.%20Image">10. Imágenes</a></h3><img src="img/9raw.svg" width="120px" height="100px"></th>
+    <td width="350"><a href="/10.%20Image/Classification%20-%20Fastai.ipynb">9.1 Clasification with Fast.ai</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
     <tr>
-    <td><a href="/09.%20Image/Segmentation%20-%20Fastai.ipynb">9.2 Data augmentation</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">9.2 Data augmentation</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   <tr>
-    <td><a href="/09.%20Image/Segmentation%20-%20Fastai.ipynb">9.5 Locacización (bboxes) con Fast.ai 2</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">9.5 Locacización (bboxes) con Fast.ai 2</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   <tr>
-    <td><a href="/09.%20Image/Segmentation%20-%20Fastai.ipynb">9.6 Segmentación con Fast.ai 2</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">9.6 Segmentación con Fast.ai 2</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
 <table>
   <!---------------------------------  ⛏️ 10. Process Mining --------------------------------->
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/10.%20Process%20Mining">10.Minería de Procesos</a></h3><img src="img/10log.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/10.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">10.1 Process Mining con PM4PY</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="250" rowspan="2"><h3><a href="/11.%20Process%20Mining">11. Minería de Procesos</a></h3><img src="img/10log.svg" width="120px" height="100px"></th>
+    <td width="350"><a href="/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">10.1 Process Mining con PM4PY</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/10.%20Process%20Mining/10.2%20Process%20Mining%20con%20BupaR.R">10.2 Process Mining con BupaR</a></td>
+    <td><a href="/11.%20Process%20Mining/10.2%20Process%20Mining%20con%20BupaR.R">10.2 Process Mining con BupaR</a></td>
     <td></td>
   </tr>
 </table>
