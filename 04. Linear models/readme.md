@@ -94,6 +94,10 @@ To learn more about ridge and lasso regression and general regulaization techniq
 
 
 <h1 align="center">Modelos no lineales parecidos</h1>
+<p align="center"><img src="img/nonlinear.svg" height="500px"></p>
+
+
+
 
 ## Polynomial regression
 ```python
