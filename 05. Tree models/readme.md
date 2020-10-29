@@ -101,7 +101,7 @@
 # Trees based models
 
 |          | Model                     | Import                                                                             |
-|----------|---------------------------|------------------------------------------------------------------------------------|
+|:--------:|---------------------------|------------------------------------------------------------------------------------|
 | **DT**   | Decision Tree             | from sklearn.tree     import DecisionTreeClassifier,     DecisionTreeRegressor     |
 | **RF**   | Random Forest             | from sklearn.ensemble import RandomForestClassifier,     RandomForestRegressor     |
 | **RF**   | Random Forest (RAPIDS)    | from cuml.ensemble    import RandomForestClassifier,     RandomForestRegressor     |
@@ -114,6 +114,7 @@
 | **NGB**  | NGBoost                   | from ngboost          import NGBClassifier,              NGBRegressor              |
 | **RGF**  | Regularized Greedy Forest | from rgf.sklearn      import RGFClassifier,              RGFRegressor              |
 |          |                           | from rgf.sklearn      import FastRGFClassifier,          FastRGFRegressor          |
+
 
 
 We have two approaches to tabular modelling: decision tree ensembles, and neural networks. And we have mentioned two different decision tree ensembles: random forests, and gradient boosting. Each is very effective, but each also has compromises:
