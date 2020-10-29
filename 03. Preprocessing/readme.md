@@ -1,4 +1,4 @@
-<h1 align="center">Preparación de los datos</h1>
+<h1 align="center">Introducción al Machine Learning</h1>
 
 ## Software
 
