@@ -126,11 +126,11 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/05.%20Tree%20models/2.3%20Random%20Forest.ipynb">5.3 Random Forest</a></td>
+    <td><a href="/05.%20Tree%20models/2.3%20Random%20Forest.ipynb">5.3 Random Forest y Extra Trees</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.3%20Random%20Forest.ipynb"><img src="img/colab.svg"/></a></td>
   </tr> 
   <tr>
-    <td><a href="/05.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb">5.4 Gradient Boosting</a></td>
+    <td><a href="/05.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb">5.4 Gradient Boosting (XGB, LGBM, CatBoost)</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
