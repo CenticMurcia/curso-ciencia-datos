@@ -15,7 +15,7 @@
     <td>XGBoost significa eXtreme Gradient Boosting, y es una implementación de Gradient boosting diseñada para minimizar la velocidad de ejecución y maximizar el rendimiento. Es uno de los algoritmos que más domina recientemente en los problemas Machine Learning y las competiciones de Kaggle con datos estructurados o tabulares.</td>
   </tr>
   <tr>
-    <th><a href="https://lightgbm.readthedocs.io"><img src="../img/logos/LightGBM.png"/></a></th>
+    <th><a href="https://lightgbm.readthedocs.io"><img src="../img/logos/LightGBM.svg"/></a></th>
     <td>LightGBM es otra implementación de Gradient boosting de Microsoft que deberíamos tener en cuenta ya que también ha obtenido muy buenos resultados en términos de precisión y rendimiento.</td>
   </tr>
   <tr>
