@@ -107,3 +107,10 @@ poly_regr = Pipeline([('polynomial',PolynomialFeatures(degree=2)),
 pipe.fit(x, y)
 ```
 ![](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/pr8.png)
+
+## Regresión local (LOESS o LOWESS)
+- **LOESS** (locally estimated scatterplot smoothing)
+- **LOWESS** (locally weighted scatterplot smoothing)
+
+![]()
+
