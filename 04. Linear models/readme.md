@@ -92,3 +92,18 @@ To learn more about ridge and lasso regression and general regulaization techniq
 - [Complete tutorial on ridge and lasso regression in python](https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-ridge-lasso-regression-python/): A broad tutorial explaining why we use regularization techniques, touching on the mathematics behind the algorithms and giving a few examples in python.
 - [An Introduction to Statistical Learning, Chapter 6.2](http://www-bcf.usc.edu/%7Egareth/ISL/ISLR%20Sixth%20Printing.pdf): A comprehensive explanation of both Lasso and Ridge and their application in the context of statistical learning.
 
+
+<h1 align="center">Modelos no lineales parecidos</h1>
+
+## Polynomial regression
+```python
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.pipeline import Pipeline
+
+# creating pipeline and fitting it on data
+poly_regr = Pipeline([('polynomial',PolynomialFeatures(degree=2)),
+                      ('model', LinearRegression())])
+
+pipe.fit(x, y)
+```
+![](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/pr8.png)
