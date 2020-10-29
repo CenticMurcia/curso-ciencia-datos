@@ -1,6 +1,29 @@
-<h1 align="center">Modelos de Árbol</h1>
+<p align="center"><img src="../img/miniaturas YT/4-Árbol.png" height="200px"></p>
 
 > TODO: https://medium.com/ai-in-plain-english/hyperparameter-tuning-of-decision-tree-classifier-using-gridsearchcv-2a6ebcaffeda
+
+## Software
+
+
+<table>
+  <tr>
+    <th width="200"><a href="https://scikit-learn.org"><img src="../img/logos/Scikitlearn.png"/></a></th>
+    <td>Sklearn proprocina muchos modelos de árbol como DecisionTree, RandomForest, ExtraTrees, AdaBoost y GradientBoosting. Lo malo de esta librería es que todos lo modelos corren sobre CPU y no GPU</td>
+  </tr>
+  <tr>
+    <th><a href="https://xgboost.readthedocs.io"><img src="../img/logos/XGBoost.png"/></a></th>
+    <td>XGBoost significa eXtreme Gradient Boosting, y es una implementación de Gradient boosting diseñada para minimizar la velocidad de ejecución y maximizar el rendimiento. Es uno de los algoritmos que más domina recientemente en los problemas Machine Learning y las competiciones de Kaggle con datos estructurados o tabulares.</td>
+  </tr>
+  <tr>
+    <th><a href="https://lightgbm.readthedocs.io"><img src="../img/logos/LightGBM.png"/></a></th>
+    <td>LightGBM es otra implementación de Gradient boosting de Microsoft que deberíamos tener en cuenta ya que también ha obtenido muy buenos resultados en términos de precisión y rendimiento.</td>
+  </tr>
+  <tr>
+    <th><a href="https://catboost.ai"><img src="../img/logos/CatBoost.png"/></a></th>
+    <td>CatBoost es otra implementación de Gradient boosting especializada para trabajar con datasets mayormente de variables categóricas.</td>
+  </tr>
+</table>
+
 
 ## Feature preprocessing
 
