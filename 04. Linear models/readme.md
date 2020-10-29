@@ -21,6 +21,36 @@
 
 ---
 
+
+
+| Model                             |  Sklearn                                | RAPIDS CuML                 |
+|-----------------------------------|-----------------------------------------|-----------------------------|
+| Linear Regression                 | sklearn.linear_model.LinearRegression   | cuml.LinearRegression       |
+| Logistic Regression               | sklearn.linear_model.LogisticRegression | cuml.LogisticRegression     |
+| Ridge Regression                  | sklearn.linear_model.Ridge              | cuml.Ridge                  |
+| Lasso Regression                  | sklearn.linear_model.Lasso              | cuml.Lasso                  |
+| ElasticNet Regression             | sklearn.linear_model.ElasticNet         | cuml.ElasticNet             |
+| MiniBatch SGD Classifier          | sklearn.linear_model.SGDClassifier      | cuml.MBSGDClassifier        |
+| MiniBatch SGD Regressor           | sklearn.linear_model.SGDRegressor       | cuml.MBSGDRegressor         |
+| Mutinomial Naive Bayes            |                                         | cuml.MultinomialNB          |
+| Stochastic Gradient Descent       |                                         | cuml.SGD                    |
+| Coordinate Descent                |                                         | cuml.CD                     |
+| Quasi-Newton                      |                                         | cuml.QN                     |
+| Support Vector Machine Classifier |                                         | cuml.svm.SVC(kernel="linear") |
+| Support Vector Machine Regressor  |                                         | cuml.svm.SVR(kernel="linear") |
+
+
+
+## Non linear
+
+Support Vector Machines Classifier                                cuml.svm.SVC(kernel="rbf")
+Support Vector Machines Regressor                                 cuml.svm.SVR(kernel="rbf")
+
+Nearest Neighbors Classification                                 cuml.neighbors.KNeighborsClassifier
+Nearest Neighbors Regression                                     cuml.neighbors.KNeighborsRegressor
+
+
+
 ## 3.1 Linear Regression
 
 ![](img/xkcd_meme.png)
