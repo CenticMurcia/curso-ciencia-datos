@@ -9,7 +9,7 @@
 |          | ![](img/regla.jpg) | ![](img/perro.jpg)       | ![](img/yesno.png)    | ![](img/perro-gato.jpg)   |
 | Descripc | Predecir cualquier valor medible | Predecir 1 clase entre muchas | Predecir si/no | Predecir varias clases entre muchas |
 | Ejemplos | | | | |
-| Métricas | <ul><li>MAE</li><li>MSE</li></ul> | <ul><li>Accuracy</li><li>Bal Accuracy</li></ul> | <ul><li>Accuracy</li><li>AUC</li></ul> | |
+| Métricas | <ul><li>MAE = Error medio</li><li>MSE = Error cuadrático</li></ul> | <ul><li>Accuracy = Número de aciertos</li><li>Bal Accuracy</li></ul> | <ul><li>Accuracy</li><li>AUC</li></ul> | |
 
 Estos son los tipos de problema más comunes a resolver.
 
