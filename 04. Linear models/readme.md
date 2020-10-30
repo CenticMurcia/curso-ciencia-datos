@@ -169,6 +169,7 @@ gam = LogisticGAM().fit(x, y)
 ```
 
 #### Referencias
+- [Video explicativo](https://www.youtube.com/watch?v=XQ1vk7wEI7c)
 - [Blog explicativo 1](https://multithreaded.stitchfix.com/blog/2015/07/30/gam)
 - [Blog explicativo 2](https://codeburst.io/pygam-getting-started-with-generalized-additive-models-in-python-457df5b4705f)
 - [Blog explicativo 3](https://medium.com/just-another-data-scientist/building-interpretable-models-with-generalized-additive-models-in-python-c4404eaf5515)
