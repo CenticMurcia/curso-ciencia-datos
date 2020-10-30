@@ -18,17 +18,84 @@
 
 ## Definir el problema
 
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th><h3>Regresión</h3></th>
+      <th><h3>Clasificación</h3></th>
+      <th>Clasificación binaria</th>
+      <th>Clasificacón multietiqueta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!------------------------------------- Imagen -------------------------------->
+    <tr>
+      <td></td>
+      <td><img alt="" src="img/regla.jpg" /></td>
+      <td><img alt="" src="img/perro.jpg" /></td>
+      <td><img alt="" src="img/yesno.png" /></td>
+      <td><img alt="" src="img/perro-gato.jpg" /></td>
+    </tr>
+    <!------------------------------------- Descripción -------------------------------->
+    <tr>
+      <th>Descripción</th>
+      <td>Predecir cualquier valor medible</td>
+      <td>Predecir 1 clase entre muchas</td>
+      <td>Predecir sí/no</td>
+      <td>Predecir varias clases entre muchas</td>
+    </tr>
+    <!------------------------------------- Métricas -------------------------------->
+    <tr>
+      <th>Métricas</th>
+      <td>
+        <ul>
+          <li><b>MAE</b>: Error medio</li>
+          <li><b>MSE</b>: Error cuadrático medio</li>
+          <li><b>RMSE</b>: Raíz cuadrada del MSE</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><b>Accuracy</b>: Número de aciertos</li>
+          <li><b>Bal Accuracy</b></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><b>Accuracy</b></li>
+          <li><b>AUC</b></li>
+          <li><b>F1</b></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+     <!------------------------------------- Datasets -------------------------------->
+    <tr>
+      <th>Datasets</th>
+      <td>
+        <ul>
+          <li><a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques">House prices</a></li>
+          <li>...</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><a href="https://www.kaggle.com/c/titanic">Titanic</a></li>
+          <li>...</li>
+        </ul>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
-|          | <h3>Regresión</h3> | <h3>Clasificación</h3>   | Clasificación binaria | Clasificacón mulietiqueta |
-|----------|--------------------|--------------------------|-----------------------|---------------------------|
-|          | ![](img/regla.jpg) | ![](img/perro.jpg)       | ![](img/yesno.png)    | ![](img/perro-gato.jpg)   |
-| Descripc | Predecir cualquier valor medible | Predecir 1 clase entre muchas | Predecir si/no | Predecir varias clases entre muchas |
-| Ejemplos | | | | |
-| Métricas | <ul><li>MAE = Error medio</li><li>MSE = Error cuadrático</li></ul> | <ul><li>Accuracy = Número de aciertos</li><li>Bal Accuracy</li></ul> | <ul><li>Accuracy</li><li>AUC</li></ul> | |
+
+
+
 
 Estos son los tipos de problema más comunes a resolver.
-
-
 
 
 ## ¿Qué modelo usar?
