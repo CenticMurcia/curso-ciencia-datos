@@ -133,7 +133,7 @@ index, pred = np.transpose(smooth)
 
 ## Generalized Additive Model (GAM)
 
-GAM captura los patrones no lienales de cada variable (que la regresión lineal no puede capturar) y los suma (como la regresión lineal).
+GAM captura los patrones no lineales de cada variable (que la regresión lineal no puede capturar) y los suma (como la regresión lineal).
 <p align="center"><img src="img/gam.svg" width="700px"></p>
 
 Tradicionalemente, las no-linearidades son caputuras por binning o polinomios. Pero GAM las captura automaticamnte (mediante splines).
