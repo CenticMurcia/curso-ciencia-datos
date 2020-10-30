@@ -28,6 +28,18 @@
 
 Estos son los tipos de problema más comunes a resolver.
 
+
+
+
+## ¿Qué modelo usar?
+
+<p align="center"><img src="img/Comparison.png" width="500px"></p>
+
+Los veremos más adelante, pero la regla general es:
+- **Más poderosos**: Random Forest (RF), Gradient Boosting (GMB) y Redes Neuronales (NN)
+- **Más interpretables**: Modelo lineal (LM), Generalized Additive Model (GAM) y Árbol de Decisión (DT)
+
+
 ## Métricas de regresión
 
 | Mean Absolute Error (MAE)   |  Mean Squared Error (MSE) |
@@ -64,10 +76,11 @@ Estos son los tipos de problema más comunes a resolver.
     <td>
       <h4>No-tree based models</h4>
       <ul>
-        <li>Linear Models</li>
-        <li>Neural Networks</li>
-        <li>K-Nearest Neighbors</li>
-        <li>Suport Vector Machines</li>
+        <li>Linear Models (LM)</li>
+        <li>Generalized Additive Model (GAM)</li>
+        <li>Neural Networks (NN)</li>
+        <li>K-Nearest Neighbors (KNN)</li>
+        <li>Suport Vector Machines (SVM)</li>
       </ul>
     </td>
   </tr>
