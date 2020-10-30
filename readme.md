@@ -1,4 +1,5 @@
-<h1 align="center">Curso de Ciencia Datos de CENTIC</h1>
+<!--<h1 align="center">Curso de Ciencia Datos de CENTIC</h1>-->
+<p align="center"><img src="img/miniaturas YT/Portada.png" width="500px"></p>
 
 
 <table>
