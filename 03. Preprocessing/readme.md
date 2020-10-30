@@ -47,7 +47,7 @@
     </tr>
     <!------------------------------------- Métricas -------------------------------->
     <tr>
-      <th>Métricas</th>
+      <th>Métricas comunes</th>
       <td>
         <ul>
           <li><b>MAE</b>: Error medio</li>
@@ -124,7 +124,23 @@ Los veremos más adelante, pero la regla general es:
 | ![](img/MAE_plot.jpg)       | ![](img/MSE_plot.jpg)     |
 
 
+|          |  Métrica                         | Error plot for 5, 6, 8, 9, 27        | Derivable | Mejor Constante        | Equivalente         |
+|:--------:|----------------------------------|--------------------------------------|-----------|-------------------------|--------------------|
+| **MAE**  | Mean Absolute Error              | ![](img/MAE.png)                     | ✔️        | Median<br>(8)          |                    |
+| **MSE**  | Mean Squared Error               | ![](img/MSE.png)                     | ✔️        | Mean<br>(11)           | RMSE,<br>R-squared |
+| **MAPE** | Mean Absolute Percentage Error   | ![](img/MAPE.png)                    | ✔️        | Weighted median<br>(6) |              |
+| **MSPE** | Mean Square Percentage Error     | ![](img/MSPE.png)                    | ✔️        | Weighted mean<br>(6.6) |              |
+| **MSLE** | Mean Square Logarithmic Error    | <img src="img/MSLE.png" width="240"> | ✔️        | log(mean)<br>(9.11)    | RMSLE        |
+| **R2**   | R-squared                        |                                      | ✔️        | |
+| **r**    | Spearman's Rank Correlation Coef |                                      | ❌        | |
+| **p**    | Pearson Correlation Coef         |                                      | ?          | |
 
+#### Fuentes
+- https://safjan.com/kaggle-evaluation-metrics-used-for-regression-problems/
+
+
+## Métricas de clasificación
+- AUC no es derivable
 
 
 ## Selección del conjunto de validación
