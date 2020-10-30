@@ -1,23 +1,22 @@
 <p align="center"><img src="../img/miniaturas YT/3-Linear.png" height="200px"></p>
 
 
-1. **Linear Regression**
+1. **Linear Regression**: Modelo lineal para regresión
    - How to split the data between training and test
    - Ordinary Least Squares
    - Analyzing the results of the model
-2. **Logistic Regression** (Linear regression for classification)
+2. **Logistic Regression**: Modelo lineal para clasificación
    - Sigmoid function
 3. **Regulated linear models** (Penalized regression)
    - LASSO Regression (L1 Regularization)
    - Ridge Regression (L2 Regularization)
    - ElasticNet Regression (L1 & L2 Regularization)
-4. **Non linear modifications**
-   - Polynomial Regression
-   - Generalized Linear Model (GLM) [H20 doc](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/glm.html)
-   - Generalized Additive Models (GAM) [H20 doc](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gam.html)
-5. **SGD**
+4. **SGD**: Otra forma de modelos lineales
    - Perceptron
    - Vowpal Wabbit
+5. **Variantes No Lineales**
+   - Regresión Polinómica
+   - Generalized Additive Models (GAM)
 
 ---
 - qq plot
@@ -94,13 +93,14 @@ To learn more about ridge and lasso regression and general regulaization techniq
 - [An Introduction to Statistical Learning, Chapter 6.2](http://www-bcf.usc.edu/%7Egareth/ISL/ISLR%20Sixth%20Printing.pdf): A comprehensive explanation of both Lasso and Ridge and their application in the context of statistical learning.
 
 
-<h1 align="center">Modelos no lineales parecidos</h1>
+
+
+
+<h1 align="center">5. Variantes No Lineales</h1>
+
 <p align="center"><img src="img/nonlinear.svg" width="700px"></p>
 
-
-
-
-## Polynomial regression
+## Regresión Polinómica
 ```python
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import Pipeline
@@ -116,15 +116,10 @@ pipe.fit(x, y)
 
 
 ## Regresión local (LOESS o LOWESS)
-- **LOESS** (locally estimated scatterplot smoothing)
-- **LOWESS** (locally weighted scatterplot smoothing)
 
-Se crean muchas regresesione lineales, donde cada una se entrena con los puntos de su región. Luego se sueviza.
+Se crean muchas regresesione lineales, donde cada una se entrena con los puntos de su región. Luego se sueviza. **Desventaja: solo vale para x con 1 varaible**.
 
 <p align="center"><img src="img/lowess.png"></p>
-
-
-Desventaja: solo vale para x con 1 varaible
 
 ```python
 from statsmodels.nonparametric.smoothers_lowess import lowess
@@ -175,4 +170,5 @@ gam = LogisticGAM().fit(x, y)
 - [Blog explicativo 1](https://multithreaded.stitchfix.com/blog/2015/07/30/gam)
 - [Blog explicativo 2](https://codeburst.io/pygam-getting-started-with-generalized-additive-models-in-python-457df5b4705f)
 - [Blog explicativo 3](https://medium.com/just-another-data-scientist/building-interpretable-models-with-generalized-additive-models-in-python-c4404eaf5515)
-
+- [H20 GAM documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/gam.html)
+- [pyGAM documentation](https://pygam.readthedocs.io/en/latest/index.html)
