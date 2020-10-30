@@ -106,6 +106,16 @@ Los veremos más adelante, pero la regla general es:
 - **Más poderosos**: Random Forest (RF), Gradient Boosting (GMB) y Redes Neuronales (NN)
 - **Más interpretables**: Modelo lineal (LM), Generalized Additive Model (GAM) y Árbol de Decisión (DT)
 
+| Modelo                | Comentario                           | Librería                   | More info |
+|:---------------------:|--------------------------------------|----------------------------|-----------|
+| **Decission Tree**    | Simple and explicable.               | Sklearn                    |           |
+| **Linear models**     | Simple and explicable.               | Sklearn o RAPIDS           |           |
+| **GAMs**              | Simple and explicable.               | pyGAM                      |           |
+| **Random Forest**     | Good starting point (tree enesemble) | Sklearn o RAPIDS           |           |
+| **Gradient Boosting** | Usually the best (tree enesemble)    | XGBoost, LighGBM, Catboost |           |
+| **Neural Network**    | Good if lot of data.                 | Keras, Pytorch, Fast.ai    | [blog](https://hackernoon.com/gain-state-of-the-art-results-on-tabular-data-with-deep-learning-and-embedding-layers-a-how-to-guide-r17b36k8) |
+
+
 
 ## Métricas de regresión
 
@@ -211,18 +221,6 @@ A Box Cox transformation is a generic way to transform non-normal variables into
 
 > ## Target Encoding o Mean Encoding
 > ![](img/enc-target.png)
-
-## Models
-
-| Model                 | Comment                              | Library                    | More info |
-|:---------------------:|--------------------------------------|----------------------------|-----------|
-| **Decission Tree**    | Simple and explicable.               | Sklearn                    |           |
-| **Linear models**     | Simple and explicable.               | Sklearn                    |           |
-| **Random Forest**     | Good starting point (tree enesemble) | Sklearn                    |           |
-| **Gradient Boosting** | Usually the best (tree enesemble)    | XGBoost, LighGBM, Catboost |           |
-| **Neural Network**    | Good if lot of data.                 | Fast.ai v2                 | [blog](https://hackernoon.com/gain-state-of-the-art-results-on-tabular-data-with-deep-learning-and-embedding-layers-a-how-to-guide-r17b36k8) |
-
-
 
 
 
