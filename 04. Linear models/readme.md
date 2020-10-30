@@ -95,7 +95,7 @@ To learn more about ridge and lasso regression and general regulaization techniq
 
 
 <h1 align="center">Modelos no lineales parecidos</h1>
-<p align="center"><img src="img/nonlinear.svg" height="500px"></p>
+<p align="center"><img src="img/nonlinear.svg" width="700px"></p>
 
 
 
@@ -111,7 +111,9 @@ poly_regr = Pipeline([('polynomial',PolynomialFeatures(degree=2)),
 
 pipe.fit(x, y)
 ```
-![](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/pr8.png)
+
+<p align="center"><img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/pr8.png" width="500px"></p>
+
 
 ## Regresión local (LOESS o LOWESS)
 - **LOESS** (locally estimated scatterplot smoothing)
@@ -119,7 +121,8 @@ pipe.fit(x, y)
 
 Se crean muchas regresesione lineales, donde cada una se entrena con los puntos de su región. Luego se sueviza.
 
-![](img/lowess.png)
+<p align="center"><img src="img/lowess.png"></p>
+
 
 Desventaja: solo vale para x con 1 varaible
 
@@ -133,23 +136,23 @@ index, pred = np.transpose(smooth)
 [Video explicativo](https://www.youtube.com/watch?v=Vf7oJ6z2LCc)
 
 
-## Generalized Additive Models (GAM)
+## Generalized Additive Model (GAM)
 
 GAM captura los patrones no lienales de cada variable (que la regresión lineal no puede capturar) y los suma (como la regresión lineal).
-
-<p align="center"><img src="img/gam.svg" height="500px"></p>
+<p align="center"><img src="img/gam.svg" width="700px"></p>
 
 Tradicionalemente, las no-linearidades son caputuras por binning o polinomios. Pero GAM las captura automaticamnte (mediante splines).
 
+Lo mejor de GAM es la explicabilidad de cada variable mediante gráficos de PDP (Partial Dependency Plot):
+<p align="center"><img src="img/gam-pdp.png"></p>
 
-Lo mejor de GAM es la explicabilidad de cada variable mediante gráficos de PDP
 
 Parámetros a terner en cuenta para optimizarlos:
 - **`n_splines`**: Número de trozos para componer y juntar. (25 por defecto)
 - **`lam`**: Término de penalización. (0.6 por defecto)
 - **`constraints`**: Monotonically constraint. ("none" por defcto)
 
-<p align="center"><img src="img/gam-lamda.svg" height="500px"></p>
+<p align="center"><img src="img/gam-lamda.svg" width="500px"></p>
 
 
 Instalar pyGAM:
@@ -157,14 +160,15 @@ Instalar pyGAM:
 pip install pygam
 ```
 
-Ejemplo de clasificación:
+Ejemplo:
 ```python
-from pygam import LogisticGAM
+from pygam import LinearGAM    # Para regresión
+from pygam import LogisticGAM  # Para clasificación
 
-X = df[['var1', 'var2', 'var3']]
+x = df[['var1', 'var2', 'var3']]
 y = df[target_var]
 
-gam = LogisticGAM().fit(X, y)
+gam = LogisticGAM().fit(x, y)
 ```
 
 #### Referencias
