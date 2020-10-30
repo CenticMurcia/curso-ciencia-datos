@@ -53,6 +53,8 @@ Nearest Neighbors Regression                                     cuml.neighbors.
 
 ## 3.1 Linear Regression
 
+<p align="center"><img src="img/LM.png" width="500px"></p>
+
 ![](img/xkcd_meme.png)
 
 Linear Regression is a parametric model which predicts a continuous outcome feature (**Y**) from one or more explanatory features (**X**).  
@@ -134,7 +136,7 @@ index, pred = np.transpose(smooth)
 ## Generalized Additive Model (GAM)
 
 GAM captura los patrones no lineales de cada variable (que la regresión lineal no puede capturar) y los suma (como la regresión lineal).
-<p align="center"><img src="img/gam.svg" width="700px"></p>
+<p align="center"><img src="img/GAM.png" width="500px"></p>
 
 Tradicionalemente, las no-linearidades son caputuras por binning o polinomios. Pero GAM las captura automaticamnte (mediante splines).
 
