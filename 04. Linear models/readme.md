@@ -20,7 +20,8 @@
    - Vowpal Wabbit
 
 ---
-
+- qq plot
+- residual plot
 
 
 | Model                             |  Sklearn                                | RAPIDS CuML                 |
@@ -128,4 +129,46 @@ from statsmodels.nonparametric.smoothers_lowess import lowess
 smooth = lowess(endog=y, exog=x)
 index, pred = np.transpose(smooth)
 ```
+
+[Video explicativo](https://www.youtube.com/watch?v=Vf7oJ6z2LCc)
+
+
+## Generalized Additive Models (GAM)
+
+GAM captura los patrones no lienales de cada variable (que la regresión lineal no puede capturar) y los suma (como la regresión lineal).
+
+<p align="center"><img src="img/gam.svg" height="500px"></p>
+
+Tradicionalemente, las no-linearidades son caputuras por binning o polinomios. Pero GAM las captura automaticamnte (mediante splines).
+
+
+Lo mejor de GAM es la explicabilidad de cada variable mediante gráficos de PDP
+
+Parámetros a terner en cuenta para optimizarlos:
+- **`n_splines`**: Número de trozos para componer y juntar. (25 por defecto)
+- **`lam`**: Término de penalización. (0.6 por defecto)
+- **`constraints`**: Monotonically constraint. ("none" por defcto)
+
+<p align="center"><img src="img/gam-lamda.svg" height="500px"></p>
+
+
+Instalar pyGAM:
+```
+pip install pygam
+```
+
+Ejemplo de clasificación:
+```python
+from pygam import LogisticGAM
+
+X = df[['var1', 'var2', 'var3']]
+y = df[target_var]
+
+gam = LogisticGAM().fit(X, y)
+```
+
+#### Referencias
+- [Blog explicativo 1](https://multithreaded.stitchfix.com/blog/2015/07/30/gam)
+- [Blog explicativo 2](https://codeburst.io/pygam-getting-started-with-generalized-additive-models-in-python-457df5b4705f)
+- [Blog explicativo 3](https://medium.com/just-another-data-scientist/building-interpretable-models-with-generalized-additive-models-in-python-c4404eaf5515)
 
