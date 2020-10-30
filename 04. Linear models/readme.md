@@ -142,7 +142,7 @@ Lo mejor de GAM es la explicabilidad de cada variable mediante gráficos de PDP 
 <p align="center"><img src="img/gam-pdp.png"></p>
 
 
-Parámetros a terner en cuenta para optimizarlos:
+Parámetros a tener en cuenta para optimizar:
 - **`n_splines`**: Número de trozos para componer y juntar. (25 por defecto)
 - **`lam`**: Término de penalización. (0.6 por defecto)
 - **`constraints`**: Monotonically constraint. ("none" por defcto)
