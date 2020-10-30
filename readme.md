@@ -104,12 +104,16 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/4.4%20Regularization.ipynb">4.3 Regularization</a></td>
+    <td><a href="/04.%20Linear%20models/4.4%20Regularization.ipynb">4.3 Regularization (Ridge, Lasso, ElasticNet)</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/04.%20Linear%20models/4.5%20Polynomial%20regression.ipynb">4.4 Polynomial regression</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="">4.5 Generalized Additive Model (GAM)</a></td>
+    <td><a href=""><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
