@@ -11,6 +11,7 @@
    - LASSO Regression (L1 Regularization)
    - Ridge Regression (L2 Regularization)
    - ElasticNet Regression (L1 & L2 Regularization)
+   - LARS: Least-Angle Regression
 4. **SGD**: Otra forma de modelos lineales
    - Perceptron
    - Vowpal Wabbit
