@@ -31,80 +31,7 @@
 </table>
 
 
-## Feature preprocessing
-
-<table>
-  <tr>
-    <tD></tD>
-    <tD>
-      <h4>Tree based models</h4>
-      <ul>
-        <li>Decission tree</li>
-        <li>Random Forest</li>
-        <li>Extra trees</li>
-        <li>Adaboost</li>
-        <li>Gradient Boosting</li>
-        <li>XGBoost</li>
-        <li>LightGBM</li>
-        <li>CatBoost</li>
-      </ul>
-    </tD>
-    <td>
-      <h4>No-tree based models</h4>
-      <ul>
-        <li>Linear Models</li>
-        <li>Neural Networks</li>
-        <li>K-Nearest Neighbors</li>
-        <li>Suport Vector Machines</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <th>Categorical<br>Ordinal</th>
-    <td>
-      <ul>
-        <li><b>Ordinal encoding</b></li>
-        <li>Other: Frequency encoding</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><b>One hot encoding</b></li>
-        <li>Other: Embedding</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <th>Numerical</th>
-    <td><b>Nothing</b></td>
-    <td>
-      <ul>
-        <li>MinMaxScaler</li>
-        <li><b>StandarScaler</b></li>
-        <li>Skewed?
-          <ul>
-            <li>np.log(1+x)</li>
-            <li>np.sqrt(x+2/3)</li>
-          </ul>
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-
-## Models
-
-| Model                 | Comment                              | Library                    | More info |
-|:---------------------:|--------------------------------------|----------------------------|-----------|
-| **Decission Tree**    | Simple and explicable.               | Sklearn                    |           |
-| **Linear models**     | Simple and explicable.               | Sklearn                    |           |
-| **Random Forest**     | Good starting point (tree enesemble) | Sklearn                    |           |
-| **Gradient Boosting** | Usually the best (tree enesemble)    | XGBoost, LighGBM, Catboost |           |
-| **Neural Network**    | Good if lot of data.                 | Fast.ai v2                 | [blog](https://hackernoon.com/gain-state-of-the-art-results-on-tabular-data-with-deep-learning-and-embedding-layers-a-how-to-guide-r17b36k8) |
-
-
-# Trees based models
+## Modelos basados en Árboles
 
 |          | Model                     | Import                                                                             |
 |:--------:|---------------------------|------------------------------------------------------------------------------------|
@@ -121,17 +48,36 @@
 | **RGF**  | Regularized Greedy Forest | from rgf.sklearn      import RGFClassifier,              RGFRegressor              |
 |          |                           | from rgf.sklearn      import FastRGFClassifier,          FastRGFRegressor          |
 
+---
+
+### Decision Tree (DT)
+  
+|                           | CHAID | CART (Sklearn)  | ID3   | C4.5 y C5.0    |
+|---------------------------|-------|-------|-------|----------------|
+| **Año de cración**        | 1980  | 1984  | 1986  | 1993           |
+| **Variables numéricas**   | Yes   | Yes   | No    | Yes            |
+| **Variables categóricas** | Yes   | No    | Yes   | Yes            |
+| **Missings**              |       |       |       | Yes            |
+| **Ramas No Binarias**     | No    | No    |       | Yes            |
+| **Para clasificación**    | Yes   | Yes   |       | Yes            |
+| **Para regresión**        | No    | Yes   |       |                |
+| **Criterío para split**   | Chi-square | GINI index | Information Gain | Gain Ratio |
+| **Vídeo (teoría)**       | [video](https://youtu.be/cu0ZdZNCbKo) | [video](https://youtu.be/NtQpKgkkdsQ) | [video](https://youtu.be/NF9Z3oECvaA) | [video](https://youtu.be/344jy4Stusg) |
+| **Vídeo (código con Chefboost)** | [video](https://youtu.be/dcnFuS4QILg) | [video](https://youtu.be/CSApBetgukM) | [video](https://youtu.be/Z93qE5eb6eg) | [video](https://youtu.be/kjhQHmtDaAA) |
+
+> #### Curiosidades
+> - Sklearn solo implemneta CART pero Chefboost tiene todos
+> - C4.5 en Weka se llama J48
+> - C5.0 está patentado, por eso no se ve en las librerías.
 
 
-We have two approaches to tabular modelling: decision tree ensembles, and neural networks. And we have mentioned two different decision tree ensembles: random forests, and gradient boosting. Each is very effective, but each also has compromises:
-
-### Random Forest
+### Random Forest (RF)
 
 Are the easiest to train, because they are extremely resilient to hyperparameter choices, and require very little preprocessing. They are very fast to train, and should not overfit, if you have enough trees. But, they can be a little less accurate, especially if extrapolation is required, such as predicting future time periods
 
 <p align="center"><img width="50%" src="img/RandomForest.png" /></p>
 
-### Gradient Boosting
+### Gradient Boosting (GBM)
 
 In theory are just as fast to train as random forests, but in practice you will have to try lots of different hyperparameters. They can overfit. At inference time they will be less fast, because they cannot operate in parallel. But they are often a little bit more accurate than random forests.
 
