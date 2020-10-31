@@ -50,7 +50,7 @@
 
 ---
 
-### Decision Tree (DT)
+### Árbol de Decisión (DT)
   
 |                           | CHAID | CART (Sklearn)  | ID3   | C4.5 y C5.0    |
 |---------------------------|-------|-------|-------|----------------|
@@ -69,6 +69,13 @@
 > - Sklearn solo implemneta CART pero Chefboost tiene todos
 > - C4.5 en Weka se llama J48
 > - C5.0 está patentado, por eso no se ve en las librerías.
+
+
+### Árbol de Decisión + Modelo Lineal = M5
+
+Existe una variante rara del árbol de decisión llamada **M5** o (M5P en Weka) que consiste en un árbol donde las hojas son modelos (como una regresión lineal) en lugar de constantes. [Implementación en Python](https://github.com/ankonzoid/LearningX/tree/master/advanced_ML/model_tree).
+
+<p align="center"><img src="img/m5.png" width="50%"></p>
 
 
 ### Random Forest (RF)
