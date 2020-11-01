@@ -73,7 +73,7 @@
 
 ### Árbol de Decisión + Modelo Lineal = M5
 
-Existe una variante rara del árbol de decisión llamada **M5** o (M5P en Weka) que consiste en un árbol donde las hojas son modelos (como una regresión lineal) en lugar de constantes. [Implementación en Python](https://github.com/ankonzoid/LearningX/tree/master/advanced_ML/model_tree).
+Existe una variante rara del árbol de decisión llamada **Model Tree** o **M5** (M5P en Weka) que consiste en un árbol donde **las hojas son modelos** (como una regresión lineal) en lugar de constantes. [Implementación en Python](https://github.com/ankonzoid/LearningX/tree/master/advanced_ML/model_tree).
 
 <p align="center"><img src="img/m5.png" width="50%"></p>
 
