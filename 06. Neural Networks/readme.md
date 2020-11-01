@@ -15,6 +15,7 @@
 - Recurrent neural networks (RNNs)
 - Segmentation
 - Collaborative filtering (ej. movie recommendation)
+- [arbitrary order (>=2) Factorization Machine](https://github.com/geffy/tffm)
 
 ### Neural Network
 
