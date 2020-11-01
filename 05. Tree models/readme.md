@@ -52,23 +52,27 @@
 
 ### Árbol de Decisión (DT)
   
-|                           | CHAID | CART (Sklearn)  | ID3   | C4.5 y C5.0    |
-|---------------------------|-------|-------|-------|----------------|
-| **Año de cración**        | 1980  | 1984  | 1986  | 1993           |
-| **Variables numéricas**   | Yes   | Yes   | No    | Yes            |
-| **Variables categóricas** | Yes   | No    | Yes   | Yes            |
-| **Missings**              |       |       |       | Yes            |
-| **Ramas No Binarias**     | No    | No    |       | Yes            |
-| **Para clasificación**    | Yes   | Yes   |       | Yes            |
-| **Para regresión**        | No    | Yes   |       |                |
-| **Criterío para split**   | Chi-square | GINI index | Information Gain | Gain Ratio |
-| **Vídeo (teoría)**       | [video](https://youtu.be/cu0ZdZNCbKo) | [video](https://youtu.be/NtQpKgkkdsQ) | [video](https://youtu.be/NF9Z3oECvaA) | [video](https://youtu.be/344jy4Stusg) |
-| **Vídeo (código con Chefboost)** | [video](https://youtu.be/dcnFuS4QILg) | [video](https://youtu.be/CSApBetgukM) | [video](https://youtu.be/Z93qE5eb6eg) | [video](https://youtu.be/kjhQHmtDaAA) |
+|                           | CHAID       | CART (Sklearn) | ID3             | C4.5        | C5.0       |
+|---------------------------|-------------|----------------|-----------------|-------------|------------|
+| **Año de cración**        | 1980        | 1984           | 1986             | 1993       | 1993       |
+| **Variables numéricas**   | ✔️         | ✔️             | ❌              | ✔️         | ✔️        |
+| **Variables categóricas** | ✔️         | ❌ (*)         | ✔️              | ✔️         | ✔️        |
+| **Missings**              |             | ❌             | ❌              | ❌        | ✔️         |
+| **Ramas No Binarias**     | ❌         | ❌             |                  | ✔️        | ✔️         | 
+| **Para clasificación**    | ✔️         | ✔️             |                  | ✔️        | ✔️         |
+| **Para regresión**        | ❌         | ✔️             |                  |            |            |
+| **Criterío para split**   | Chi-square | GINI index      | Information Gain | Gain Ratio | Gain Ratio |
+| **Vídeo (teoría)**        | [video](https://youtu.be/cu0ZdZNCbKo) | [video](https://youtu.be/NtQpKgkkdsQ) | [video](https://youtu.be/NF9Z3oECvaA) | [video](https://youtu.be/344jy4Stusg) | |
+| **Vídeo (código con Chefboost)** | [video](https://youtu.be/dcnFuS4QILg) | [video](https://youtu.be/CSApBetgukM) | [video](https://youtu.be/Z93qE5eb6eg) | [video](https://youtu.be/kjhQHmtDaAA) | |
+
+
+(*) No soporat las categorias pero con NominalEncoder sí
 
 > #### Curiosidades
 > - Sklearn solo implemneta CART pero Chefboost tiene todos
 > - C4.5 en Weka se llama J48
 > - C5.0 está patentado, por eso no se ve en las librerías.
+> - XGBoost usa CART.
 
 
 ### Árbol de Decisión + Modelo Lineal = M5
@@ -82,7 +86,7 @@ Existe una variante rara del árbol de decisión llamada **Model Tree** o **M5**
 
 Are the easiest to train, because they are extremely resilient to hyperparameter choices, and require very little preprocessing. They are very fast to train, and should not overfit, if you have enough trees. But, they can be a little less accurate, especially if extrapolation is required, such as predicting future time periods
 
-<p align="center"><img width="50%" src="img/RandomForest.png" /></p>
+<p align="center"><img width="50%" src="img/RF.png" /></p>
 
 ### Gradient Boosting (GBM)
 
