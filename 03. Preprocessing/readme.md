@@ -75,18 +75,27 @@
       <th>Datasets</th>
       <td>
         <ul>
-          <li><a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques">House prices</a></li>
-          <li>...</li>
+          <li><a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques">House Prices</a></li>
+          <li><a href="https://www.kaggle.com/c/competitive-data-science-predict-future-sales">Predict Future Sales</a></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><a href="https://www.kaggle.com/uciml/iris">Iris Species</a></li>
         </ul>
       </td>
       <td>
         <ul>
           <li><a href="https://www.kaggle.com/c/titanic">Titanic</a></li>
-          <li>...</li>
+          <li><a href="https://www.kaggle.com/wenruliu/adult-income-dataset">Adult Income</a></li>
+          <li><a href="https://www.kaggle.com/c/word2vec-nlp-tutorial">IMDB sentiment analysis</a></li>
         </ul>
       </td>
-      <td></td>
-      <td></td>
+      <td>
+        <ul>
+          <li><a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/overview/evaluation">Toxic Comment</a></li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
