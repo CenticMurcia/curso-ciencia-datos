@@ -251,6 +251,11 @@ A Box Cox transformation is a generic way to transform non-normal variables into
 
 ## Ingeniería de características = CREATIVIDAD + CONOCIMIENTO DEL DOMINIO
 
+La ingeniería de características (Feature Engineering) es la **generación** de nuevas características en base a las ya existentes. Esto facilita el trabajo a nuestros modelos.
+
 - Si tienes el precio de la casa y los metros cuadrados, puedes añadir el precio del metro cuadrado.
 - Si tines la distancia en el eje x e y, puedes añadir la distancia directa por pitagoras.
 - Si tines precios, puedes añanir la parte fraccionaria pq es muy subjetiva en la gente.
+
+> - [Discover Feature Engineering, How to Engineer Features and How to Get Good at It](https://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/)
+> - [Discussion of feature engineering on Quora](https://www.quora.com/What-are-some-best-practices-in-Feature-Engineering)
