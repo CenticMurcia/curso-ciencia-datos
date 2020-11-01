@@ -156,7 +156,7 @@ Los veremos más adelante, pero la regla general es:
 
 La selección del **conjunto de validación** es una de la cosas más importantes. Recuerda:
 
-<h3 align="center">NUNCA USES LOS DATOS DE ENTREMANMIENTO PARA MEDIR LO BUENO QUE ES TU MODELO</h3>
+<h3 align="center">NUNCA USES LOS DATOS DE ENTRENAMIENTO PARA MEDIR LO BUENO QUE ES TU MODELO</h3>
 
 - Train test split (Holdout)
 - Cross validation (K-Fold)
