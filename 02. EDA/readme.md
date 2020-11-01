@@ -1,3 +1,7 @@
+> TO-DO:
+> - Añadir al EDA avnazado: [Biclustering algorithms for sorting corrplots](https://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html)
+
+
 <p align="center"><img src="../img/miniaturas YT/2-EDA.png" height="200px"></p>
 
 
@@ -34,6 +38,10 @@ El Análisis Exploratorio de Datos (por sus siglas EDA en inglés) es una parte 
   </tr>
 </table>
 
+Otros
+- Bokeh
+- [ggplot](http://ggplot.yhathq.com/) for Python
+- Graph visualization with [NetworkX](https://networkx.org)
 
 <h1 align="center">📊 Gráficas</h1>
 <h4 align="center">Ver <a href="https://python-graph-gallery.com">Python Graph Gallery</a> y <a href="https://www.data-to-viz.com">From Data to Viz</a></h4>
