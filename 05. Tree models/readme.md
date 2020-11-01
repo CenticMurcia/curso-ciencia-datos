@@ -57,7 +57,7 @@
 | **Año de cración**        | 1980        | 1984           | 1986             | 1993       | 1993       |
 | **Variables numéricas**   | ✔️         | ✔️             | ❌              | ✔️         | ✔️        |
 | **Variables categóricas** | ✔️         | ❌ (*)         | ✔️              | ✔️         | ✔️        |
-| **Missings**              |             | ❌             | ❌              | ❌        | ✔️         |
+| **Missings**              |             | ❌             | ❌              | ✔️        | ✔️         |
 | **Ramas No Binarias**     | ❌         | ❌             | ✔️               | ✔️        | ✔️         | 
 | **Para clasificación**    | ✔️         | ✔️             |                  | ✔️        | ✔️         |
 | **Para regresión**        | ❌         | ✔️             |                  |            |            |
