@@ -86,11 +86,13 @@ Existe una variante rara del árbol de decisión llamada **Model Tree** o **M5**
 
 Are the easiest to train, because they are extremely resilient to hyperparameter choices, and require very little preprocessing. They are very fast to train, and should not overfit, if you have enough trees. But, they can be a little less accurate, especially if extrapolation is required, such as predicting future time periods
 
-<p align="center"><img width="50%" src="img/RF.png" /></p>
+<p align="center"><img width="75%" src="img/RF.png" /></p>
 
 ### Gradient Boosting (GBM)
 
 In theory are just as fast to train as random forests, but in practice you will have to try lots of different hyperparameters. They can overfit. At inference time they will be less fast, because they cannot operate in parallel. But they are often a little bit more accurate than random forests.
+
+<p align="center"><img width="100%" src="img/GB.png" /></p>
 
 <p align="center"><img width="50%" src="img/GradientBoosting.png" /></p>
 
