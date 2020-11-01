@@ -152,7 +152,18 @@ Los veremos más adelante, pero la regla general es:
 - AUC no es derivable
 
 
-## Selección del conjunto de validación
+<h1 align="center">Validación</h1>
+
+La selección del **conjunto de validación** es una de la cosas más importantes. Recuerda:
+
+<h3 align="center">NUNCA USES LOS DATOS DE ENTREMANMIENTO PARA MEDIR LO BUENO QUE ES TU MODELO</h3>
+
+- Train test split (Holdout)
+- Cross validation (K-Fold)
+  - Stratified K-Fold
+  - Grouped K-Fold
+  - Repeated K-Fold
+- Leave-One-Out (LOO)
 
 
 
