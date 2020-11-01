@@ -183,6 +183,14 @@ Los veremos más adelante, pero la regla general es:
         <li>Neural Networks (NN)</li>
         <li>K-Nearest Neighbors (KNN)</li>
         <li>Suport Vector Machines (SVM)</li>
+        <li>Naive Bayes (NB)</li>
+        <li>Dimensionality Reduction models
+          <ul>
+            <li>PCA</li>
+            <li>t-SNE</li>
+            <li>UMAP</li>
+          </ul>
+        </li>
       </ul>
     </td>
   </tr>
@@ -220,7 +228,9 @@ Los veremos más adelante, pero la regla general es:
   </tr>
 </table>
 
-
+## Variables numéricas
+TO-DO: Scaling and Normalization
+> - [Feature Scaling and the effect of standardization for machine learning algorithms](https://sebastianraschka.com/Articles/2014_about_feature_scaling.html)
 
 ### [Map data to a normal distribution](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_map_data_to_normal.html): Box-Cox
 A Box Cox transformation is a generic way to transform non-normal variables into a **normal shape**.
