@@ -265,6 +265,10 @@
   - [collaborative filtering with Pyspark](https://www.kaggle.com/vchulski/tutorial-collaborative-filtering-with-pyspark)
 - **ML on the GPU**: RAPIDS (cuDF & cuML)
 
+Modelos de instancia (knn)
+Modelos bayesianos
+Modelos genéticos/evolutivos
+Aprendizaje por refuerzo
 -->
 
 ## Top 3 best resources:
