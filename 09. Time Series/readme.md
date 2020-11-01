@@ -3,7 +3,7 @@ Library
 - Prophet
 
 Dataset
-- Predict Future Sales
+- Predict Future Sales (cuaderno Costa)
 
 
 Models
@@ -12,3 +12,4 @@ Models
 - ARIMAX
 - LSTM
 - Prophet
+
