@@ -58,7 +58,7 @@
 | **Variables numéricas**   | ✔️         | ✔️             | ❌              | ✔️         | ✔️        |
 | **Variables categóricas** | ✔️         | ❌ (*)         | ✔️              | ✔️         | ✔️        |
 | **Missings**              |             | ❌             | ❌              | ❌        | ✔️         |
-| **Ramas No Binarias**     | ❌         | ❌             |                  | ✔️        | ✔️         | 
+| **Ramas No Binarias**     | ❌         | ❌             | ✔️               | ✔️        | ✔️         | 
 | **Para clasificación**    | ✔️         | ✔️             |                  | ✔️        | ✔️         |
 | **Para regresión**        | ❌         | ✔️             |                  |            |            |
 | **Criterío para split**   | Chi-square | GINI index      | Information Gain | Gain Ratio | Gain Ratio |
