@@ -245,30 +245,25 @@
 </table>
 
 
-<!-----------------------------------  🗄️ EXTRA ----------------------------------->
+<!-----------------------------------  EXTRA ----------------------------------->
 <!--
-<table>
-  <tr>
-    <th rowspan="5"><h3>🗄️<a href="#">EXTRA</a></h3></th>
-    <td>Efficient Pandas (H20 datatable, reduce memory...)</td>
-  </tr>
-  <tr><td>Big data (Distributed ML, Pyspark)</td></tr>
-  <tr><td>GPU ML (RAPIDS, cuDF, cuML)</td></tr>
-  <tr><td>ML in production (API,etc)</td></tr>
-  <tr><td>Sonido (clasificacion, clasificacion temporal, separar fuentes)</td></tr>
-</table>
 
+- Modelos de instancia (knn)
+- Modelos bayesianos
+- Modelos genéticos/evolutivos
+- Aprendizaje por refuerzo
+- Recommenders
+  - Recommender systems
+  - Next Product to Buy (NPtB)
+  - Collaborative Filtering
+- Sonido
+  - clasificacion
+  - clasificacion temporal
+  - separar fuentes)
+- ML en producción
+  - APIs
+- Efficient Pandas (H20 datatable, reduce memory...)
 
-
-- **Ditributed ML**: Pyspark
-  - [A Neanderthal’s Guide to pyspark](https://towardsdatascience.com/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427)
-  - [collaborative filtering with Pyspark](https://www.kaggle.com/vchulski/tutorial-collaborative-filtering-with-pyspark)
-- **ML on the GPU**: RAPIDS (cuDF & cuML)
-
-Modelos de instancia (knn)
-Modelos bayesianos
-Modelos genéticos/evolutivos
-Aprendizaje por refuerzo
 -->
 
 ## Aprende más con:
