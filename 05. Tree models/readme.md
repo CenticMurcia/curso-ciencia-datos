@@ -115,6 +115,11 @@ In theory are just as fast to train as random forests, but in practice you will 
 > - 💡: For Gradient Boosting maybe is better to do early stopping rather than set a fixed number of trees.
 
 
+### Regularized Greedy Forest (RGF)
+
+> - Paper: [Learning Nonlinear Functions Using Regularized Greedy Forest](https://arxiv.org/pdf/1109.0887.pdf)
+> - https://www.kaggle.com/carlmcbrideellis/introduction-to-the-regularized-greedy-forest
+
 ### Neural Network
 
 Take the longest time to train, and require extra preprocessing such as normalisation; this normalisation needs to be used at inference time as well. They can provide great results, and extrapolate well, but only if you are careful with your hyperparameters, and are careful to avoid overfitting.
