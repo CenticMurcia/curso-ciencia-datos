@@ -43,9 +43,18 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
   - Tipos de datos de las variables: `df.info()`
   - Estadísticas de las variables numéricas: `df.describe()`
   - Estadísticas de las variables categóricas: `df.describe(include=['object', 'bool'])`
-- **Filtrar filas**:
-  - Un filtro: `df[ condition ]`
-  - Muchos filtros: `df[ (condition1) & (condition2)]`
+- Selección
+  - Seleccionar una variable (columna): `df["miVariable"]` o `df.miVariable`
+  - Seleccionar varias variables: `df[["miVariable", "otraVariable", "terceraVar"]`
+  - Seleccionar una celda por variable y fila: `df["miVariable"][0]` 
+- Selección filtrando:
+  - Recuerda que una condición nos devuelve para cada fila `True` o `False`:
+    - Condición de *igualdad*: `df.pais == "España"`
+    - Condicion de *mayor que*: `df.edad > 18`
+    - Condicion de *está en*: `df.pais.isin(["España", "Italia"])`
+    - Condición de *missing*: `df.price.isnull()`
+  - Selección con filtro: `df[ df.pais=="España" ]`
+  - Selección con varios filtros: `df[ (df.pais == "España") & (df.edad > 18")]` (`&` para AND, `|` para OR)
 - Información de las variables **numéricas**:
   - Mínimo `df.num_var.min()`
   - Máximo `df.num_var.max()`
