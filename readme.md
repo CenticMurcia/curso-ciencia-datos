@@ -18,13 +18,13 @@
     <td><a href=""><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
-    <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Pandas.ipynb">1.3 Pandas</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Pandas.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Pandas%20(adult%20dataset).ipynb">1.3 Pandas</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Pandas%20(adult%20dataset).ipynb"><img src="img/colab.svg"/></a></td>
     <td><a href=""><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
-    <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.4%20Ejercicio.ipynb">1.4 Ejercicio</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.4%20Ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.4%20Ejercicio%20(titanic%20dataset).ipynb">1.4 Ejercicio</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.4%20Ejercicio%20(titanic%20dataset).ipynb"><img src="img/colab.svg"/></a></td>
     <td><a href=""><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
@@ -123,11 +123,11 @@
   <!----------------------------------- 🌳 5. Tree models ----------------------------------->
   <tr>
     <th width="250" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Modelos de Árboles</a></h3><img src="img/4tree.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="05.%20Tree%20models/2.1%20EDA.ipynb">5.1 EDA</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.1%20EDA.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="350"><a href="/05.%20Tree%20models/2.2%20Decission%20tree.ipynb">5.1 Decission Tree (CART)</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/05.%20Tree%20models/2.2%20Decission%20tree.ipynb">5.2 Decission Tree</a></td>
+    <td><a href="/05.%20Tree%20models/2.2%20Decission%20tree.ipynb">5.2 Decission Tree (C4.5, M5)</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
