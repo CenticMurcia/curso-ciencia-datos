@@ -29,53 +29,67 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 
 
 
-## Resumen de Pandas
+# Resumen de Pandas
 - Una tabla es un **dataframe** en Pandas.
 - Una columna es una **serie** en Pandas.
 - [Leer y guardar dataframes](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html):
   - Leer desde CSV: `df = pd.read_csv("filepath o url")`
-- Podemos obtener información sobre el dataframe:
-  - Primeras 10 filas: `df.head(10)`
-  - Últimas 7 filas: `df.tail(7)`
-  - 13 filas aleatorias: `df.sample(13)`
-  - Número de filas y variables: `df.shape`
-  - Nombres de las variables: `df.columns`
-  - Tipos de datos de las variables: `df.info()`
-  - Estadísticas de las variables numéricas: `df.describe()`
-  - Estadísticas de las variables categóricas: `df.describe(include=['object', 'bool'])`
-- Selección
-  - Seleccionar una variable (columna): `df["miVariable"]` o `df.miVariable`
-  - Seleccionar varias variables: `df[["miVariable", "otraVariable", "terceraVar"]`
-  - Seleccionar una celda por variable y fila: `df["miVariable"][0]` 
+
+### Información sobre el dataframe:
+- Primeras 10 filas: `df.head(10)`
+- Últimas 7 filas: `df.tail(7)`
+- 13 filas aleatorias: `df.sample(13)`
+- Número de filas y variables: `df.shape`
+- Nombres de las variables: `df.columns`
+- Tipos de datos de las variables: `df.info()`
+- Estadísticas de las variables numéricas: `df.describe()`
+- Estadísticas de las variables categóricas: `df.describe(include=['object', 'bool'])`
+
+### Selección
+- Seleccionar una variable (columna): `df["miVariable"]` o `df.miVariable`
+- Seleccionar varias variables: `df[["miVariable", "otraVariable", "terceraVar"]`
+- Seleccionar una celda por variable y fila: `df["miVariable"][0]` 
 - Selección filtrando:
   - Recuerda que una condición nos devuelve para cada fila `True` o `False`:
     - Condición de *igualdad*: `df.pais == "España"`
     - Condicion de *mayor que*: `df.edad > 18`
     - Condicion de *está en*: `df.pais.isin(["España", "Italia"])`
-    - Condición de *missing*: `df.price.isnull()`
+    - Condición de *missing*: `df.price.isnull()` (el contrario es `.notnull()`)
   - Selección con filtro: `df[ df.pais=="España" ]`
   - Selección con varios filtros: `df[ (df.pais == "España") & (df.edad > 18")]` (`&` para AND, `|` para OR)
-- Información de las variables **numéricas**:
-  - Mínimo `df.num_var.min()`
-  - Máximo `df.num_var.max()`
-  - Media `df.num_var.mean()`
-  - Mediana `df.num_var.median()`
-  - Desviaci´pn estándar `df.variable.std()`
-- Información de las variables **categórias**:
-  - Categorías (recuento): `df.cat_var.value_counts()`
-  - Categorías (porcentaje): `df.cat_var.value_counts(normalize=True)`
-  - Cruzar 2 variables categóricas: `pd.crosstab(df.cat_var1, df.cat_var2)`
-    - Con márgenes `pd.crosstab(df.cat_var1, df.cat_var2, margins=True)`
-    - En porcentajes totales `pd.crosstab(df.cat_var1, df.cat_var2, normalize=True)`
-    - En porcentajes por fila `pd.crosstab(df.cat_var1, df.cat_var2, normalize="index")`
-    - En porcentajes por columna `pd.crosstab(df.cat_var1, df.cat_var2, normalize="columns")`
-- Variables numéricas con categóricas:
-  - Pivot table: `df.pivot_table([num_var1, num_var2, ...], [cat_var1, cat_var2], aggfunc='mean')`
-- [Aplicar estilo](https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html)
-  - Colorear celdas según su valor (heatmap): `df.style.background_gradient()`
-  - Pintar barras: `df.style.bar(subset=['Var1', 'Var2'], color='#d65f5f')`
 
-## Big Data Pandas
+
+### Añadir y modificar
+- Poner un valor constante en una variable: `df['var'] = 'valor constante'
+- Poner un contador en una variable: `df['index'] = range(len(df))
+
+
+### Variables numéricas
+- Mínimo `df.num_var.min()`
+- Máximo `df.num_var.max()`
+- Media `df.num_var.mean()`
+- Mediana `df.num_var.median()`
+- Desviaci´pn estándar `df.variable.std()`
+
+
+### Variables categórias
+- Categorías (recuento): `df.cat_var.value_counts()`
+- Categorías (porcentaje): `df.cat_var.value_counts(normalize=True)`
+- Categorías (solo nombres) `df.cat_var.unique()`
+- Cruzar 2 variables categóricas: `pd.crosstab(df.cat_var1, df.cat_var2)`
+  - Con márgenes `pd.crosstab(df.cat_var1, df.cat_var2, margins=True)`
+  - En porcentajes totales `pd.crosstab(df.cat_var1, df.cat_var2, normalize=True)`
+  - En porcentajes por fila `pd.crosstab(df.cat_var1, df.cat_var2, normalize="index")`
+  - En porcentajes por columna `pd.crosstab(df.cat_var1, df.cat_var2, normalize="columns")`
+
+### Variables numéricas + categóricas
+- Pivot table: `df.pivot_table([num_var1, num_var2, ...], [cat_var1, cat_var2], aggfunc='mean')`
+
+### [Aplicar estilo](https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html)
+- Colorear celdas según su valor (heatmap): `df.style.background_gradient()`
+- Pintar barras: `df.style.bar(subset=['Var1', 'Var2'], color='#d65f5f')`
+
+### Big Data
 
 Cuando los datos son muy grandes y tardan mucho en ser procesados o directamente no caben en memoria (más gigas en el CSV que en la memoria RAM) estas son las recomendaciones a seguir:
 
