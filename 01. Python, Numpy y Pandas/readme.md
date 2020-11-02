@@ -57,3 +57,9 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 - **Fitering rows**:
   - One filter: `df[ condition ]`
   - Multiple filters: `df[ (condition1) & (condition2)]`
+  
+  
+  
+  
+> #### Fuentes adicionales
+> - [28 Jupyter Notebook tips, tricks and shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts)
