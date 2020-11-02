@@ -125,7 +125,13 @@ Los veremos más adelante, pero la regla general es:
 | **Neural Network**    | Good if lot of data.                 | Keras, Pytorch, Fast.ai    | [blog](https://hackernoon.com/gain-state-of-the-art-results-on-tabular-data-with-deep-learning-and-embedding-layers-a-how-to-guide-r17b36k8) |
 
 
+<h1 align="center">Optimización de hiperparámetros</h1>
 
+Los modelos son configurables y si de cada uno obtenemos su mejor versión para nuestros datos, obtendremos resultados todavía mejores. Esto es lo que se conoce como optimización de hiperparámetros.
+
+> - [Optimización de hiperparámetros en Sklearn](https://scikit-learn.org/stable/modules/grid_search.html)
+> - [Optimización de hiperparámetros con Hyperopt](http://fastml.com/optimizing-hyperparams-with-hyperopt/)
+> - [Guía to Optimización de hiperparámetros para Gradient Boosting](https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python)
 
 <h1 align="center">Métricas</h1>
 
