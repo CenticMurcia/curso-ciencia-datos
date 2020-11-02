@@ -32,6 +32,8 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 ## Resumen de Pandas
 - Una tabla es un **dataframe** en Pandas.
 - Una columna es una **serie** en Pandas.
+- [Leer y guardar dataframes](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html):
+  - Leer desde CSV: `df = pd.read_csv("filepath o url")`
 - Podemos obtener información sobre el dataframe:
   - Primeras 10 filas: `df.head(10)`
   - Últimas 7 filas: `df.tail(7)`
@@ -60,13 +62,13 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
     - En porcentajes por columna `pd.crosstab(df.cat_var1, df.cat_var2, normalize="columns")`
 - Variables numéricas con categóricas:
   - Pivot table: `df.pivot_table([num_var1, num_var2, ...], [cat_var1, cat_var2], aggfunc='mean')`
-- Colorear dataframe
-  - Pintar gradiente:
-  - Pintar barras:
+- [Aplicar estilo](https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html)
+  - Colorear celdas según su valor (heatmap): `df.style.background_gradient()`
+  - Pintar barras: `df.style.bar(subset=['Var1', 'Var2'], color='#d65f5f')`
 
 ## Big Data Pandas
 
-Cuando los datos son muy grandes y tardan mucho en ser procesados o directamente no caben en memoria (más gigas en el CSV que en la memoria RAM). Para estos casos existen recomendaciones a seguir:
+Cuando los datos son muy grandes y tardan mucho en ser procesados o directamente no caben en memoria (más gigas en el CSV que en la memoria RAM) estas son las recomendaciones a seguir:
 
 - Una manera de aligerar los cálculos es disminuir el tamaño que ocupa nuestro dataframe. Convirtiendo enteros y floats de 32 y 64 bits a 8 y 16 bits, podemos reducir mucho el tamaño. `.astype('int32')`, `.astype('flaot32')`
 - Si guardas los datos en formato binario (como `.npy`) serán más rápidos de leer que en texto planto (como `.csv`).
