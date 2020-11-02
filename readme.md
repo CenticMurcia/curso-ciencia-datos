@@ -271,9 +271,13 @@ Modelos genéticos/evolutivos
 Aprendizaje por refuerzo
 -->
 
-## Top 3 best resources:
-1. [**Mlcourse.ai**](http://mlcourse.ai) (advanced)
-2. [**Kaggle learn**](https://www.kaggle.com/learn) (easy)
-3. [**Fast.ai ML**](http://course18.fast.ai/ml) (easy)
+## Aprende más con:
+- [**Kaggle learn**](https://www.kaggle.com/learn) (fácil)
+- [**Mlcourse.ai**](http://mlcourse.ai) (avanzado)
+- [**Coursera: How to Win a Data Science Competition: Learn from Top Kagglers**](https://www.coursera.org/learn/competitive-data-science) (avanzado)
+- [**Fast.ai**](http://fast.ai)
+  - [Curso 2020 de Deep Larning](https://course.fast.ai): Solo parte 1 debido al covid
+  - [Curso 2019 de Deep Larning](https://course19.fast.ai): Parte 1 (fácil) y 2 (avanzado)
+  - [Curso 2018 de Machine Larning](http://course18.fast.ai/ml)
 
 
