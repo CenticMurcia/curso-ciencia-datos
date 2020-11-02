@@ -169,7 +169,9 @@ La selección del **conjunto de validación** es una de la cosas más importante
 > - [Validación en Sklearn](https://scikit-learn.org/stable/modules/cross_validation.html)
 > - [Consejos para validar en una competición](http://www.chioka.in/how-to-select-your-final-models-in-a-kaggle-competitio/)
 
-## Preprocesamiento
+
+
+<h1 align="center">Preprocesamiento</h1>
 
 <table>
   <tr>
@@ -281,3 +283,12 @@ La ingeniería de características (Feature Engineering) es la **generación** d
 
 > - [Discover Feature Engineering, How to Engineer Features and How to Get Good at It](https://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/)
 > - [Discussion of feature engineering on Quora](https://www.quora.com/What-are-some-best-practices-in-Feature-Engineering)
+
+
+<h1 align="center">Fuga de datos</h1>
+
+La fuga de datos conocida como **Data Leakage** en inglés, es cuando se introducen datos los cuales son imposibles de disponer en la vida real.
+
+> - [Perfect score script](https://www.kaggle.com/olegtrott/the-perfect-score-script) used to probe leaderboard
+> - [Page about data leakages on Kaggle](https://www.kaggle.com/docs/competitions#leakage)
+> - [A​nother page about data leakages on Kaggle](https://www.kaggle.com/dansbecker/data-leakage)
