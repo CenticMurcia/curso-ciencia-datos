@@ -126,6 +126,13 @@ Los veremos más adelante, pero la regla general es:
 
 
 
+
+<h1 align="center">Métricas</h1>
+
+
+## Métricas de clasificación
+- AUC no es derivable
+
 ## Métricas de regresión
 
 | Mean Absolute Error (MAE)   |  Mean Squared Error (MSE) |
@@ -144,12 +151,26 @@ Los veremos más adelante, pero la regla general es:
 | **r**    | Spearman's Rank Correlation Coef |                                      | ❌        | |
 | **p**    | Pearson Correlation Coef         |                                      | ?          | |
 
-#### Fuentes
-- https://safjan.com/kaggle-evaluation-metrics-used-for-regression-problems/
 
 
-## Métricas de clasificación
-- AUC no es derivable
+> #### Información adicional
+>
+> - Métricas de Clasificación
+>   - [Evaluation Metrics for Classification Problems: Quick Examples + References](https://queirozf.com/entries/evaluation-metrics-for-classification-quick-examples-references)
+>   - [Decision Trees: “Gini” vs. “Entropy” criteria](https://www.garysieling.com/blog/sklearn-gini-vs-entropy-criteria)
+>   - [Understanding ROC curves](http://www.navan.name/roc)
+> - Métricas de Regresión
+>   - [Metrics used for regression](https://safjan.com/kaggle-evaluation-metrics-used-for-regression-problems)
+> - Métricas de Ranking
+>   - [Learning to Rank Overview](https://wellecks.wordpress.com/2015/01/15/learning-to-rank-overview/)
+>   - Paper [Learning to Rank using Gradient Descent](https://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf): Original paper about pairwise method for AUC optimization
+>   - Paper [From RankNet to LambdaRank to LambdaMART](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf): Overview of further developments of RankNet
+>   - [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib): Implementación de los 2 papers anteriores.
+> - Métricas de Clustering
+>   - Paper [Evaluation metrics for clustering](http://nlp.uned.es/docs/amigo2007a.pdf)
+
+
+
 
 
 <h1 align="center">Validación</h1>
