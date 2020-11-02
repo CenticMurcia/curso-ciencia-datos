@@ -37,8 +37,8 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
   - Últimas 7 filas: `df.tail(7)`
   - 13 filas aleatorias: `df.sample(13)`
   - Número de filas y variables: `df.shape`
-  - Nombre de las variables: `df.columns`
-  - Tipos de variables: `df.info()`
+  - Nombres de las variables: `df.columns`
+  - Tipos de datos de las variables: `df.info()`
   - Estadísticas de las variables numéricas: `df.describe()`
   - Estadísticas de las variables categóricas: `df.describe(include=['object', 'bool'])`
 - **Filtrar filas**:
