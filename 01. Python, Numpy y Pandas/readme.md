@@ -47,38 +47,36 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 
 ### Selección
 - Seleccionar una variable (columna): `df["miVariable"]` o `df.miVariable`
-- Seleccionar varias variables: `df[["miVariable", "otraVariable", "terceraVar"]`
+- Seleccionar varias variables: `df[["miVariable", "otraVariable", "terceraVar"]]`
 - Seleccionar una celda por variable y fila: `df["miVariable"][0]` 
-- Selección filtrando:
-  - Recuerda que una condición nos devuelve para cada fila `True` o `False`:
-    - Condición de *igualdad*: `df.pais == "España"`
-    - Condicion de *mayor que*: `df.edad > 18`
-    - Condicion de *está en*: `df.pais.isin(["España", "Italia"])`
-    - Condición de *missing*: `df.price.isnull()` (el contrario es `.notnull()`)
-  - Selección con filtro: `df[ df.pais=="España" ]`
-  - Selección con varios filtros: `df[ (df.pais == "España") & (df.edad > 18")]` (`&` para AND, `|` para OR)
+- Recuerda que una condición nos devuelve para cada fila `True` o `False`:
+  - Condición de *igualdad*: `df.pais == "España"`
+  - Condicion de *mayor que*: `df.edad > 18`
+  - Condicion de *está en*: `df.pais.isin(["España", "Italia"])`
+  - Condición de *missing*: `df.price.isnull()` (el contrario es `.notnull()`)
+- Seleccionar ciertas filas (1 filtro): `df[ df.pais=="España" ]`
+- Seleccionar ciertas filas (N filtros): `df[ (df.pais == "España") & (df.edad > 18")]` (`&` para AND, `|` para OR)
 
 
 ### Añadir y modificar
-- Poner un valor constante en una variable: `df['var'] = 'valor constante'`
-- Poner un contador en una variable: `df['index'] = range(len(df))`
-
+- Nueva variable con valor constante: `df['var'] = 'valor constante'`
+- Nueva variable con un rango: `df['index'] = range(len(df))`
+- Modificar una celda: `df.at[4, 'B'] = 10`
 
 ### Variables numéricas
-- Mínimo `df.num_var.min()`
-- Máximo `df.num_var.max()`
-- Media `df.num_var.mean()`
-- Mediana `df.num_var.median()`
-- Desviación estándar `df.variable.std()`
-- Varianza `df.num_var.var()`
-- Error estándar de la media `df.num_var.sem()`
-- Primero `df.num_var.first()`
-- Último `df.num_var.last()`
-- Enesimo `df.num_var.nth(NUMERO)`
-- Cuartiles `df.num_var.describe()`
-- Recuento `df.num_var.count()`
-- Recuento `df.num_var.size()`
-- Ranking `df.num_var.rank()`
+- Mínimo: `df.num_var.min()`
+- Máximo: `df.num_var.max()`
+- Media: `df.num_var.mean()`
+- Mediana: `df.num_var.median()`
+- Desviación estándar: `df.variable.std()`
+- Varianza: `df.num_var.var()`
+- Error estándar de la media: `df.num_var.sem()`
+- Primero: `df.num_var.first()`
+- Último: `df.num_var.last()`
+- Enesimo: `df.num_var.nth(NUMERO)`
+- Cuartiles: `df.num_var.describe()`
+- Recuento: `df.num_var.count()` o `df.num_var.size()`
+- Ranking: `df.num_var.rank()`
 
 
 ### Variables categórias
@@ -92,7 +90,7 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
   - En porcentajes por columna `pd.crosstab(df.cat_var1, df.cat_var2, normalize="columns")`
 
 ### Variables numéricas + categóricas = agregaciones
-- **Group by**: `df.groupby([cat_var1, cat_var2, ...])[[num_var1, num_var2, ...]].agg(["min", "max", "mean", "std", "first"])`
+- **Group by**: `df.groupby([cat_var1, cat_var2,...])[[num_var1, num_var2,...]].agg(["min", "max", "mean", "std", "first"])`
 - **Pivot table**: `df.pivot_table([num_var1, num_var2, ...], [cat_var1, cat_var2], aggfunc='mean')`
 
 
