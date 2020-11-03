@@ -60,8 +60,8 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 
 
 ### Añadir y modificar
-- Poner un valor constante en una variable: `df['var'] = 'valor constante'
-- Poner un contador en una variable: `df['index'] = range(len(df))
+- Poner un valor constante en una variable: `df['var'] = 'valor constante'`
+- Poner un contador en una variable: `df['index'] = range(len(df))`
 
 
 ### Variables numéricas
@@ -69,7 +69,16 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 - Máximo `df.num_var.max()`
 - Media `df.num_var.mean()`
 - Mediana `df.num_var.median()`
-- Desviaci´pn estándar `df.variable.std()`
+- Desviación estándar `df.variable.std()`
+- Varianza `df.num_var.var()`
+- Error estándar de la media `df.num_var.sem()`
+- Primero `df.num_var.first()`
+- Último `df.num_var.last()`
+- Enesimo `df.num_var.nth(NUMERO)`
+- Cuartiles `df.num_var.describe()`
+- Recuento `df.num_var.count()`
+- Recuento `df.num_var.size()`
+- Ranking `df.num_var.rank()`
 
 
 ### Variables categórias
@@ -83,7 +92,9 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
   - En porcentajes por columna `pd.crosstab(df.cat_var1, df.cat_var2, normalize="columns")`
 
 ### Variables numéricas + categóricas
-- Pivot table: `df.pivot_table([num_var1, num_var2, ...], [cat_var1, cat_var2], aggfunc='mean')`
+- **Group by**: `df.groupby([cat_var1, cat_var2, ...])[[num_var1, num_var2, ...]].agg(["min", "max", "mean", "std", "first"])`
+- **Pivot table**: `df.pivot_table([num_var1, num_var2, ...], [cat_var1, cat_var2], aggfunc='mean')`
+
 
 ### [Aplicar estilo](https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html)
 - Colorear celdas según su valor (heatmap): `df.style.background_gradient()`
