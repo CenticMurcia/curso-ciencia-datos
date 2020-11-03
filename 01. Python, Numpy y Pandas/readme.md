@@ -98,7 +98,9 @@ Cuando los datos son muy grandes y tardan mucho en ser procesados o directamente
 - Más consejos en [Enhancing performance](https://pandas.pydata.org/pandas-docs/stable/user_guide/enhancingperf.html) y [Scaling to large datasets](https://pandas.pydata.org/pandas-docs/stable/user_guide/scale.html).
 - H20 dispone de un paquete llamado [datatable](https://github.com/h2oai/datatable) que es un poco más eficiente que pandas.
 
+---
   
-  
-> #### Fuentes adicionales
+> ## Material adicional
+> - [Curso Kaggle de Python](https://www.kaggle.com/learn/python)
+> - [Curso Kaggle de Pandas](https://www.kaggle.com/learn/pandas)
 > - [28 Jupyter Notebook tips, tricks and shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts)
