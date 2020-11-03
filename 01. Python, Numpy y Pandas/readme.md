@@ -91,7 +91,7 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
   - En porcentajes por fila `pd.crosstab(df.cat_var1, df.cat_var2, normalize="index")`
   - En porcentajes por columna `pd.crosstab(df.cat_var1, df.cat_var2, normalize="columns")`
 
-### Variables numéricas + categóricas
+### Variables numéricas + categóricas = agregaciones
 - **Group by**: `df.groupby([cat_var1, cat_var2, ...])[[num_var1, num_var2, ...]].agg(["min", "max", "mean", "std", "first"])`
 - **Pivot table**: `df.pivot_table([num_var1, num_var2, ...], [cat_var1, cat_var2], aggfunc='mean')`
 
