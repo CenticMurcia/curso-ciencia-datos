@@ -1,6 +1,3 @@
-> TO-DO:
-> - Añadir al EDA avnazado: [Biclustering algorithms for sorting corrplots](https://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html)
-
 
 <p align="center"><img src="../img/miniaturas YT/2-EDA.png" height="200px"></p>
 
@@ -45,6 +42,33 @@ Otros
 
 <h1 align="center">📊 Gráficas</h1>
 <h4 align="center">Ver <a href="https://python-graph-gallery.com">Python Graph Gallery</a> y <a href="https://www.data-to-viz.com">From Data to Viz</a></h4>
+
+
+# Análisis Univariante
+
+# Análisis Bivariante
+
+
+# Análisis Multivariante
+
+### Matrix de distancias
+Calcular **distancias entre las variables** y guardarlas en una matriz de tamaño num_variables x num_variables:
+- **Matriz de correlación** (cuánto se paracen las variables entre si)
+  - Standard correlation coefficient: `df.corr()` o `df.corr(method='pearson')`
+  - Spearman rank correlation: `df.corr(method='spearman')`
+  - Kendall Tau correlation coefficient: `df.corr(method='kendall')`
+- Cuántas veces una variable es más grande que otra.
+- Cuántas combinaciones distintas tienen 2 variables.
+
+Una vez calculadas estas matrices de correlación (o cualquer otra matriz personalizada) podemos **ordenarla para encontrar grupos** gracias a [Biclustering algorithms for sorting corrplots](https://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html)
+
+### Plot de una agragación
+
+
+### Reducción dimensional
+
+
+
 
 ### Variable numérica: Distribución
 
@@ -96,8 +120,7 @@ Otros
     <td>df.plot.scatter()<br>plt.scatter()<br>sns.scatterplot()</td>
     <td></td>
     <td></td>
-    <td>plt.imshow(np)<br>sns.heatmap(df)
-    </td>
+    <td>plt.matshow(np)<br>plt.imshow(np)<br>sns.heatmap(df)</td>
     <td>df.plot.hexbin()</td>
     <td>scatter_matrix(df)<br>sns.pairplot()</td>
   </tr>
