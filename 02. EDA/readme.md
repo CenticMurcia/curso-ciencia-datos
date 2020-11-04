@@ -118,7 +118,7 @@ Calcular **distancias entre N variables** y guardarlas en una matriz de tamaño 
   - Cuántas veces una variable es más grande que otra.
   - Cuántas combinaciones distintas tienen 2 variables.
 
-Una vez calculadas estas matrices de correlación (o cualquer otra matriz personalizada) podemos **ordenarla para encontrar grupos** gracias a [Biclustering algorithms for sorting corrplots](https://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html)
+Una vez calculadas estas matrices de correlación (o cualquer otra matriz personalizada) podemos **ordenarla para encontrar grupos** gracias a [Biclustering algorithms for sorting corrplots](https://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html), [otra forma de clustering](https://wil.yegelwel.com/cluster-correlation-matrix/)
 
 | Matriz de correlación    | Matriz de correlación ordenada por grupos |
 |--------------------------|-------------------------------------------|
