@@ -44,33 +44,9 @@ Otros
 <h4 align="center">Ver <a href="https://python-graph-gallery.com">Python Graph Gallery</a> y <a href="https://www.data-to-viz.com">From Data to Viz</a></h4>
 
 
-# Análisis Univariante
+<h1 align="center">Análisis Univariante</h1>
 
-# Análisis Bivariante
-
-
-# Análisis Multivariante
-
-### Matrix de distancias
-Calcular **distancias entre las variables** y guardarlas en una matriz de tamaño num_variables x num_variables:
-- **Matriz de correlación** (cuánto se paracen las variables entre si)
-  - Standard correlation coefficient: `df.corr()` o `df.corr(method='pearson')`
-  - Spearman rank correlation: `df.corr(method='spearman')`
-  - Kendall Tau correlation coefficient: `df.corr(method='kendall')`
-- Cuántas veces una variable es más grande que otra.
-- Cuántas combinaciones distintas tienen 2 variables.
-
-Una vez calculadas estas matrices de correlación (o cualquer otra matriz personalizada) podemos **ordenarla para encontrar grupos** gracias a [Biclustering algorithms for sorting corrplots](https://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html)
-
-### Plot de una agragación
-
-
-### Reducción dimensional
-
-
-
-
-### Variable numérica: Distribución
+## Variable numérica: Distribución
 
 <table>
 <tr>
@@ -98,7 +74,10 @@ Una vez calculadas estas matrices de correlación (o cualquer otra matriz person
 </tr>
 </table>
 
-### Variable numérica + variable numérica
+<h1 align="center">Análisis Bivariante</h1>
+
+
+## Variable numérica + variable numérica
 <table>
   <tr>
     <td><img src="https://python-graph-gallery.com/wp-content/uploads/ScatterPlotBig-150x150.png"      width="100px"/></td>
@@ -125,6 +104,58 @@ Una vez calculadas estas matrices de correlación (o cualquer otra matriz person
     <td>scatter_matrix(df)<br>sns.pairplot()</td>
   </tr>
 </table>
+
+<h1 align="center">Análisis Multivariante</h1>
+
+
+## Matriz de correlación
+Calcular **distancias entre N variables** y guardarlas en una matriz de tamaño NxN.
+- **Correlación** (cuánto se paracen las variables entre si)
+  - Standard correlation coefficient: `df.corr()` o `df.corr(method='pearson')`
+  - Spearman rank correlation: `df.corr(method='spearman')`
+  - Kendall Tau correlation coefficient: `df.corr(method='kendall')`
+- A parte de la correlación, se pueden calcular otras matrices:
+  - Cuántas veces una variable es más grande que otra.
+  - Cuántas combinaciones distintas tienen 2 variables.
+
+Una vez calculadas estas matrices de correlación (o cualquer otra matriz personalizada) podemos **ordenarla para encontrar grupos** gracias a [Biclustering algorithms for sorting corrplots](https://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html)
+
+| Matriz de correlación    | Matriz de correlación ordenada por grupos |
+|--------------------------|-------------------------------------------|
+| ![](img/corr.png)        | ![](img/corr_sorted.png)                  |
+| `sns.heatmap(df.corr())` | `sns.heatmap(cluster_corr(df.corr()))`    |
+
+```python
+import scipy
+import scipy.cluster.hierarchy as sch
+
+def cluster_corr(corr_array, inplace=False):
+    pairwise_distances = sch.distance.pdist(corr_array)
+    linkage = sch.linkage(pairwise_distances, method='complete')
+    cluster_distance_threshold = pairwise_distances.max()/2
+    idx_to_cluster_array = sch.fcluster(linkage, cluster_distance_threshold, criterion='distance')
+    idx = np.argsort(idx_to_cluster_array)
+    
+    if not inplace:
+        corr_array = corr_array.copy()
+    
+    if isinstance(corr_array, pd.DataFrame):
+        return corr_array.iloc[idx, :].T.iloc[idx, :]
+    return corr_array[idx, :][:, idx]
+ ```
+
+### Plot de una agragación
+
+| Media de cada variable      | Media de cada variable (ordenada)         |
+|-----------------------------|-------------------------------------------|
+| ![](img/agg.png)            | ![](img/agg_sorted.png)                   |
+| `df.mean().plot(style=".")` | `df.mean().sort_values().plot(style=".")` |
+
+
+### Reducción dimensional
+
+
+
 
 
 ### Ranking
