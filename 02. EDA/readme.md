@@ -242,6 +242,41 @@ def cluster_corr(corr_array, inplace=False):
 </table>
 
 
+# ❓ Missing values
+
+- Missings de cada **celda** `df.isnull()`
+  - Plot `sb.heatmap(df.isnull())`
+- Missings de cada **variable** `df.isnull().sum(axis=0)` o `df.isnull().sum()`
+  - Ordenados: `df.isnull().sum().sort_values(ascending=False)`
+  - En porcentaje: `df.isnull().sum() / len(df) * 100`
+- Missings de cada **fila** `df.isnull().sum(axis=1)`
+
+### Paquete [missingno](https://github.com/ResidentMario/missingno)
+```python
+import missingno
+```
+
+<table>
+<tr>
+  <td><img src="https://camo.githubusercontent.com/d59ba9e511fd42dd078b8c8829d3de3f6a7e1585/68747470733a2f2f692e696d6775722e636f6d2f675775584b45722e706e67"/></td>
+  <td><img src="https://camo.githubusercontent.com/ce48f2e7236c83739baaf4885a93deb115970512/68747470733a2f2f692e696d6775722e636f6d2f32427845664f722e706e67"/></td>
+</tr>
+  <tr>
+    <th>missingno.matrix(df)</th>
+    <th>missingno.bar(df)</th>
+  </tr>
+</table>
+
+<table>
+<tr>
+  <td><img src="https://camo.githubusercontent.com/196fbc6986234a1d6289ee2bcd7e72c82531433e/68747470733a2f2f692e696d6775722e636f6d2f4a616c534b79452e706e67"/></td>
+  <td><img src="https://camo.githubusercontent.com/a3a6db2d24520a2a21318a1918f6d276566a41e4/68747470733a2f2f692e696d6775722e636f6d2f6f4969523463742e706e67"/></td>
+</tr>
+  <tr>
+    <th>missingno.heatmap(df)</th>
+    <th>missingno.dendrogram(df)</th>
+  </tr>
+</table>
 
 
 ## EDA automático
