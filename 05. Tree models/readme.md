@@ -13,6 +13,10 @@
     <td>Sklearn proprocina muchos modelos de árbol como DecisionTree, RandomForest, ExtraTrees, AdaBoost y GradientBoosting. Lo malo de esta librería es que todos lo modelos corren sobre CPU y no GPU</td>
   </tr>
   <tr>
+    <th width="200"><a href="https://github.com/parrt/dtreeviz"><h2>dtreeviz</h2></a></th>
+    <td>dtreeviz es una librería para dibujar árboles de decisión. Actualmente tiene soporte para scikit-learn y XGBoost./td>
+  </tr>
+  <tr>
     <th width="200"><a href="https://github.com/rapidsai/cuml"><img src="../img/logos/Rapids.png"/></a></th>
     <td>La librería CuML de RAPIDS ofrece una implentación de RandomForest haciendo uso de la GPU para construir varios árboles en paralelo.</td>
   </tr>
