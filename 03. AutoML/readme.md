@@ -21,7 +21,7 @@
     <td></td>
   </tr>
   <tr>
-    <th><a href="https://github.com/mljar/mljar-supervised"><img src="../img/logos/MLJar.png"/></a></th>
+    <th><a href="https://github.com/mljar/mljar-supervised"><img src="../img/logos/MLjar.png"/></a></th>
     <td>MLjar Supervised es una herramienta de AutMl de codigo abierto de MLjar</td>
   </tr>
 </table>
