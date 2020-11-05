@@ -82,8 +82,9 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 ### Variables categórias
 - Categorías (recuento): `df.cat_var.value_counts()`
   - Categorías (porcentaje): `df.cat_var.value_counts(normalize=True)`
-- Categorías (cuantas hay) `df.cat_var.nunique()`
-  - Categorías (cuantas hay respecto al maximo) `df.cat_var.nunique()/len(df)`
+- Categorías (cuantas hay para cada var) `df.nunique()`
+  - Categorías (cuantas hay respecto al maximo) `df.nunique()/len(df)`
+  - Categorías (cuantas hay de una var) `df.cat_var.nunique()`
 - Categorías (solo nombres) `df.cat_var.unique()`  
 - Cruzar 2 variables categóricas: `pd.crosstab(df.cat_var1, df.cat_var2)`
   - Con márgenes `pd.crosstab(df.cat_var1, df.cat_var2, margins=True)`
