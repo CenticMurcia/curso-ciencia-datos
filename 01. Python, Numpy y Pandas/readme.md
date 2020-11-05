@@ -83,6 +83,7 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 - Categorías (recuento): `df.cat_var.value_counts()`
   - Categorías (porcentaje): `df.cat_var.value_counts(normalize=True)`
 - Categorías (cuantas hay para cada var) `df.nunique()`
+  - Plot `df.nunique().sort_values().plot.barh()`
   - Categorías (cuantas hay respecto al maximo) `df.nunique()/len(df)`
   - Categorías (cuantas hay de una var) `df.cat_var.nunique()`
 - Categorías (solo nombres) `df.cat_var.unique()`  
