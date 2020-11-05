@@ -25,9 +25,10 @@ AutoML trata de encontrar convinaciones de modelos y de hiperparámetros que max
 5. AutoML crea un conjunto estable de modelos para aumentar la puntuación si es posible
 
 ### Herramientas de AutoML
-![](../img/logos/H2O-AutoML.jpg)
 
-| ![](../img/logos/H2O-AutoML.jpg)
+| ![](../img/logos/H2O-AutoML.jpg) | ![](../img/logos/PyCaret.png) | ![](../img/logos/TPOT.jpg) |
+|--|--|--|
+|  |  |  |
 
 
 # Pycaret
