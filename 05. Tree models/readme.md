@@ -14,7 +14,7 @@
   </tr>
   <tr>
     <th width="200"><h1><a href="https://github.com/parrt/dtreeviz">dtreeviz</a></h1></th>
-    <td>dtreeviz es una librería para dibujar árboles de decisión. Actualmente tiene soporte para scikit-learn y XGBoost./td>
+    <td>dtreeviz es una librería para dibujar árboles de decisión. Actualmente tiene soporte para scikit-learn y XGBoost.</td>
   </tr>
   <tr>
     <th width="200"><a href="https://github.com/rapidsai/cuml"><img src="../img/logos/Rapids.png"/></a></th>
