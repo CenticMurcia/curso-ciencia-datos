@@ -74,6 +74,44 @@ Otros
 </tr>
 </table>
 
+
+## Variable Numérica: Evolución
+<table>
+  <tr>
+    <td><img src="https://python-graph-gallery.com/wp-content/uploads/LineBig-150x150.png"        width="100px"/></td>
+    <td><img src="https://python-graph-gallery.com/wp-content/uploads/AreaBig-150x150.png"        width="100px"/></td>
+    <td><img src="https://python-graph-gallery.com/wp-content/uploads/StackedAreaBig-150x150.png" width="100px"/></td>
+    <td><img src="https://python-graph-gallery.com/wp-content/uploads/StreamBig-150x150.png"      width="100px"/></td>
+  </tr>
+  <tr>
+    <th>Line chart</th>
+    <th>Area chart</th>
+    <th>Stacked area chart</th>
+    <th>Stream graph</th>
+  </tr>
+</table>
+
+El grafico de index vs value, es decir, el numero de la fila contra el valor de la variable es especialmente util para:
+- Ver la evolucion de una variable, si hay alg'un patron temporal
+- Ver si el dataset fue mezlado o no (shuffled)
+
+<table>
+  <tr>
+    <td><img src="img/index1.png"/></td>
+    <td><img src="img/index2.png"/></td>
+    <td><img src="img/index3.png"/></td>
+  </tr>
+  <tr>
+    <td>plt.plot(x,".")</td>
+    <td>plt.scatter(range(len(x)), x, c=y)</td>
+  </tr>
+</table>
+
+
+
+
+
+
 <h1 align="center">Análisis Bivariante</h1>
 
 
@@ -203,21 +241,6 @@ def cluster_corr(corr_array, inplace=False):
   </tr>
 </table>
 
-### Evolución temporal
-<table>
-  <tr>
-    <td><img src="https://python-graph-gallery.com/wp-content/uploads/LineBig-150x150.png"        width="100px"/></td>
-    <td><img src="https://python-graph-gallery.com/wp-content/uploads/AreaBig-150x150.png"        width="100px"/></td>
-    <td><img src="https://python-graph-gallery.com/wp-content/uploads/StackedAreaBig-150x150.png" width="100px"/></td>
-    <td><img src="https://python-graph-gallery.com/wp-content/uploads/StreamBig-150x150.png"      width="100px"/></td>
-  </tr>
-  <tr>
-    <th>Line chart</th>
-    <th>Area chart</th>
-    <th>Stacked area chart</th>
-    <th>Stream graph</th>
-  </tr>
-</table>
 
 
 
