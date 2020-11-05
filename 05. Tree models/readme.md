@@ -13,7 +13,7 @@
     <td>Sklearn proprocina muchos modelos de árbol como DecisionTree, RandomForest, ExtraTrees, AdaBoost y GradientBoosting. Lo malo de esta librería es que todos lo modelos corren sobre CPU y no GPU</td>
   </tr>
   <tr>
-    <th width="200"><a href="https://github.com/parrt/dtreeviz"><h2>dtreeviz</h2></a></th>
+    <th width="200"><h1><a href="https://github.com/parrt/dtreeviz">dtreeviz</a></h1></th>
     <td>dtreeviz es una librería para dibujar árboles de decisión. Actualmente tiene soporte para scikit-learn y XGBoost./td>
   </tr>
   <tr>
