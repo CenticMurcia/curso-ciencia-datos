@@ -54,7 +54,7 @@
 
 ---
 
-### Árbol de Decisión (DT)
+# Árbol de Decisión (DT)
  
 <p align="center"><img width="75%" src="img/DT.png" /></p>
 
@@ -81,6 +81,15 @@
 > - XGBoost usa CART.
 
 
+### Visualización del Árbol de Decisión con `dtreeviz`
+
+| [Arbol de clasificación](https://github.com/parrt/dtreeviz#classification-decision-tree) | [Arbol de regresión](https://github.com/parrt/dtreeviz#regression-decision-tree)       | 
+|---------------------------|---------------------------|
+| ![](img/dtreeviz-cls.svg) | ![](img/dtreeviz-reg.svg) |
+
+
+
+
 ### Árbol de Decisión + Modelo Lineal = M5
 
 Existe una variante rara del árbol de decisión llamada **Model Tree** o **M5** (M5P en Weka) que consiste en un árbol donde **las hojas son modelos** (como una regresión lineal) en lugar de constantes. [Implementación en Python](https://github.com/ankonzoid/LearningX/tree/master/advanced_ML/model_tree).
@@ -88,13 +97,13 @@ Existe una variante rara del árbol de decisión llamada **Model Tree** o **M5**
 <p align="center"><img src="img/m5.png" width="50%"></p>
 
 
-### Random Forest (RF)
+# Random Forest (RF)
 
 Are the easiest to train, because they are extremely resilient to hyperparameter choices, and require very little preprocessing. They are very fast to train, and should not overfit, if you have enough trees. But, they can be a little less accurate, especially if extrapolation is required, such as predicting future time periods
 
 <p align="center"><img width="75%" src="img/RF.png" /></p>
 
-### Gradient Boosting (GBM)
+# Gradient Boosting (GBM)
 
 In theory are just as fast to train as random forests, but in practice you will have to try lots of different hyperparameters. They can overfit. At inference time they will be less fast, because they cannot operate in parallel. But they are often a little bit more accurate than random forests.
 
