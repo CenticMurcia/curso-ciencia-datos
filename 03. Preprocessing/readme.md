@@ -318,4 +318,10 @@ La fuga de datos conocida como **Data Leakage** en inglés, es cuando se introdu
 
 > - [Perfect score script](https://www.kaggle.com/olegtrott/the-perfect-score-script) used to probe leaderboard
 > - [Page about data leakages on Kaggle](https://www.kaggle.com/docs/competitions#leakage)
-> - [A​nother page about data leakages on Kaggle](https://www.kaggle.com/dansbecker/data-leakage)
+> - [Another page about data leakages on Kaggle](https://www.kaggle.com/dansbecker/data-leakage)
+
+<h1 align="center">AutoML</h1>
+
+- H2O
+- PyCaret
+- TPOT
