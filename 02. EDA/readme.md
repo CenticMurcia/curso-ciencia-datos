@@ -147,6 +147,13 @@ El grafico de index vs value, es decir, el numero de la fila contra el valor de 
 
 
 ## Matriz de correlación
+
+| Entre variables                  | Método                      | Código                      |
+|----------------------------------|-----------------------------|-----------------------------|
+| **numérica** vs **numérica**     |  Pearson, Spearman, Kendall | `df.corr(method="pearson/spearman/kendall")` |
+| **categórica** vs **categórica** |  Uncertainty coefficient    | |
+| **categórica** vs **numérica**   |  Correlation ratio          | |
+
 Calcular **distancias entre N variables** y guardarlas en una matriz de tamaño NxN.
 - **Correlación** (cuánto se paracen las variables entre si)
   - Standard correlation coefficient: `df.corr()` o `df.corr(method='pearson')`
