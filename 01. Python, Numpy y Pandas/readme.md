@@ -51,17 +51,22 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 - Seleccionar una celda por variable y fila: `df["miVariable"][0]` 
 - Recuerda que una condición nos devuelve para cada fila `True` o `False`:
   - Condición de *igualdad*: `df.pais == "España"`
-  - Condicion de *mayor que*: `df.edad > 18`
-  - Condicion de *está en*: `df.pais.isin(["España", "Italia"])`
+  - Condición de *mayor que*: `df.edad > 18`
+  - Condición de *está en*: `df.pais.isin(["España", "Italia"])`
   - Condición de *missing*: `df.price.isnull()` (el contrario es `.notnull()`)
 - Seleccionar ciertas filas (1 filtro): `df[ df.pais=="España" ]`
 - Seleccionar ciertas filas (N filtros): `df[ (df.pais == "España") & (df.edad > 18")]` (`&` para AND, `|` para OR)
-
 
 ### Añadir y modificar
 - Nueva variable con valor constante: `df['var'] = 'valor constante'`
 - Nueva variable con un rango: `df['index'] = range(len(df))`
 - Modificar una celda: `df.at[4, 'B'] = 10`
+
+
+### Variables numéricas
+- Lista de las vars categórias: `cat_vars  = list(df.select_dtypes(include=["category", "object", "bool"]).columns)`
+- Lista de las vars numéricas:  `num_vars  = list(df.select_dtypes(exclude=["category", "object", "bool", "datetime64"]).columns)`
+- Lista de las vars temporales: `time_vars = list(df.select_dtypes(include=['datetime64']).columns)`
 
 ### Variables numéricas
 - Mínimo: `df.num_var.min()`

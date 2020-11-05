@@ -153,7 +153,7 @@ Calcular **distancias entre N variables** y guardarlas en una matriz de tamaño 
   - Spearman rank correlation: `df.corr(method='spearman')`
   - Kendall Tau correlation coefficient: `df.corr(method='kendall')`
 - A parte de la correlación, se pueden calcular otras matrices:
-  - Cuántas veces una variable es más grande que otra.
+  - Cuántas veces una variable es más grande que otra. `fn = mean(feat1 > feat2)`
   - Cuántas combinaciones distintas tienen 2 variables.
 
 Una vez calculadas estas matrices de correlación (o cualquer otra matriz personalizada) podemos **ordenarla para encontrar grupos** gracias a [Biclustering algorithms for sorting corrplots](https://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html), [otra forma de clustering](https://wil.yegelwel.com/cluster-correlation-matrix/)
