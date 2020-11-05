@@ -20,6 +20,10 @@
     <th><a href="http://epistasislab.github.io/tpot/"><img src="../img/logos/TPOT.jpg"/></a></th>
     <td></td>
   </tr>
+  <tr>
+    <th><a href="https://github.com/mljar/mljar-supervised"><img src="../img/logos/MLJar.png"/></a></th>
+    <td>MLjar Supervised es una herramienta de AutMl de codigo abierto de MLjar</td>
+  </tr>
 </table>
 
 
