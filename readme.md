@@ -39,12 +39,12 @@
   <!----------------------------------- 📊 2. EDA ----------------------------------->
   <tr>
     <th width="250" rowspan="5"><h3><a href="/02.%20EDA">2. EDA y gráficas</a></h3><img src="img/2eda.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/02.%20EDA/2.1%20EDA%20teoria.ipynb">2.1 EDA básico con Pandas y Matplotib</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20teoria.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="350"><a href="/02.%20EDA/2.1%20EDA%20sencillo%20con%20Pandas%20(churn%20ds).ipynb">2.1 EDA básico con Pandas y Matplotib</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20sencillo%20con%20Pandas%20(churn%20ds).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb">2.2 EDA avanzado con Seaborn</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/02.%20EDA/2.2%20EDA%20avanzado%20con%20Seaborn%20(churn%20ds).ipynb">2.2 EDA avanzado con Seaborn</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.2%20EDA%20avanzado%20con%20Seaborn%20(churn%20ds).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/02.%20EDA/2.2%20EDA%20teoria%20extra.ipynb">2.3 EDA interactivo con Altair y Plotly</a></td>
