@@ -150,14 +150,30 @@ El grafico de index vs value, es decir, el numero de la fila contra el valor de 
 
 **Correlación**: cuánto se paracen las variables entre sí. Es decir, calcular **distancias entre N variables** y guardarlas en una matriz de tamaño NxN. Existen distintas formas de calcularla:
 
-| Entre variables                                 | Método                               | Rango   | Código                   |
-|-------------------------------------------------|--------------------------------------|---------|--------------------------|
-| **numérica**   vs **numérica**                  |  Pearson, Spearman, Kendall          | [-1, 1] | `df.corr(method="pearson/spearman/kendall")` |
-| **categórica** vs **categórica** (simétrica)    |  Cramér's V (Cramér's phi)           | [0, 1]  |                       |
-| **categórica** vs **categórica** (no simétrica) |  Theil’s U (Uncertainty coefficient) | [0, 1]  |                       |
-| **categórica** vs **numérica**                  |  Correlation ratio                   | [0, 1]  |                       |
+| Entre variables                                 | Método                               | Rango   |
+|-------------------------------------------------|--------------------------------------|---------|
+| **numérica**   vs **numérica**                  |  Pearson, Spearman, Kendall          | [-1, 1] |
+| **categórica** vs **categórica** (simétrica)    |  Cramér's V (Cramér's phi)           | [0, 1]  |
+| **categórica** vs **categórica** (no simétrica) |  Theil’s U (Uncertainty coefficient) | [0, 1]  |
+| **categórica** vs **numérica**                  |  Correlation ratio                   | [0, 1]  |
 
 > [The Search for Categorical Correlation](https://towardsdatascience.com/the-search-for-categorical-correlation-a1cf7f1888c9)
+
+La funcion `df.corr()` de `pandas` sólo calcula la correlacion entre las variables numéricas:
+- Standard correlation coefficient: `df.corr()` o `df.corr(method='pearson')`
+- Spearman rank correlation: `df.corr(method='spearman')`
+- Kendall Tau correlation coefficient: `df.corr(method='kendall')`
+  
+La funcion `associations(df)` del paquete `dython` calcula todas las correlaciones de la siguiente manera:
+- **Pearson** para los pares continuous-continuous.
+- **Correlation Ratio** para los pares categorical-continuous.
+- **Cramer's V** o **Theil's U** para los pares categorical-categorical.
+
+```python
+from dython.nominal import associations
+
+associations(df, theil_u=True, figsize=(15, 15));
+```
 
 Otra forma de calcualar la corrlacion de variables categ'oricas como numérricas es convertiral a OneHot con `df_oh = pd.get_dummies(df)`
 
