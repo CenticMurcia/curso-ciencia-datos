@@ -148,6 +148,8 @@ El grafico de index vs value, es decir, el numero de la fila contra el valor de 
 
 ## Matriz de correlación
 
+**Correlación**: cuánto se paracen las variables entre sí. Es decir, calcular **distancias entre N variables** y guardarlas en una matriz de tamaño NxN. Existen distintas formas de calcularla:
+
 | Entre variables                                 | Método                               | Rango   | Código                   |
 |-------------------------------------------------|--------------------------------------|---------|--------------------------|
 | **numérica**   vs **numérica**                  |  Pearson, Spearman, Kendall          | [-1, 1] | `df.corr(method="pearson/spearman/kendall")` |
@@ -155,42 +157,21 @@ El grafico de index vs value, es decir, el numero de la fila contra el valor de 
 | **categórica** vs **categórica** (no simétrica) |  Theil’s U (Uncertainty coefficient) | [0, 1]  |                       |
 | **categórica** vs **numérica**                  |  Correlation ratio                   | [0, 1]  |                       |
 
-Calcular **distancias entre N variables** y guardarlas en una matriz de tamaño NxN.
-- **Correlación** (cuánto se paracen las variables entre si)
-  - Standard correlation coefficient: `df.corr()` o `df.corr(method='pearson')`
-  - Spearman rank correlation: `df.corr(method='spearman')`
-  - Kendall Tau correlation coefficient: `df.corr(method='kendall')`
+Otra forma de calcualar la corrlacion de variables categ'oricas como numérricas es convertiral a OneHot con `df_oh = pd.get_dummies(df)`
+
 - A parte de la correlación, se pueden calcular otras matrices:
   - Cuántas veces una variable es más grande que otra. `fn = mean(feat1 > feat2)`
   - Cuántas combinaciones distintas tienen 2 variables.
 
-Una vez calculadas estas matrices de correlación (o cualquer otra matriz personalizada) podemos **ordenarla para encontrar grupos** gracias a [Biclustering algorithms for sorting corrplots](https://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html), [otra forma de clustering](https://wil.yegelwel.com/cluster-correlation-matrix/)
+Una vez calculada la matriz de correlación se puede **ordenar por grupos** gracias al clustering. Seaborn lo hace por nosostros con `clustermap`.
 
 | Matriz de correlación    | Matriz de correlación ordenada por grupos |
 |--------------------------|-------------------------------------------|
 | ![](img/corr.png)        | ![](img/corr_sorted.png)                  |
-| `sns.heatmap(df.corr())` | `sns.heatmap(cluster_corr(df.corr()))`    |
+| `sb.heatmap(df.corr())`  | `clustermap(df.corr())`                   |
 
-```python
-import scipy
-import scipy.cluster.hierarchy as sch
 
-def cluster_corr(corr_array, inplace=False):
-    pairwise_distances = sch.distance.pdist(corr_array)
-    linkage = sch.linkage(pairwise_distances, method='complete')
-    cluster_distance_threshold = pairwise_distances.max()/2
-    idx_to_cluster_array = sch.fcluster(linkage, cluster_distance_threshold, criterion='distance')
-    idx = np.argsort(idx_to_cluster_array)
-    
-    if not inplace:
-        corr_array = corr_array.copy()
-    
-    if isinstance(corr_array, pd.DataFrame):
-        return corr_array.iloc[idx, :].T.iloc[idx, :]
-    return corr_array[idx, :][:, idx]
- ```
-
-### Plot de una agragación
+## Plot de una agragación
 
 | Media de cada variable      | Media de cada variable (ordenada)         |
 |-----------------------------|-------------------------------------------|
@@ -198,7 +179,7 @@ def cluster_corr(corr_array, inplace=False):
 | `df.mean().plot(style=".")` | `df.mean().sort_values().plot(style=".")` |
 
 
-### Reducción dimensional
+## Reducción dimensional
 
 
 
