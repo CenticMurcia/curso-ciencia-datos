@@ -157,6 +157,8 @@ El grafico de index vs value, es decir, el numero de la fila contra el valor de 
 | **categórica** vs **categórica** (no simétrica) |  Theil’s U (Uncertainty coefficient) | [0, 1]  |                       |
 | **categórica** vs **numérica**                  |  Correlation ratio                   | [0, 1]  |                       |
 
+> [The Search for Categorical Correlation](https://towardsdatascience.com/the-search-for-categorical-correlation-a1cf7f1888c9)
+
 Otra forma de calcualar la corrlacion de variables categ'oricas como numérricas es convertiral a OneHot con `df_oh = pd.get_dummies(df)`
 
 - A parte de la correlación, se pueden calcular otras matrices:
