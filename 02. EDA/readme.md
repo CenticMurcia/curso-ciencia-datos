@@ -172,7 +172,7 @@ La funcion `associations(df)` del paquete `dython` calcula todas las correlacion
 ```python
 from dython.nominal import associations
 
-associations(df, theil_u=True, figsize=(15, 15));
+associations(df, theil_u=True, figsize=(15, 15), mark_columns=True);
 ```
 
 Otra forma de calcualar la corrlacion de variables categ'oricas como numérricas es convertiral a OneHot con `df_oh = pd.get_dummies(df)`
