@@ -148,11 +148,12 @@ El grafico de index vs value, es decir, el numero de la fila contra el valor de 
 
 ## Matriz de correlación
 
-| Entre variables                  | Método                      | Código                      |
-|----------------------------------|-----------------------------|-----------------------------|
-| **numérica** vs **numérica**     |  Pearson, Spearman, Kendall | `df.corr(method="pearson/spearman/kendall")` |
-| **categórica** vs **categórica** |  Uncertainty coefficient    | |
-| **categórica** vs **numérica**   |  Correlation ratio          | |
+| Entre variables                                 | Método                               | Rango   | Código                   |
+|-------------------------------------------------|--------------------------------------|---------|--------------------------|
+| **numérica**   vs **numérica**                  |  Pearson, Spearman, Kendall          | [-1, 1] | `df.corr(method="pearson/spearman/kendall")` |
+| **categórica** vs **categórica** (simétrica)    |  Cramér's V (Cramér's phi)           | [0, 1]  |                       |
+| **categórica** vs **categórica** (no simétrica) |  Theil’s U (Uncertainty coefficient) | [0, 1]  |                       |
+| **categórica** vs **numérica**                  |  Correlation ratio                   | [0, 1]  |                       |
 
 Calcular **distancias entre N variables** y guardarlas en una matriz de tamaño NxN.
 - **Correlación** (cuánto se paracen las variables entre si)
