@@ -63,22 +63,29 @@ Pandas permiten leer y escribir datos en diferentes formatos (CSV, Excel, SQL,..
 - Modificar una celda: `df.at[4, 'B'] = 10`
 
 
-### Variables numéricas
-- Lista de las vars categórias: `cat_vars  = list(df.select_dtypes(include=["category", "object", "bool"]).columns)`
-- Lista de las vars numéricas:  `num_vars  = list(df.select_dtypes(exclude=["category", "object", "bool", "datetime64"]).columns)`
-- Lista de las vars temporales: `time_vars = list(df.select_dtypes(include=['datetime64']).columns)`
+### Distinguir vars numérica/categorias/fechas/texto
+1. Mediante `select_dtypes` 
+   - Lista de las vars categórias:   `cat_vars  = list(df.select_dtypes(include=["category", "object", "bool"]).columns)`
+   - Lista de las vars numéricas:    `num_vars  = list(df.select_dtypes(exclude=["category", "object", "bool", "datetime64"]).columns)`
+   - Lista de las vars fecha y hora: `time_vars = list(df.select_dtypes(include=['datetime64']).columns)`
+2. Mediante `dtypes` 
+   - Lista de las vars categórias:    `cat_vars  = df.dtypes[df.dtypes == "object"].index`
+   - Lista de las vars numéricas:     `num_vars  = df.dtypes[df.dtypes != "object"].index`
 
 ### Variables numéricas
-- Mínimo: `df.num_var.min()`
-- Máximo: `df.num_var.max()`
-- Media: `df.num_var.mean()`
-- Mediana: `df.num_var.median()`
-- Desviación estándar: `df.variable.std()`
-- Varianza: `df.num_var.var()`
-- Error estándar de la media: `df.num_var.sem()`
-- Primero: `df.num_var.first()`
-- Último: `df.num_var.last()`
-- Enesimo: `df.num_var.nth(NUMERO)`
+- Agregaciones escalares
+  - Mínimo: `df.num_var.min()`
+  - Máximo: `df.num_var.max()`
+  - Media: `df.num_var.mean()`
+  - Mediana: `df.num_var.median()`
+  - Desviación estándar: `df.variable.std()`
+  - Varianza: `df.num_var.var()`
+  - Error estándar de la media: `df.num_var.sem()`
+  - Skewness: `df.num_var.skew()`
+  - Kurtosis: `df.num_var.kurt()`
+  - Primero: `df.num_var.first()`
+  - Último: `df.num_var.last()`
+  - Enesimo: `df.num_var.nth(NUMERO)`
 - Cuartiles: `df.num_var.describe()`
 - Recuento: `df.num_var.count()` o `df.num_var.size()`
 - Ranking: `df.num_var.rank()`
