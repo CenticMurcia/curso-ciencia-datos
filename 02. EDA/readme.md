@@ -74,6 +74,25 @@ Otros
 </tr>
 </table>
 
+> ### Probplots
+> Una forma más avanzada de ver si la distribucion sigue una distribución normal, son los probability plots (o simplemente probplots). Existen 2 tipos
+> - QQ plot: "Quantile-Quantile" plot
+> - PP plot:
+>
+> ![](img/probplot.png)
+>
+> ```python
+> import scipy.stats as stats
+> stats.probplot(x=df.variable, dist=stats.norm(), plot=plt)
+> ```
+> Ejercicio: Coger una varible con distribucion no normal, palicarle el **log** y el **boxcox** para ver cual ajusta mejor a una distr normal.
+
+> ### Skewness `.skew()`
+> Otra forma de ver si la variable no sigue una distribucion normal es ver su Skewness.
+>
+> ```python
+> skewed_feats = df[num_feats].apply(lambda x: x.dropna().skew()).sort_values(ascending=False)
+> ```
 
 ## Variable Numérica: Evolución
 <table>
