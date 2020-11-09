@@ -68,28 +68,28 @@
   <tr>
     <th width="250" rowspan="6"><h3><a href="/03.%20Preprocessing">3. Introducción al ML</a></h3>
     <img src="img/3prepro.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/04.%20Linear%20models/3.1%20Linear%20Regression.ipynb">3.1 Definición del problema y métricas</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="350"><a href="/03.%20AutoML/1.%20AutoML%20con%20H2O%20(adult).ipynb">3.1 AutoML con H2O (clasificación)</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20AutoML/1.%20AutoML%20con%20H2O%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.2 Selección del conjunto de validación</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/03.%20AutoML/2.%20AutoML%20con%20H2O%20(houses).ipynb">3.2 AutoML con H2O (regresión)</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20AutoML/2.%20AutoML%20con%20H2O%20(houses).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/3.4%20Regularization.ipynb">3.3 Preprocesamiento y valores perdidos</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/03.%20AutoML/3.%20AutoML%20con%20Pycaret%20(adult).ipynb">3.3 AutoML con PyCaret (clasificación)</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20AutoML/3.%20AutoML%20con%20Pycaret%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb">3.4 AutoML con H2O</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/03.%20AutoML/4.%20AutoML%20con%20Pycaret%20(houses).ipynb">3.4 AutoML con PyCaret (regresión)</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20AutoML/4.%20AutoML%20con%20Pycaret%20(houses).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/3.4%20Regularization.ipynb">3.5 Ejercicio</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/03.%20AutoML/5.%20Ejercicio%20(Pycaret).ipynb">3.5 Ejercicio</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20AutoML/5.%20Ejercicio%20(Pycaret).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/3.5%20Polynomial%20regression.ipynb">3.6 Solución</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/3.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/03.%20AutoML/6.%20Solución%20(Pycaret).ipynb">3.6 Solución</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20AutoML/6.%20Solución%20(Pycaret).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
