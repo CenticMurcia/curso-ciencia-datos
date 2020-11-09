@@ -1,0 +1,679 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#!pip install h2o"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'3.30.1.3'"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "from sklearn.model_selection import train_test_split\n",
+    "\n",
+    "import h2o\n",
+    "from h2o.automl import H2OAutoML\n",
+    "\n",
+    "h2o.__version__"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Checking whether there is an H2O instance running at http://localhost:54321 ..... not found.\n",
+      "Attempting to start a local H2O server...\n",
+      "  Java Version: openjdk version \"14.0.2\" 2020-07-14; OpenJDK Runtime Environment (build 14.0.2+12); OpenJDK 64-Bit Server VM (build 14.0.2+12, mixed mode)\n",
+      "  Starting server from /usr/lib/python3.8/site-packages/h2o/backend/bin/h2o.jar\n",
+      "  Ice root: /tmp/tmpnfocy_ea\n",
+      "  JVM stdout: /tmp/tmpnfocy_ea/h2o_javi_started_from_python.out\n",
+      "  JVM stderr: /tmp/tmpnfocy_ea/h2o_javi_started_from_python.err\n",
+      "  Server is running at http://127.0.0.1:54321\n",
+      "Connecting to H2O server at http://127.0.0.1:54321 ... successful.\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<div style=\"overflow:auto\"><table style=\"width:50%\"><tr><td>H2O_cluster_uptime:</td>\n",
+       "<td>01 secs</td></tr>\n",
+       "<tr><td>H2O_cluster_timezone:</td>\n",
+       "<td>Europe/Madrid</td></tr>\n",
+       "<tr><td>H2O_data_parsing_timezone:</td>\n",
+       "<td>UTC</td></tr>\n",
+       "<tr><td>H2O_cluster_version:</td>\n",
+       "<td>3.30.1.3</td></tr>\n",
+       "<tr><td>H2O_cluster_version_age:</td>\n",
+       "<td>1 month and 11 days </td></tr>\n",
+       "<tr><td>H2O_cluster_name:</td>\n",
+       "<td>H2O_from_python_javi_2wlf59</td></tr>\n",
+       "<tr><td>H2O_cluster_total_nodes:</td>\n",
+       "<td>1</td></tr>\n",
+       "<tr><td>H2O_cluster_free_memory:</td>\n",
+       "<td>3.898 Gb</td></tr>\n",
+       "<tr><td>H2O_cluster_total_cores:</td>\n",
+       "<td>4</td></tr>\n",
+       "<tr><td>H2O_cluster_allowed_cores:</td>\n",
+       "<td>4</td></tr>\n",
+       "<tr><td>H2O_cluster_status:</td>\n",
+       "<td>accepting new members, healthy</td></tr>\n",
+       "<tr><td>H2O_connection_url:</td>\n",
+       "<td>http://127.0.0.1:54321</td></tr>\n",
+       "<tr><td>H2O_connection_proxy:</td>\n",
+       "<td>{\"http\": null, \"https\": null}</td></tr>\n",
+       "<tr><td>H2O_internal_security:</td>\n",
+       "<td>False</td></tr>\n",
+       "<tr><td>H2O_API_Extensions:</td>\n",
+       "<td>Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4</td></tr>\n",
+       "<tr><td>Python_version:</td>\n",
+       "<td>3.8.6 final</td></tr></table></div>"
+      ],
+      "text/plain": [
+       "--------------------------  ------------------------------------------------------------------\n",
+       "H2O_cluster_uptime:         01 secs\n",
+       "H2O_cluster_timezone:       Europe/Madrid\n",
+       "H2O_data_parsing_timezone:  UTC\n",
+       "H2O_cluster_version:        3.30.1.3\n",
+       "H2O_cluster_version_age:    1 month and 11 days\n",
+       "H2O_cluster_name:           H2O_from_python_javi_2wlf59\n",
+       "H2O_cluster_total_nodes:    1\n",
+       "H2O_cluster_free_memory:    3.898 Gb\n",
+       "H2O_cluster_total_cores:    4\n",
+       "H2O_cluster_allowed_cores:  4\n",
+       "H2O_cluster_status:         accepting new members, healthy\n",
+       "H2O_connection_url:         http://127.0.0.1:54321\n",
+       "H2O_connection_proxy:       {\"http\": null, \"https\": null}\n",
+       "H2O_internal_security:      False\n",
+       "H2O_API_Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4\n",
+       "Python_version:             3.8.6 final\n",
+       "--------------------------  ------------------------------------------------------------------"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "h2o.init()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Leer datos"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Filas dataset: 48842\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>age</th>\n",
+       "      <th>workclass</th>\n",
+       "      <th>fnlwgt</th>\n",
+       "      <th>education</th>\n",
+       "      <th>educational-num</th>\n",
+       "      <th>marital-status</th>\n",
+       "      <th>occupation</th>\n",
+       "      <th>relationship</th>\n",
+       "      <th>race</th>\n",
+       "      <th>gender</th>\n",
+       "      <th>capital-gain</th>\n",
+       "      <th>capital-loss</th>\n",
+       "      <th>hours-per-week</th>\n",
+       "      <th>native-country</th>\n",
+       "      <th>income</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>25</td>\n",
+       "      <td>Private</td>\n",
+       "      <td>226802</td>\n",
+       "      <td>11th</td>\n",
+       "      <td>7</td>\n",
+       "      <td>Never-married</td>\n",
+       "      <td>Machine-op-inspct</td>\n",
+       "      <td>Own-child</td>\n",
+       "      <td>Black</td>\n",
+       "      <td>Male</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>40</td>\n",
+       "      <td>United-States</td>\n",
+       "      <td>&lt;=50K</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>38</td>\n",
+       "      <td>Private</td>\n",
+       "      <td>89814</td>\n",
+       "      <td>HS-grad</td>\n",
+       "      <td>9</td>\n",
+       "      <td>Married-civ-spouse</td>\n",
+       "      <td>Farming-fishing</td>\n",
+       "      <td>Husband</td>\n",
+       "      <td>White</td>\n",
+       "      <td>Male</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>50</td>\n",
+       "      <td>United-States</td>\n",
+       "      <td>&lt;=50K</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>28</td>\n",
+       "      <td>Local-gov</td>\n",
+       "      <td>336951</td>\n",
+       "      <td>Assoc-acdm</td>\n",
+       "      <td>12</td>\n",
+       "      <td>Married-civ-spouse</td>\n",
+       "      <td>Protective-serv</td>\n",
+       "      <td>Husband</td>\n",
+       "      <td>White</td>\n",
+       "      <td>Male</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>40</td>\n",
+       "      <td>United-States</td>\n",
+       "      <td>&gt;50K</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>44</td>\n",
+       "      <td>Private</td>\n",
+       "      <td>160323</td>\n",
+       "      <td>Some-college</td>\n",
+       "      <td>10</td>\n",
+       "      <td>Married-civ-spouse</td>\n",
+       "      <td>Machine-op-inspct</td>\n",
+       "      <td>Husband</td>\n",
+       "      <td>Black</td>\n",
+       "      <td>Male</td>\n",
+       "      <td>7688</td>\n",
+       "      <td>0</td>\n",
+       "      <td>40</td>\n",
+       "      <td>United-States</td>\n",
+       "      <td>&gt;50K</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>18</td>\n",
+       "      <td>?</td>\n",
+       "      <td>103497</td>\n",
+       "      <td>Some-college</td>\n",
+       "      <td>10</td>\n",
+       "      <td>Never-married</td>\n",
+       "      <td>?</td>\n",
+       "      <td>Own-child</td>\n",
+       "      <td>White</td>\n",
+       "      <td>Female</td>\n",
+       "      <td>0</td>\n",
+       "      <td>0</td>\n",
+       "      <td>30</td>\n",
+       "      <td>United-States</td>\n",
+       "      <td>&lt;=50K</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   age  workclass  fnlwgt     education  educational-num      marital-status  \\\n",
+       "0   25    Private  226802          11th                7       Never-married   \n",
+       "1   38    Private   89814       HS-grad                9  Married-civ-spouse   \n",
+       "2   28  Local-gov  336951    Assoc-acdm               12  Married-civ-spouse   \n",
+       "3   44    Private  160323  Some-college               10  Married-civ-spouse   \n",
+       "4   18          ?  103497  Some-college               10       Never-married   \n",
+       "\n",
+       "          occupation relationship   race  gender  capital-gain  capital-loss  \\\n",
+       "0  Machine-op-inspct    Own-child  Black    Male             0             0   \n",
+       "1    Farming-fishing      Husband  White    Male             0             0   \n",
+       "2    Protective-serv      Husband  White    Male             0             0   \n",
+       "3  Machine-op-inspct      Husband  Black    Male          7688             0   \n",
+       "4                  ?    Own-child  White  Female             0             0   \n",
+       "\n",
+       "   hours-per-week native-country income  \n",
+       "0              40  United-States  <=50K  \n",
+       "1              50  United-States  <=50K  \n",
+       "2              40  United-States   >50K  \n",
+       "3              40  United-States   >50K  \n",
+       "4              30  United-States  <=50K  "
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df = pd.read_csv(\"../data/adult.csv\")\n",
+    "print(\"Filas dataset:\", len(df))\n",
+    "df.head()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Simple split"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Filas train: 39073\n",
+      "Filas valid: 9769\n"
+     ]
+    }
+   ],
+   "source": [
+    "train_df, valid_df = train_test_split(df, test_size=0.2, random_state=0)\n",
+    "print(\"Filas train:\", len(train_df))\n",
+    "print(\"Filas valid:\", len(valid_df))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Pandas dataframe -> H2OFrame"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Parse progress: |█████████████████████████████████████████████████████████| 100%\n",
+      "Parse progress: |█████████████████████████████████████████████████████████| 100%\n"
+     ]
+    }
+   ],
+   "source": [
+    "train = h2o.H2OFrame(train_df)\n",
+    "valid = h2o.H2OFrame(valid_df)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "h2o.frame.H2OFrame"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(train)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Identify predictors and response"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = train.columns\n",
+    "y = \"income\"\n",
+    "x.remove(y)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### For binary classification, response should be a factor"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "train[y] = train[y].asfactor()\n",
+    "valid[y] = valid[y].asfactor()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Run AutoML for 20 base models (limited to 1 hour max runtime by default)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "AutoML progress: |█████████\n",
+      "00:59:39.283: GLM_1_AutoML_20201109_005928 [GLM def_1] failed: java.lang.ArrayIndexOutOfBoundsException: Index 108 out of bounds for length 108\n",
+      "\n",
+      "███████████████████████████████████████████████| 100%\n"
+     ]
+    }
+   ],
+   "source": [
+    "#aml = H2OAutoML(max_models=20, seed=1)\n",
+    "aml = H2OAutoML(max_runtime_secs=60, seed=1)\n",
+    "aml.train(x=x, y=y, training_frame=train)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### View the AutoML Leaderboard & Print all rows instead of default (10 rows)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table>\n",
+       "<thead>\n",
+       "<tr><th>model_id                                           </th><th style=\"text-align: right;\">     auc</th><th style=\"text-align: right;\">  logloss</th><th style=\"text-align: right;\">   aucpr</th><th style=\"text-align: right;\">  mean_per_class_error</th><th style=\"text-align: right;\">    rmse</th><th style=\"text-align: right;\">      mse</th><th style=\"text-align: right;\">  training_time_ms</th><th style=\"text-align: right;\">  predict_time_per_row_ms</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "<tr><td>StackedEnsemble_AllModels_AutoML_20201109_005928   </td><td style=\"text-align: right;\">0.927723</td><td style=\"text-align: right;\"> 0.292806</td><td style=\"text-align: right;\">0.827902</td><td style=\"text-align: right;\">              0.166309</td><td style=\"text-align: right;\">0.3005  </td><td style=\"text-align: right;\">0.0903002</td><td style=\"text-align: right;\">               744</td><td style=\"text-align: right;\">                 0.009978</td></tr>\n",
+       "<tr><td>XGBoost_grid__1_AutoML_20201109_005928_model_1     </td><td style=\"text-align: right;\">0.927094</td><td style=\"text-align: right;\"> 0.27878 </td><td style=\"text-align: right;\">0.826159</td><td style=\"text-align: right;\">              0.165372</td><td style=\"text-align: right;\">0.297596</td><td style=\"text-align: right;\">0.0885634</td><td style=\"text-align: right;\">               766</td><td style=\"text-align: right;\">                 0.002606</td></tr>\n",
+       "<tr><td>XGBoost_grid__1_AutoML_20201109_005928_model_2     </td><td style=\"text-align: right;\">0.926758</td><td style=\"text-align: right;\"> 0.280831</td><td style=\"text-align: right;\">0.824903</td><td style=\"text-align: right;\">              0.168921</td><td style=\"text-align: right;\">0.298158</td><td style=\"text-align: right;\">0.0888982</td><td style=\"text-align: right;\">               440</td><td style=\"text-align: right;\">                 0.001754</td></tr>\n",
+       "<tr><td>StackedEnsemble_BestOfFamily_AutoML_20201109_005928</td><td style=\"text-align: right;\">0.926517</td><td style=\"text-align: right;\"> 0.295088</td><td style=\"text-align: right;\">0.825929</td><td style=\"text-align: right;\">              0.17652 </td><td style=\"text-align: right;\">0.301367</td><td style=\"text-align: right;\">0.0908218</td><td style=\"text-align: right;\">               967</td><td style=\"text-align: right;\">                 0.010952</td></tr>\n",
+       "<tr><td>GBM_grid__1_AutoML_20201109_005928_model_1         </td><td style=\"text-align: right;\">0.919502</td><td style=\"text-align: right;\"> 0.296193</td><td style=\"text-align: right;\">0.810398</td><td style=\"text-align: right;\">              0.186483</td><td style=\"text-align: right;\">0.305033</td><td style=\"text-align: right;\">0.0930449</td><td style=\"text-align: right;\">               791</td><td style=\"text-align: right;\">                 0.008236</td></tr>\n",
+       "<tr><td>XGBoost_3_AutoML_20201109_005928                   </td><td style=\"text-align: right;\">0.914775</td><td style=\"text-align: right;\"> 0.309356</td><td style=\"text-align: right;\">0.800393</td><td style=\"text-align: right;\">              0.184067</td><td style=\"text-align: right;\">0.310711</td><td style=\"text-align: right;\">0.0965415</td><td style=\"text-align: right;\">               244</td><td style=\"text-align: right;\">                 0.001134</td></tr>\n",
+       "<tr><td>XGBoost_2_AutoML_20201109_005928                   </td><td style=\"text-align: right;\">0.912949</td><td style=\"text-align: right;\"> 0.327182</td><td style=\"text-align: right;\">0.801585</td><td style=\"text-align: right;\">              0.181528</td><td style=\"text-align: right;\">0.313408</td><td style=\"text-align: right;\">0.0982248</td><td style=\"text-align: right;\">               222</td><td style=\"text-align: right;\">                 0.001477</td></tr>\n",
+       "<tr><td>DeepLearning_grid__1_AutoML_20201109_005928_model_1</td><td style=\"text-align: right;\">0.910293</td><td style=\"text-align: right;\"> 0.315142</td><td style=\"text-align: right;\">0.776294</td><td style=\"text-align: right;\">              0.184127</td><td style=\"text-align: right;\">0.315822</td><td style=\"text-align: right;\">0.0997438</td><td style=\"text-align: right;\">               448</td><td style=\"text-align: right;\">                 0.004429</td></tr>\n",
+       "<tr><td>GBM_4_AutoML_20201109_005928                       </td><td style=\"text-align: right;\">0.910252</td><td style=\"text-align: right;\"> 0.389047</td><td style=\"text-align: right;\">0.775835</td><td style=\"text-align: right;\">              0.181752</td><td style=\"text-align: right;\">0.345921</td><td style=\"text-align: right;\">0.119661 </td><td style=\"text-align: right;\">               192</td><td style=\"text-align: right;\">                 0.002036</td></tr>\n",
+       "<tr><td>DeepLearning_grid__2_AutoML_20201109_005928_model_1</td><td style=\"text-align: right;\">0.90988 </td><td style=\"text-align: right;\"> 0.313713</td><td style=\"text-align: right;\">0.775495</td><td style=\"text-align: right;\">              0.179142</td><td style=\"text-align: right;\">0.316233</td><td style=\"text-align: right;\">0.100003 </td><td style=\"text-align: right;\">               792</td><td style=\"text-align: right;\">                 0.006   </td></tr>\n",
+       "<tr><td>GBM_3_AutoML_20201109_005928                       </td><td style=\"text-align: right;\">0.9097  </td><td style=\"text-align: right;\"> 0.374576</td><td style=\"text-align: right;\">0.771068</td><td style=\"text-align: right;\">              0.185091</td><td style=\"text-align: right;\">0.338877</td><td style=\"text-align: right;\">0.114837 </td><td style=\"text-align: right;\">               186</td><td style=\"text-align: right;\">                 0.002102</td></tr>\n",
+       "<tr><td>GBM_2_AutoML_20201109_005928                       </td><td style=\"text-align: right;\">0.909008</td><td style=\"text-align: right;\"> 0.379682</td><td style=\"text-align: right;\">0.778697</td><td style=\"text-align: right;\">              0.181945</td><td style=\"text-align: right;\">0.340994</td><td style=\"text-align: right;\">0.116277 </td><td style=\"text-align: right;\">               220</td><td style=\"text-align: right;\">                 0.002085</td></tr>\n",
+       "<tr><td>GBM_grid__1_AutoML_20201109_005928_model_2         </td><td style=\"text-align: right;\">0.908892</td><td style=\"text-align: right;\"> 0.383406</td><td style=\"text-align: right;\">0.76541 </td><td style=\"text-align: right;\">              0.173992</td><td style=\"text-align: right;\">0.343665</td><td style=\"text-align: right;\">0.118105 </td><td style=\"text-align: right;\">               166</td><td style=\"text-align: right;\">                 0.001976</td></tr>\n",
+       "<tr><td>GBM_5_AutoML_20201109_005928                       </td><td style=\"text-align: right;\">0.906982</td><td style=\"text-align: right;\"> 0.398513</td><td style=\"text-align: right;\">0.765418</td><td style=\"text-align: right;\">              0.185603</td><td style=\"text-align: right;\">0.35106 </td><td style=\"text-align: right;\">0.123243 </td><td style=\"text-align: right;\">               179</td><td style=\"text-align: right;\">                 0.002072</td></tr>\n",
+       "<tr><td>DeepLearning_1_AutoML_20201109_005928              </td><td style=\"text-align: right;\">0.905368</td><td style=\"text-align: right;\"> 0.319901</td><td style=\"text-align: right;\">0.764603</td><td style=\"text-align: right;\">              0.18987 </td><td style=\"text-align: right;\">0.320373</td><td style=\"text-align: right;\">0.102639 </td><td style=\"text-align: right;\">               212</td><td style=\"text-align: right;\">                 0.002297</td></tr>\n",
+       "<tr><td>GBM_1_AutoML_20201109_005928                       </td><td style=\"text-align: right;\">0.892033</td><td style=\"text-align: right;\"> 0.452875</td><td style=\"text-align: right;\">0.713061</td><td style=\"text-align: right;\">              0.191578</td><td style=\"text-align: right;\">0.381085</td><td style=\"text-align: right;\">0.145226 </td><td style=\"text-align: right;\">                96</td><td style=\"text-align: right;\">                 0.001382</td></tr>\n",
+       "<tr><td>XGBoost_1_AutoML_20201109_005928                   </td><td style=\"text-align: right;\">0.884569</td><td style=\"text-align: right;\"> 0.383958</td><td style=\"text-align: right;\">0.754393</td><td style=\"text-align: right;\">              0.200359</td><td style=\"text-align: right;\">0.343732</td><td style=\"text-align: right;\">0.118152 </td><td style=\"text-align: right;\">               239</td><td style=\"text-align: right;\">                 0.001223</td></tr>\n",
+       "<tr><td>XRT_1_AutoML_20201109_005928                       </td><td style=\"text-align: right;\">0.876793</td><td style=\"text-align: right;\"> 0.733665</td><td style=\"text-align: right;\">0.733422</td><td style=\"text-align: right;\">              0.217246</td><td style=\"text-align: right;\">0.332886</td><td style=\"text-align: right;\">0.110813 </td><td style=\"text-align: right;\">               152</td><td style=\"text-align: right;\">                 0.002367</td></tr>\n",
+       "<tr><td>DRF_1_AutoML_20201109_005928                       </td><td style=\"text-align: right;\">0.836881</td><td style=\"text-align: right;\"> 2.5141  </td><td style=\"text-align: right;\">0.632943</td><td style=\"text-align: right;\">              0.216159</td><td style=\"text-align: right;\">0.360647</td><td style=\"text-align: right;\">0.130066 </td><td style=\"text-align: right;\">               140</td><td style=\"text-align: right;\">                 0.001683</td></tr>\n",
+       "</tbody>\n",
+       "</table>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/plain": []
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lb = h2o.automl.get_leaderboard(aml, extra_columns='ALL')\n",
+    "lb.head(rows=lb.nrows)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "h2o.frame.H2OFrame"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(lb)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Obtener mejor modelo"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "model_names = list(aml.leaderboard['model_id'].as_data_frame().iloc[:,0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "best_ensemble     = h2o.get_model(model_names[0]) # aml.leader\n",
+    "best_single_model = h2o.get_model(model_names[1])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Predecir cjto. de validación"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "stackedensemble prediction progress: |████████████████████████████████████| 100%\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table>\n",
+       "<thead>\n",
+       "<tr><th>predict  </th><th style=\"text-align: right;\">    &lt;=50K</th><th style=\"text-align: right;\">     &gt;50K</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "<tr><td>&lt;=50K    </td><td style=\"text-align: right;\">0.93889  </td><td style=\"text-align: right;\">0.06111  </td></tr>\n",
+       "<tr><td>&gt;50K     </td><td style=\"text-align: right;\">0.0690943</td><td style=\"text-align: right;\">0.930906 </td></tr>\n",
+       "<tr><td>&gt;50K     </td><td style=\"text-align: right;\">0.138125 </td><td style=\"text-align: right;\">0.861875 </td></tr>\n",
+       "<tr><td>&lt;=50K    </td><td style=\"text-align: right;\">0.919674 </td><td style=\"text-align: right;\">0.0803259</td></tr>\n",
+       "<tr><td>&lt;=50K    </td><td style=\"text-align: right;\">0.966672 </td><td style=\"text-align: right;\">0.0333277</td></tr>\n",
+       "<tr><td>&lt;=50K    </td><td style=\"text-align: right;\">0.965194 </td><td style=\"text-align: right;\">0.0348064</td></tr>\n",
+       "<tr><td>&lt;=50K    </td><td style=\"text-align: right;\">0.960347 </td><td style=\"text-align: right;\">0.0396534</td></tr>\n",
+       "<tr><td>&lt;=50K    </td><td style=\"text-align: right;\">0.84884  </td><td style=\"text-align: right;\">0.15116  </td></tr>\n",
+       "<tr><td>&lt;=50K    </td><td style=\"text-align: right;\">0.839788 </td><td style=\"text-align: right;\">0.160212 </td></tr>\n",
+       "<tr><td>&lt;=50K    </td><td style=\"text-align: right;\">0.965421 </td><td style=\"text-align: right;\">0.0345786</td></tr>\n",
+       "</tbody>\n",
+       "</table>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/plain": []
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "preds = best_ensemble.predict(valid)\n",
+    "preds"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Balanced accuracy = 86%"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y_true = (preds.as_data_frame()[\"predict\"]==\">50K\").values\n",
+    "y_pred = (preds.as_data_frame()[\"<=50K\"] < .5).values"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.860096870342772"
+      ]
+     },
+     "execution_count": 58,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "from sklearn.metrics import balanced_accuracy_score\n",
+    "balanced_accuracy_score(y_true, y_pred)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
