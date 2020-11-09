@@ -66,7 +66,7 @@
 <table>
   <!----------------------------------- 3. Introducción al ML ----------------------------------->
   <tr>
-    <th width="250" rowspan="6"><h3><a href="/03.%20Preprocessing">3. Introducción al ML</a></h3>
+    <th width="250" rowspan="6"><h3><a href="/03.%20AutoML">3. Introducción al ML</a></h3>
     <img src="img/3prepro.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/03.%20AutoML/1.%20AutoML%20con%20H2O%20(adult).ipynb">3.1 AutoML con H2O (clasificación)</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20AutoML/1.%20AutoML%20con%20H2O%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
