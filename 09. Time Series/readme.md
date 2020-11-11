@@ -62,3 +62,19 @@ If you successfully made use of previous advises, it's time to move forward and 
 1. Try to carefully tune hyper parameters of your models, maybe there is a better set of parameters for your model out there. But don't spend too much time on it.
 2. Try ensembling. Start with simple averaging of linear model and gradient boosted trees like in programming assignment notebook. And then try to use stacking.
 3. Explore new features! There is a lot of useful information in the data: text descriptions, item categories, seasonal trends.
+
+
+---
+
+# Aprende a extrapolar
+
+[Kaggle discussion](https://www.kaggle.com/questions-and-answers/72639)
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.random.uniform(low=-10, high=10, size=1000) # np.arange(-10, 10, 0.1)
+y = np.sin(x) + np.random.normal(scale=0.2, size=x.shape)
+plt.scatter(x,y, s=5)
+```
