@@ -77,7 +77,7 @@ This is module fits a straight line to your data, where the value of the outcome
 
 # 2. Logistic regression
 
-<p align="center"><img src="img/linear-logistic.jpg" width="60%" ></p>
+<p align="center"><img src="img/logistic.png" width="75%" ></p>
 
 
 Logistic regression is very similar to linear regression but has a categorical outcome instead. So rather than modeling a continuous dependent variable, it models a binary classification - yes or no, true or false, 1 or 0. This is still a linear model as it assumes a linear relationship between the independent variables and the link function.  
