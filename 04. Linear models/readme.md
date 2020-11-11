@@ -54,6 +54,9 @@
 | Nearest Neighbors Regression       | |                               cuml.neighbors.KNeighborsRegressor |
 
 
+<h3 align="center">Clasificación o Regresión?</h3>
+<p align="center"><img src="img/linear-logistic.jpg" width="60%" ></p>
+
 
 # 1. Linear Regression
 
