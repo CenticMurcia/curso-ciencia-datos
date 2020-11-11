@@ -24,21 +24,21 @@
 ---
 
 
-| Model                             |  Sklearn                                | RAPIDS CuML                 |
-|-----------------------------------|-----------------------------------------|-----------------------------|
-| Linear Regression                 | sklearn.linear_model.LinearRegression   | cuml.LinearRegression       |
-| Logistic Regression               | sklearn.linear_model.LogisticRegression | cuml.LogisticRegression     |
-| Ridge Regression                  | sklearn.linear_model.Ridge              | cuml.Ridge                  |
-| Lasso Regression                  | sklearn.linear_model.Lasso              | cuml.Lasso                  |
-| ElasticNet Regression             | sklearn.linear_model.ElasticNet         | cuml.ElasticNet             |
-| MiniBatch SGD Classifier          | sklearn.linear_model.SGDClassifier      | cuml.MBSGDClassifier        |
-| MiniBatch SGD Regressor           | sklearn.linear_model.SGDRegressor       | cuml.MBSGDRegressor         |
-| Mutinomial Naive Bayes            |                                         | cuml.MultinomialNB          |
-| Stochastic Gradient Descent       |                                         | cuml.SGD                    |
-| Coordinate Descent                |                                         | cuml.CD                     |
-| Quasi-Newton                      |                                         | cuml.QN                     |
-| Support Vector Machine Classifier |                                         | cuml.svm.SVC(kernel="linear") |
-| Support Vector Machine Regressor  |                                         | cuml.svm.SVR(kernel="linear") |
+|                                   |  Sklearn (CPU)                            | RAPIDS  (GPU)                   |
+|-----------------------------------|-------------------------------------------|---------------------------------|
+| Linear Regression                 | `sklearn.linear_model.LinearRegression`   | `cuml.LinearRegression`         |
+| Logistic Regression               | `sklearn.linear_model.LogisticRegression` | `cuml.LogisticRegression`       |
+| Ridge Regression                  | `sklearn.linear_model.Ridge`              | `cuml.Ridge`                    |
+| Lasso Regression                  | `sklearn.linear_model.Lasso`              | `cuml.Lasso`                    |
+| ElasticNet Regression             | `sklearn.linear_model.ElasticNet`         | `cuml.ElasticNet`               |
+| MiniBatch SGD Classifier          | `sklearn.linear_model.SGDClassifier`      | `cuml.MBSGDClassifier`          |
+| MiniBatch SGD Regressor           | `sklearn.linear_model.SGDRegressor`       | `cuml.MBSGDRegressor`           |
+| Mutinomial Naive Bayes            |                                           | `cuml.MultinomialNB`            |
+| Stochastic Gradient Descent       |                                           | `cuml.SGD`                      |
+| Coordinate Descent                |                                           | `cuml.CD`                       |
+| Quasi-Newton                      |                                           | `cuml.QN`                       |
+| Support Vector Machine Classifier |                                           | `cuml.svm.SVC(kernel="linear")` |
+| Support Vector Machine Regressor  |                                           | `cuml.svm.SVR(kernel="linear")` |
 
 
 
