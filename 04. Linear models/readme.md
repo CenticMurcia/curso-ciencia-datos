@@ -95,7 +95,7 @@ Visualmente, los coeficientes (w) solo pueden tomar un valor de su eje dentro de
 
 | L1 (LASSO)          | L2 (Ridge)          | Elastic Net               |
 |---------------------|---------------------|---------------------------|
-| ![](/img/lasso.png) | ![](/img/ridge.png) | ![](/img/elastic-net.png) |
+| ![](img/lasso.png)  | ![](img/ridge.png)  | ![](img/elastic-net.png)  |
 | Acerca coefficientes a 0. Good for variable selection | **Más usado**. Makes coefficients smaller | Tradeoff between variable selection and small coefficients |
 | Penalizes the sum of absolute weights | Penalizes the sum of squared weights | Combination of 2 before |
 | `loss + wd * weights.abs().sum()` | `loss + wd * weights.pow(2).sum()` |
