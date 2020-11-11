@@ -1,6 +1,8 @@
 <p align="center"><img src="../img/miniaturas YT/3-Linear.png" height="200px"></p>
 
 
+<img align="right" src="img/xkcd_meme.png">
+
 1. **Linear Regression**: Modelo lineal para regresión
    - How to split the data between training and test
    - Ordinary Least Squares
@@ -20,8 +22,6 @@
    - Generalized Additive Models (GAM)
 
 ---
-- qq plot
-- residual plot
 
 
 | Model                             |  Sklearn                                | RAPIDS CuML                 |
@@ -56,7 +56,6 @@ Nearest Neighbors Regression                                     cuml.neighbors.
 
 <p align="center"><img src="img/LM.png" width="500px"></p>
 
-![](img/xkcd_meme.png)
 
 Linear Regression is a parametric model which predicts a continuous outcome feature (**Y**) from one or more explanatory features (**X**).  
 
@@ -91,7 +90,7 @@ Both linear and logistic regression have a tendancy to overfit when there are a 
 
 This is where ridge and lasso regularization techniques come into play! Both of these techniques can be used to identify which features explain the most variance and should therefore be kept in the model.
 
-Visualmente, los coeficientes (w) solo pueden tomar un valor de su eje dentro de la regiñon azul que más se acerque al mínimo
+Visualmente, los coeficientes (w) solo pueden tomar un valor de su eje dentro de la región azul que más se acerque al mínimo.
 
 | L1 (LASSO)          | L2 (Ridge)          | Elastic Net               |
 |---------------------|---------------------|---------------------------|
