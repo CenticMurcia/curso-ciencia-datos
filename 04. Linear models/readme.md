@@ -24,6 +24,10 @@
 ---
 
 
+### Sowftware
+
+#### Modelos lineales
+
 |                                   |  Sklearn (CPU)                            | RAPIDS  (GPU)                   |
 |-----------------------------------|-------------------------------------------|---------------------------------|
 | Linear Regression                 | `sklearn.linear_model.LinearRegression`   | `cuml.LinearRegression`         |
@@ -41,18 +45,17 @@
 | Support Vector Machine Regressor  |                                           | `cuml.svm.SVR(kernel="linear")` |
 
 
-
-## Non linear
-
-Support Vector Machines Classifier                                cuml.svm.SVC(kernel="rbf")
-Support Vector Machines Regressor                                 cuml.svm.SVR(kernel="rbf")
-
-Nearest Neighbors Classification                                 cuml.neighbors.KNeighborsClassifier
-Nearest Neighbors Regression                                     cuml.neighbors.KNeighborsRegressor
-
+#### Modelos lineales parecidos
+|                                    |  Sklearn (CPU)                            | RAPIDS  (GPU)                   |
+|------------------------------------|-------------------------------------------|---------------------------------|
+| Support Vector Machines Classifier | |                               cuml.svm.SVC(kernel="rbf") |
+| Support Vector Machines Regressor  | |                               cuml.svm.SVR(kernel="rbf") |
+| Nearest Neighbors Classification   | |                               cuml.neighbors.KNeighborsClassifier |
+| Nearest Neighbors Regression       | |                               cuml.neighbors.KNeighborsRegressor |
 
 
-## 3.1 Linear Regression
+
+# 1. Linear Regression
 
 <p align="center"><img src="img/LM.png" width="500px"></p>
 
@@ -69,9 +72,10 @@ This is module fits a straight line to your data, where the value of the outcome
 - [Understanding key regression statistics](http://connor-johnson.com/2014/02/18/linear-regression-with-python/)
 
 
-## 3.2 Logistic regression
+# 2. Logistic regression
 
-<p align="center"><img src="img/linear-logistic.jpg" widht="50%"></p>
+<p align="center"><img src="img/linear-logistic.jpg" width="60%" ></p>
+
 
 Logistic regression is very similar to linear regression but has a categorical outcome instead. So rather than modeling a continuous dependent variable, it models a binary classification - yes or no, true or false, 1 or 0. This is still a linear model as it assumes a linear relationship between the independent variables and the link function.  
 
@@ -80,7 +84,7 @@ To learn more about Logistic Regression, try to following resources:
 - [Logistic Regression in Python](http://blog.yhat.com/posts/logistic-regression-python-rodeo.html): A thorough tutorial on a publicly available dataset in Python
 
 
-## 3.3 Regularización
+# 3. Regularización
 Both linear and logistic regression have a tendancy to overfit when there are a large number of features. Therefore it is important that we choose the features which have the most predictive power but how do we choose these features? We can use our EDA to a certain extent but that only goes so far.
 
 This is where ridge and lasso regularization techniques come into play! Both of these techniques can be used to identify which features explain the most variance and should therefore be kept in the model.
@@ -103,11 +107,9 @@ Visualmente, los coeficientes (w) solo pueden tomar un valor de su eje dentro de
 
 
 
-<h1 align="center">5. Variantes No Lineales</h1>
-
 <p align="center"><img src="img/nonlinear.svg" width="700px"></p>
 
-## Regresión Polinómica
+# 4. Regresión Polinómica
 ```python
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import Pipeline
@@ -138,7 +140,7 @@ index, pred = np.transpose(smooth)
 [Video explicativo](https://www.youtube.com/watch?v=Vf7oJ6z2LCc)
 
 
-## Generalized Additive Model (GAM)
+# 5. Generalized Additive Model (GAM)
 
 GAM captura los patrones no lineales de cada variable (que la regresión lineal no puede capturar) y los suma (como la regresión lineal).
 <p align="center"><img src="img/GAM.png" width="500px"></p>
