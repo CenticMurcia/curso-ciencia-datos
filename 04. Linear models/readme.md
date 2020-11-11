@@ -109,10 +109,13 @@ Visualmente, los coeficientes (w) solo pueden tomar un valor de su eje dentro de
 
 
 
+# 4. Descenso por Gradiente (SGD)
 
-<p align="center"><img src="img/nonlinear.svg" width="700px"></p>
+<p align="center"><img src="img/sgd.gif" width="75%" ></p>
 
-# 4. Regresión Polinómica
+
+
+# 5. Regresión Polinómica
 ```python
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import Pipeline
@@ -143,7 +146,10 @@ index, pred = np.transpose(smooth)
 [Video explicativo](https://www.youtube.com/watch?v=Vf7oJ6z2LCc)
 
 
-# 5. Generalized Additive Model (GAM)
+# 6. Generalized Additive Model (GAM)
+
+<p align="center"><img src="img/nonlinear.svg" width="700px"></p>
+
 
 GAM captura los patrones no lineales de cada variable (que la regresión lineal no puede capturar) y los suma (como la regresión lineal).
 <p align="center"><img src="img/GAM.png" width="500px"></p>
