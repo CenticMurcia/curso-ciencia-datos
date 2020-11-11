@@ -115,8 +115,8 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="">4.5 Generalized Additive Model (GAM)</a></td>
-    <td><a href=""><img src="img/colab.svg"/></a></td>
+    <td><a href="r/04.%20Linear%20models/4.6%20GAM%20(adult)">4.5 Generalized Additive Model (GAM)</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.6%20GAM%20(adult)"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
