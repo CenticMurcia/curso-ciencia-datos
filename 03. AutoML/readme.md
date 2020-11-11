@@ -216,7 +216,7 @@ La selección del **conjunto de validación** es una de la cosas más importante
   <tr>
     <tD></tD>
     <tD>
-      <h4>Tree based models</h4>
+      <h3>Modelos basados en árbol</h3>
       <ul>
         <li>Decission Tree</li>
         <li>Random Forest</li>
@@ -229,7 +229,7 @@ La selección del **conjunto de validación** es una de la cosas más importante
       </ul>
     </tD>
     <td>
-      <h4>No-tree based models</h4>
+      <h3>Modelos "mutiplicativos"</h3>
       <ul>
         <li>Linear Models (LM)</li>
         <li>Generalized Additive Model (GAM)</li>
@@ -248,28 +248,28 @@ La selección del **conjunto de validación** es una de la cosas más importante
     </td>
   </tr>
   <tr>
-    <th>Categorical<br>Ordinal</th>
+    <th>Variable<br>Categórica<br>Ordinal</th>
     <td>
       <ul>
-        <li><b>Ordinal encoding</b></li>
+        <li><b><a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OrdinalEncoder.html">Ordinal encoding</a></b></li>
         <li>Other: Frequency encoding</li>
       </ul>
     </td>
     <td>
       <ul>
-        <li><b>One hot encoding</b></li>
+        <li><b><a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html">One Hot encoding</a></b></li>
         <li>Other: Embedding</li>
       </ul>
     </td>
   </tr>
   <tr>
-    <th>Numerical</th>
-    <td><b>Nothing</b></td>
+    <th>Variable<br>Numérica</th>
+    <td align=Center><b>Nada</b></td>
     <td>
       <ul>
+        <li><b><a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandarScaler.html">StandarScaler</a></b> (Normalizar)</li>
         <li>MinMaxScaler</li>
-        <li><b>StandarScaler</b></li>
-        <li>Skewed?
+        <li>Si no sigue una distribución norma (Skewed):
           <ul>
             <li>np.log(1+x)</li>
             <li>np.sqrt(x+2/3)</li>
@@ -279,7 +279,29 @@ La selección del **conjunto de validación** es una de la cosas más importante
       </ul>
     </td>
   </tr>
+  <tr>
+    <th>Texto</th>
+    <td colspan="2" align=Center>
+        <b><a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html">CountVectorizer</a></b>,
+        <b><a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html">TfidfVectorizer</a></b>,
+        <b><a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.HashingVectorizer.html">HashingVectorizer</a></b>,
+        Word embeddings
+    </td>
+  </tr>
 </table>
+
+```python
+from sklearn import preprocessing, compose
+
+x_preprocessing_tree = compose.ColumnTransformer(transformers=[
+    ('cat', preprocessing.OrdinalEncoder(),  cat_vars),
+], remainder='passthrough')
+
+x_preprocessing_mult = compose.ColumnTransformer(transformers=[
+    ('cat', preprocessing.OneHotEncoder(),  cat_vars),
+    ('num', preprocessing.StandardScaler(), num_vars),
+], remainder='drop') 
+```
 
 ## Variables numéricas
 TO-DO: Scaling and Normalization
