@@ -56,14 +56,7 @@ Nearest Neighbors Regression                                     cuml.neighbors.
 
 <p align="center"><img src="img/LM.png" width="500px"></p>
 
-
 Linear Regression is a parametric model which predicts a continuous outcome feature (**Y**) from one or more explanatory features (**X**).  
-
-**Y** = beta_0 + beta_1 * **X**
-
-$$
-\sum_n (x)
-$$
 
 beta_0 is called the intercept term, and represents the expected mean value of Y when all explanatory features equal 0.  
 beta_1 is called a beta coefficient, and represents the expected change in the value of Y that results from a one unit change in X.
