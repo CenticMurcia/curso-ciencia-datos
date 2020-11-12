@@ -114,7 +114,7 @@ In theory are just as fast to train as random forests, but in practice you will 
 
 |         | sklearn<br>Random Forest | XGBoost<br>Gradient Boosting | LightGBM<br>Gradient Boosting | Try |
 |--------------------------------------|:--------------------:|:----------------:|:----------------:|-------------|
-| 🔷 Number of trees                   | N_estimators         | num_round 💡     | num_iterations 💡| 100         |
+| 🔷 Number of trees                   | N_estimators         | num_round 💡     | num_iterations 💡| [10,...,1000] |
 | 🔷 Max depth of the tree             | max_depth            | max_depth        | max_depth        | 7           |
 | 🔶 Min cases per final tree leaf     | min_samples_leaf     | min_child_weight | min_data_in_leaf |             |
 | 🔷 % of rows used to build the tree  | max_samples          | subsample        | bagging_fraction | 0.8         |
