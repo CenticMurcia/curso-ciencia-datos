@@ -125,23 +125,23 @@
   <!----------------------------------- 🌳 5. Tree models ----------------------------------->
   <tr>
     <th width="250" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Modelos de Árboles</a></h3><img src="img/icons/5 tree.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/05.%20Tree%20models/2.2%20Decission%20tree.ipynb">5.1 Decission Tree (CART)</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="350"><a href="/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb">5.1 Decission Tree (CART)</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/05.%20Tree%20models/2.2%20Decission%20tree.ipynb">5.2 Decission Tree (C4.5, M5)</a></td>
+    <td><a href="/05.%20Tree%20models/2.2%20Decission%20tree.ipynb">5.2 Decission Tree (C4.5, M5) NO EXISTE AUN</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/05.%20Tree%20models/2.3%20Random%20Forest.ipynb">5.3 Random Forest y Extra Trees</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.3%20Random%20Forest.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/05.%20Tree%20models/5.2%20Random%20Forest%20y%20ET%20(adul).ipynb">5.3 Random Forest y Extra Trees</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.2%20Random%20Forest%20y%20ET%20(adul).ipynb"><img src="img/colab.svg"/></a></td>
   </tr> 
   <tr>
-    <td><a href="/05.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb">5.4 Gradient Boosting (XGB, LGBM, CatBoost)</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.4%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/05.%20Tree%20models/5.3%20Gradient%20Boosting.ipynb">5.4 Gradient Boosting (XGB, LGBM, CatBoost)</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.3%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/05.%20Tree%20models/2.5%20Neural%20Network.ipynb">5.5 Optimización de Hiperparámetros</a></td>
+    <td><a href="/05.%20Tree%20models/2.5%20Neural%20Network.ipynb">5.5 Optimización de Hiperparámetros  NO EXISTE AUN</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.5%20Neural%20Network.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
