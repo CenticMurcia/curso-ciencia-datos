@@ -18,7 +18,7 @@ def featEng_date(df, varName):
     df['hour']         = df[varName].dt.hour.astype(np.int8)
     df['minute']       = df[varName].dt.minute.astype(np.int8)
     df['is_weekend']   = # To do
-    df['is_vavation']  = # To do
+    df['is_vacation']  = # To do
 
 # Advanced: Agregregates
 periods   = ["15T", "1H", "3H"]
