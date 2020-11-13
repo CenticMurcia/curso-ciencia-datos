@@ -1,19 +1,48 @@
-Library
-- TSFresh
-- Prophet
-
-Dataset
-- Predict Future Sales (cuaderno Costa)
+<h1 align="center">🔮 Time Series</h1>
+<h3 align="center">Dataset: <a href="https://www.kaggle.com/c/competitive-data-science-predict-future-sales">Predict future sales</a></h3>
 
 
-Models
+
+
+## 🛠 Feature engeeering del tiempo
+
+```python
+# Simple
+def featEng_date(df, varName):
+    df['year']         = df[varName].dt.year.astype(np.int16)
+    df['month']        = df[varName].dt.month.astype(np.int8)
+    df['week']         = df[varName].dt.weekofyear.astype(np.int8)
+    df['day_of_year']  = df[varName].dt.dayofyear.astype(np.int16)
+    df['day_of_month'] = df[varName].dt.day.astype(np.int8)
+    df['day_of_week']  = df[varName].dt.dayofweek.astype(np.int8)
+    df['hour']         = df[varName].dt.hour.astype(np.int8)
+    df['minute']       = df[varName].dt.minute.astype(np.int8)
+    df['is_weekend']   = # To do
+    df['is_vavation']  = # To do
+
+# Advanced: Agregregates
+periods   = ["15T", "1H", "3H"]
+agregates = ["count", "mean", "std", "min", "max", "sum", "median"]
+```
+
+> - [Tsfresh](https://tsfresh.readthedocs.io): Automatic calculates time series features
+> - [Trane](https://github.com/HDI-Project/Trane)
+
+
+
+
+## Modelos especificos
 - GAM
 - ARIMA
 - ARIMAX
+- Facebook Prophet
 - LSTM
-- Prophet
+- Fractal Analysis
+
+
 
 ---
+
 
 ### Introduccion
 
@@ -78,3 +107,5 @@ x = np.random.uniform(low=-10, high=10, size=1000) # np.arange(-10, 10, 0.1)
 y = np.sin(x) + np.random.normal(scale=0.2, size=x.shape)
 plt.scatter(x,y, s=5)
 ```
+
+Read this article: [Caution with Random Forest](https://medium.com/datadriveninvestor/why-wont-time-series-data-and-random-forests-work-very-well-together-3c9f7b271631)
