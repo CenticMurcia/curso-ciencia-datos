@@ -85,9 +85,11 @@ Empieza con un baseline rápido y sencillo. No hace falta ni siquiera que sea un
 
 Un buen ejercicio es copiar las ventas del último mes disponible (Octubre 2015) para predecir Noviembre 2015.
 Lo más dificil aquí es generar los agregados para que se vea a nivel de mes y no de día. Tendrás que:
-- Genera valores lagged
-- Rellena los NaNs con ceros
-- Limita las predicciones al rango [0,...,20]
+1. Quedate solo con las ventas de Octubre 2015: `date_block_num==33`
+2. Genera valores agregados: `groupby`
+3. Quedate con los pares de shop-item que te pidan en test: `merge`
+4. Rellena los NaNs con ceros: `.fillna(0)`
+5. Limita las predicciones al rango [0,...,20]: `.clip(lower=0, upper=20)`
 
 Si lo haces bien conseguirás exactamente 1.16777 en el public leaderboard.
 
