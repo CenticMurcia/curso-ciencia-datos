@@ -108,7 +108,8 @@ Busca la mejor forma de validar (ya que es mas rápido que enviar los resultados
 
 Basicamente las mejoras vendrán si bien mejoras tus datos o bien mejoras tus modelos:
 
-#### Mejora tus datos. Genera nuevas variables
+
+#### Mejora tus datos. Genera nuevas variables
 - item lags
 - shop lags
 - lagged values of total shop or total item sales (which are essentially mean-encodings).
