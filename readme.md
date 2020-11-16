@@ -164,12 +164,12 @@
   <!----------------------------------- 7. No Supervisado ----------------------------------->
   <tr>
     <th width="250" rowspan="2"><h3><a href="/07.%20Unsupervised">7. Análisis No Supervisado</a></h3><img src="img/icons/14 unsupervised.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/07.%20Unsupervised/5.1%20Dim%20Red.ipynb">7.1 Reducción de Dimensionalidad</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/5.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="350"><a href="/07.%20Unsupervised/7.1%20Dim%20Red.ipynb">7.1 Reducción de Dimensionalidad</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/07.%20Unsupervised/5.2%20Clustering.ipynb">7.2 Clustering</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/5.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/07.%20Unsupervised/7.2%20Clustering.ipynb">7.2 Clustering</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
