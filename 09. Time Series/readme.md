@@ -39,7 +39,7 @@ agregates = ["count", "mean", "std", "min", "max", "sum", "median"]
 
 ## Validación
 
-<p align="center"><img width="75%" src="img/TimeSeriesSplit.png" /></p>
+<p align="center"><img width="60%" src="img/TimeSeriesSplit.png" /></p>
 
 
 ---
