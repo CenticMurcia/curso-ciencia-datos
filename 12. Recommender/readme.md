@@ -2,14 +2,23 @@
 
 <h1 align="center">Recommendation<br>Systems</h1>
 
-### Collaborative Filtering
+> Existen 2 opciones
+> - **Collaborative Filtering**: Para cuando hay algunas reseñas de los usuarios hacia los productos
+>   - Solución lineal: [TruncatedSVD](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html)
+>   - Solución no lineal: Red neuronal [Keras](https://keras.io/examples/structured_data/collaborative_filtering_movielens/) (mejor opción)
+> - Cuando no hay reseñas
+
+# Collaborative Filtering
 
 Se basa en la idea de que con unas pocas interacciones de USER + ITEM (por ejemplo un espectador que califica una pelicula). Poder predecir el resto de pares USER + ITEM (caunto le gustará esta pelicula a este espectador).
 
+### Solución lineal: Descomposición matricial
 
 <p align="center"><img width="100%" src="img/matrix1.png" /></p>
 
 Los datos que se disponen incialmente son unos pocos ejemplos. A este tipo de información se le denomina **matriz dispersa** (sparse matrix).
+
+### Solución no lineal: Red Neuronal
 
 <p align="center"><img width="60%" src="img/matrix2.png" /></p>
 
@@ -27,6 +36,7 @@ Se crea una red neuronal con los 2 embeddings de entrada (user e item). Y se ent
 
 
 ### Referencias
+- https://www.kaggle.com/shawamar/product-recommendation-system-for-e-commerce
 - https://github.com/fastai/fastbook/blob/master/08_collab.ipynb
 - https://keras.io/examples/structured_data/collaborative_filtering_movielens/
 - https://nipunbatra.github.io/blog/ml/2017/12/29/neural-collaborative-filtering.html
