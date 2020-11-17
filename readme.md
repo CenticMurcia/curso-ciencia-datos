@@ -99,24 +99,24 @@
   <tr>
     <th width="250" rowspan="5"><h3><a href="/04.%20Linear%20models">4. Modelos Lineales</a></h3>
     <img src="img/icons/4 linear.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/04.%20Linear%20models/4.1%20Linear%20Regression.ipynb">4.1 Linear Regression</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.1%20Linear%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="350"><a href="/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb">4.1 Linear Regression</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/4.2%20Logistic%20Regression.ipynb">4.2 Logistic Regression</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.2%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/4.2%20Logistic%20Regression%20(titanic).ipynb">4.2 Logistic Regression</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.2%20Logistic%20Regression%20(titanic).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/4.4%20Regularization.ipynb">4.3 Regularization (Ridge, Lasso, ElasticNet)</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.4%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/4.3%20Regularization.ipynb">4.3 Regularization (Ridge, Lasso, ElasticNet)</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.3%20Regularization.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/4.5%20Polynomial%20regression.ipynb">4.4 Polynomial regression</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.5%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/4.4%20Polynomial%20regression.ipynb">4.4 Polynomial regression</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.4%20Polynomial%20regression.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/04.%20Linear%20models/4.6%20GAM%20(adult).ipynb">4.5 Generalized Additive Model (GAM)</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.6%20GAM%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/04.%20Linear%20models/4.5%20GAM%20(adult).ipynb">4.5 Generalized Additive Model (GAM)</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.5%20GAM%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
