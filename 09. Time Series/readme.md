@@ -140,6 +140,16 @@ Basicamente las mejoras vendrán si bien mejoras tus datos o bien mejoras tus mo
 
 ---
 
+
+# Facebook Prophet
+
+competition using prophet:
+- [Predict Future Sales](https://www.kaggle.com/williammcmillan/predict-future-monthly-sales-with-prophet)
+- [Hourly Energy Consumption](https://www.kaggle.com/robikscube/time-series-forecasting-with-prophet)
+
+
+---
+
 # Aprende a extrapolar
 
 [Kaggle discussion](https://www.kaggle.com/questions-and-answers/72639)
