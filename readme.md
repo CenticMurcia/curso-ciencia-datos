@@ -178,20 +178,20 @@
   <!-----------------------------------  8. NLP ----------------------------------->
   <tr>
     <th width="250" rowspan="4"><h3><a href="/08.%20NLP">8. Procesamiento del Lenguaje</a></h3><img src="img/icons/10 nlp.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/07.%20NLP/4.1%20Bag%20of%20words%20Logistic%20Regression.ipynb">7.1 BOW + Logistic Regression</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20NLP/4.1%20Bag%20of%20words%20Logistic%20Regression.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="350"><a href="/008.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb">8.1 BOW + Logistic Regression</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/07.%20NLP/4.2%20Tf-Idf%20%2B%202grams.ipynb">7.2 TF-IDF, N-Grams</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20NLP/4.2%20Tf-Idf%20%2B%202grams.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/08.%20NLP/8.2%20BoW%2C%20N-grams%2C%20TF-IDF%20(IMDb).ipynb">8.2 Bow, N-Grams, TF-IDF</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.2%20BoW%2C%20N-grams%2C%20TF-IDF%20(IMDb).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/07.%20NLP/4.3%20Word%20Embeddings.ipynb">7.3 Embeddings</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20NLP/4.3%20Word%20Embeddings.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/08.%20NLP/8.3%20Word%20Embeddings.ipynb">8.3 Word Embeddings</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.3%20Word%20Embeddings.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/07.%20NLP/4.4%20RNN%20with%20Keras.ipynb">7.4 RNN with Keras</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20NLP/4.4%20RNN%20with%20Keras.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/08.%20NLP/8.4%20RNN%20with%20Keras%20(IMDb).ipynb">8.4 RNN with Keras</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.4%20RNN%20with%20Keras%20(IMDb).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
