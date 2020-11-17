@@ -5,7 +5,7 @@
 > Existen 2 opciones
 > - **Collaborative Filtering**: Para cuando hay algunas reseñas de los usuarios hacia los productos
 >   - Solución lineal: [TruncatedSVD](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html)
->   - Solución no lineal: Red neuronal [Keras](https://keras.io/examples/structured_data/collaborative_filtering_movielens/) (mejor opción)
+>   - Solución no lineal: Red neuronal [Keras](https://keras.io/examples/structured_data/collaborative_filtering_movielens/) o [Fast.ai](https://github.com/fastai/fastbook/blob/master/08_collab.ipynb) (mejor opción)
 > - Cuando no hay reseñas
 
 # Collaborative Filtering
