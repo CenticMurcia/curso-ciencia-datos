@@ -38,6 +38,15 @@ Se crea una red neuronal con los 2 embeddings de entrada (user e item). Y se ent
 <p align="center"><img width="75%" src="img/nn.png" /></p>
 
 
+### Mejora: Más datos
+
+- De un USER podemos saber su edad, sexo, productos comprados,...
+- De un ITEM podemos saber su categoría, precio,...
+
+Si metemos esa información a sus respectivos **embeddings** seguro que mejoramos las predicciones.
+
+
+
 ### Referencias
 - https://www.kaggle.com/shawamar/product-recommendation-system-for-e-commerce
 - https://github.com/fastai/fastbook/blob/master/08_collab.ipynb
