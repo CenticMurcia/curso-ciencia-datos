@@ -5,7 +5,7 @@
 <p align="center"><img width="100%" src="img/matrix1.png" /></p>
 
 
-<p align="center"><img width="80%" src="img/matrix2.png" /></p>
+<p align="center"><img width="60%" src="img/matrix2.png" /></p>
 
 
 <p align="center"><img width="100%" src="img/matrix3.png" /></p>
