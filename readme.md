@@ -182,7 +182,7 @@
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/08.%20NLP/8.2%20BoW%2C%20N-grams%2C%20TF-IDF%20(IMDb).ipynb">8.2 Bow, N-Grams, TF-IDF</a></td>
+    <td><a href="/08.%20NLP/8.2%20BoW%2C%20N-grams%2C%20TF-IDF%20(IMDb).ipynb">8.2 BoW, N-Grams, TF-IDF</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.2%20BoW%2C%20N-grams%2C%20TF-IDF%20(IMDb).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
@@ -200,35 +200,35 @@
   <!-----------------------------------  🕐 9. Time series ----------------------------------->
   <tr>
     <th width="250" rowspan="3"><h3><a href="/09.%20Time%20Series">9. Series Temporales</a></h3><img src="img/icons/9 time.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">8.1 TimeSeries with Prophet 1</a></td>
+    <td width="350"><a href="/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">9.1 TimeSeries with Prophet 1</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/08.%20Time%20Series/8.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb">8.2 TimeSeries with Prophet 2</a></td>
+    <td><a href="/08.%20Time%20Series/8.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb">9.2 TimeSeries with Prophet 2</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/08.%20Time%20Series/8.3%20Ejercicio%20en%20Kaggle.ipynb">8.3 Ejercicio en Kaggle</a></td>
+    <td><a href="/08.%20Time%20Series/8.3%20Ejercicio%20en%20Kaggle.ipynb">9.3 Ejercicio en Kaggle</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.3%20Ejercicio%20en%20Kaggle.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
 
 <table>
-  <!-----------------------------------  🖼️ 9. Image ----------------------------------->
+  <!-----------------------------------  🖼️ 10. Image ----------------------------------->
   <tr>
     <th width="250" rowspan="4"><h3><a href="/10.%20Image">10. Imágenes</a></h3><img src="img/icons/12 image.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/10.%20Image/Classification%20-%20Fastai.ipynb">9.1 Clasification with Fast.ai</a></td>
+    <td width="350"><a href="/10.%20Image/Classification%20-%20Fastai.ipynb">10.1 Clasification with Fast.ai</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
     <tr>
-    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">9.2 Data augmentation</a></td>
+    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.2 Data augmentation</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   <tr>
-    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">9.5 Locacización (bboxes) con Fast.ai 2</a></td>
+    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.5 Locacización (bboxes) con Fast.ai 2</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   <tr>
-    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">9.6 Segmentación con Fast.ai 2</a></td>
+    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.6 Segmentación con Fast.ai 2</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
@@ -237,11 +237,11 @@
   <!---------------------------------  ⛏️ 10. Process Mining --------------------------------->
   <tr>
     <th width="250" rowspan="2"><h3><a href="/11.%20Process%20Mining">11. Minería de Procesos</a></h3><img src="img/icons/16 pm.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">10.1 Process Mining con PM4PY</a></td>
+    <td width="350"><a href="/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">11.1 Process Mining con PM4PY</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/11.%20Process%20Mining/10.2%20Process%20Mining%20con%20BupaR.R">10.2 Process Mining con BupaR</a></td>
+    <td><a href="/11.%20Process%20Mining/10.2%20Process%20Mining%20con%20BupaR.R">11.2 Process Mining con BupaR</a></td>
     <td></td>
   </tr>
 </table>
