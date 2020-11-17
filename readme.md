@@ -233,8 +233,8 @@
   </tr>
 </table>
 
+<!---------------------------------  ⛏️ 10. Process Mining --------------------------------->
 <table>
-  <!---------------------------------  ⛏️ 10. Process Mining --------------------------------->
   <tr>
     <th width="250" rowspan="2"><h3><a href="/11.%20Process%20Mining">11. Minería de Procesos</a></h3><img src="img/icons/16 pm.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">11.1 Process Mining con PM4PY</a></td>
@@ -247,6 +247,19 @@
 </table>
 
 
+<!---------------------------------  12. Sistemas de Recomendación --------------------------------->
+<table>
+  <tr>
+    <th width="250" rowspan="2"><h3><a href="/12.%20Recommender">12. Sistemas de Recomendación</a></h3><img src="img/icons/99%20recommender.svg" width="120px" height="100px"></th>
+    <td width="350"><a href="/">12.1 Collaborative Filtering Clásico</a></td>
+    <td width="150"></td>
+  </tr>
+  <tr>
+    <td><a href="/">12.2 Collaborative Filtering con Keras</a></td>
+    <td></td>
+  </tr>
+</table>
+
 <!-----------------------------------  EXTRA ----------------------------------->
 <!--
 
@@ -254,21 +267,15 @@
 - Modelos bayesianos
 - Modelos genéticos/evolutivos
 - Aprendizaje por refuerzo
-- Recommenders
-  - Recommender systems
-  - Next Product to Buy (NPtB)
-  - Collaborative Filtering
 - Sonido
   - clasificacion
   - clasificacion temporal
   - separar fuentes)
 - ML en producción
   - APIs
-- Efficient Pandas (H20 datatable, reduce memory...)
-
 -->
 
-## Aprende más con:
+## 🎓 Cursos recomendados
 - [**Kaggle learn**](https://www.kaggle.com/learn) (fácil)
 - [**Mlcourse.ai**](http://mlcourse.ai) (avanzado)
 - [**Coursera: How to Win a Data Science Competition: Learn from Top Kagglers**](https://www.coursera.org/learn/competitive-data-science) (avanzado)
@@ -278,3 +285,8 @@
   - [Curso 2018 de Machine Larning](http://course18.fast.ai/ml)
 
 
+## 📚 Libros recomendados
+
+- **Approaching (Almost) Any Machine Learning Problem** de *Abhishek Thakur*, que además tiene [canal de Youtube](https://www.youtube.com/channel/UCBPRJjIWfyNG4X-CRbnv78A)
+- **The hundred-page machine learning book** de *Andriy Burkov*
+- **Deep Learning for Coders with Fastai and PyTorch: AI Applications Without a PhD** de *Jeremy Howard*, [disponible en Github](https://github.com/fastai/fastbook)
