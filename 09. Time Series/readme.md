@@ -37,6 +37,10 @@ agregates = ["count", "mean", "std", "min", "max", "sum", "median"]
 - Fractal Analysis
 
 
+## Validación
+
+<p align="center"><img width="75%" src="img/TimeSeriesSplit.png" /></p>
+
 
 ---
 
