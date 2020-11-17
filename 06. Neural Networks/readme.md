@@ -23,7 +23,7 @@
 
 <table>
   <tr>
-    <th ><a href="https://www.tensorflow.org"><img src="../img/logos/tensorflow.png"/></a></th>
+    <th ><a href="https://www.tensorflow.org"><img src="../img/logos/TensorFlow.svg"/></a></th>
     <td></td>
   </tr>
   <tr>
