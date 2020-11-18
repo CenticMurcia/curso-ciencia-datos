@@ -52,3 +52,5 @@ Si metemos esa información a sus respectivos **embeddings** seguro que mejoramo
 - https://github.com/fastai/fastbook/blob/master/08_collab.ipynb
 - https://keras.io/examples/structured_data/collaborative_filtering_movielens/
 - https://nipunbatra.github.io/blog/ml/2017/12/29/neural-collaborative-filtering.html
+- Next Product to Buy (NPtB)
+
