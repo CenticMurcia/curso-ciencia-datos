@@ -283,7 +283,7 @@
   - [Curso 2020 de Deep Larning](https://course.fast.ai): Solo parte 1 debido al covid
   - [Curso 2019 de Deep Larning](https://course19.fast.ai): Parte 1 (fácil) y 2 (avanzado)
   - [Curso 2018 de Machine Larning](http://course18.fast.ai/ml)
-
+- [**Andrew Ng Coursera Deep Learning**](https://www.coursera.org/specializations/deep-learning#courses)
 
 ## 📚 Libros recomendados
 
