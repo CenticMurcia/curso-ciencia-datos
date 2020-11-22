@@ -251,11 +251,11 @@
 <table>
   <tr>
     <th width="250" rowspan="2"><h3><a href="/12.%20Recommender">12. Sistemas de Recomendación</a></h3><img src="img/icons/99%20recommender.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/">12.1 Collaborative Filtering Clásico</a></td>
-    <td width="150"></td>
+    <td width="350"><a href="/12.%20Recommender/Collaborative%20Filtering.ipynb">12.1 Collaborative Filtering con Keras</a></td>
+    <<td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/12.%20Recommender/Collaborative%20Filtering.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/">12.2 Collaborative Filtering con Keras</a></td>
+    <td>12.2 Collaborative Filtering con Fast.ai</td>
     <td></td>
   </tr>
 </table>
