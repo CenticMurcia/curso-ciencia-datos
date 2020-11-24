@@ -125,7 +125,7 @@
 <table>
   <!----------------------------------- 🌳 5. Tree models ----------------------------------->
   <tr>
-    <th width="250" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Modelos de Árboles</a></h3><img src="img/icons/5 tree.svg" width="120px" height="100px"></th>
+    <th width="250" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Árboles</a></h3><img src="img/icons/5 tree.svg" width="120px" height="100px"></th>
     <td width="350"><a href="/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb">5.1 Decission Tree (CART)</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
