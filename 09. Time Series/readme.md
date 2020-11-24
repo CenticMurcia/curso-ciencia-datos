@@ -26,6 +26,10 @@ agregates = ["count", "mean", "std", "min", "max", "sum", "median"]
 > - [Trane](https://github.com/HDI-Project/Trane)
 
 
+## Validación
+
+<p align="center"><img width="60%" src="img/TimeSeriesSplit.png" /></p>
+
 
 
 ## Modelos especificos
@@ -37,124 +41,15 @@ agregates = ["count", "mean", "std", "min", "max", "sum", "median"]
 - Fractal Analysis
 
 
-## Validación
-
-<p align="center"><img width="60%" src="img/TimeSeriesSplit.png" /></p>
-
-
----
-
-<h1 align="center">Competición<br><a href="https://www.kaggle.com/c/competitive-data-science-predict-future-sales">Predict future sales</a></h1>
-
-Se dan los datos de las ventas de distintas tiendas desde Enero de 2013 hasta Octubre 2015. El objetivo es predecir la cantidad de productos que se venderán en cada tienda en el mese de Noviembre de 2015.
-
-- [Link de la competición en Kaggle](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)
-- [1a version InClass de la competición](https://www.kaggle.com/c/competitive-data-science-final-project)
-
-
-## Datos
-
-- **`sales_train.csv`** Filas: 2935849 ventas (Enero 2013 --> Octubre 2015)
-  - **date**: date in format dd/mm/yyyy
-  - **date_block_num**: a consecutive month number. January 2013 is 0, February 2013 is 1,..., October 2015 is 33
-  - **shop_id**: unique identifier of a shop
-  - **item_id**: unique identifier of a product
-  - **item_price**: current price of an item
-  - **item_cnt_day**: number of products sold. You are predicting a monthly amount of this measure.
-- **`shops.csv`** Filas: 60 tiendas
-  - **shop_id**
-  - **shop_name**: name of shop (EN RUSO 🇷🇺)
-- **`items.csv`** Filas: 22170 productos
-  - **item_id**
-  - **item_name**: name of item (EN RUSO 🇷🇺)
-  - **item_category_id**: unique identifier of item category
-- **`item_categories.csv`** Filas: 84 categorías de producto
-  - **item_category_id**
-  - **item_category_name**: name of item category (EN RUSO 🇷🇺)
-- **`test.csv`** Filas 214200 pares unicos de (Shop, Item)
-  - **ID**: an Id that represents a (Shop, Item) tuple within the test set
-  - **shop_id**
-  - **item_id**
-
-
-
-### Paso 1: EDA
-
-Familiarizate con los datos entiende todas las variables y la relación que existe entre las tablas. Si tienes dudas genera algún plot (gráfica). Los plots nos ayudan a encontrar nuevas pistas.
-
-
-### Paso 2: Baseline
-
-Empieza con un baseline rápido y sencillo. No hace falta ni siquiera que sea un modelo. Coge el sample_submission.csv y envíalo. Luego cambia el 0.5 por otras constantes. Tambien puedes probar constantes específicas por producto o tienda.
-
-Un buen ejercicio es copiar las ventas del último mes disponible (Octubre 2015) para predecir Noviembre 2015.
-Lo más dificil aquí es generar los agregados para que se vea a nivel de mes y no de día. Tendrás que:
-1. Quedate solo con las ventas de Octubre 2015: `date_block_num==33`
-2. Genera valores agregados: `groupby`
-3. Quedate con los pares de shop-item que te pidan en test: `merge`
-4. Rellena los NaNs con ceros: `.fillna(0)`
-5. Limita las predicciones al rango [0,...,20]: `.clip(lower=0, upper=20)`
-
-Si lo haces bien conseguirás exactamente 1.16777 en el public leaderboard.
-
-
-Generar features será necesario para nuestros futuros modelos más complejos. Además si decides limitar las cantidades de las predicciones al rango [0,...,20] notarás una gran diferencia.
-
-
-
-### Paso 3: Primer modelo
-
-Puedes obtener muy buena puntuación al crear lag-based features y entrenando un Gradient Boosting.
-
-Busca la mejor forma de validar (ya que es mas rápido que enviar los resultados a Kaggle). Probablemente sea buena idea validar con los meses futuros que tienes disponibles. Así que el cross-validation no es muy recomendable para cuando se predice el futuro.
-
-
-
-### Paso 4: Mejorar
-
-Basicamente las mejoras vendrán si bien mejoras tus datos o bien mejoras tus modelos:
-
-
-#### Mejora tus datos. Genera nuevas variables
-- item lags
-- shop lags
-- lagged values of total shop or total item sales (which are essentially mean-encodings).
-- Extrae características de las variables de texto (text descriptions)
-- item categories
-- Componente estacional (seasonal trends)
-- Coge ideas de algun framwork [tsfresh](https://tsfresh.readthedocs.io), [featuretools](https://www.featuretools.com/)
-
-
-#### Mejora tu modelo
-
-1. Prueba modelos diferentes
-   - Modelo lineal (Linear regression, SVM, perceptron)
-   - Random Forest
-   - Gradient Boosting (XGBoost, LightGBM, CatBoost)
-   - Redes neuronales
-2. Optimiza sus hiperparámetros
-   - No gastes mucho tiempo aquí.
-   - Prueba [optuna](https://optuna.org).
-3. Ensembles
-   - Empieza haciendo la media de un modelo lineal con un Gradient Boosting
-      - Puedes darle mas peso al Gradient Boosting con una media ponderada.
-   - Luego salta directamente al stacking.
-
-
-
----
-
-
-# Facebook Prophet
+## Facebook Prophet
 
 competition using prophet:
 - [Predict Future Sales](https://www.kaggle.com/williammcmillan/predict-future-monthly-sales-with-prophet)
 - [Hourly Energy Consumption](https://www.kaggle.com/robikscube/time-series-forecasting-with-prophet)
 
 
----
 
-# Aprende a extrapolar
+## Aprende a extrapolar
 
 [Kaggle discussion](https://www.kaggle.com/questions-and-answers/72639)
 

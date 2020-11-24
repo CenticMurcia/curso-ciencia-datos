@@ -93,6 +93,7 @@
   </tr>
 </table>
 
+<h2 align="center">PARTE 2: MODELOS</h2>
 
 <table>
   <!----------------------------------- 📏 4. Modelos Lineales ----------------------------------->
@@ -161,17 +162,18 @@
 
 
 <table>
-  <!----------------------------------- 7. No Supervisado ----------------------------------->
+  <!----------------------------------- 7. Ensemble ----------------------------------->
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/07.%20Unsupervised">7. Análisis No Supervisado</a></h3><img src="img/icons/14 unsupervised.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/07.%20Unsupervised/7.1%20Dim%20Red.ipynb">7.1 Reducción de Dimensionalidad</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="250" rowspan="2"><h3><a href="/07.%20Ensembling">7. Ensemble</a></h3><img src="img/icons/7 ensemble.svg" width="120px" height="100px"></th>
+    <td width="350">7.1 Mean, weighted mean</td>
   </tr>
   <tr>
-    <td><a href="/07.%20Unsupervised/7.2%20Clustering.ipynb">7.2 Clustering</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
+    <td>7.2 Metamodel (Stacking)</td>
   </tr>
 </table>
+
+
+<h2 align="center">PARTE 3: APLICACIONES</h2>
 
 
 <table>
@@ -257,6 +259,20 @@
   <tr>
     <td>12.2 Collaborative Filtering con Fast.ai</td>
     <td></td>
+  </tr>
+</table>
+
+
+<table>
+  <!----------------------------------- 7. No Supervisado ----------------------------------->
+  <tr>
+    <th width="250" rowspan="2"><h3><a href="/07.%20Unsupervised">Análisis No Supervisado</a></h3><img src="img/icons/14 unsupervised.svg" width="120px" height="100px"></th>
+    <td width="350"><a href="/07.%20Unsupervised/7.1%20Dim%20Red.ipynb">Reducción de Dimensionalidad</a></td>
+    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/07.%20Unsupervised/7.2%20Clustering.ipynb">Clustering</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
