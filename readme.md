@@ -2,9 +2,15 @@
 <p align="center"><img src="img/miniaturas YT/Portada.png" width="500px"></p>
 
 
+
+
+
+
+
+> ### PARTE 1: INTRODUCCIÓN
+
+<!----------------------------------- 1. Python, Numpy y Pandas ----------------------------------->
 <table>
-  
-  <!----------------------------------- 1. Python, Numpy y Pandas ----------------------------------->
   <tr>
     <th width="250" rowspan="5"><h3><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Python, Numpy y Pandas</a></h3>
       <img src="img/icons/1 pandas.svg" width="120px" height="100px"></th>
@@ -93,7 +99,9 @@
   </tr>
 </table>
 
-<h2 align="center">PARTE 2: MODELOS</h2>
+
+
+> ### PARTE 2: MODELOS
 
 <table>
   <!----------------------------------- 📏 4. Modelos Lineales ----------------------------------->
@@ -173,8 +181,8 @@
 </table>
 
 
-<h2 align="center">PARTE 3: APLICACIONES</h2>
 
+> ### PARTE 3: APLICACIONES
 
 <table>
   <!-----------------------------------  8. NLP ----------------------------------->
