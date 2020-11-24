@@ -98,9 +98,9 @@
 <table>
   <!----------------------------------- 📏 4. Modelos Lineales ----------------------------------->
   <tr>
-    <th width="250" rowspan="5"><h3><a href="/04.%20Linear%20models">4. Modelos Lineales</a></h3>
+    <th width="225" rowspan="5"><h3><a href="/04.%20Linear%20models">4. Modelos Lineales</a></h3>
     <img src="img/icons/4 linear.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb">4.1 Linear Regression</a></td>
+    <td width="375"><a href="/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb">4.1 Linear Regression</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
@@ -125,8 +125,8 @@
 <table>
   <!----------------------------------- 🌳 5. Tree models ----------------------------------->
   <tr>
-    <th width="250" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Árboles</a></h3><img src="img/icons/5 tree.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb">5.1 Decission Tree (CART)</a></td>
+    <th width="225" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Árboles</a></h3><img src="img/icons/5 tree.svg" width="120px" height="100px"></th>
+    <td width="375"><a href="/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb">5.1 Decission Tree (CART)</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
@@ -138,7 +138,7 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.2%20Random%20Forest%20y%20ET%20(adul).ipynb"><img src="img/colab.svg"/></a></td>
   </tr> 
   <tr>
-    <td><a href="/05.%20Tree%20models/5.3%20Gradient%20Boosting.ipynb">5.4 Gradient Boosting (XGB, LGBM, CatB)</a></td>
+    <td><a href="/05.%20Tree%20models/5.3%20Gradient%20Boosting.ipynb">5.4 Gradient Boosting (XGB, LGBM, CatBoot)</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.3%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
@@ -151,8 +151,8 @@
 <table>
   <!-----------------------------------  6. Redes Neuronales ----------------------------------->
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/06.%20Neural%20Networks">6. Modelos Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb">6.1 Red Neuronal</a></td>
+    <th width="225" rowspan="2"><h3><a href="/06.%20Neural%20Networks">6. Redes Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
+    <td width="375"><a href="/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb">6.1 Red Neuronal</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
@@ -164,8 +164,8 @@
 <table>
   <!----------------------------------- 7. Ensemble ----------------------------------->
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/07.%20Ensembling">7. Ensemble</a></h3><img src="img/icons/7 ensemble.svg" width="120px" height="100px"></th>
-    <td width="350">7.1 Mean, weighted mean</td>
+    <th width="225" rowspan="2"><h3><a href="/07.%20Ensembling">7. Ensemble</a></h3><img src="img/icons/7 ensemble.svg" width="120px" height="100px"></th>
+    <td width="375">7.1 Mean, weighted mean</td>
   </tr>
   <tr>
     <td>7.2 Metamodel (Stacking)</td>
