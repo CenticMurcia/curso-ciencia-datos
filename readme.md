@@ -130,8 +130,8 @@
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/05.%20Tree%20models/2.2%20Decission%20tree.ipynb">5.2 Decission Tree (C4.5, M5) NO EXISTE AUN</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.2%20Decission%20tree.ipynb"><img src="img/colab.svg"/></a></td>
+    <td>5.2 Decission Tree (C4.5, M5)</td>
+    <td></td>
   </tr>
   <tr>
     <td><a href="/05.%20Tree%20models/5.2%20Random%20Forest%20y%20ET%20(adul).ipynb">5.3 Random Forest y Extra Trees</a></td>
@@ -142,8 +142,8 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.3%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/05.%20Tree%20models/2.5%20Neural%20Network.ipynb">5.5 Optimización de Hiperparámetros  NO EXISTE AUN</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/2.5%20Neural%20Network.ipynb"><img src="img/colab.svg"/></a></td>
+    <td>5.5 Optimización de Hiperparámetros</td>
+    <td></td>
   </tr>
 </table>
 
