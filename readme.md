@@ -138,7 +138,7 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.2%20Random%20Forest%20y%20ET%20(adul).ipynb"><img src="img/colab.svg"/></a></td>
   </tr> 
   <tr>
-    <td><a href="/05.%20Tree%20models/5.3%20Gradient%20Boosting.ipynb">5.4 Gradient Boosting (XGB, LGBM, CatBoost)</a></td>
+    <td><a href="/05.%20Tree%20models/5.3%20Gradient%20Boosting.ipynb">5.4 Gradient Boosting (XGB, LGBM, CatB)</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.3%20Gradient%20Boosting.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
