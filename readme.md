@@ -106,9 +106,9 @@
 <table>
   <!----------------------------------- 📏 4. Modelos Lineales ----------------------------------->
   <tr>
-    <th width="225" rowspan="5"><h3><a href="/04.%20Linear%20models">4. Modelos Lineales</a></h3>
+    <th width="200" rowspan="6"><h3><a href="/04.%20Linear%20models">4. Modelos<br>Lineales</a></h3>
     <img src="img/icons/4 linear.svg" width="120px" height="100px"></th>
-    <td width="375"><a href="/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb">4.1 Linear Regression</a></td>
+    <td width="400"><a href="/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb">4.1 Linear Regression</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
@@ -127,14 +127,18 @@
     <td><a href="/04.%20Linear%20models/4.5%20GAM%20(adult).ipynb">4.5 Generalized Additive Model (GAM)</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.5%20GAM%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
+  <tr>
+    <td>Support Vector Machine (SVM)</td>
+    <td></td>
+  </tr>
 </table>
 
 
 <table>
   <!----------------------------------- 🌳 5. Tree models ----------------------------------->
   <tr>
-    <th width="225" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Árboles</a></h3><img src="img/icons/5 tree.svg" width="120px" height="100px"></th>
-    <td width="375"><a href="/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb">5.1 Decission Tree (CART)</a></td>
+    <th width="200" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Árboles</a></h3><img src="img/icons/5 tree.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb">5.1 Decission Tree (CART)</a></td>
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
@@ -159,8 +163,8 @@
 <table>
   <!-----------------------------------  6. Redes Neuronales ----------------------------------->
   <tr>
-    <th width="225" rowspan="9"><h3><a href="/06.%20Neural%20Networks">6. Redes Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
-    <td width="375">6.1 Introducción a Keras</td>
+    <th width="200" rowspan="9"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
+    <td width="400">6.1 Introducción a Keras</td>
     <td width="150"></td>
   </tr>
   <tr>
@@ -201,17 +205,21 @@
 <table>
   <!----------------------------------- 7. Ensemble ----------------------------------->
   <tr>
-    <th width="225" rowspan="4"><h3><a href="/07.%20Ensembling">7. Ensemble</a></h3><img src="img/icons/7 ensemble.svg" width="120px" height="100px"></th>
-    <td width="375">7.1 Media, media ponderada de los modelos</td>
+    <th width="200" rowspan="4"><h3><a href="/07.%20Ensembling">7. Ensemble</a></h3><img src="img/icons/7 ensemble.svg" width="120px" height="100px"></th>
+    <td width="400">7.1 Media, media ponderada de los modelos</td>
+    <td width="150"></td>
   </tr>
   <tr>
     <td>7.2 Mismo modelo con distintas semillas</td>
+    <td></td>
   </tr>
   <tr>
     <td>7.3 Metamodelo (Blending y Stacking)</td>
+    <td></td>
   </tr>
   <tr>
-    <td>7.4 Stacking de varias capass</td>
+    <td>7.4 Stacking de varias capas</td>
+    <td></td>
   </tr>
 </table>
 
