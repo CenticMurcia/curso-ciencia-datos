@@ -11,10 +11,10 @@
 <!----------------------------------- 1. Python, Numpy y Pandas ----------------------------------->
 <table>
   <tr>
-    <th width="250" rowspan="5"><h3><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Python, Numpy y Pandas</a></h3>
+    <th width="200" rowspan="5"><h3><a href="/01.%20Python%2C%20Numpy%20y%20Pandas">1. Python, Numpy y Pandas</a></h3>
       <img src="img/icons/1 pandas.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="400"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
     <td><a href="https://youtu.be/7TEk5dsFaPk"><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
@@ -41,9 +41,9 @@
 <table>
   <!----------------------------------- 📊 2. EDA ----------------------------------->
   <tr>
-    <th width="250" rowspan="6"><h3><a href="/02.%20EDA">2. EDA y gráficas</a></h3><img src="img/icons/2 eda.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/02.%20EDA/2.1%20EDA%20sencillo%20con%20Pandas%20(churn%20ds).ipynb">2.1 EDA básico con Pandas y Matplotib</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20sencillo%20con%20Pandas%20(churn%20ds).ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="6"><h3><a href="/02.%20EDA">2. EDA y gráficas</a></h3><img src="img/icons/2 eda.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/02.%20EDA/2.1%20EDA%20sencillo%20con%20Pandas%20(churn%20ds).ipynb">2.1 EDA básico con Pandas y Matplotib</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20sencillo%20con%20Pandas%20(churn%20ds).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/02.%20EDA/2.2%20EDA%20avanzado%20con%20Seaborn%20(churn%20ds).ipynb">2.2 EDA avanzado con Seaborn</a></td>
@@ -71,10 +71,10 @@
 <table>
   <!----------------------------------- 3. Introducción al ML ----------------------------------->
   <tr>
-    <th width="250" rowspan="6"><h3><a href="/03.%20AutoML">3. Introducción al ML</a></h3>
+    <th width="200" rowspan="6"><h3><a href="/03.%20AutoML">3. Introducción al ML</a></h3>
     <img src="img/icons/3 automl.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/03.%20AutoML/1.%20AutoML%20con%20H2O%20(adult).ipynb">3.1 AutoML con H2O (clasificación)</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20AutoML/1.%20AutoML%20con%20H2O%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="400"><a href="/03.%20AutoML/1.%20AutoML%20con%20H2O%20(adult).ipynb">3.1 AutoML con H2O (clasificación)</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/03.%20AutoML/1.%20AutoML%20con%20H2O%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/03.%20AutoML/2.%20AutoML%20con%20H2O%20(houses).ipynb">3.2 AutoML con H2O (regresión)</a></td>
@@ -109,7 +109,7 @@
     <th width="200" rowspan="6"><h3><a href="/04.%20Linear%20models">4. Modelos<br>Lineales</a></h3>
     <img src="img/icons/4 linear.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb">4.1 Linear Regression</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/04.%20Linear%20models/4.1%20Linear%20Regression%20(houses).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/04.%20Linear%20models/4.2%20Logistic%20Regression%20(titanic).ipynb">4.2 Logistic Regression</a></td>
@@ -139,7 +139,7 @@
   <tr>
     <th width="200" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Árboles</a></h3><img src="img/icons/5 tree.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb">5.1 Decission Tree (CART)</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td>5.2 Decission Tree (C4.5, M5)</td>
@@ -165,7 +165,7 @@
   <tr>
     <th width="200" rowspan="9"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
     <td width="400">6.1 Introducción a Keras</td>
-    <td width="150"></td>
+    <td width="144"></td>
   </tr>
   <tr>
     <td>6.2 Introducción a Pytorch</td>
@@ -207,7 +207,7 @@
   <tr>
     <th width="200" rowspan="4"><h3><a href="/07.%20Ensembling">7. Ensemble</a></h3><img src="img/icons/7 ensemble.svg" width="120px" height="100px"></th>
     <td width="400">7.1 Media, media ponderada de los modelos</td>
-    <td width="150"></td>
+    <td width="144"></td>
   </tr>
   <tr>
     <td>7.2 Mismo modelo con distintas semillas</td>
@@ -231,9 +231,9 @@
 <table>
   <!-----------------------------------  8. NLP ----------------------------------->
   <tr>
-    <th width="250" rowspan="4"><h3><a href="/08.%20NLP">8. Procesamiento del Lenguaje</a></h3><img src="img/icons/10 nlp.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/008.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb">8.1 BOW + Logistic Regression</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="4"><h3><a href="/08.%20NLP">8. Procesamiento del Lenguaje</a></h3><img src="img/icons/10 nlp.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/008.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb">8.1 BOW + Logistic Regression</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/08.%20NLP/8.2%20BoW%2C%20N-grams%2C%20TF-IDF%20(IMDb).ipynb">8.2 BoW, N-Grams, TF-IDF</a></td>
@@ -253,9 +253,9 @@
 <table>  
   <!-----------------------------------  🕐 9. Time series ----------------------------------->
   <tr>
-    <th width="250" rowspan="3"><h3><a href="/09.%20Time%20Series">9. Series Temporales</a></h3><img src="img/icons/9 time.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">9.1 TimeSeries with Prophet 1</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="3"><h3><a href="/09.%20Time%20Series">9. Series Temporales</a></h3><img src="img/icons/9 time.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">9.1 TimeSeries with Prophet 1</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/08.%20Time%20Series/8.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb">9.2 TimeSeries with Prophet 2</a></td>
@@ -271,9 +271,9 @@
 <table>
   <!-----------------------------------  🖼️ 10. Image ----------------------------------->
   <tr>
-    <th width="250" rowspan="4"><h3><a href="/10.%20Image">10. Imágenes</a></h3><img src="img/icons/12 image.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/10.%20Image/Classification%20-%20Fastai.ipynb">10.1 Clasification with Fast.ai</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="4"><h3><a href="/10.%20Image">10. Imágenes</a></h3><img src="img/icons/12 image.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/10.%20Image/Classification%20-%20Fastai.ipynb">10.1 Clasification with Fast.ai</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
     <tr>
     <td>10.2 Data Augmentation y TTA</td>
@@ -290,9 +290,9 @@
 <!---------------------------------  ⛏️ 10. Process Mining --------------------------------->
 <table>
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/11.%20Process%20Mining">11. Minería de Procesos</a></h3><img src="img/icons/16 pm.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">11.1 Process Mining con PM4PY</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="2"><h3><a href="/11.%20Process%20Mining">11. Minería de Procesos</a></h3><img src="img/icons/16 pm.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">11.1 Process Mining con PM4PY</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/11.%20Process%20Mining/10.2%20Process%20Mining%20con%20BupaR.R">11.2 Process Mining con BupaR</a></td>
@@ -304,9 +304,9 @@
 <!---------------------------------  12. Sistemas de Recomendación --------------------------------->
 <table>
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/12.%20Recommender">12. Sistemas de Recomendación</a></h3><img src="img/icons/99%20recommender.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/12.%20Recommender/Collaborative%20Filtering.ipynb">12.1 Collaborative Filtering con Keras</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/12.%20Recommender/Collaborative%20Filtering.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="2"><h3><a href="/12.%20Recommender">12. Sistemas de Recomendación</a></h3><img src="img/icons/99%20recommender.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/12.%20Recommender/Collaborative%20Filtering.ipynb">12.1 Collaborative Filtering con Keras</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/12.%20Recommender/Collaborative%20Filtering.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td>12.2 Collaborative Filtering con Fast.ai</td>
@@ -318,9 +318,9 @@
 <table>
   <!----------------------------------- 7. No Supervisado ----------------------------------->
   <tr>
-    <th width="250" rowspan="2"><h3><a href="/07.%20Unsupervised">Análisis No Supervisado</a></h3><img src="img/icons/14 unsupervised.svg" width="120px" height="100px"></th>
-    <td width="350"><a href="/07.%20Unsupervised/7.1%20Dim%20Red.ipynb">Reducción de Dimensionalidad</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="2"><h3><a href="/07.%20Unsupervised">Análisis No Supervisado</a></h3><img src="img/icons/14 unsupervised.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/07.%20Unsupervised/7.1%20Dim%20Red.ipynb">Reducción de Dimensionalidad</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/07.%20Unsupervised/7.2%20Clustering.ipynb">Clustering</a></td>
