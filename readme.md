@@ -252,17 +252,13 @@
 <!-----------------------------------  🕐 9. Time series ----------------------------------->
 <table>  
   <tr>
-    <th width="200" rowspan="3"><h3><a href="/09.%20Time%20Series">9. Series Temporales</a></h3><img src="img/icons/9 time.svg" width="120px" height="100px"></th>
+    <th width="200" rowspan="2"><h3><a href="/09.%20Time%20Series">9. Series Temporales</a></h3><img src="img/icons/9 time.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/09.%20Time%20Series/9.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">9.1 TimeSeries with Prophet 1</a></td>
     <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/09.%20Time%20Series/9.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/09.%20Time%20Series/9.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb">9.2 TimeSeries with Prophet 2</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Time%20Series/9.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb"><img src="img/colab.svg"/></a></td>
-  </tr>
-  <tr>
-    <td><a href="/08.%20Time%20Series/8.3%20Ejercicio%20en%20Kaggle.ipynb">9.3 Ejercicio en Kaggle</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.3%20Ejercicio%20en%20Kaggle.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
@@ -325,6 +321,26 @@
   <tr>
     <td><a href="/07.%20Unsupervised/7.2%20Clustering.ipynb">Clustering</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+</table>
+
+
+> <h3 align="center"> Extra: Competiciones de Kaggle</h3>
+
+<!-----------------------------------  Kaggle ----------------------------------->
+<table>  
+  <tr>
+    <th width="200" rowspan="3"><h3><a href="/15.%20Kaggle">Soluciones a competiciones de Kaggle</a></h3><img src="img/icons/13 kaggle.svg" width="120px" height="100px"></th>
+    <td width="400">Titanic</td>
+    <td width="144"></td>
+  </tr>
+  <tr>
+    <td>Houses Prices</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/15.%20Kaggle/predict-future-sales/Predict%20future%20sales%20(Solución%20completa).ipynb">Predict Future Sales</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/15.%20Kaggle/predict-future-sales/Predict%20future%20sales%20(Solución%20completa).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
