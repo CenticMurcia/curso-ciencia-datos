@@ -184,7 +184,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>6.6 Entrena un Transformer (BERT)</td>
+    <td>6.6 Entrena un Transformer (BERT, TabNet)</td>
     <td></td>
   </tr>
   <tr>
