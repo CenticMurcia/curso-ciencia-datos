@@ -221,8 +221,8 @@
   </tr>
 </table>
 
-
 <br>
+
 > <h3 align="center"> Parte 3: APLICACIONES</h3>
 
 
