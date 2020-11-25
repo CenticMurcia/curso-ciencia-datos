@@ -202,7 +202,7 @@
   <!----------------------------------- 7. Ensemble ----------------------------------->
   <tr>
     <th width="225" rowspan="4"><h3><a href="/07.%20Ensembling">7. Ensemble</a></h3><img src="img/icons/7 ensemble.svg" width="120px" height="100px"></th>
-    <td width="375">7.1 Media, media ponderada</td>
+    <td width="375">7.1 Media, media ponderada de los modelos</td>
   </tr>
   <tr>
     <td>7.2 Mismo modelo con distintas semillas</td>
@@ -211,7 +211,7 @@
     <td>7.3 Metamodelo (Blending y Stacking)</td>
   </tr>
   <tr>
-    <td>7.4 MetaMetaModelo (Stacking de varias capas)</td>
+    <td>7.4 Stacking de varias capass</td>
   </tr>
 </table>
 
