@@ -201,11 +201,17 @@
 <table>
   <!----------------------------------- 7. Ensemble ----------------------------------->
   <tr>
-    <th width="225" rowspan="2"><h3><a href="/07.%20Ensembling">7. Ensemble</a></h3><img src="img/icons/7 ensemble.svg" width="120px" height="100px"></th>
-    <td width="375">7.1 Mean, weighted mean</td>
+    <th width="225" rowspan="4"><h3><a href="/07.%20Ensembling">7. Ensemble</a></h3><img src="img/icons/7 ensemble.svg" width="120px" height="100px"></th>
+    <td width="375">7.1 Media, media ponderada</td>
   </tr>
   <tr>
-    <td>7.2 Metamodel (Blending y Stacking)</td>
+    <td>7.2 Mismo modelo con distintas semillas</td>
+  </tr>
+  <tr>
+    <td>7.3 Metamodelo (Blending y Stacking)</td>
+  </tr>
+  <tr>
+    <td>7.4 MetaMetaModelo (Stacking de varias capas)</td>
   </tr>
 </table>
 
