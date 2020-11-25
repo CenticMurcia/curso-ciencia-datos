@@ -276,8 +276,8 @@
     <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
     <tr>
-    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.2 Data augmentation</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+    <td>10.2 Data Augmentation y TTA</td>
+    <td></td>
   <tr>
     <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.5 Localización (bboxes) con Fast.ai 2</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
