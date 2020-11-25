@@ -2,8 +2,6 @@
 <p align="center"><img src="img/miniaturas YT/Portada.png" width="500px"></p>
 
 
-
-
 <br><br>
 
 > <h3 align="center"> Parte 1: INTRODUCCIÓN</h3>
@@ -38,8 +36,8 @@
 </table>
 
 
+<!----------------------------------- 📊 2. EDA ----------------------------------->
 <table>
-  <!----------------------------------- 📊 2. EDA ----------------------------------->
   <tr>
     <th width="200" rowspan="6"><h3><a href="/02.%20EDA">2. EDA y gráficas</a></h3><img src="img/icons/2 eda.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/02.%20EDA/2.1%20EDA%20sencillo%20con%20Pandas%20(churn%20ds).ipynb">2.1 EDA básico con Pandas y Matplotib</a></td>
@@ -68,8 +66,8 @@
 </table>
 
 
+<!----------------------------------- 3. Introducción al ML ----------------------------------->
 <table>
-  <!----------------------------------- 3. Introducción al ML ----------------------------------->
   <tr>
     <th width="200" rowspan="6"><h3><a href="/03.%20AutoML">3. Introducción al ML</a></h3>
     <img src="img/icons/3 automl.svg" width="120px" height="100px"></th>
@@ -103,8 +101,8 @@
 
 > <h3 align="center"> Parte 2: MODELOS</h3>
 
+<!----------------------------------- 📏 4. Modelos Lineales ----------------------------------->
 <table>
-  <!----------------------------------- 📏 4. Modelos Lineales ----------------------------------->
   <tr>
     <th width="200" rowspan="6"><h3><a href="/04.%20Linear%20models">4. Modelos<br>Lineales</a></h3>
     <img src="img/icons/4 linear.svg" width="120px" height="100px"></th>
@@ -134,8 +132,8 @@
 </table>
 
 
+<!----------------------------------- 🌳 5. Tree models ----------------------------------->
 <table>
-  <!----------------------------------- 🌳 5. Tree models ----------------------------------->
   <tr>
     <th width="200" rowspan="5"><h3><a href="/05.%20Tree%20models">5. Árboles</a></h3><img src="img/icons/5 tree.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/05.%20Tree%20models/5.1%20Decission%20Tree%20(CART)%20(adult).ipynb">5.1 Decission Tree (CART)</a></td>
@@ -160,8 +158,8 @@
 </table>
 
 
+<!-----------------------------------  6. Redes Neuronales ----------------------------------->
 <table>
-  <!-----------------------------------  6. Redes Neuronales ----------------------------------->
   <tr>
     <th width="200" rowspan="9"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
     <td width="400">6.1 Introducción a Keras</td>
@@ -202,8 +200,8 @@
 </table>
 
 
+<!----------------------------------- 7. Ensemble ----------------------------------->
 <table>
-  <!----------------------------------- 7. Ensemble ----------------------------------->
   <tr>
     <th width="200" rowspan="4"><h3><a href="/07.%20Ensembling">7. Ensemble</a></h3><img src="img/icons/7 ensemble.svg" width="120px" height="100px"></th>
     <td width="400">7.1 Media, media ponderada de los modelos</td>
@@ -228,8 +226,9 @@
 
 > <h3 align="center"> Parte 3: APLICACIONES</h3>
 
+
+<!-----------------------------------  8. NLP ----------------------------------->
 <table>
-  <!-----------------------------------  8. NLP ----------------------------------->
   <tr>
     <th width="200" rowspan="4"><h3><a href="/08.%20NLP">8. Procesamiento del Lenguaje</a></h3><img src="img/icons/10 nlp.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/008.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb">8.1 BOW + Logistic Regression</a></td>
@@ -250,16 +249,16 @@
 </table>
 
 
+<!-----------------------------------  🕐 9. Time series ----------------------------------->
 <table>  
-  <!-----------------------------------  🕐 9. Time series ----------------------------------->
   <tr>
     <th width="200" rowspan="3"><h3><a href="/09.%20Time%20Series">9. Series Temporales</a></h3><img src="img/icons/9 time.svg" width="120px" height="100px"></th>
-    <td width="400"><a href="/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">9.1 TimeSeries with Prophet 1</a></td>
-    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="400"><a href="/09.%20Time%20Series/9.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">9.1 TimeSeries with Prophet 1</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/09.%20Time%20Series/9.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/08.%20Time%20Series/8.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb">9.2 TimeSeries with Prophet 2</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/8.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/09.%20Time%20Series/9.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb">9.2 TimeSeries with Prophet 2</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Time%20Series/9.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/08.%20Time%20Series/8.3%20Ejercicio%20en%20Kaggle.ipynb">9.3 Ejercicio en Kaggle</a></td>
@@ -268,8 +267,8 @@
 </table>
 
 
+<!-----------------------------------  🖼️ 10. Image ----------------------------------->
 <table>
-  <!-----------------------------------  🖼️ 10. Image ----------------------------------->
   <tr>
     <th width="200" rowspan="4"><h3><a href="/10.%20Image">10. Imágenes</a></h3><img src="img/icons/12 image.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/10.%20Image/Classification%20-%20Fastai.ipynb">10.1 Clasification with Fast.ai</a></td>
@@ -286,6 +285,7 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
+
 
 <!---------------------------------  ⛏️ 10. Process Mining --------------------------------->
 <table>
@@ -315,8 +315,8 @@
 </table>
 
 
+<!----------------------------------- 7. No Supervisado ----------------------------------->
 <table>
-  <!----------------------------------- 7. No Supervisado ----------------------------------->
   <tr>
     <th width="200" rowspan="2"><h3><a href="/07.%20Unsupervised">Análisis No Supervisado</a></h3><img src="img/icons/14 unsupervised.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/07.%20Unsupervised/7.1%20Dim%20Red.ipynb">Reducción de Dimensionalidad</a></td>
