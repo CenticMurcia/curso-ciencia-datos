@@ -4,7 +4,7 @@
 
 
 
-
+<br><br>
 
 > <h3 align="center"> Parte 1: INTRODUCCIÓN</h3>
 
@@ -98,6 +98,8 @@
   </tr>
 </table>
 
+
+<br><br>
 
 > <h3 align="center"> Parte 2: MODELOS</h3>
 
@@ -221,10 +223,10 @@
   </tr>
 </table>
 
-<br>
+
+<br><br>
 
 > <h3 align="center"> Parte 3: APLICACIONES</h3>
-
 
 <table>
   <!-----------------------------------  8. NLP ----------------------------------->
