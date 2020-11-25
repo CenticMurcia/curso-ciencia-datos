@@ -54,7 +54,7 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.3%20EDA%20interactivo%20con%20Plotly%20(videogame%20ds).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/02.%20EDA/2.4%20EDA%20automático%20con%20Pandas%20Profile.ipynb">2.4 Auto-EDA con Pandas Profile y SweetViz</a></td>
+    <td><a href="/02.%20EDA/2.4%20EDA%20automático%20con%20Pandas%20Profile.ipynb">2.4 EDA automático con Pandas Profile y SweetViz</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.4%20EDA%20automático%20con%20Pandas%20Profile.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
