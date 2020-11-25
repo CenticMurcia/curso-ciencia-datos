@@ -6,8 +6,7 @@
 
 
 
-
-> ### PARTE 1: INTRODUCCIÓN
+> <h3 align="center"> Parte 1: INTRODUCCIÓN</h3>
 
 <!----------------------------------- 1. Python, Numpy y Pandas ----------------------------------->
 <table>
@@ -100,8 +99,7 @@
 </table>
 
 
-
-> ### PARTE 2: MODELOS
+> <h3 align="center"> Parte 2: MODELOS</h3>
 
 <table>
   <!----------------------------------- 📏 4. Modelos Lineales ----------------------------------->
@@ -224,8 +222,9 @@
 </table>
 
 
+<br>
+> <h3 align="center"> Parte 3: APLICACIONES</h3>
 
-> ### PARTE 3: APLICACIONES
 
 <table>
   <!-----------------------------------  8. NLP ----------------------------------->
