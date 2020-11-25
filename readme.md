@@ -159,13 +159,42 @@
 <table>
   <!-----------------------------------  6. Redes Neuronales ----------------------------------->
   <tr>
-    <th width="225" rowspan="2"><h3><a href="/06.%20Neural%20Networks">6. Redes Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
-    <td width="375"><a href="/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb">6.1 Red Neuronal</a></td>
-    <td width="150"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Web%20scrapping/6.1%20Beautiful%20Soup.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="225" rowspan="9"><h3><a href="/06.%20Neural%20Networks">6. Redes Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
+    <td width="375">6.1 Introducción a Keras</td>
+    <td width="150"></td>
   </tr>
   <tr>
-    <td><a href="/07.%20Unsupervised/5.2%20Clustering.ipynb">6.2 Técnicas de Regularización</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/5.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
+    <td>6.2 Introducción a Pytorch</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.3 Entrena una MLP</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.4 Entrena un Autoencoder (VAE)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.5 Entrena una RNN (LSTM, GRU)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.6 Entrena un Transformer (BERT)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.7 Entrena una CNN (ResNet, EfficientNet)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.8 Entrena una UNET</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.9 Entrena una GAN</td>
+    <td></td>
+  </tr>
 </table>
 
 
@@ -176,7 +205,7 @@
     <td width="375">7.1 Mean, weighted mean</td>
   </tr>
   <tr>
-    <td>7.2 Metamodel (Stacking)</td>
+    <td>7.2 Metamodel (Blending y Stacking)</td>
   </tr>
 </table>
 
@@ -235,7 +264,7 @@
     <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.2 Data augmentation</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   <tr>
-    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.5 Locacización (bboxes) con Fast.ai 2</a></td>
+    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.5 Localización (bboxes) con Fast.ai 2</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   <tr>
     <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.6 Segmentación con Fast.ai 2</a></td>
