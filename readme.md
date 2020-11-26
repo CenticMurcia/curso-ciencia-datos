@@ -254,7 +254,7 @@
   <tr>
     <th width="200" rowspan="2"><h3><a href="/09.%20Time%20Series">9. Series Temporales</a></h3><img src="img/icons/9 time.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/09.%20Time%20Series/9.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb">9.1 TimeSeries with Prophet 1</a></td>
-    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20Time%20Series/09.%20Time%20Series/9.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/09.%20Time%20Series/9.1%20TimeSeries%20with%20Prophet%20-%20Walmart.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td><a href="/09.%20Time%20Series/9.2%20TimeSeries%20with%20Prophet%20-%20Medium%20posts.ipynb">9.2 TimeSeries with Prophet 2</a></td>
