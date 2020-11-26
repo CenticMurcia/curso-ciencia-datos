@@ -163,7 +163,7 @@
   <tr>
     <th width="200" rowspan="9"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/06.%20Neural%20Networks/Introdution%20to%20Keras.ipynb">6.1 Introducción a Keras</a></td>
-    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/006.%20Neural%20Networks/Introdution%20to%20Keras.ipynb"><img src="img/colab.svg"/></a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Neural%20Networks/Introdution%20to%20Keras.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td>6.2 Introducción a Pytorch</td>
