@@ -255,7 +255,7 @@
 <!-----------------------------------  8. NLP ----------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="4"><h3><a href="/08.%20NLP">8. Procesamiento del Lenguaje</a></h3><img src="img/icons/8 nlp.svg" width="120px" height="100px"></th>
+    <th width="200" rowspan="5"><h3><a href="/08.%20NLP">8. Procesamiento del Lenguaje</a></h3><img src="img/icons/8 nlp.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/008.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb">8.1 BOW + Logistic Regression</a></td>
     <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -331,17 +331,17 @@
 <!---------------------------------  12. Audio y Procesamiento de Señales --------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="2"><h3>12. Audio y Procesamiento de Señales</h3><img src="img/icons/12 audio.svg" width="120px" height="100px"></th>
-    <td width="400"></td>
-  </tr>
-  <tr>
-    <td>12.1 Convertir señal a imagen (espectogramas...)</td>
+    <th width="200" rowspan="3"><h3>12. Audio y Procesamiento de Señales</h3><img src="img/icons/12 audio.svg" width="120px" height="100px"></th>
+    <td width="400">12.1 Convertir señal a imagen (espectogramas...)</td>
+    <td width="144"></td>
   </tr>
   <tr>
     <td>12.2 Clasificacion (temporal) con LSTM</td>
+    <td></td>
   </tr>
   <tr>
     <td>12.3 Separar fuentes</td>
+    <td></td>
   </tr>
 </table>
 
@@ -350,17 +350,17 @@
 <!---------------------------------  13. Vídeo --------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="2"><h3>13. Vídeo</h3><img src="img/icons/13 video.svg" width="120px" height="100px"></th>
-    <td width="400"></td>
-  </tr>
-  <tr>
-    <td>Clasificación en video</td>
+    <th width="200" rowspan="3"><h3>13. Vídeo</h3><img src="img/icons/13 video.svg" width="120px" height="100px"></th>
+    <td width="400">13.1 Clasificación para video</td>
+    <td width="144"></td>
   </tr>
   <tr>
     <td>Localización en vídeo</td>
+    <td></td>
   </tr>
   <tr>
     <td>Segmentación en video</td>
+    <td></td>
   </tr>
 </table>
 
@@ -372,9 +372,11 @@
   <tr>
     <th width="200" rowspan="2"><h3><a href="/14.%20Reinforcement%20Learning">14. Aprendizaje por Refuerzo</a></h3><img src="img/icons/14 game.svg" width="120px" height="100px"></th>
     <td width="400">14.1 Videjuegos</td>
+    <td width="144"></td>
   </tr>
   <tr>
     <td>14.2 Robótica</td>
+    <td></td>
   </tr>
 </table>
 
@@ -383,7 +385,7 @@
 <!-----------------------------------  Kaggle ----------------------------------->
 <table>  
   <tr>
-    <th width="200" rowspan="3"><h3><a href="/15.%20Kaggle">Soluciones a competiciones de Kaggle</a></h3><img src="img/icons/13 kaggle.svg" width="120px" height="100px"></th>
+    <th width="200" rowspan="3"><h3><a href="/15.%20Kaggle">Soluciones a competiciones de Kaggle</a></h3><img src="img/icons/15 kaggle.svg" width="120px" height="100px"></th>
     <td width="400">Titanic</td>
     <td width="144"></td>
   </tr>
