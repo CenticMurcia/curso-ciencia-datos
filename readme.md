@@ -39,7 +39,7 @@
 <!----------------------------------- 📊 2. EDA ----------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="6"><h3><a href="/02.%20EDA">2. EDA y gráficas</a></h3><img src="img/icons/2 eda.svg" width="120px" height="100px"></th>
+    <th width="200" rowspan="8"><h3><a href="/02.%20EDA">2. EDA y gráficas</a></h3><img src="img/icons/2 eda.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/02.%20EDA/2.1%20EDA%20sencillo%20con%20Pandas%20(churn%20ds).ipynb">2.1 EDA básico con Pandas y Matplotib</a></td>
     <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.1%20EDA%20sencillo%20con%20Pandas%20(churn%20ds).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -56,14 +56,24 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.4%20EDA%20automático%20con%20Pandas%20Profile.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/02.%20EDA/2.4%20Ejercicio.ipynb">2.5 Ejercicio</a></td>
+    <td><a href="/02.%20EDA/2.5%20Dim%20Red.ipynb">2.5 EDA avanzado: DimRed (PCA, tSNE, UMAP)</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.4%20Ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/02.%20EDA/2.5%20Solución.ipynb">2.6 Solución</a></td>
+    <td><a href="/02.%20EDA/2.5%20Solución.ipynb">2.6 EDA avanzado: Clustering (kMeans)</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.5%20Solución.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
+  <tr>
+    <td><a href="/02.%20EDA/2.4%20Ejercicio.ipynb">2.7 Ejercicio</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.4%20Ejercicio.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/02.%20EDA/2.5%20Solución.ipynb">2.8 Solución</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/02.%20EDA/2.5%20Solución.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  
 </table>
+
 
 
 <!----------------------------------- 3. Introducción al ML ----------------------------------->
@@ -99,7 +109,18 @@
 
 <br><br>
 
+
+
+
+
 > <h3 align="center"> Parte 2: MODELOS</h3>
+
+<!-- OTROS MODELOS
+
+- Modelos de instancia (knn)
+- Modelos bayesianos
+- Modelos genéticos/evolutivos
+-->
 
 <!----------------------------------- 📏 4. Modelos Lineales ----------------------------------->
 <table>
@@ -224,13 +245,17 @@
 
 <br><br>
 
+
+
+
+
 > <h3 align="center"> Parte 3: APLICACIONES</h3>
 
 
 <!-----------------------------------  8. NLP ----------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="4"><h3><a href="/08.%20NLP">8. Procesamiento del Lenguaje</a></h3><img src="img/icons/10 nlp.svg" width="120px" height="100px"></th>
+    <th width="200" rowspan="4"><h3><a href="/08.%20NLP">8. Procesamiento del Lenguaje</a></h3><img src="img/icons/8 nlp.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/008.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb">8.1 BOW + Logistic Regression</a></td>
     <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.1%20BoW%20%2B%20LogRegr%20(IMDb).ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
@@ -243,8 +268,11 @@
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.3%20Word%20Embeddings.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/08.%20NLP/8.4%20RNN%20with%20Keras%20(IMDb).ipynb">8.4 RNN with Keras</a></td>
+    <td><a href="/08.%20NLP/8.4%20RNN%20with%20Keras%20(IMDb).ipynb">8.4 RNN con Keras</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/08.%20NLP/8.4%20RNN%20with%20Keras%20(IMDb).ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td>8.5 Transformer desde 0 (attention mechanism)</a></td>
   </tr>
 </table>
 
@@ -263,69 +291,94 @@
 </table>
 
 
-<!-----------------------------------  🖼️ 10. Image ----------------------------------->
+
+<!---------------------------------  10. Sistemas de Recomendación --------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="4"><h3><a href="/10.%20Image">10. Imágenes</a></h3><img src="img/icons/12 image.svg" width="120px" height="100px"></th>
-    <td width="400"><a href="/10.%20Image/Classification%20-%20Fastai.ipynb">10.1 Clasification with Fast.ai</a></td>
-    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
-  </tr>
-    <tr>
-    <td>10.2 Data Augmentation y TTA</td>
-    <td></td>
-  <tr>
-    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.5 Localización (bboxes) con Fast.ai 2</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
-  <tr>
-    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">10.6 Segmentación con Fast.ai 2</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
-  </tr>
-</table>
-
-
-<!---------------------------------  ⛏️ 10. Process Mining --------------------------------->
-<table>
-  <tr>
-    <th width="200" rowspan="2"><h3><a href="/11.%20Process%20Mining">11. Minería de Procesos</a></h3><img src="img/icons/16 pm.svg" width="120px" height="100px"></th>
-    <td width="400"><a href="/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">11.1 Process Mining con PM4PY</a></td>
-    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/11.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
-  </tr>
-  <tr>
-    <td><a href="/11.%20Process%20Mining/10.2%20Process%20Mining%20con%20BupaR.R">11.2 Process Mining con BupaR</a></td>
-    <td></td>
-  </tr>
-</table>
-
-
-<!---------------------------------  12. Sistemas de Recomendación --------------------------------->
-<table>
-  <tr>
-    <th width="200" rowspan="2"><h3><a href="/12.%20Recommender">12. Sistemas de Recomendación</a></h3><img src="img/icons/99%20recommender.svg" width="120px" height="100px"></th>
-    <td width="400"><a href="/12.%20Recommender/Collaborative%20Filtering.ipynb">12.1 Collaborative Filtering con Keras</a></td>
+    <th width="200" rowspan="2"><h3><a href="/12.%20Recommender">10. Sistemas de Recomendación</a></h3><img src="img/icons/10 recommender.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/12.%20Recommender/Collaborative%20Filtering.ipynb">10.1 Collaborative Filtering con Keras</a></td>
     <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/12.%20Recommender/Collaborative%20Filtering.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
-    <td>12.2 Collaborative Filtering con Fast.ai</td>
+    <td>10.2 Collaborative Filtering con Fast.ai</td>
     <td></td>
   </tr>
 </table>
 
 
-<!----------------------------------- 7. No Supervisado ----------------------------------->
+
+
+<!-----------------------------------  🖼️ 11. Imagen ----------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="2"><h3><a href="/07.%20Unsupervised">Análisis No Supervisado</a></h3><img src="img/icons/14 unsupervised.svg" width="120px" height="100px"></th>
-    <td width="400"><a href="/07.%20Unsupervised/7.1%20Dim%20Red.ipynb">Reducción de Dimensionalidad</a></td>
-    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.1%20Dim%20Red.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="4"><h3><a href="/10.%20Image">11. Imágenes</a></h3><img src="img/icons/11 image.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/10.%20Image/Classification%20-%20Fastai.ipynb">11.1 Clasificación con Fast.ai</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
+    <tr>
+    <td>11.2 Data Augmentation y TTA</td>
+    <td></td>
   <tr>
-    <td><a href="/07.%20Unsupervised/7.2%20Clustering.ipynb">Clustering</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/07.%20Unsupervised/7.2%20Clustering.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">11.5 Localización (bboxes) con Fast.ai 2</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+  <tr>
+    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">11.6 Segmentación con Fast.ai 2</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
 
-> <h3 align="center"> Extra: Competiciones de Kaggle</h3>
+<!---------------------------------  12. Audio y Procesamiento de Señales --------------------------------->
+<table>
+  <tr>
+    <th width="200" rowspan="2"><h3>12. Audio y Procesamiento de Señales</h3><img src="img/icons/12 audio.svg" width="120px" height="100px"></th>
+    <td width="400"></td>
+  </tr>
+  <tr>
+    <td>12.1 Convertir señal a imagen (espectogramas...)</td>
+  </tr>
+  <tr>
+    <td>12.2 Clasificacion (temporal) con LSTM</td>
+  </tr>
+  <tr>
+    <td>12.3 Separar fuentes</td>
+  </tr>
+</table>
+
+
+
+<!---------------------------------  13. Vídeo --------------------------------->
+<table>
+  <tr>
+    <th width="200" rowspan="2"><h3>13. Vídeo</h3><img src="img/icons/13 video.svg" width="120px" height="100px"></th>
+    <td width="400"></td>
+  </tr>
+  <tr>
+    <td>Clasificación en video</td>
+  </tr>
+  <tr>
+    <td>Localización en vídeo</td>
+  </tr>
+  <tr>
+    <td>Segmentación en video</td>
+  </tr>
+</table>
+
+
+
+
+<!---------------------------------  ⛏️ 14. Aprendizaje por Refuerzo --------------------------------->
+<table>
+  <tr>
+    <th width="200" rowspan="2"><h3><a href="/14.%20Reinforcement%20Learning">14. Aprendizaje por Refuerzo</a></h3><img src="img/icons/14 game.svg" width="120px" height="100px"></th>
+    <td width="400">14.1 Videjuegos</td>
+  </tr>
+  <tr>
+    <td>14.2 Robótica</td>
+  </tr>
+</table>
+
+
 
 <!-----------------------------------  Kaggle ----------------------------------->
 <table>  
@@ -344,20 +397,48 @@
   </tr>
 </table>
 
-<!-----------------------------------  EXTRA ----------------------------------->
-<!--
 
-- Modelos de instancia (knn)
-- Modelos bayesianos
-- Modelos genéticos/evolutivos
-- Aprendizaje por refuerzo
-- Sonido
-  - clasificacion
-  - clasificacion temporal
-  - separar fuentes)
-- ML en producción
-  - APIs
--->
+
+
+
+> <h3 align="center"> Parte 4: APLICACIONES FUERA DEL ML</h3>
+
+
+<!---------------------------------  ⛏️ 16. Process Mining --------------------------------->
+<table>
+  <tr>
+    <th width="200" rowspan="2"><h3><a href="/16.%20Process%20Mining">16. Minería de Procesos</a></h3><img src="img/icons/16 pm.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/16.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb">16.1 Process Mining con PM4PY</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/16.%20Process%20Mining/10.1%20Process%20Mining%20con%20PM4PY.ipynb"><img src="img/colab.svg"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="/16.%20Process%20Mining/10.2%20Process%20Mining%20con%20BupaR.R">16.2 Process Mining con BupaR</a></td>
+    <td></td>
+  </tr>
+</table>
+
+
+### Heurísticos y Metaheuristicas
+- Una única solución y hacer pequeñas soluciones en esa solución.
+  - Tabu Search
+  - Simulated Annealing
+- Muchas soluciones: Algoritmo genéticos
+
+### Programación por restricciones (Constraint Programming: CP)
+
+### Programación Lineal (Linear Programming: LP)
+- Programación lineal continua
+  - Simplex (optimización global) (de caja negra)
+- Programación lineal entera (discreta)
+  - Simplex Lineal Entero
+
+### Mixed Integer Programming: MIP)
+
+
+
+
+
+---
 
 ## 🎓 Cursos recomendados
 - [**Kaggle learn**](https://www.kaggle.com/learn) (fácil)
