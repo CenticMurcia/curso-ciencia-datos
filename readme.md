@@ -182,40 +182,39 @@
 <!-----------------------------------  6. Redes Neuronales ----------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="9"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
-    <td width="400"><a href="/06.%20Neural%20Networks/Introdution%20to%20Keras.ipynb">6.1 Introducción a Keras</a></td>
-    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Neural%20Networks/Introdution%20to%20Keras.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="8"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
+    <td width="400">6.1 Introducción a la librería (Keras o Pytorch)</td>
+    <td width="160">
+      <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Neural%20Networks/Introdution%20to%20Keras.ipynb"><img src="https://img.shields.io/badge/-Keras-grey?logo=keras&logoColor=red"></a>
+      <a href="#"><img src="https://img.shields.io/badge/-Pytorch-grey?logo=pytorch&logoColor=red"/></a>
+    </td>
   </tr>
   <tr>
-    <td>6.2 Introducción a Pytorch</td>
+    <td>6.2 Entrena una MLP</td>
     <td></td>
   </tr>
   <tr>
-    <td>6.3 Entrena una MLP</td>
+    <td>6.3 Entrena un Autoencoder (VAE)</td>
     <td></td>
   </tr>
   <tr>
-    <td>6.4 Entrena un Autoencoder (VAE)</td>
+    <td>6.4 Entrena una RNN (LSTM, GRU)</td>
     <td></td>
   </tr>
   <tr>
-    <td>6.5 Entrena una RNN (LSTM, GRU)</td>
+    <td>6.5 Entrena un Transformer (BERT, TabNet)</td>
     <td></td>
   </tr>
   <tr>
-    <td>6.6 Entrena un Transformer (BERT, TabNet)</td>
+    <td>6.6 Entrena una CNN (ResNet, EfficientNet)</td>
     <td></td>
   </tr>
   <tr>
-    <td>6.7 Entrena una CNN (ResNet, EfficientNet)</td>
+    <td>6.7 Entrena una UNET</td>
     <td></td>
   </tr>
   <tr>
-    <td>6.8 Entrena una UNET</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>6.9 Entrena una GAN</td>
+    <td>6.8 Entrena una GAN</td>
     <td></td>
   </tr>
 </table>
