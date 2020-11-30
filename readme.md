@@ -185,8 +185,8 @@
     <th width="200" rowspan="8"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
     <td width="400">6.1 Introducción a la librería (Keras o Pytorch)</td>
     <td width="160">
-      <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Neural%20Networks/Introdution%20to%20Keras.ipynb"><img src="https://img.shields.io/badge/-Keras-grey?logo=keras&logoColor=red"></a>
-      <a href="#"><img src="https://img.shields.io/badge/-Pytorch-grey?logo=pytorch&logoColor=red"/></a>
+      <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Neural%20Networks/Introdution%20to%20Keras.ipynb"><img src="https://img.shields.io/badge/-Keras-grey?logo=keras&logoColor=D00000"></a>
+      <a href="#"><img src="https://img.shields.io/badge/-Pytorch-grey?logo=pytorch&logoColor=EE4C2C"/></a>
     </td>
   </tr>
   <tr>
