@@ -386,7 +386,7 @@
   <tr>
     <th width="200" rowspan="3"><h3><a href="/15.%20Kaggle">Soluciones a competiciones de Kaggle</a></h3><img src="img/icons/15 kaggle.svg" width="120px" height="100px"></th>
     <td width="400">Titanic</td>
-    <td width="144"></td>
+    <td width="165"><img src="https://img.shields.io/badge/-Cuaderno_en_Kaggle-grey?logo=kaggle&logoColor=20BEFF"></td>
   </tr>
   <tr>
     <td>Houses Prices</td>
