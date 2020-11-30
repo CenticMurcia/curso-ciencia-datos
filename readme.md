@@ -451,6 +451,11 @@
   - [Curso 2019 de Deep Larning](https://course19.fast.ai): Parte 1 (fácil) y 2 (avanzado)
   - [Curso 2018 de Machine Larning](http://course18.fast.ai/ml)
 - [**Andrew Ng Coursera Deep Learning**](https://www.coursera.org/specializations/deep-learning#courses)
+- [**Made With ML**](https://madewithml.com/)
+  - [**Machine Learning Basics**](https://github.com/madewithml/basics)
+  - [**Applied ML in Production**](https://madewithml.com/courses/applied-ml-in-production)
+
+
 
 ## 📚 Libros recomendados
 
