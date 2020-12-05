@@ -307,6 +307,23 @@ x_preprocessing_mult = compose.ColumnTransformer(transformers=[
 TO-DO: Scaling and Normalization
 > - [Feature Scaling and the effect of standardization for machine learning algorithms](https://sebastianraschka.com/Articles/2014_about_feature_scaling.html)
 
+### RankGauss (aka QuantileTransformer)
+
+Its based on rank transformation.
+
+1. Assign a linspace to the sorted features from 0..1,
+2. Apply the inverse of error function ErfInv to shape them like gaussians,
+3. Substract the mean.
+
+This works usually much better than standard mean/std scaler or min/max.
+
+`RankGauss = QuantileTransformer(n_quantiles=100, random_state=0, output_distribution="normal")`
+
+### Variance Threshold
+
+- VarianceThreshold is a method of feature selection.
+- It removes all features whose variance doesn’t meet some threshold. 
+
 ### [Map data to a normal distribution](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_map_data_to_normal.html): Box-Cox
 A Box Cox transformation is a generic way to transform non-normal variables into a **normal shape**.
 
