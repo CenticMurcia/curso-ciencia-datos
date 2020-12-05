@@ -457,6 +457,11 @@
 - [**Made With ML**](https://madewithml.com/)
   - [**Machine Learning Basics**](https://github.com/madewithml/basics)
   - [**Applied ML in Production**](https://madewithml.com/courses/applied-ml-in-production)
+- Soluciones de competiciones pasadas de Kaggle
+  - [KaggleDB solutions](https://kaggledb.com/solutions)
+  - http://ndres.me/kaggle-past-solutions/
+  - http://www.chioka.in/kaggle-competition-solutions/
+  - https://github.com/ShuaiW/kaggle-classification/
 
 
 
