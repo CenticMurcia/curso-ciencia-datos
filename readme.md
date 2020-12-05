@@ -182,7 +182,7 @@
 <!-----------------------------------  6. Redes Neuronales ----------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="9"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
+    <th width="200" rowspan="6"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales<br>más comunes</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
     <td width="400">6.1 Introducción a la librería (Keras o Pytorch)</td>
     <td width="160">
       <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/06.%20Neural%20Networks/Introdution%20to%20Keras.ipynb"><img src="https://img.shields.io/badge/-Keras-grey?logo=keras&logoColor=D00000"></a>
@@ -194,35 +194,47 @@
     <td></td>
   </tr>
   <tr>
-    <td>6.3 Entrena un Autoencoder (VAE)</td>
+    <td>6.3 Entrena una CNN (ResNet, EfficientNet)</td>
     <td></td>
   </tr>
   <tr>
-    <td>6.4 Entrena una RNN (LSTM, GRU)</td>
+    <td>6.4 Entrena una UNET</td>
     <td></td>
   </tr>
   <tr>
-    <td>6.5 Entrena un Transformer (BERT, TabNet)</td>
+    <td>6.5 Entrena una RNN (LSTM, GRU)</td>
     <td></td>
   </tr>
   <tr>
-    <td>6.6 Entrena una CNN (ResNet, EfficientNet)</td>
+    <td>6.6 Entrena un Transformer (BERT, TabNet)</td>
     <td></td>
   </tr>
+</table>
+
+
+<table>
   <tr>
-    <td>6.7 Entrena una UNET</td>
-    <td></td>
+    <th width="200" rowspan="5"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales<br>menos comunes</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
+    <td width="400">6.7 Generative Adversarial Network (GAN)</td>
+    <td width="160"></td>
   </tr>
   <tr>
-    <td>6.8 Entrena una GAN</td>
+    <td>6.8 Autoencoder (VAE)</td>
     <td></td>
   </tr>
   <tr>
     <td>6.9 Neural Representations (NeRF, SIREN)</td>
     <td></td>
   </tr>
+  <tr>
+    <td>6.10 Graph Neural Network (GNN)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.11 Neural architecture search (NAS)</td>
+    <td></td>
+  </tr>
 </table>
-
 
 <!----------------------------------- 7. Ensemble ----------------------------------->
 <table>
