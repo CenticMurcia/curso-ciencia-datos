@@ -310,9 +310,9 @@
 <!---------------------------------  10. Sistemas de Recomendación --------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="2"><h3><a href="/12.%20Recommender">10. Sistemas de Recomendación</a></h3><img src="img/icons/10 recommender.svg" width="120px" height="100px"></th>
-    <td width="400"><a href="/12.%20Recommender/Collaborative%20Filtering.ipynb">10.1 Collaborative Filtering con Keras</a></td>
-    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/12.%20Recommender/Collaborative%20Filtering.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="2"><h3><a href="/10.%20Recommender">10. Sistemas de Recomendación</a></h3><img src="img/icons/10 recommender.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/10.%20Recommender/Collaborative%20Filtering.ipynb">10.1 Collaborative Filtering con Keras</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Recommender/Collaborative%20Filtering.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
   <tr>
     <td>10.2 Collaborative Filtering con Fast.ai</td>
@@ -326,19 +326,19 @@
 <!-----------------------------------  🖼️ 11. Imagen ----------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="4"><h3><a href="/10.%20Image">11. Imágenes</a></h3><img src="img/icons/11 image.svg" width="120px" height="100px"></th>
-    <td width="400"><a href="/10.%20Image/Classification%20-%20Fastai.ipynb">11.1 Clasificación con Fast.ai</a></td>
-    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+    <th width="200" rowspan="4"><h3><a href="/11.%20Image">11. Imágenes</a></h3><img src="img/icons/11 image.svg" width="120px" height="100px"></th>
+    <td width="400"><a href="/11.%20Image/Classification%20-%20Fastai.ipynb">11.1 Clasificación con Fast.ai</a></td>
+    <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/11.%20Image/Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
     <tr>
     <td>11.2 Data Augmentation y TTA</td>
     <td></td>
   <tr>
-    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">11.5 Localización (bboxes) con Fast.ai 2</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/11.%20Image/Segmentation%20-%20Fastai.ipynb">11.5 Localización (bboxes) con Fast.ai 2</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/11.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   <tr>
-    <td><a href="/10.%20Image/Segmentation%20-%20Fastai.ipynb">11.6 Segmentación con Fast.ai 2</a></td>
-    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/10.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
+    <td><a href="/11.%20Image/Segmentation%20-%20Fastai.ipynb">11.6 Segmentación con Fast.ai 2</a></td>
+    <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/11.%20Image/Segmentation%20-%20Fastai.ipynb"><img src="img/colab.svg"/></a></td>
   </tr>
 </table>
 
@@ -365,7 +365,10 @@
 <!---------------------------------  13. Vídeo --------------------------------->
 <table>
   <tr>
-    <th width="200" rowspan="3"><h3>13. Vídeo</h3><img src="img/icons/13 video.svg" width="120px" height="100px"></th>
+    <th width="200" rowspan="3">
+      <h3><a href="/13.%20Video">13. Vídeo</a></h3>
+      <img src="img/icons/13 video.svg" width="120px" height="100px">
+    </th>
     <td width="400">13.1 Clasificación para video</td>
     <td width="144"></td>
   </tr>
