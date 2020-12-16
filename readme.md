@@ -231,7 +231,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>6.11 Bayesian Neural Network (BNN)</td>
+    <td><a href="/06.%20Neural%20Networks/BNN">6.11 Bayesian Neural Network (BNN)</a></td>
     <td></td>
   </tr>
   <tr>
