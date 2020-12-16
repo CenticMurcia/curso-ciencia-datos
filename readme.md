@@ -214,7 +214,7 @@
 
 <table>
   <tr>
-    <th width="200" rowspan="5"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales<br>menos comunes</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
+    <th width="200" rowspan="6"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales<br>menos comunes</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
     <td width="400">6.7 Generative Adversarial Network (GAN)</td>
     <td width="160"></td>
   </tr>
@@ -231,7 +231,11 @@
     <td></td>
   </tr>
   <tr>
-    <td>6.11 Neural architecture search (NAS)</td>
+    <td>6.11 Bayesian Neural Network (BNN)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.12 Neural architecture search (NAS)</td>
     <td></td>
   </tr>
 </table>
