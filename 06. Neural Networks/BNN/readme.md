@@ -1,14 +1,11 @@
 <h1 align="center">Bayesian Neural Networks</h1>
 
-
-## Uncertainty
-
+## Uncertainty
 
 #### Problem: 2 Types of uncertainties
 
 - **Epistemic uncertainty**: When there is no data in that combinations of x Variables
-  - Solution: More data
-- **Aleatoric uncertainty**: When the data has nosie (Random or Gaussian noise for example)
+- **Aleatoric uncertainty**: When the data has noise (Random or Gaussian noise for example)
 
 <p align="center"><img width="66%" src="img/uncertainties.png" /></p>
 
