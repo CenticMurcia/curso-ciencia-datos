@@ -227,7 +227,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>6.10 Graph Neural Network (GNN)</td>
+    <td><a href="/06.%20Neural%20Networks/GNN">6.10 Graph Neural Network (GNN)</a></td>
     <td></td>
   </tr>
   <tr>
