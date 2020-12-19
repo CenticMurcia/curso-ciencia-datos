@@ -219,11 +219,11 @@
     <td width="160"></td>
   </tr>
   <tr>
-    <td>6.8 Autoencoder (VAE)</td>
+    <td><a href="/06.%20Neural%20Networks/AE">6.8 Autoencoder (VAE)</a></td>
     <td></td>
   </tr>
   <tr>
-    <td>6.9 Neural Representations (NeRF, SIREN)</td>
+    <td><a href="/06.%20Neural%20Networks/NeRF">6.9 Neural Representations (NeRF, SIREN)</a></td>
     <td></td>
   </tr>
   <tr>
