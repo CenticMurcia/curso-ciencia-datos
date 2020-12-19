@@ -134,3 +134,27 @@ In theory are just as fast to train as random forests, but in practice you will 
 
 > - Paper: [Learning Nonlinear Functions Using Regularized Greedy Forest](https://arxiv.org/pdf/1109.0887.pdf)
 > - https://www.kaggle.com/carlmcbrideellis/introduction-to-the-regularized-greedy-forest
+
+
+
+# [Microsoft Hummingbird](https://github.com/microsoft/hummingbird)
+
+**Converts Tree models into Neural Nets**.
+```python
+from sklearn.ensemble import RandomForestClassifier
+from hummingbird.ml import convert
+
+# Create and train a model (scikit-learn RandomForestClassifier in this case)
+tree_model = RandomForestClassifier(n_estimators=10, max_depth=10)
+tree_model.fit(x, y)
+
+# Use Hummingbird to convert the model to PyTorch
+nn_model = convert(tree_model, 'pytorch')
+
+# Run predictions on CPU
+nn_model.predict(X)
+
+# Run predictions on GPU
+nn_model.to('cuda')
+nn_model.predict(X)
+```
