@@ -214,12 +214,12 @@
 
 <table>
   <tr>
-    <th width="200" rowspan="6"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales<br>menos comunes</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
+    <th width="200" rowspan="7"><h3><a href="/06.%20Neural%20Networks">6. Redes<br>Neuronales<br>menos comunes</a></h3><img src="img/icons/6 nn.svg" width="120px" height="100px"></th>
     <td width="400">6.7 Generative Adversarial Network (GAN)</td>
     <td width="160"></td>
   </tr>
   <tr>
-    <td><a href="/06.%20Neural%20Networks/AE">6.8 Autoencoder (VAE)</a></td>
+    <td><a href="/06.%20Neural%20Networks/Autoencoder">6.8 Autoencoder (VAE)</a></td>
     <td></td>
   </tr>
   <tr>
@@ -235,7 +235,11 @@
     <td></td>
   </tr>
   <tr>
-    <td>6.12 Neural architecture search (NAS)</td>
+    <td><a href="/06.%20Neural%20Networks/MetricLearning">6.12 Metric Learning (ArcFace)</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.13 Neural architecture search (NAS)</td>
     <td></td>
   </tr>
 </table>
