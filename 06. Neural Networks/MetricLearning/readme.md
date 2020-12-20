@@ -59,7 +59,7 @@ Cross-entropy is valid choice of loss function, same as contrastive or triplet o
 
 ## SimCLR: Metric Learning for unsupervised data
 
-<p align="center"><img width="66%" src="img/SimCLR.gif"/></p>
+<p align="center"><img width="50%" src="img/SimCLR.gif"/></p>
 
 
 ## Reference
