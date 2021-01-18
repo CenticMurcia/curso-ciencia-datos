@@ -45,5 +45,6 @@ So, BNNs act like a kind of ensemble!
 
 ## Reference
 
+- [Keras: example: Probabilistic Bayesian Neural Networks](https://keras.io/examples/keras_recipes/bayesian_neural_networks/)
 - Medium: [Uncertainty in Deep Learning. How To Measure?](https://towardsdatascience.com/my-deep-learning-model-says-sorry-i-dont-know-the-answer-that-s-absolutely-ok-50ffa562cb0b)
 - [TensorFlow Probability](https://www.tensorflow.org/probability)
