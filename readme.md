@@ -485,12 +485,13 @@
     - [**Machine Learning Basics**](https://github.com/madewithml/basics)
     - [**Applied ML in Production**](https://madewithml.com/courses/applied-ml-in-production)
 - **Deep Learning**
-  - [PyTorch Lightning MasterClass (youtube playlist)](https://www.youtube.com/playlist?list=PLaMu-SDt_RB5NUm67hU2pdE75j6KaIOv2)
   - [**Andrew Ng Coursera Deep Learning**](https://www.coursera.org/specializations/deep-learning#courses)
   - [**Fast.ai**](http://fast.ai)
     - [Curso 2020 de Deep Larning](https://course.fast.ai): Solo parte 1 debido al covid
     - [Curso 2019 de Deep Larning](https://course19.fast.ai): Parte 1 (fácil) y 2 (avanzado)
     - [Curso 2018 de Machine Larning](http://course18.fast.ai/ml)
+  - [Full Stack Deep Learning](https://course.fullstackdeeplearning.com) (free course)
+  - [PyTorch Lightning MasterClass](https://www.youtube.com/playlist?list=PLaMu-SDt_RB5NUm67hU2pdE75j6KaIOv2) (youtube playlist)
 - Soluciones de competiciones pasadas de **Kaggle**
   - [KaggleDB solutions](https://kaggledb.com/solutions)
   - http://ndres.me/kaggle-past-solutions/
