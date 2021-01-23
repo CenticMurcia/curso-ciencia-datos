@@ -1,5 +1,9 @@
 <h1 align="center">Transformer</h1>
 
+![](img/Attention.png)
+
+## Better initialization: [T-Fixup](http://www.cs.toronto.edu/~mvolkovs/ICML2020_tfixup.pdf)
+
 ## Theory Reference
 
 - [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) (Jay Alammar)
