@@ -38,7 +38,7 @@ The **problem**: If we dont have that, we have problems:
 | Linear(IN,OUT) -> tanh       | normal_(mean=0, std=math.sqrt(1/IN)) | fill_(0)  | Xavier Glorot |
 | Linear(IN,OUT) -> ReLU       | normal_(mean=0, std=math.sqrt(2/IN)) | fill_(0)  | Kaiming He. Replace Relu(x) by: `x.clamp_min(0) - 0.5` to get mean=0 |
 | Embedding(VOCAB,EMB)         | normal_(mean=0, std=math.sqrt(1/EMB))|           |       |
-| Conv(IN_CH,OUT_CH,K) -> ReLU | normal_(0, math.sqrt(2/(IN_CH*K*K))) | fill_(0)  |       |
+| Conv(IN_CH,OUT_CH,K) -> ReLU | normal_(0, math.sqrt(2/(IN_CH·K·K))) | fill_(0)  |       |
 | Residual custom model        | Fixup                                |           |       |
 | Transformer model            | T-Fixup                              |           |       |
 
