@@ -30,17 +30,17 @@ The **problem**: If we dont have that, we have problems:
 - [Jeremy howard explaining inits video](https://www.youtube.com/watch?v=AcA8HAYh7IE)
 - https://madaan.github.io/init/
 
-
-| Layer                        | Best init for weight.data            | bias.data | Notes |
-|------------------------------|--------------------------------------|-----------|-------|
-| Linear(IN,OUT)               | normal_(mean=0, std=math.sqrt(1/IN)) | fill_(0)  |       |
-| Linear(IN,OUT) -> Sigmoid    | normal_(mean=0, std=math.sqrt(1/IN)) | fill_(0)  |       |
-| Linear(IN,OUT) -> tanh       | normal_(mean=0, std=math.sqrt(1/IN)) | fill_(0)  | Xavier Glorot |
-| Linear(IN,OUT) -> ReLU       | normal_(mean=0, std=math.sqrt(2/IN)) | fill_(0)  | Kaiming He. Replace Relu(x) by: `x.clamp_min(0) - 0.5` to get mean=0 |
-| Embedding(VOCAB,EMB)         | normal_(mean=0, std=math.sqrt(1/EMB))|           |       |
-| Conv(IN_CH,OUT_CH,K) -> ReLU | normal_(0, math.sqrt(2/(IN_CH·K·K))) | fill_(0)  |       |
-| Residual custom model        | Fixup                                |           |       |
-| Transformer model            | T-Fixup                              |           |       |
+| Layer                        | Best init for weight.data               | bias.data | Notes |
+|------------------------------|-----------------------------------------|-----------|-------|
+| Linear(IN,OUT)               | normal(mean=0, std=sqrt(1/IN))          | fill(0)   |       |
+| Linear(IN,OUT) -> Sigmoid    | normal(mean=0, std=sqrt(1/IN))          | fill(0)   |       |
+| Linear(IN,OUT) -> tanh       | normal(mean=0, std=sqrt(1/IN))          | fill(0)   | Xavier Glorot |
+| Linear(IN,OUT) -> ReLU       | normal(mean=0, std=sqrt(2/IN))          | fill(0)   | Kaiming He. Replace Relu(x) by: `x.clamp_min(0) - 0.5` to get mean=0 |
+| Linear(IN,OUT) -> Swish      | ?                                       | ?         |       |
+| Embedding(VOCAB,EMB)         | normal(mean=0, std=sqrt(1/EMB           |           |       |
+| Conv(IN_CH,OUT_CH,K) -> ReLU | normal(mean=0, std=sqrt(2/(IN_CH·K·K))) | fill(0)   |       |
+| Residual custom model        | Fixup                                   |           |       |
+| Transformer model            | T-Fixup                                 |           |       |
 
 
 > Note:
@@ -55,9 +55,10 @@ The **problem**: If we dont have that, we have problems:
 | Kaiming (aka He)       | [2015](https://arxiv.org/abs/1502.01852) |       |
 | LSUV                   | [2015](https://arxiv.org/abs/1511.06422) | Indiferente del tipo de capa. Proceso iterativo. |
 | SELU                   | [2017](https://arxiv.org/abs/1706.02515) | NO USAR |
-| Delta-Orthogonal       | [2018](https://arxiv.org/abs/1806.05393) | Good for convolutions |
+| Delta-Orthogonal       | [2018](https://arxiv.org/abs/1806.05393) | Good for CNNs |
 | Fixup                  | [2019](https://arxiv.org/abs/1901.09321) | Indiferente del tipo de capa |
-| T-Fixup                | [2020](http://www.cs.toronto.edu/~mvolkovs/ICML2020_tfixup.pdf) | |
+| T-Fixup                | [2020](http://www.cs.toronto.edu/~mvolkovs/ICML2020_tfixup.pdf) | Good for Transformer |
+| DeepMind paper         | [2021](https://arxiv.org/abs/2101.08692) | Andres Torrubia recomeadation for CNNs |
 
 
 > ### Layer-sequential unit-variance (LSUV)
