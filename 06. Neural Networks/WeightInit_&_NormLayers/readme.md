@@ -58,7 +58,7 @@ The **problem**: If we dont have that, we have problems:
 | Delta-Orthogonal       | [2018](https://arxiv.org/abs/1806.05393) | Good for CNNs |
 | Fixup                  | [2019](https://arxiv.org/abs/1901.09321) | Indiferente del tipo de capa |
 | T-Fixup                | [2020](http://www.cs.toronto.edu/~mvolkovs/ICML2020_tfixup.pdf) | Good for Transformer |
-| DeepMind paper         | [2021](https://arxiv.org/abs/2101.08692) | Andres Torrubia recomeadation for CNNs |
+| DeepMind paper         | [2021](https://arxiv.org/abs/2101.08692) | Andres Torrubia recomeadation for CNNs. [TWIT](https://twitter.com/ajmooch/status/1352614051352899585) |
 
 
 > ### Layer-sequential unit-variance (LSUV)
