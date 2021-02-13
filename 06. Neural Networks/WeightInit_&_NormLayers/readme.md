@@ -59,7 +59,7 @@ The **problem**: If we dont have that, we have problems:
 | Fixup                  | [2019](https://arxiv.org/abs/1901.09321) | Indiferente del tipo de capa |
 | T-Fixup                | [2020](http://www.cs.toronto.edu/~mvolkovs/ICML2020_tfixup.pdf) | Good for Transformer |
 | DeepMind paper         | [Jan 2021](https://arxiv.org/abs/2101.08692) | CNNs without Batchnorm [TWIT](https://twitter.com/ajmooch/status/1352614051352899585) |
-| DeepMind paper 2       | [Feb 2021](https://arxiv.org/abs/2102.06171) | CNNs without Batchnorm [TWIT](https://twitter.com/ajmooch/status/13602206107738644555)|
+| DeepMind paper 2       | [Feb 2021](https://arxiv.org/abs/2102.06171) | CNNs without Batchnorm [TWIT](https://twitter.com/ajmooch/status/1360220610773864455) |
 
 
 > ### Layer-sequential unit-variance (LSUV)
