@@ -20,7 +20,6 @@
 
 ### Software
 
-
 <table>
   <tr>
     <th ><a href="https://www.tensorflow.org"><img src="../img/logos/TensorFlow.svg"/></a></th>
@@ -42,15 +41,15 @@
 
 
 
+# Problems
 
+| Problem                    | Description             | Output layer          | Loss                       | 
+|----------------------------|-------------------------|-----------------------|----------------------------|
+| Regression                 | Real number             | 1 neuron without act  | Mean Squared Error (MSE)   |
+| Binary Classification      | 2 exclusive classes     | 1 neuron + Sigmoid    | Binary Cross Entropy (BCE) |
+| Multi-Class Classification | N exclusive classes     | N neurons + Softmax   | Cross-Entropy (CE)         |
+| Multi-Label Classification | N non-exclusive classes | N neurons + Sigmoid   | Binary Cross Entropy (BCE) |
 
-# Model
-
-
-# Loss
-
-
-# Train Hyperparms
 
 
 # Advice for Tabular data
