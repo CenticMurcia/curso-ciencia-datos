@@ -1,0 +1,58 @@
+shop_id,shop_name,shop_type,shop_city,latitude,longitude
+2,adygea tc mega,mall,adygea,44.6939006,40.1520421
+3,balashikha tc oktyabr-kinomir,tc,balashikha,55.8036225,37.9646488
+4,volga tc volga mall,mall,volga,56.1670244,44.2150569
+5,vologda sec marmelad,regular,vologda,59.218876,39.893276
+6,voronezh (plekhanovskaya 13),regular,voronezh,51.6605982,39.2005858
+7,voronezh sec maksimir,regular,voronezh,51.6605982,39.2005858
+8,voronezh sec city-park grad,regular,voronezh,51.6605982,39.2005858
+9,outbound trade,special,No-city,0.0,0.0
+10,zhukovsky st. chkalov 39m?,regular,zhukovsky,55.5972801,38.1199863
+12,internet-shop of emergency situations,online,No-city,0.0,0.0
+13,kazan tc behetle,tc,kazan,55.7823547,49.1242266
+14,kazan tc parkhouse ii,tc,kazan,55.7823547,49.1242266
+15,kaluga tc xxi century,tc,kaluga,54.5101087,36.2598115
+16,kolomna tc rio,tc,kolomna,55.0938743,38.7670121
+17,krasnoyarsk tc vzletka plaza,tc,krasnoyarsk,63.3233807,97.0979974
+18,krasnoyarsk tc june,tc,krasnoyarsk,63.3233807,97.0979974
+19,kursk tc  pushkinskiy ,tc,kursk,51.739433,36.179604
+20,moscow sale ,special,moscow,55.7504461,37.6174943
+21,moscow mtrc afi mall ,mall,moscow,55.7504461,37.6174943
+22,moscow shop c21,regular,moscow,55.7504461,37.6174943
+23,moscow tk budenovskiy (pav.a2),regular,moscow,55.7504461,37.6174943
+24,moscow tk budenovskiy (pav.k7),regular,moscow,55.7504461,37.6174943
+25,moscow tec atrium ,regular,moscow,55.7504461,37.6174943
+26,moscow tts areal (belyaevo),regular,moscow,55.7504461,37.6174943
+27,moscow tc mega belaya dacha ii ,mall,moscow,55.7504461,37.6174943
+28,moscow tc mega teply stan ii,mall,moscow,55.7504461,37.6174943
+29,moscow tc new age (novokosino),tc,moscow,55.7504461,37.6174943
+30,moscow tc perlovsky ,tc,moscow,55.7504461,37.6174943
+31,moscow tc semenovsky ,tc,moscow,55.7504461,37.6174943
+32,moscow tc serebryany house ,tc,moscow,55.7504461,37.6174943
+33,mytishchi sec xl-3 ,regular,mytishchi,55.9094928,37.7339358
+34,nizhni.novgorod sec rio ,regular,nizhni.novgorod,56.328571,44.003506
+35,nizhni.novgorod sec fantasy ,regular,nizhni.novgorod,56.328571,44.003506
+36,novosibirsk sec gallery novosibirsk ,regular,novosibirsk,55.0282171,82.9234509
+37,novosibirsk sec mega ,mall,novosibirsk,55.0282171,82.9234509
+38,omsk tc mega ,mall,omsk,54.991375,73.371529
+39,rostov-on-don sec megacenter horizon,mall,rostov-on-don,47.2213858,39.7114196
+40,rostov-on-don megatsentr gorizont ostrovnoy shopping mall,mall,rostov-on-don,47.2213858,39.7114196
+41,rostov-on-don mega shopping center,mall,rostov-on-don,47.2213858,39.7114196
+42,st.petersburg nevsky center shopping center,mall,st.petersburg,59.938732,30.316229
+43,st.petersburg sennaya shopping center,mall,st.petersburg,59.938732,30.316229
+44,samara melody shopping center,mall,samara,53.198627,50.113987
+45,samara parkhouse shopping center,mall,samara,53.198627,50.113987
+46,sergiev posad 7ya shopping center,mall,sergiev,56.3133404,38.1320729
+47,surgut sec city mall,mall,surgut,61.254032,73.3964
+48,tomsk sec emerald city,regular,tomsk,58.6124279,82.0475315
+49,tyumen sec crystal,regular,tyumen,57.153534,65.542274
+50,tyumen sec goodwin,regular,tyumen,57.153534,65.542274
+51,tyumen tc green coast ,tc,tyumen,57.153534,65.542274
+52,ufa tc central ,tc,ufa,54.7261409,55.947499
+53,ufa tc family 2,tc,ufa,54.7261409,55.947499
+54,khimki tc mega ,mall,khimki,55.8892847,37.4449896
+55,digital warehouse 1c-online,online,No-city,0.0,0.0
+56,chekhov tc karnaval ,tc,chekhov,55.1426603,37.4545328
+57,yakutsk ordzhonikidze - 56,regular,yakutsk,62.027287,129.732086
+58,yakutsk tc central ,tc,yakutsk,62.027287,129.732086
+59,yaroslavl tc altair ,tc,yaroslavl,57.6263877,39.8933705
