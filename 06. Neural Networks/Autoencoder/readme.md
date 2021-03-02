@@ -2,10 +2,22 @@
 
 ## Theory
 
-- Standard autoencoders: Made for reconstruct the input. No continuous latant space.
-  - **Simple Autoencoder**: Same input and output net with a smaller middle hidden layer (botleneck layer, latent vector).
-  - **Denoising Autoencoder (DAE)**: Adds noise to the input to learn how to remove noise.
-  - Only have a recontruction loss (pixel mean squared error for example)
+> #### What is an autoencoder?
+>  Same input and output shape neural network made for reconstruct the input.
+>  
+>  Applications:
+>  - Compress information (Bottleneck Autoencoder)
+>  - Unsupervised feature extractor (Bottleneck Autoencoder & Deepstack Autoencoder)
+
+- Architectures:
+  - **Bottleneck Autoencoder**: only the bottleneck layer (smaller middle hidden layer) is used as extracted features. The main issue is that the surrounding layers have to be very large so that enough information is beeing captures.
+  - **Deepstack Autoencoder**: all hidden layers are being used extracted features. Dimension isn't beeing reduced, but enlarged.
+- **Denoising Autoencoder (DAE)**: Adds noise to the input to learn how to reconstrut the original input.
+  - images:
+    - NOISE: Random normal noise to the pixels.
+    - LOSS: Only have a recontruction loss (pixel MSE for example)
+  - Tabular:
+    - NOISE: "inputSwapNoise" probability: 0.15 means 15% of features replaced by values from another row OF SAME FEATS (NO cross feature noise).
 - **Variational Autoencoder (VAE)**: Initially trained as a reconstruction problem, but later we can play with the latent vector to generate new outputs. Latant space need to be continuous.
   - **Latent vector**: Is modified by adding gaussian noise (normal distribution, mean and std vectors) during training.
   - **Loss**: `loss = recontruction loss + latent loss`
@@ -24,13 +36,16 @@
 
 ## Practice (Kaggle competitions)
 
+- Porto Seguro: Winning solution
+  - Unspervised training (Feat extractor): DAE with swap noise 
+  - [discussion](https://www.kaggle.com/c/porto-seguro-safe-driver-prediction/discussion/44629)
 - Tabular Playground Jan 2021: Winning solution
   - Feature extractor: DAE of 3 Linear layers
-  - Model: Stacking of MLPs + LightGBM 
+  - Model: Stacking of heavily_regularized_MLPs + LightGBM 
   - [discussion](https://www.kaggle.com/c/tabular-playground-series-jan-2021/discussion/216037)
-  - [code](https://www.kaggle.com/springmanndaniel/1st-place-turn-your-data-into-daeta)
+  - [notebook](https://www.kaggle.com/springmanndaniel/1st-place-turn-your-data-into-daeta)
 - Tabular Playground Feb 2021: Winning solution
   - Feature extractor: DAE of Transformer layers
   - [discussion](https://www.kaggle.com/c/tabular-playground-series-feb-2021/discussion/222745)
-  - [code](https://www.kaggle.com/springmanndaniel/1st-place-turn-your-data-into-daeta)
+  - [github repo](https://github.com/ryancheunggit/Denoise-Transformer-AutoEncoder)
 
