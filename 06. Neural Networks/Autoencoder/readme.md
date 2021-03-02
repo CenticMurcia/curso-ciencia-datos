@@ -1,5 +1,6 @@
 <h1 align="center">Autoencoders</h1>
 
+## Theory
 
 - Standard autoencoders: Made for reconstruct the input. No continuous latant space.
   - **Simple Autoencoder**: Same input and output net with a smaller middle hidden layer (botleneck layer, latent vector).
@@ -21,4 +22,15 @@
   - [other paper](https://openreview.net/forum?id=RLRXCV6DbEJ)
 
 
-  <p align="center"><img width="66%" src="img/____.png" /></p>
+## Practice (Kaggle competitions)
+
+- Tabular Playground Jan 2021: Winning solution
+  - Feature extractor: DAE of 3 Linear layers
+  - Model: Stacking of MLPs + LightGBM 
+  - [discussion](https://www.kaggle.com/c/tabular-playground-series-jan-2021/discussion/216037)
+  - [code](https://www.kaggle.com/springmanndaniel/1st-place-turn-your-data-into-daeta)
+- Tabular Playground Feb 2021: Winning solution
+  - Feature extractor: DAE of Transformer layers
+  - [discussion](https://www.kaggle.com/c/tabular-playground-series-feb-2021/discussion/222745)
+  - [code](https://www.kaggle.com/springmanndaniel/1st-place-turn-your-data-into-daeta)
+
