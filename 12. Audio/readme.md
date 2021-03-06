@@ -41,11 +41,6 @@ Due to the [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Ny
 | **Hop size**      | Window displacement. Usually win_size // 4    | `hop_length` | 512         |
 | **Window shape**  | Uniform, Normal, hann                         | `window`     | 'hann'      |
 
-
-
-
-
-
 ### Frequencies parameters (Y axis):
 
 |                   | Decription                                    | Librosa      | Usually       |
@@ -60,14 +55,14 @@ Due to the [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Ny
 > - The difference between 500 and 1000 Hz is obvious
 > - whereas the difference between 7500 and 8000 Hz is barely noticeable.
 
+
 ### Amplitude parameter (pixel intensity)
 - scale: linear or Decibel
 
 
-
-
 ### Examnple
 
-``` python
+```python
 filename = 'my_sound.wav'
 y, sr = librosa.load(filename)
+```
