@@ -1,6 +1,11 @@
 <h1 align="center">Audio</h1>
 
 
+# Create dataset
+
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=TCudWnNMr0s
+
+
 
 # 1D wave signal
 
@@ -37,7 +42,7 @@ Due to the [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Ny
 |                   | Decription                                    | Librosa      | Usually     |
 |:-----------------:|:----------------------------------------------|:------------:|-------------|
 | **Sampling Rate** | Constant: Depends how the signal was recorded | `sr`         | 22kHz, 44.1kHz, 48kHz |
-| **Window size**   | Number of 1D points to compute the FourTrans  | `n_fft`      | 2048 (93ms) |
+| **Window size**   | Number of 1D points to compute the FourTrans  | `n_fft`      | 40ms...100ms |
 | **Hop size**      | Window displacement. Usually win_size // 4    | `hop_length` | 512         |
 | **Window shape**  | Uniform, Normal, hann                         | `window`     | 'hann'      |
 
