@@ -1,6 +1,6 @@
 <h1 align="center">Bayesian Neural Networks</h1>
 
-## Uncertainty
+## Motivation: Uncertainty
 
 #### Problem: 2 Types of uncertainties
 
