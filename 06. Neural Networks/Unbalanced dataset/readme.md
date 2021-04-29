@@ -24,7 +24,10 @@ If you can not get more data of the underrepresented classes, you can fix the im
 
 ```python
 class BalanceClassSampler(torch.utils.data.Sampler):
-    """Allows you to create stratified sample on unbalanced classes.
+    """
+    Allows you to create stratified sample on unbalanced classes.
+    Inspired from Catalyst's BalanceClassSampler:
+    https://catalyst-team.github.io/catalyst/_modules/catalyst/data/sampler.html#BalanceClassSampler
 
     Args:
         labels: list of class label for each elem in the dataset
