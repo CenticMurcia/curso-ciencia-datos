@@ -1,5 +1,7 @@
 <h1 align="center">Audio</h1>
 
+<p align="center"><img src="./wave formula.png" height="400px"></p>
+
 
 # Create dataset
 
