@@ -30,6 +30,8 @@
 
 ## Reference
 
+- University of Amsterdam course
+  - [Tutorial 7: Graph Neural Networks](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial7/GNN_overview.html)
 - Kaggle competitions
   - [Predicting Molecular Properties](https://www.kaggle.com/c/champs-scalar-coupling)
      - [2nd: Atomic Transformer](https://www.kaggle.com/c/champs-scalar-coupling/discussion/106468) by Antor.
