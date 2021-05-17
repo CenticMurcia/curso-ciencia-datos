@@ -30,7 +30,7 @@
 
 ## Reference
 
-- University of Amsterdam course
+- [University of Amsterdam DL course](https://uvadlc.github.io)
   - [Tutorial 7: Graph Neural Networks](https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial7/GNN_overview.html)
 - Kaggle competitions
   - [Predicting Molecular Properties](https://www.kaggle.com/c/champs-scalar-coupling)
