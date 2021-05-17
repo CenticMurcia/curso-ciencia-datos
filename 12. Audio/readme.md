@@ -67,9 +67,14 @@ Due to the [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Ny
 - scale: linear or Decibel
 
 
-### Examnple
+### Example
 
 ```python
 filename = 'my_sound.wav'
 y, sr = librosa.load(filename)
 ```
+
+### References
+
+- https://fastaudio.github.io/
+- https://www.youtube.com/c/ValerioVelardoTheSoundofAI/videos
