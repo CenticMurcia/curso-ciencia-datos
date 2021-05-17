@@ -35,7 +35,9 @@
 
 
 ## Practice (Kaggle competitions)
-
+- Adult Dataset
+  - [walkwithfastai tutorial](https://walkwithfastai.com/tab.ae)
+  - [TabularVAE repo](https://github.com/EtienneT/TabularVAE)
 - Porto Seguro: Winning solution
   - Unspervised training (Feat extractor): DAE with swap noise 
   - [discussion](https://www.kaggle.com/c/porto-seguro-safe-driver-prediction/discussion/44629)
