@@ -1,6 +1,13 @@
 <h1 align="center">Transformer</h1>
 
+### Positional Encoding
+![](img/pos-enc.png)
+
+### Dot-Product Attention
 ![](img/Attention.png)
+
+### Additive Attention
+![](img/additive_attention.png)
 
 ## Better initialization: [T-Fixup](http://www.cs.toronto.edu/~mvolkovs/ICML2020_tfixup.pdf)
 
