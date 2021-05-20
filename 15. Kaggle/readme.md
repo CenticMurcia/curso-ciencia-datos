@@ -1,5 +1,0 @@
-# Kaggle competitions and datasets
-
-
-
-
