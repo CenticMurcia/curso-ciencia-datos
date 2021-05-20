@@ -40,8 +40,7 @@ class BalanceClassSampler(torch.utils.data.Sampler):
         self.unique_labels = set(labels)
 
         ########## STEP 1:
-        # Compute the final_num_samples_per_label
-        # An Integer
+        # Compute the final_num_samples_per_label (an Integer)
         num_samples_per_label = {label: (labels == label).sum() for label in self.unique_labels}
 
         if   mode == "upsampling":   self.final_num_samples_per_label = max(num_samples_per_label.values())
@@ -65,7 +64,7 @@ class BalanceClassSampler(torch.utils.data.Sampler):
             pick_random_elementes = self.final_num_samples_per_label %  len(label_indices)
 
             indices += label_indices * repeat_all_elementes # repeat the list several times
-            indices += random.sample(label_indices, k=pick_random_elementes)  # pick random idxs without repetition
+            indices += random.sample(label_indices, k=pick_random_elementes)  # pick last elements randomly (without repetition)
 
         assert len(indices) == self.__len__()
         np.random.shuffle(indices) # Inplace shuffle the list
