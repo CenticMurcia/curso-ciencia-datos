@@ -1,23 +1,5 @@
 <h1 align="center">Neural Networks</h1>
 
-
-# TODO
-- Parameters and activations
-- Random initialization and transfer learning
-- SGD, Momentum, Adam, and other optimizers
-- Convolutions
-- Batch normalization
-- Dropout y DropConnect
-- Data augmentation
-- Label smoothing
-- Weight decay
-- Entity embeddings
-- Recurrent neural networks (RNNs)
-- Segmentation
-- Collaborative filtering (ej. movie recommendation)
-- [arbitrary order (>=2) Factorization Machine](https://github.com/geffy/tffm)
-
-
 ### Software
 
 <table>
@@ -39,6 +21,37 @@
   </tr>
 </table>
 
+
+# Model
+
+|                       | Impact | Notes                                          |
+|-----------------------|--------|------------------------------------------------|
+| Layer size            | High   |                                                |
+| Num of layers (depth) | Medium |                                                |
+| Weight Initialization | Medium | Xavier (Dense+tanh), Kaiming He (Dense+ReLU)   |
+| Transfer Learning     | High   | Pretrained model frozen, new layers unfrozen   |
+| Nonlinearity (act fn) | Low    | ReLU, GELU, Swish, Mish, GLU                   |
+| Residual connections  | Low    | Needed if there are a lot of layers (>3)       |
+| - Stochastic Depth    | Low    | If there are residual cons, add this.          |
+| Input data            | High   | Input data representation is very important    |
+| - Normalization       |        | StandardScaler, QuantileTransformer, RankGauss |
+| - Embeddings          |        | Necessary for categorical data                 |
+| - Image size          |        | We need high or low resolution?                |
+| - CoordConv           |        | Encode sequence order for CNNs or tranformers  |
+| - Positional Encoding |        | Encode sequence order for CNNs or tranformers  |
+| Output data           | High   | Logits (-∞, ∞), sigmoid (0,1), softmax,...     |
+| - Good for the loss   |        | Is good for the loss fn?                       |
+| Regularization        | Medium |                                                |
+| - Dropout             | Medium | Scale after dropout to maintain std=1          |
+| - Dropconect          | Low    |                                                |
+| Inner normalization   |        |                                                |
+| - Batch normalization |        |                                                |
+| - Layer normalization |        | Usually before each layer                      |
+| Weght tiying          |        | If same input & output: Langmodel, Autoencoder |
+
+
+> - [Stochastic Depth](https://arxiv.org/abs/1603.09382)
+> - [Squeeze and Excitation](https://amaarora.github.io/2020/07/24/SeNet.html)
 
 
 # Problems
