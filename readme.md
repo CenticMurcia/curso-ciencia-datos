@@ -13,17 +13,14 @@
       <img src="img/icons/1 pandas.svg" width="120px" height="100px"></th>
     <td width="400"><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb">1.1 Python</a></td>
     <td width="144"><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.1%20Python.ipynb"><img src="img/colab.svg"/></a></td>
-    <td><a href="https://youtu.be/7TEk5dsFaPk"><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
     <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.2%20Numpy.ipynb">1.2 Numpy</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.2%20Numpy.ipynb"><img src="img/colab.svg"/></a></td>
-    <td><a href="https://youtu.be/NV4Eh98Zdl0"><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
     <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Pandas%20(adult%20dataset).ipynb">1.3 Pandas</a></td>
     <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/01.%20Python%2C%20Numpy%20y%20Pandas/1.3%20Pandas%20(adult%20dataset).ipynb"><img src="img/colab.svg"/></a></td>
-    <td><a href="https://youtu.be/nShGCmrWgpw"><img src="https://img.shields.io/badge/-Vídeo-grey?logo=youtube&logoColor=red"/></a></td>
   </tr>
   <tr>
     <td><a href="/01.%20Python%2C%20Numpy%20y%20Pandas/1.4%20Ejercicio%20(titanic%20dataset).ipynb">1.4 Ejercicio</a></td>
