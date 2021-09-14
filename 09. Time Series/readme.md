@@ -33,12 +33,18 @@ agregates = ["count", "mean", "std", "min", "max", "sum", "median"]
 
 
 ## Modelos especificos
-- GAM
-- ARIMA
-- ARIMAX
-- Facebook Prophet
-- LSTM
-- Fractal Analysis
+- Classic models (Univariate)
+  - ARIMA
+  - ARIMAX
+  - Fractal Analysis
+- Classic models (Multiivariate interpretable)
+  - GAM
+  - Facebook Prophet
+- Deep Learning
+  - LSTM
+  - [N-BEATS](https://arxiv.org/abs/1905.10437)
+
+> - [Darts](https://github.com/unit8co/darts): Time Series Made Easy in Python. It contains a variety of models, from classics such as ARIMA to deep neural networks.
 
 
 ## Facebook Prophet
