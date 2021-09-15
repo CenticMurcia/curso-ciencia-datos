@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1>Curso de ciencia de datos</h1>
+
+
+{% for i in site.pages %}
+  {% if i.type == 'topic'%}
+  	<table>
+  		<th width="200" rowspan="4">
+        <h3><a href="{{baseurl}}/{{i.id}}">{{i.title}}</a></h3>
+        <img src="{{baseurl}}/img/icons/{{i.img}}" width="120px" height="100px">
+      </th>
+
+      {% for j in site.pages %}
+        {% if j.section == i.id %}
+        <tr>
+          <td>{{j.title}}</td>
+          <td>Quizz</td>
+          <td>Notebook</td>
+          <td>Exercise</td>
+          <td>Solution</td>
+        </tr>
+        {% endif %}
+      {% endfor %}
+
+
+    </table>
+  {% endif %}
+{% endfor %}
