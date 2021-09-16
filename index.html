@@ -4,7 +4,7 @@ layout: home
 
 <p align="center"><img src="{{site.baseurl}}/img/miniaturas YT/Portada.png" width="500px"></p>
 
-{% for i in site.pages %}
+{% for i in site.pages | sort:"id" %}
   {% if i.type == 'topic'%}
   	<table>
 
@@ -18,7 +18,7 @@ layout: home
 
 
       <!-- RIGHT part of the table -->
-      {% for j in site.pages %}
+      {% for j in site.pages | sort:"id" %}
         {% if j.topic == i.title %}
         <tr>
           <td><a href="{{site.baseurl}}/{{i.id}}/{{j.id}}">{{j.title}}</a></td>
