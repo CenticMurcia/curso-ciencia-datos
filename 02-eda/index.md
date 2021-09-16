@@ -68,7 +68,7 @@ Otros
         <img src="https://python-graph-gallery.com/wp-content/uploads/Box1Big-150x150.png"      width="100px"/></td>
     <td><a href="https://python-graph-gallery.com/violin-plot">
         <img src="https://python-graph-gallery.com/wp-content/uploads/ViolinBig-150x150.png"    width="100px"/></td>
-    <td><img src="https://www.data-to-viz.com/img/section/Joyplot150.png"        width="100px"/></td>
+    <td><img src="https://www.data-to-viz.com/img/section/Joyplot150.png" width="100px"/></td>
 </tr>
 <tr>
     <th>Histogram</th>
