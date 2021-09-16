@@ -1,3 +1,14 @@
+---
+layout: home
+
+id: 03-prepro
+title: Preprocessing
+
+type: topic
+img_icon: 3-prepro.svg
+---
+
+
 <h1 align="center">Introducción al Machine Learning</h1>
 
 ## Software
