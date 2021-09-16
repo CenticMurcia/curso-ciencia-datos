@@ -1,7 +1,7 @@
 ---
 layout: page
 
-id: 2-model
+id: 4-model
 title: Seleccionar modelo
 
 topic: Machine Learning
@@ -27,4 +27,8 @@ Los veremos más adelante, pero la regla general es:
 | **Random Forest**     | Good starting point (tree enesemble) | Sklearn o RAPIDS           |           |
 | **Gradient Boosting** | Usually the best (tree enesemble)    | XGBoost, LighGBM, Catboost |           |
 | **Neural Network**    | Good if lot of data.                 | Keras, Pytorch, Fast.ai    | [blog](https://hackernoon.com/gain-state-of-the-art-results-on-tabular-data-with-deep-learning-and-embedding-layers-a-how-to-guide-r17b36k8) |
+
+
+
+
 

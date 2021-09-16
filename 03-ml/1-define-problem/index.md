@@ -2,10 +2,9 @@
 layout: page
 
 id: 1-define-problem
-title: Definir el problema
+title: Definir el problema y metrica
 
 topic: Machine Learning
-img_logo: Python.png
 ---
 
 
@@ -96,3 +95,63 @@ img_logo: Python.png
 
 
 Estos son los tipos de problema más comunes a resolver.
+
+
+
+
+<h1 align="center">Métricas</h1>
+
+
+## Métricas de clasificación
+- AUC no es derivable
+
+## Métricas de regresión
+
+| Mean Absolute Error (MAE)   |  Mean Squared Error (MSE) |
+|-----------------------------|---------------------------|
+| ![](img/MAE_plot.jpg)       | ![](img/MSE_plot.jpg)     |
+
+
+|          |  Métrica                         | Error plot for 5, 6, 8, 9, 27        | Derivable | Mejor Constante        | Equivalente         |
+|:--------:|----------------------------------|--------------------------------------|-----------|-------------------------|--------------------|
+| **MAE**  | Mean Absolute Error              | ![](img/MAE.png)                     | ✔️        | Median<br>(8)          |                    |
+| **MSE**  | Mean Squared Error               | ![](img/MSE.png)                     | ✔️        | Mean<br>(11)           | RMSE,<br>R-squared |
+| **MAPE** | Mean Absolute Percentage Error   | ![](img/MAPE.png)                    | ✔️        | Weighted median<br>(6) |              |
+| **MSPE** | Mean Square Percentage Error     | ![](img/MSPE.png)                    | ✔️        | Weighted mean<br>(6.6) |              |
+| **MSLE** | Mean Square Logarithmic Error    | <img src="./img/MSLE.png" width="240"> | ✔️        | log(mean)<br>(9.11)    | RMSLE        |
+| **R2**   | R-squared                        |                                      | ✔️        | |
+| **r**    | Spearman's Rank Correlation Coef |                                      | ❌        | |
+| **p**    | Pearson Correlation Coef         |                                      | ?          | |
+
+
+
+> #### Información adicional
+>
+> - Métricas de Clasificación
+>   - [Evaluation Metrics for Classification Problems: Quick Examples + References](https://queirozf.com/entries/evaluation-metrics-for-classification-quick-examples-references)
+>   - [Decision Trees: “Gini” vs. “Entropy” criteria](https://www.garysieling.com/blog/sklearn-gini-vs-entropy-criteria)
+>   - [Understanding ROC curves](http://www.navan.name/roc)
+> - Métricas de Regresión
+>   - [Metrics used for regression](https://safjan.com/kaggle-evaluation-metrics-used-for-regression-problems)
+> - Métricas de Ranking
+>   - [Learning to Rank Overview](https://wellecks.wordpress.com/2015/01/15/learning-to-rank-overview/)
+>   - Paper [Learning to Rank using Gradient Descent](https://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf): Original paper about pairwise method for AUC optimization
+>   - Paper [From RankNet to LambdaRank to LambdaMART](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf): Overview of further developments of RankNet
+>   - [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib): Implementación de los 2 papers anteriores.
+> - Métricas de Clustering
+>   - Paper [Evaluation metrics for clustering](http://nlp.uned.es/docs/amigo2007a.pdf)
+
+
+
+
+
+
+<h1 align="center">Fuga de datos</h1>
+
+La fuga de datos conocida como **Data Leakage** en inglés, es cuando se introducen datos los cuales son imposibles de disponer en la vida real.
+
+> - [Perfect score script](https://www.kaggle.com/olegtrott/the-perfect-score-script) used to probe leaderboard
+> - [Page about data leakages on Kaggle](https://www.kaggle.com/docs/competitions#leakage)
+> - [Another page about data leakages on Kaggle](https://www.kaggle.com/dansbecker/data-leakage)
+
+
