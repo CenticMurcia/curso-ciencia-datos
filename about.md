@@ -4,7 +4,15 @@ title: Acerca de este curso
 permalink: /about/
 ---
 
-# Curso práctico de Ciencia de Datos e Inteligencia Artificial, 3ª Edición 2021.
+## Curso práctico de Ciencia de Datos e Inteligencia Artificial, 3ª Edición 2021.
+
+# PAGINA WEB
+- [**centicmurcia.github.io/curso-ciencia-datos**](centicmurcia.github.io/curso-ciencia-datos)
+
+# WIFI
+- Nombre: MJAM19
+- Contraseña: $MJAM19INFO$
+
 
 *Curso presencial del 5 octubre al 2 noviembre, plazas limitadas!!*
 
