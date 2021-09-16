@@ -38,10 +38,10 @@ img_icon: 3-prepro.svg
     <!------------------------------------- Imagen -------------------------------->
     <tr>
       <td></td>
-      <td><img alt="" src="img/regla.jpg" /></td>
-      <td><img alt="" src="img/perro.jpg" /></td>
-      <td><img alt="" src="img/yesno.png" /></td>
-      <td><img alt="" src="img/perro-gato.jpg" /></td>
+      <td><img alt="" src="./img/regla.jpg" /></td>
+      <td><img alt="" src="./img/perro.jpg" /></td>
+      <td><img alt="" src="./img/yesno.png" /></td>
+      <td><img alt="" src="./img/perro-gato.jpg" /></td>
     </tr>
     <!------------------------------------- Descripción -------------------------------->
     <tr>
@@ -115,7 +115,7 @@ Estos son los tipos de problema más comunes a resolver.
 
 ## ¿Qué modelo usar?
 
-<p align="center"><img src="img/Comparison.png" width="500px"></p>
+<p align="center"><img src="./img/Comparison.png" width="500px"></p>
 
 Los veremos más adelante, pero la regla general es:
 - **Más poderosos**: Random Forest (RF), Gradient Boosting (GMB) y Redes Neuronales (NN)
@@ -158,7 +158,7 @@ Los modelos son configurables y si de cada uno obtenemos su mejor versión para 
 | **MSE**  | Mean Squared Error               | ![](img/MSE.png)                     | ✔️        | Mean<br>(11)           | RMSE,<br>R-squared |
 | **MAPE** | Mean Absolute Percentage Error   | ![](img/MAPE.png)                    | ✔️        | Weighted median<br>(6) |              |
 | **MSPE** | Mean Square Percentage Error     | ![](img/MSPE.png)                    | ✔️        | Weighted mean<br>(6.6) |              |
-| **MSLE** | Mean Square Logarithmic Error    | <img src="img/MSLE.png" width="240"> | ✔️        | log(mean)<br>(9.11)    | RMSLE        |
+| **MSLE** | Mean Square Logarithmic Error    | <img src="./img/MSLE.png" width="240"> | ✔️        | log(mean)<br>(9.11)    | RMSLE        |
 | **R2**   | R-squared                        |                                      | ✔️        | |
 | **r**    | Spearman's Rank Correlation Coef |                                      | ❌        | |
 | **p**    | Pearson Correlation Coef         |                                      | ?          | |
