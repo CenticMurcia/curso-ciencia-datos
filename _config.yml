@@ -20,6 +20,10 @@ exclude: ['readme.md']
 
 #remote_theme: pages-themes/cayman
 theme: minima
+
+header_pages:
+  - about.md
+  
 #plugins:
 #  - jekyll-feed
 #  - jekyll-gist
