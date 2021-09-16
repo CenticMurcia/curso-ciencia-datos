@@ -3,7 +3,7 @@
 ########################################## CUSTOM site VARIABLES
 
 title: Curso de Ciencia de Datos
-description: Curso sobre Análisis de Datos, Machine Learning, Big Data, Web Scraping, NLP, Minería de Procesos...
+description: Curso sobre Análisis de Datos, Machine Learning, Deep Learing, Big Data, Web Scraping, NLP, Minería de Procesos...
 email: centic@centic.es
 github_username: CenticMurcia
 twitter_username: CenticTwitt
@@ -19,7 +19,7 @@ exclude: ['readme.md']
 ########################################## THEME
 
 #remote_theme: pages-themes/cayman
-#theme: minima
+theme: minima
 #plugins:
 #  - jekyll-feed
 #  - jekyll-gist

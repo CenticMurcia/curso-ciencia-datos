@@ -1,26 +1,28 @@
 ---
-layout: default
+layout: home
 ---
 
-<h1>Curso de ciencia de datos</h1>
-
+<p align="center"><img src="{{baseurl}}/img/miniaturas YT/Portada.png" width="500px"></p>
 
 {% for i in site.pages %}
   {% if i.type == 'topic'%}
   	<table>
+
+      <!-- LEFT part of the table -->
   		<th width="200" rowspan="4">
-        <h3><a href="{{baseurl}}/{{i.id}}">{{i.title}}</a></h3>
-        <img src="{{baseurl}}/img/icons/{{i.img}}" width="120px" height="100px">
+        <h3>
+          <a href="{{baseurl}}/{{i.id}}">{{i.title}}</a>
+        </h3>
+        <img src="{{baseurl}}/img/icons/{{i.img_icon}}" width="120px" height="100px">
       </th>
 
+
+      <!-- RIGHT part of the table -->
       {% for j in site.pages %}
-        {% if j.section == i.id %}
+        {% if j.topic == i.title %}
         <tr>
-          <td>{{j.title}}</td>
-          <td>Quizz</td>
-          <td>Notebook</td>
-          <td>Exercise</td>
-          <td>Solution</td>
+          <td><a href="{{baseurl}}/{{i.id}}/{{j.id}}">{{j.title}}</a></td>
+          <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/notebook.ipynb"><img src="{{baseurl}}/img/colab.svg"/></a></td>
         </tr>
         {% endif %}
       {% endfor %}
