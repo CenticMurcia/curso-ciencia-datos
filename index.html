@@ -25,7 +25,11 @@ layout: home
         {% if j.topic == i.title %}
         <tr>
           <td><a href="{{site.baseurl}}/{{i.id}}/{{j.id}}">{{j.title}}</a></td>
-          <td><a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/notebook.ipynb"><img src="{{site.baseurl}}/img/colab.svg"/></a></td>
+          <td>
+            {% if j.notebook != nil %}
+              <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/notebook.ipynb"><img src="{{site.baseurl}}/img/colab.svg"/></a>
+            {% endif %}
+          </td>
         </tr>
         {% endif %}
       {% endfor %}
