@@ -26,6 +26,27 @@ AutoML trata de encontrar convinaciones de modelos y de hiperparámetros que max
 
 ### Herramientas de AutoML
 
+
+<table>
+  <tr>
+    <th width="200"><a href="http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html"><img src="../img/logos/H2O-AutoML.jpg"/></a></th>
+    <td>H2o.ai es un framework de Machine Learning que implementa una función muy interesante llamada AutoML. AutoML es una abstracción que nos permite olvidarnos de elegir nosotros el mejor modelo para nuestros datos, ya que lo hace automáticamente.</td>
+  </tr>
+  <tr>
+    <th><a href="https://pycaret.org"><img src="../img/logos/PyCaret.png"/></a></th>
+    <td></td>
+  </tr>
+  <tr>
+    <th><a href="http://epistasislab.github.io/tpot/"><img src="../img/logos/TPOT.jpg"/></a></th>
+    <td></td>
+  </tr>
+  <tr>
+    <th><a href="https://github.com/mljar/mljar-supervised"><img src="../img/logos/MLjar.png"/></a></th>
+    <td>MLjar Supervised es una herramienta de AutMl de codigo abierto de MLjar</td>
+  </tr>
+</table>
+
+
 | ![](../img/logos/H2O-AutoML.jpg) | ![](../img/logos/PyCaret.png) | ![](../img/logos/TPOT.jpg) |
 |--|--|--|
 |  |  |  |
