@@ -11,7 +11,7 @@ twitter_username: CenticTwitt
 ########################################## URL
 
 #url:                 # the base hostname for your site, e.g. http://example.com
-#baseurl: /curso-datos # the subpath of your site, e.g. /blog
+baseurl: /curso-ciencia-datos # the subpath of your site, e.g. /blog
 
 exclude: ['readme.md']
 
