@@ -2,7 +2,7 @@
 layout: page
 
 id: 2-get-data
-title: Obtener datos
+title: Obtener datos de entrenamiento y validación
 
 topic: Machine Learning
 ---
@@ -11,9 +11,7 @@ topic: Machine Learning
 
 <h1 align="center">Validación</h1>
 
-La selección del **conjunto de validación** es una de la cosas más importantes. Recuerda:
-
-<h3 align="center">NUNCA USES LOS DATOS DE ENTRENAMIENTO PARA MEDIR LO BUENO QUE ES TU MODELO</h3>
+La selección del **conjunto de validación** es una de la cosas más importantes. Recuerda: **NUNCA USES LOS DATOS DE ENTRENAMIENTO PARA MEDIR LO BUENO QUE ES TU MODELO**.
 
 - Train test split (Holdout)
 - Cross validation (K-Fold)

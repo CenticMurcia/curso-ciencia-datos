@@ -2,7 +2,7 @@
 layout: page
 
 id: 3-multivariate
-title: Análisis Multivariante
+title: 🌀 Análisis Multivariante
 
 topic: Exploratory Data Analysis
 ---

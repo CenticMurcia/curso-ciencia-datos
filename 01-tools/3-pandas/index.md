@@ -2,7 +2,7 @@
 layout: page
 
 id: 3-pandas
-title: Pandas
+title: 🐼 Pandas
 
 topic: Tools
 ---

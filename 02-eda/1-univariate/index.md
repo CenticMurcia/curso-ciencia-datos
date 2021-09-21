@@ -2,7 +2,7 @@
 layout: page
 
 id: 1-univariate
-title: Análisis Univariante
+title: 📊 Análisis Univariante
 
 topic: Exploratory Data Analysis
 ---

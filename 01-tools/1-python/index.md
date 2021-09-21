@@ -2,7 +2,7 @@
 layout: page
 
 id: 1-python
-title: Python
+title: 🐍 Python
 notebook: notebook.ipynb
 
 topic: Tools

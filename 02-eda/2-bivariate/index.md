@@ -2,7 +2,7 @@
 layout: page
 
 id: 2-bivariate
-title: Análisis Bivariante
+title: 📈 Análisis Bivariante
 
 topic: Exploratory Data Analysis
 ---
