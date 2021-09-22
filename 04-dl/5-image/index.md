@@ -1,5 +1,13 @@
+---
+layout: page
 
-<h1 align="center">👀 Vision</h1>
+id: 5-image
+title: 👀 Image classification
+notebook: image-classification-oxford-pets.ipynb
+
+topic: Deep Learning
+---
+
 
 ## What is an Iamge
 ![](../img/theory.png)

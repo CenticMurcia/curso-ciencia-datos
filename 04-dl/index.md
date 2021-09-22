@@ -1,15 +1,24 @@
-<h1 align="center">Neural Networks</h1>
+---
+layout: home
 
-### Software
+id: 04-dl
+title: Deep Learning
+
+type: topic
+img_icon: 6-nn.svg
+---
+
+
+## Software
 
 <table>
   <tr>
     <th ><a href="https://www.tensorflow.org"><img src="../img/logos/TensorFlow.svg"/></a></th>
-    <td></td>
+    <td>TensorFlow es la librería de código abierto para el aprendizaje profundo desarrollada por Google.</td>
   </tr>
   <tr>
     <th ><a href="https://keras.io"><img src="../img/logos/Keras.png"/></a></th>
-    <td>Keras es una librería popular de redes neuronales basada en TensorFlow. Está especialmente diseñada para facilitar la creación de redes neuronales.</td>
+    <td>Keras es una librería popular de redes neuronales basada en TensorFlow. Está especialmente diseñada para facilitar la creación de redes neuronales. Actualmente forma parte de la librería TensorFlow.</td>
   </tr>
   <tr>
     <th><a href="https://pytorch.org/"><img src="../img/logos/Pytorch.png"/></a></th>
@@ -22,7 +31,7 @@
 </table>
 
 
-# Model
+## Hiperparámetros comunes
 
 |                       | Impact | Notes                                          |
 |-----------------------|--------|------------------------------------------------|
