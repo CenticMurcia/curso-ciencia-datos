@@ -1,0 +1,103 @@
+Things to check while traing NNs
+
+
+# Model
+
+|                       | Impact | Notes                                          |
+|-----------------------|--------|------------------------------------------------|
+| Layer size            | High   |                                                |
+| Num of layers (depth) | Medium |                                                |
+| Weight Initialization | Medium | Xavier (Dense+tanh), Kaiming He (Dense+ReLU)   |
+| Transfer Learning     | High   | Pretrained model frozen, new layers unfrozen   |
+| Nonlinearity (act fn) | Low    | ReLU, ReLU-0.5, GELU, Swish, Mish, GLU         |
+| Residual connections  | Low    | Needed if there are a lot of layers (>3)       |
+| - Stochastic Depth    | Low    | If there are residual cons, add this.          |
+| Input data            | High   | Input data representation is very important    |
+| - Normalization       |        | StandardScaler, QuantileTransformer, RankGauss |
+| - Embeddings          |        | Necessary for categorical data                 |
+| - Image size          |        | We need high or low resolution?                |
+| - CoordConv           |        | Encode sequence order for CNNs or tranformers  |
+| - Positional Encoding |        | Encode sequence order for CNNs or tranformers  |
+| Output data           | High   | Logits (-∞, ∞), sigmoid (0,1), softmax,...     |
+| - Good for the loss   |        | Is good for the loss fn?                       |
+| Regularization        | Medium |                                                |
+| - Dropout             | Medium | Scale after dropout to maintain std=1          |
+| - Dropconect          | Low    |                                                |
+| Inner normalization   |        |                                                |
+| - Batch normalization |        |                                                |
+| - Layer normalization |        | Usually before each layer                      |
+| Weght tiying          |        | If same input & output: Langmodel, Autoencoder |
+
+
+- [Stochastic Depth](https://arxiv.org/abs/1603.09382)
+- [Squeeze and Excitation](https://amaarora.github.io/2020/07/24/SeNet.html)
+
+
+# Data augmetation
+- Image
+  - Cutout, Mixup, cutmix, AugMix..
+  - [RandAugment](https://fastai.github.io/timmdocs/RandAugment)
+  - [AutoAugment](https://fastai.github.io/timmdocs/AutoAugment)
+- Audio
+  - [SpecAugment](https://arxiv.org/abs/1904.08779)
+    - time warping
+    - time masking (vertical Cutout)
+    - frequency masking (horizontal Cutout)
+
+# Training
+
+|                       | Impact | Notes                             |
+|-----------------------|--------|---------------------------------------
+| Optimizer             | Low    | SGD, Adam, ...
+| - Learining Rate (LR) | High   | 1e-5 1e-1 You can use lr_finder
+| - LR Schedule         | High   | 1Cycle, FlatCos, ....
+| - Momentum            | Low    |
+| - Adam beta1, beta2   | Low    |
+| - Adam epsilon        | Low    |
+| Batch Size (BS)       | Low    | The bigger, the faster
+| Number of Epochs      | Medium |
+| Balanced sampler      | Medium | Set in the Dataloader if unbalanced data
+| Gradient clipping     |        |
+| MixedPrecision (FP16) |        |
+| Loss fuction          | High   | MSE, CE, SoftF1...
+| - Label smoothing     |        |
+| - Weight Decay (WD)   |        | Penalize big weights, usully L2
+| - Activation Reg (AR) |        | Like WD for layer activations
+| - Temporal AR (TAR)   |        | Only for RNNs
+| EMA of weights        |        | Exponential Moving Average
+
+
+Batch is too big and doesn't fit in memory?
+- Gradient accumulation
+- BackPropagation Through Time (BPTT) -> For RNNs
+
+
+
+
+- [Best loss function for F1-score metric](https://www.kaggle.com/rejpalcz/best-loss-function-for-f1-score-metric)
+
+# General Pipeline
+
+1. Get a pretrain model if exists
+   - TIMM for vision models
+2. Do some self-supervised learning on your dataset (optional)
+   - Siamese Nets
+   - Denoising autoencoder
+   - SimCLR
+   - [Barlow Twins](https://twitter.com/ylecun/status/1391162771987996674)
+   - [SimCLR for audio](https://github.com/edufonseca/uclser20)
+   - For NLP
+     - RNNs -> Langage model (predict next word)
+     - Transformers -> Masked Langauge Models or Electra 
+3. Train your supervised task
+   1. Train only new layers (frozen pretrained model)
+   2. Unfreeze whole model, and train
+4. Do error Analysis and improve your dataset
+
+
+
+
+
+
+
+
