@@ -1,7 +1,8 @@
 ---
 layout: home
 
-id: 03-ml
+block: 2-models
+id: 1-ml
 title: Machine Learning
 
 type: topic

@@ -1,3 +1,15 @@
+---
+layout: home
+
+block: 2-models
+id: 2-tree
+title: Tree-based models
+
+type: topic
+img_icon: 5-tree.svg
+---
+
+
 <p align="center"><img src="../img/miniaturas YT/4-Árbol.png" height="200px"></p>
 
 > TODO:

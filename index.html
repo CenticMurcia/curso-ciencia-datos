@@ -7,34 +7,43 @@ layout: home
 
 {% assign sorted_pages = site.pages | sort:"id" %}
 
-{% for i in sorted_pages %}
-  {% if i.type == 'topic'%}
-  	<table>
 
-      <!-- LEFT part of the table -->
-  		<th width="30%" rowspan="100%" style='text-align:center; vertical-align:middle'>
-        <h2>
-          <a href="{{site.baseurl}}/{{i.id}}">{{i.title}}</a>
-        </h2>
-        <img src="{{site.baseurl}}/img/icons/{{i.img_icon}}" width="120px" height="100px">
-      </th>
+{% for block in sorted_pages %}
+  {% if block.type=='block'%}
+
+    <h2>{{block.title}}</h2>
+
+    {% for i in sorted_pages %}
+      {% if i.block==block.id and i.type=='topic'%}
+        <table>
+
+          <!-- LEFT part of the table -->
+          <th width="30%" rowspan="100%" style='text-align:center; vertical-align:middle'>
+            <h2>
+              <a href="{{site.baseurl}}/{{i.id}}">{{i.title}}</a>
+            </h2>
+            <img src="{{site.baseurl}}/img/icons/{{i.img_icon}}" width="120px" height="100px">
+          </th>
 
 
-      <!-- RIGHT part of the table -->
-      {% for j in sorted_pages %}
-        {% if j.topic == i.title %}
-        <tr>
-          <td width="50%"><a href="{{site.baseurl}}/{{i.id}}/{{j.id}}">{{j.title}}</a></td>
-          <td width="20%">
-            {% if j.notebook != nil %}
-              <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="{{site.baseurl}}/img/colab.svg"/></a>
+          <!-- RIGHT part of the table -->
+          {% for j in sorted_pages %}
+            {% if j.topic == i.title %}
+            <tr>
+              <td width="50%"><a href="{{site.baseurl}}/{{i.id}}/{{j.id}}">{{j.title}}</a></td>
+              <td width="20%">
+                {% if j.notebook != nil %}
+                  <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="{{site.baseurl}}/img/colab.svg"/></a>
+                {% endif %}
+              </td>
+            </tr>
             {% endif %}
-          </td>
-        </tr>
-        {% endif %}
-      {% endfor %}
+          {% endfor %}
 
 
-    </table>
+        </table>
+      {% endif %}
+    {% endfor %}
+
   {% endif %}
 {% endfor %}

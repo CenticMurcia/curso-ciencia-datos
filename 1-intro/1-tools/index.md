@@ -1,7 +1,8 @@
 ---
 layout: home
 
-id: 01-tools
+block: 1-intro
+id: 1-tools
 title: Tools
 
 type: topic
