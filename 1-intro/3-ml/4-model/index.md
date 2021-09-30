@@ -1,10 +1,9 @@
 ---
 layout: page
 
+parent_id: 3-ml
 id: 4-model
 title: Seleccionar modelo
-
-topic: Machine Learning
 ---
 
 El algoritmo encargado de realizar la prediccón siepre será una combinación de:

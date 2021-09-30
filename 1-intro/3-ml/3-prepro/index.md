@@ -1,10 +1,9 @@
 ---
 layout: page
 
+parent_id: 3-ml
 id: 3-prepro
 title: Preprocesar datos
-
-topic: Machine Learning
 ---
 
 

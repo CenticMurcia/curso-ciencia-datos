@@ -1,10 +1,9 @@
 ---
 layout: page
 
+parent_id: 3-ml
 id: 2-get-data
 title: Obtener datos de entrenamiento y validación
-
-topic: Machine Learning
 ---
 
 

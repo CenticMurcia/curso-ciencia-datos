@@ -1,10 +1,9 @@
 ---
 layout: page
 
+parent_id: 2-eda
 id: 1-univariate
 title: 📊 Análisis Univariante
-
-topic: Exploratory Data Analysis
 ---
 
 

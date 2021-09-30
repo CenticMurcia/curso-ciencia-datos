@@ -1,11 +1,10 @@
 ---
 layout: home
 
-block: 1-intro
+parent_id: 1-intro
 id: 1-tools
 title: Tools
 
-type: topic
 img_icon: 1-table.svg
 img_title: 1-Pandas.png
 ---

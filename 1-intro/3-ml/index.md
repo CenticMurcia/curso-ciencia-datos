@@ -1,16 +1,12 @@
 ---
 layout: home
 
-block: 2-models
-id: 1-ml
-title: Machine Learning
+parent_id: 1-intro
+id: 3-ml
+title: Introducción al Machine Learning
 
-type: topic
 img_icon: 3-prepro.svg
 ---
-
-
-<h1 align="center">Introducción al Machine Learning</h1>
 
 
 
@@ -22,10 +18,6 @@ img_icon: 3-prepro.svg
     <td>Scikit-learn es probablemente la librería más útil para Machine Learning en Python, es de código abierto y es reutilizable en con otras librerías. Proporciona una gran gama de algoritmos para el preprocesado de datos, aprendizaje supervisado, análisis no supervisado, y mucho más.</td>
   </tr>
 </table>
-
-
-
-
 
 
 

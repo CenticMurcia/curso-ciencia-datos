@@ -1,12 +1,14 @@
 ---
 layout: home
 
-id: 04-dl
-title: Deep Learning
+block: 2-models
+id: 3-nn
+title: Neural Networks
 
 type: topic
 img_icon: 6-nn.svg
 ---
+
 
 
 ## Software

@@ -1,10 +1,9 @@
 ---
 layout: page
 
+parent_id: 3-ml
 id: 5-hyperparams
 title: Optimización de hiperparámetros
-
-topic: Machine Learning
 ---
 
 Los modelos son configurables y si de cada uno obtenemos su mejor versión para nuestros datos, obtendremos resultados todavía mejores. Esto es lo que se conoce como optimización de hiperparámetros.

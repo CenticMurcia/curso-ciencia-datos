@@ -14,13 +14,13 @@ layout: home
     <h2>{{block.title}}</h2>
 
     {% for i in sorted_pages %}
-      {% if i.block==block.id and i.type=='topic'%}
+      {% if i.parent_id==block.id%}
         <table>
 
           <!-- LEFT part of the table -->
           <th width="30%" rowspan="100%" style='text-align:center; vertical-align:middle'>
             <h2>
-              <a href="{{site.baseurl}}/{{i.id}}">{{i.title}}</a>
+              <a href="{{site.baseurl}}/{{block.id}}/{{i.id}}">{{i.title}}</a>
             </h2>
             <img src="{{site.baseurl}}/img/icons/{{i.img_icon}}" width="120px" height="100px">
           </th>
@@ -28,9 +28,9 @@ layout: home
 
           <!-- RIGHT part of the table -->
           {% for j in sorted_pages %}
-            {% if j.topic == i.title %}
+            {% if j.parent_id == i.id %}
             <tr>
-              <td width="50%"><a href="{{site.baseurl}}/{{i.id}}/{{j.id}}">{{j.title}}</a></td>
+              <td width="50%"><a href="{{site.baseurl}}/{{block.id}}/{{i.id}}/{{j.id}}">{{j.title}}</a></td>
               <td width="20%">
                 {% if j.notebook != nil %}
                   <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="{{site.baseurl}}/img/colab.svg"/></a>

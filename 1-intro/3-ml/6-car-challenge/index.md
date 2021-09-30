@@ -1,11 +1,10 @@
 ---
 layout: page
 
+parent_id: 3-ml
 id: 6-car-challenge
 title: '🚗 Ejercicio: Coches de 2a mano'
 notebook: notebook.ipynb
-
-topic: Machine Learning
 ---
 
 

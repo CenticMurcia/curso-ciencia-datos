@@ -1,10 +1,9 @@
 ---
 layout: page
 
+parent_id: 2-eda
 id: 3-multivariate
 title: 🌀 Análisis Multivariante
-
-topic: Exploratory Data Analysis
 ---
 
 

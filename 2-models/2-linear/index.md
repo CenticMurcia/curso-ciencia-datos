@@ -1,3 +1,14 @@
+---
+layout: home
+
+parent_id: 2-models
+id: 2-linear
+title: Linear models
+
+img_icon: 5-linear.svg
+---
+
+
 <p align="center"><img src="../img/miniaturas YT/3-Linear.png" height="200px"></p>
 
 

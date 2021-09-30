@@ -1,10 +1,9 @@
 ---
 layout: page
 
+parent_id: 1-tools
 id: 3-pandas
 title: 🐼 Pandas
-
-topic: Tools
 ---
 
 

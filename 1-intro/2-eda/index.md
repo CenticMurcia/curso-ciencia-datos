@@ -1,12 +1,11 @@
 ---
 layout: home
 
-block: 1-intro
+parent_id: 1-intro
 id: 2-eda
 title: Exploratory Data Analysis
 description: El Análisis Exploratorio de Datos (por sus siglas EDA en inglés) se encarga de explicar y visualizar con gráficas todo lo posible acerca de los datos. Es casi obligatoria realizar este EDA en cualquier proyecto de análisis de datos. En este capítulo veremos cuáles son las técnicas y herramientas más comunes para realizar nuestras visualizacionbes en Python.
 
-type: topic
 img_icon: 2-eda.svg
 img_title: 2-EDA.png
 ---

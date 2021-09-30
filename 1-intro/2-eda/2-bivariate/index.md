@@ -1,10 +1,9 @@
 ---
 layout: page
 
+parent_id: 2-eda
 id: 2-bivariate
 title: 📈 Análisis Bivariante
-
-topic: Exploratory Data Analysis
 ---
 
 
