@@ -33,7 +33,7 @@ layout: home
               <td width="50%"><a href="{{site.baseurl}}/{{block.id}}/{{i.id}}/{{j.id}}">{{j.title}}</a></td>
               <td width="20%">
                 {% if j.notebook != nil %}
-                  <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="{{site.baseurl}}/img/colab.svg"/></a>
+                  <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{block.id}}/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="{{site.baseurl}}/img/colab.svg"/></a>
                 {% endif %}
               </td>
             </tr>
