@@ -4,6 +4,8 @@ layout: page
 parent_id: 1-tools
 id: 3-pandas
 title: 🐼 Pandas
+notebook: adult_dataset.ipynb
+
 ---
 
 
