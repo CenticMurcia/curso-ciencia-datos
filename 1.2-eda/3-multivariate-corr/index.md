@@ -2,8 +2,10 @@
 layout: page
 
 parent_id: 1.2-eda
-id: 3-multivariate
-title: 🌀 Análisis Multivariante
+id: 3-multivariate-corr
+title: 🤝 Análisis Multivariante (Correlaciones)
+
+notebook: num_and_cat_correlations.ipynb
 ---
 
 
@@ -56,6 +58,3 @@ Una vez calculada la matriz de correlación se puede **ordenar por grupos** grac
 |-----------------------------|-------------------------------------------|
 | ![](../img/agg.png)            | ![](../img/agg_sorted.png)                   |
 | `df.mean().plot(style=".")` | `df.mean().sort_values().plot(style=".")` |
-
-
-## Reducción dimensional

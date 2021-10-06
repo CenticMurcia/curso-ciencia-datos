@@ -22,6 +22,7 @@ permalink: /references/
     - [**Machine Learning Basics**](https://github.com/madewithml/basics)
     - [**Applied ML in Production**](https://madewithml.com/courses/applied-ml-in-production)
 - **Deep Learning**
+  - [**deepcourse**](https://arthurdouillard.com/deepcourse): Very good DL for vision course
   - [**Andrew Ng Coursera Deep Learning**](https://www.coursera.org/specializations/deep-learning#courses)
   - [**Fast.ai**](http://fast.ai)
     - [Curso 2020 de Deep Larning](https://course.fast.ai): Solo parte 1 debido al covid
@@ -30,7 +31,6 @@ permalink: /references/
   - **Full Stack Deep Learning** (Free course)
     - [Spring 2021](https://docs.google.com/document/d/e/2PACX-1vSSSHcahlrJRvVq4qRKDX2jYLjhgpbWZjqmDcWZ7w3FWItZrlSKw6GY7rcSj5ZkJr6M0DaR8QbKCd8S/pub) (UC Berkeley)
     - [November 2019](https://course.fullstackdeeplearning.com) (bootcamp)
-    - [Tooling Tuesdays](https://twitter.com/full_stack_dl/status/1343997170802806784) (Thread of Threads on Twiter)
   - [PyTorch Lightning MasterClass](https://www.youtube.com/playlist?list=PLaMu-SDt_RB5NUm67hU2pdE75j6KaIOv2) (youtube playlist)
 - Soluciones de competiciones pasadas de **Kaggle**
   - [KaggleDB solutions](https://kaggledb.com/solutions)
@@ -46,3 +46,11 @@ permalink: /references/
 - **Deep Learning for Coders with Fastai and PyTorch: AI Applications Without a PhD** de *Jeremy Howard*, [disponible en Github](https://github.com/fastai/fastbook)
 - [Libro en Español Introducción al DL con Keras](https://torres.ai/deep-learning-inteligencia-artificial-keras)
 - https://atcold.github.io/pytorch-Deep-Learning/
+
+
+## 📰 Noticias de IA
+
+- [Paper with Code Newsletter](https://paperswithcode.com/newsletter)
+- Full Stack Deep Learning: [Tooling Tuesdays](https://twitter.com/full_stack_dl/status/1343997170802806784): Thread of Threads on Twiter
+- [Kaggle Hidden Gems](https://twitter.com/hashtag/KaggleHiddenGems) by Martin Henze (Heads or Tails)
+  - [Vol. 74](https://www.kaggle.com/general/276641) 6 oct 2021
