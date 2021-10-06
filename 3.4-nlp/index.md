@@ -1,4 +1,12 @@
-<h1 align="center">Natural Language Processing</h1>
+---
+layout: home
+
+parent_id: 3-apps
+id: 3.4-nlp
+title: Natural Language Processing (NLP)
+
+img_icon: 3.4-nlp.svg
+---
 
 <p align="center"><img src="img/path.jpg" height="380px"></p>
 

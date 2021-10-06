@@ -4,7 +4,7 @@
 
 title: Curso de Ciencia de Datos
 description: Curso sobre Análisis de Datos, Machine Learning, Deep Learing, Big Data, Web Scraping, NLP, Minería de Procesos...
-email: centic@centic.es
+email: formacion@centic.es
 github_username: CenticMurcia
 twitter_username: CenticTwitt
 
@@ -23,7 +23,8 @@ theme: minima
 
 header_pages:
   - about.md
-  
+  - references.md
+
 #plugins:
 #  - jekyll-feed
 #  - jekyll-gist

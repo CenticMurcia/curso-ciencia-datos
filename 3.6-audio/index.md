@@ -1,4 +1,12 @@
-<h1 align="center">Audio</h1>
+---
+layout: home
+
+parent_id: 3-apps
+id: 3.6-audio
+title: Audio
+
+img_icon: 3.6-audio.svg
+---
 
 <p align="center"><img src="./wave formula.png" height="400px"></p>
 

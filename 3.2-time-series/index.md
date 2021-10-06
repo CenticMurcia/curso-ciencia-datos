@@ -1,3 +1,13 @@
+---
+layout: home
+
+parent_id: 3-apps
+id: 3.2-time-series
+title: Time Series
+
+img_icon: 9-time2.svg
+---
+
 <h1 align="center">🔮 Time Series</h1>
 
 

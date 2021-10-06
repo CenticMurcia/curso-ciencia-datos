@@ -1,9 +1,9 @@
 ---
 layout: page
 
-parent_id: 1.3-ml
-id: 6-car-challenge
-title: '🚗 Ejercicio: Coches de 2a mano'
+parent_id: 3.1-tabular
+id: 1-car-challenge
+title: '🚗 Precio de coches de 2a mano'
 notebook: notebook.ipynb
 ---
 

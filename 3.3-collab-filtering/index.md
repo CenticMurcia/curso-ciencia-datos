@@ -1,4 +1,12 @@
+---
+layout: home
 
+parent_id: 3-apps
+id: 3.3-collab-filtering
+title: Collaborative filtering
+
+img_icon: 3.3-collab-filtering.svg
+---
 
 <h1 align="center">Recommendation<br>Systems</h1>
 

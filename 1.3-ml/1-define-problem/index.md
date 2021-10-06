@@ -3,7 +3,7 @@ layout: page
 
 parent_id: 1.3-ml
 id: 1-define-problem
-title: Definir el problema y metrica
+title: Definir el problema y métrica
 ---
 
 

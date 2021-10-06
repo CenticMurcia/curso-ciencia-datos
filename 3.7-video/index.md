@@ -1,8 +1,15 @@
-<h1 align="center">🎥 Video</h1>
+---
+layout: home
+
+parent_id: 3-apps
+id: 3.7-video
+title: 🎥 Video
+
+img_icon: 3.7-video.svg
+---
+
 
 ### [A Comprehensive Study of Deep Video Action Recognition](https://arxiv.org/abs/2012.06567) (11 Dec 2020)
-
-
 
 
 

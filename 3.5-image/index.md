@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: home
 
-id: 5-image
-title: 👀 Image classification
-notebook: image-classification-oxford-pets.ipynb
+parent_id: 3-apps
+id: 3.5-image
+title: 👀 Image
 
-topic: Deep Learning
+img_icon: 3.5-image.svg
 ---
 
 
