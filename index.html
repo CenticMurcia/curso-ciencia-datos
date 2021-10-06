@@ -1,15 +1,22 @@
 ---
 layout: home
+blocks:
+  - id: "1-intro"
+    title: "Bloque 1: Introducción"
+  - id: "2-models"
+    title: "Bloque 2: Modelos de ML/DL"
+  - id: "3-apps"
+    title: "Bloque 3: Aplicaciones de ML/DL"
+  - id: "4-others"
+    title: "Bloque 4: Otros"
 ---
-
-<p align="center"><img src="{{site.baseurl}}/img/miniaturas YT/Portada.png" width="500px"></p>
-
 
 {% assign sorted_pages = site.pages | sort:"id" %}
 
 
-{% for block in sorted_pages %}
-  {% if block.type=='block'%}
+<p align="center"><img src="{{site.baseurl}}/img/miniaturas YT/Portada.png" width="500px"></p>
+
+{% for block in page.blocks %}
 
     <h2>{{block.title}}</h2>
 
@@ -20,7 +27,7 @@ layout: home
           <!-- LEFT part of the table -->
           <th width="30%" rowspan="100%" style='text-align:center; vertical-align:middle'>
             <h2>
-              <a href="{{site.baseurl}}/{{block.id}}/{{i.id}}">{{i.title}}</a>
+              <a href="{{site.baseurl}}/{{i.id}}">{{i.title}}</a>
             </h2>
             <img src="{{site.baseurl}}/img/icons/{{i.img_icon}}" width="120px" height="100px">
           </th>
@@ -30,10 +37,10 @@ layout: home
           {% for j in sorted_pages %}
             {% if j.parent_id == i.id %}
             <tr>
-              <td width="50%"><a href="{{site.baseurl}}/{{block.id}}/{{i.id}}/{{j.id}}">{{j.title}}</a></td>
+              <td width="50%"><a href="{{site.baseurl}}/{{i.id}}/{{j.id}}">{{j.title}}</a></td>
               <td width="20%">
                 {% if j.notebook != nil %}
-                  <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{block.id}}/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="{{site.baseurl}}/img/colab.svg"/></a>
+                  <a href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="{{site.baseurl}}/img/colab.svg"/></a>
                 {% endif %}
               </td>
             </tr>
@@ -45,5 +52,4 @@ layout: home
       {% endif %}
     {% endfor %}
 
-  {% endif %}
 {% endfor %}
