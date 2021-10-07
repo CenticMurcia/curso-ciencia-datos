@@ -4,6 +4,8 @@ layout: page
 parent_id: 1.2-eda
 id: 5-dimred
 title: 🌀 Dimensionality Red. (PCA, tSNE, UMAP)
+
+notebook: "Dim Red (Bubble, Digits, Houses).ipynb"
 ---
 
 **Dimensionality Reduction** is a type of **multivariate analysis** based on plotting all the variables into a 2D or 3D scatter plot.
