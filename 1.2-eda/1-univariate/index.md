@@ -4,6 +4,8 @@ layout: page
 parent_id: 1.2-eda
 id: 1-univariate
 title: 📊 Análisis Univariante
+
+notebook: "EDA sencillo con Pandas (churn ds).ipynb"
 ---
 
 

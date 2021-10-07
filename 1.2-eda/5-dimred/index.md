@@ -2,7 +2,7 @@
 layout: page
 
 parent_id: 1.2-eda
-id: 4-multivariate-dimred
+id: 5-dimred
 title: 🌀 Dimensionality Red. (PCA, tSNE, UMAP)
 ---
 

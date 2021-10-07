@@ -2,7 +2,7 @@
 layout: page
 
 parent_id: 1.2-eda
-id: 6-automatic
+id: 7-automatic
 title: 🤖 EDA automático (Pandas Profile y SweetViz)
 
 notebook: pandas_profile.ipynb

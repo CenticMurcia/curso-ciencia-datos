@@ -57,15 +57,59 @@ Otros
 
 
 
+## Distribution
 
 
+<table>
+<tr>
+  <td> <a href="https://python-graph-gallery.com/histogram">    <img src="img/icons150/yellow-histogram.png" width="100px"/> </a> </td>
+  <td> <a href="https://python-graph-gallery.com/density-plot"> <img src="img/icons150/yellow-density.png"   width="100px"/> </a> </td>
+  <td> <a href="https://python-graph-gallery.com/boxplot">      <img src="img/icons150/yellow-box.png"       width="100px"/> </a> </td>
+  <td> <a href="https://python-graph-gallery.com/violin-plot">  <img src="img/icons150/yellow-violin.png"    width="100px"/> </a> </td>
+</tr>
+<tr>
+  <th>Histogram</th>
+  <th>Density plot</th>
+  <th>Box plot</th>
+  <th>Violin plot</th>
+</tr>
+<tr>
+  <td>df.plot.hist()<br>sns.distplot()</td>
+  <td>df.plot.kde()<br>sns.kdeplot()</td>
+  <td>df.plot.box()<br>sns.boxplot()</td>
+  <td>sns.violinplot()</td>
+</tr>
+</table>
 
 
+## Correlation
 
-
-
-
-
+<table>
+<tr>
+  <td width="16%"> <img src="img/icons150/grey-scatter.png"/>     </td>
+  <td width="16%"> <img src="img/icons150/grey-heatmap.png"/>     </td>
+  <td width="16%"> <img src="img/icons150/grey-correlogram.png"/> </td>
+  <td width="16%"> <img src="img/icons150/grey-bubble.png"/>      </td>
+  <td width="16%"> <img src="img/icons150/grey-connected.png"/>   </td>
+  <td width="16%"> <img src="img/icons150/grey-density.png"/>     </td>
+</tr>
+<tr>
+  <th>Scatterplot</th>
+  <th>Heatmap</th>
+  <th>Correlogram</th>
+  <th>Bubble</th>
+  <th>Connected Scatter</th>
+  <th>2D Density</th>
+</tr>
+<tr>
+  <td>plt.scatter()<br>sns.scatterplot()</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+</table>
 
 
 ### Ranking
@@ -113,42 +157,6 @@ Otros
   </tr>
 </table>
 
-
-# ❓ Missing values
-
-- Missings de cada **celda** `df.isnull()`
-  - Plot `sb.heatmap(df.isnull())`
-- Missings de cada **variable** `df.isnull().sum(axis=0)` o `df.isnull().sum()`
-  - Ordenados: `df.isnull().sum().sort_values(ascending=False)`
-  - En porcentaje: `df.isnull().sum() / len(df) * 100`
-- Missings de cada **fila** `df.isnull().sum(axis=1)`
-
-### Paquete [missingno](https://github.com/ResidentMario/missingno)
-```python
-import missingno
-```
-
-<table>
-<tr>
-  <td><img src="https://camo.githubusercontent.com/d59ba9e511fd42dd078b8c8829d3de3f6a7e1585/68747470733a2f2f692e696d6775722e636f6d2f675775584b45722e706e67"/></td>
-  <td><img src="https://camo.githubusercontent.com/ce48f2e7236c83739baaf4885a93deb115970512/68747470733a2f2f692e696d6775722e636f6d2f32427845664f722e706e67"/></td>
-</tr>
-  <tr>
-    <th>missingno.matrix(df)</th>
-    <th>missingno.bar(df)</th>
-  </tr>
-</table>
-
-<table>
-<tr>
-  <td><img src="https://camo.githubusercontent.com/196fbc6986234a1d6289ee2bcd7e72c82531433e/68747470733a2f2f692e696d6775722e636f6d2f4a616c534b79452e706e67"/></td>
-  <td><img src="https://camo.githubusercontent.com/a3a6db2d24520a2a21318a1918f6d276566a41e4/68747470733a2f2f692e696d6775722e636f6d2f6f4969523463742e706e67"/></td>
-</tr>
-  <tr>
-    <th>missingno.heatmap(df)</th>
-    <th>missingno.dendrogram(df)</th>
-  </tr>
-</table>
 
 
 

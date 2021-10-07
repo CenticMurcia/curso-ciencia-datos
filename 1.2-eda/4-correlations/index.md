@@ -2,7 +2,7 @@
 layout: page
 
 parent_id: 1.2-eda
-id: 3-multivariate-corr
+id: 4-correlations
 title: 🤝 Análisis Multivariante (Correlaciones)
 
 notebook: num_and_cat_correlations.ipynb

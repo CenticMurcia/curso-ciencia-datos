@@ -4,6 +4,8 @@ layout: page
 parent_id: 1.2-eda
 id: 2-bivariate
 title: 📈 Análisis Bivariante
+
+notebook: "EDA avanzado con Seaborn (churn ds).ipynb"
 ---
 
 
