@@ -47,6 +47,18 @@ AutoML trata de encontrar convinaciones de modelos y de hiperparámetros que max
 </table>
 
 
+- [AutoGluon](https://auto.gluon.ai/stable/index.html): Automl library open sourced by Amazon
+- [EvalML](https://evalml.alteryx.com/en/stable/)
+- FLAML
+- H2O AutoML
+- LightAutoML
+- MLJAR
+- TPOT
+
+
+https://www.kaggle.com/rohanrao/automl-tutorial-tps-october-2021
+
+
 | ![](../img/logos/H2O-AutoML.jpg) | ![](../img/logos/PyCaret.png) | ![](../img/logos/TPOT.jpg) |
 |--|--|--|
 |  |  |  |

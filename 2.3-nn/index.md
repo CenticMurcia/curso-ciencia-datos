@@ -31,37 +31,6 @@ img_icon: 6-nn.svg
 </table>
 
 
-## Hiperparámetros comunes
-
-|                       | Impact | Notes                                          |
-|-----------------------|--------|------------------------------------------------|
-| Layer size            | High   |                                                |
-| Num of layers (depth) | Medium |                                                |
-| Weight Initialization | Medium | Xavier (Dense+tanh), Kaiming He (Dense+ReLU)   |
-| Transfer Learning     | High   | Pretrained model frozen, new layers unfrozen   |
-| Nonlinearity (act fn) | Low    | ReLU, GELU, Swish, Mish, GLU                   |
-| Residual connections  | Low    | Needed if there are a lot of layers (>3)       |
-| - Stochastic Depth    | Low    | If there are residual cons, add this.          |
-| Input data            | High   | Input data representation is very important    |
-| - Normalization       |        | StandardScaler, QuantileTransformer, RankGauss |
-| - Embeddings          |        | Necessary for categorical data                 |
-| - Image size          |        | We need high or low resolution?                |
-| - CoordConv           |        | Encode sequence order for CNNs or tranformers  |
-| - Positional Encoding |        | Encode sequence order for CNNs or tranformers  |
-| Output data           | High   | Logits (-∞, ∞), sigmoid (0,1), softmax,...     |
-| - Good for the loss   |        | Is good for the loss fn?                       |
-| Regularization        | Medium |                                                |
-| - Dropout             | Medium | Scale after dropout to maintain std=1          |
-| - Dropconect          | Low    |                                                |
-| Inner normalization   |        |                                                |
-| - Batch normalization |        |                                                |
-| - Layer normalization |        | Usually before each layer                      |
-| Weght tiying          |        | If same input & output: Langmodel, Autoencoder |
-
-
-> - [Stochastic Depth](https://arxiv.org/abs/1603.09382)
-> - [Squeeze and Excitation](https://amaarora.github.io/2020/07/24/SeNet.html)
-
 
 # Problems
 
@@ -99,40 +68,8 @@ Classification losses
 
 
 
-# Advice for Tabular data
-
-
-### Neural Network
-
-Take the longest time to train, and require extra preprocessing such as normalisation; this normalisation needs to be used at inference time as well. They can provide great results, and extrapolate well, but only if you are careful with your hyperparameters, and are careful to avoid overfitting.
-
-<p align="center"><img width="80%" src="img/tabular2.png" /></p>
-
-### Conclusion
-
-We suggest starting your analysis with a random forest. This will give you a strong baseline, and you can be confident that it's a reasonable starting point. You can then use that model for feature selection and partial dependence analysis, to get a better understanding of your data.
-
-From that foundation, you can try Gradient Boosting and Neural Nets, and if they give you significantly better results on your validation set in a reasonable amount of time, you can use them.
-
-
 ## Backpropagation
 ![](img/update-weights.png)
-<br>
-
-## Learning Rate
-![](img/lr.png)
-<br>
-
-## Early stopping
-![](img/early-stopping.png)
-<br>
-
-![](img/overffiting.jpg)
-<br>
-
-
-## EXTRA: Learning Rate Finder
-![](img/lr-finder.png)
 <br>
 
 ### Aprende más

@@ -46,5 +46,3 @@ for train_idx, test_idx, in cv.split(x, y):
 
 > - [Validación en Sklearn](https://scikit-learn.org/stable/modules/cross_validation.html)
 > - [Consejos para validar en una competición](http://www.chioka.in/how-to-select-your-final-models-in-a-kaggle-competitio/)
-
-
