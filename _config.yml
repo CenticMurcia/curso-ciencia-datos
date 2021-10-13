@@ -24,6 +24,7 @@ theme: minima
 header_pages:
   - about.md
   - references.md
+  - youtube.md
 
 #plugins:
 #  - jekyll-feed
