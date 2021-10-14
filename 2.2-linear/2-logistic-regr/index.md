@@ -4,6 +4,9 @@ layout: page
 parent_id: 2.2-linear
 id: 2-logistic-regr
 title: Logistic Regression
+
+notebook: "Logistic Regression (Titanic) NEW.ipynb"
+
 ---
 
 
