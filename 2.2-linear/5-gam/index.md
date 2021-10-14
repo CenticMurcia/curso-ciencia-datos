@@ -5,7 +5,7 @@ parent_id: 2.2-linear
 id: 5-gam
 title: Generalized Additive Model (GAM)
 
-notebook: notebook.ipynb
+notebook: "4.6 GAM (houses).ipynb"
 ---
 
 
