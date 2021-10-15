@@ -2,7 +2,7 @@
 layout: page
 
 parent_id: 2.3-nn
-id: 7-hyperparams
+id: 8-hyperparams
 title: 🔧 Hyperparameters
 ---
 
