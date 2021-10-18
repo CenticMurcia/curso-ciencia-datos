@@ -2,7 +2,7 @@
 layout: page
 
 parent_id: 3.5-image
-id: Face identification
+id: 2 - Face identification
 title: 👨 Face identification
 ---
 
