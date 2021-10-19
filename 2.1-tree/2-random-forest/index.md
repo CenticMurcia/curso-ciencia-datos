@@ -14,10 +14,12 @@ Are the easiest to train, because they are extremely resilient to hyperparameter
 <p align="center"><img width="75%" src="../img/RF.png" /></p>
 
 
+## Variant 1: Extremely randomized Trees (ET)
 
+In extremely randomized trees (see `ExtraTreesClassifier` and `ExtraTreesRegressor` classes), randomness goes one step further in the way splits are computed. As in random forests, a random subset of candidate features is used, but instead of looking for the most discriminative thresholds, **thresholds are drawn at random for each candidate feature** and the best of these randomly-generated thresholds is picked as the splitting rule. This usually allows to reduce the variance of the model a bit more, at the expense of a slightly greater increase in bias:
 
-### Regularized Greedy Forest (RGF)
+## Variant 2: Regularized Greedy Forest (RGF)
 
-> - Paper: [Learning Nonlinear Functions Using Regularized Greedy Forest](https://arxiv.org/pdf/1109.0887.pdf)
-> - https://www.kaggle.com/carlmcbrideellis/introduction-to-the-regularized-greedy-forest
+- Paper: [Learning Nonlinear Functions Using Regularized Greedy Forest](https://arxiv.org/pdf/1109.0887.pdf)
+- https://www.kaggle.com/carlmcbrideellis/introduction-to-the-regularized-greedy-forest
 
