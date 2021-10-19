@@ -34,43 +34,40 @@ CutMix
 ## Model hyperparameters
 
 
-| Hyperparameter        | Impact | Examples                                       |
-|-----------------------|--------|------------------------------------------------|
-| Layer size            | High   |                                                |
-| Num of layers (depth) | Medium |                                                |
-| Weight Initialization | Medium | Xavier (Dense+tanh), Kaiming He (Dense+ReLU)   |
-| Transfer Learning     | High   | Pretrained model frozen, new layers unfrozen   |
-| Nonlinearity (act fn) | Low    | ReLU, GELU, Swish, Mish, GLU                   |
-| Residual connections  | Low    | Needed if there are a lot of layers (>3)       |
-| - Stochastic Depth    | Low    | If there are residual cons, add this.  [paper](https://arxiv.org/abs/1603.09382) |
-| Regularization        | Medium |                                                |
-| - Dropout             | Medium | Scale after dropout to maintain std=1          |
-| - Dropconect          | Low    |                                                |
-| Inner normalization   |        |                                                |
-| - Batch normalization |        |                                                |
-| - Layer normalization |        | Usually before each layer                      |
-| Weght tiying          |        | If same input & output: Langmodel, Autoencoder |
-| Squeeze and Excitation           [paper](https://amaarora.github.io/2020/07/24/SeNet.html)
+| Hyperparameter         | Impact | Examples                                       |
+|------------------------|--------|------------------------------------------------|
+| Layer size             | High   |                                                |
+| Num of layers (depth)  | Medium |                                                |
+| Weight Initialization  | Medium | Xavier (Dense+tanh), Kaiming He (Dense+ReLU)   |
+| Transfer Learning      | High   | Pretrained model frozen, new layers unfrozen   |
+| Nonlinearity (act fn)  | Low    | ReLU, GELU, Swish, Mish, GLU                   |
+| Residual connections   | Low    | Needed if there are a lot of layers (>3)       |
+| - Stochastic Depth     | Low    | If there are residual cons, add this. [paper](https://arxiv.org/abs/1603.09382) |
+| Regularization         | Medium |                                                |
+| - Dropout              | Medium | Scale after dropout to maintain std=1          |
+| - Dropconect           | Low    |                                                |
+| Inner normalization    |        |                                                |
+| - Batch normalization  |        |                                                |
+| - Layer normalization  |        | Usually before each layer                      |
+| Weght tiying           |        | If same input & output: Langmodel, Autoencoder |
+| Squeeze and Excitation |       | [paper](https://amaarora.github.io/2020/07/24/SeNet.html) |
 
 
 
 ## Training hyperparameters
 
-- Epochs
-- BS
-- LR                                Learning Rate Finder
-- LR sched                          cosine LRD
-- Opimizer                          LAMB
-- Early stopping
-- weight_decay++
-- label smoothing
-
-
-
-| Output data           | High   | Logits (-∞, ∞), sigmoid (0,1), softmax,...     |
-| - Good for the loss   |        | Is good for the loss fn?                       |
-
-
+| Hyperparameter         | Impact | Examples                                            |
+|------------------------|--------|-----------------------------------------------------|
+| Epochs                 | High   | 3..6 if transfer learning, 20..40 if from scratch   |
+| BS                     | Medium | 16,32,64                                            |
+| LR                     | High   | 0.001 is usally good but use Learning Rate Finder   |
+| LR sched               | Medium | Constant, linear warmup + cosine decay              |
+| Opimizer               | Low    | Adam or LAMB are good                               |
+| Early stopping         | Low    | Not neccesary usaully                               |
+| loss (Regression)      | High   | MAE, MSE, MAPE, MSLE, Huber                         |
+| loss (Classification)  | High   | BinaryCrossentropy, CategCrossentropy, Hinge, Focal |
+| loss + weight decay    | Low    |                                                     |
+| loss + label smoothing | Low    |                                                     |
 
 
 

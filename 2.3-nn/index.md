@@ -32,45 +32,23 @@ img_icon: 6-nn.svg
 
 
 
-# Problems
+## Problems
 
-| Problem                    | Description             | Output layer          | Loss                       | 
-|----------------------------|-------------------------|-----------------------|----------------------------|
-| Regression                 | Real number             | 1 neuron without act  | Mean Squared Error (MSE)   |
-| Binary Classification      | 2 exclusive classes     | 1 neuron + Sigmoid    | Binary Cross Entropy (BCE) |
-| Multi-Class Classification | N exclusive classes     | N neurons + Softmax   | Cross-Entropy (CE)         |
-| Multi-Label Classification | N non-exclusive classes | N neurons + Sigmoid   | Binary Cross Entropy (BCE) |
+| Problem                           | Description             | Output layer          | Loss                          | 
+|:---------------------------------:|:-----------------------:|:---------------------:|:-----------------------------:|
+| **Regression**                    | Real number (-∞, ∞)     | 1 neuron without act  | Mean Squared Error<br>(MSE)   |
+| **Binary<br>Classification**      | 2 exclusive classes     | 1 neuron + Sigmoid    | Binary Cross Entropy<br>(BCE) |
+| **Multi-Class<br>Classification** | N exclusive classes     | N neurons + Softmax   | Cross-Entropy<br>(CE)         |
+| **Multi-Label<br>Classification** | N non-exclusive classes | N neurons + Sigmoid   | Binary Cross Entropy<br>(BCE) |
 
-You can just consider the multi-label classifier as a combination of multiple independent binary classifiers
-
-
-Regression losses
-
-| Loss                                  | Pytorch               | Tensorflow            | Keras
-|---------------------------------------|-----------------------|-----------------------|--------------
-| Mean Absolute Error (MAE)             | torch.nn.L1Loss       | tf.keras.losses.MAE   | "mean_absolute_error"
-| Mean Squared Error (MSE)              | torch.nn.MSELoss      | tf.keras.losses.MSE   |
-| Mean Absolute Percentage Error (MAPE) |                       | tf.keras.losses.MAPE  | "mean_absolute_percentage_error"
-| Mean Squared Logarithmic Error (MSLE) |                       | tf.keras.losses.MSLE  |
-| Huber loss                            | torch.nn.SmoothL1Loss | tf.keras.losses.Huber |
-
-
-Classification losses
-
-| Loss                          | Pytorch                 | Tensorflow            | Keras
-|-------------------------------|-------------------------|-----------------------|--------------
-| Binary Cross Entropy (y: 0,1) | nn.BCELoss()            | tf.keras.losses.BinaryCrossentropy              "binary_crossentropy"
-| Cross Entropy (y: one hot)    | nn.CrossEntropyLoss()   | tf.keras.losses.CategoricalCrossentropy         "categorical_crossentropy" 
-| Cross Entropy (y: integer)    |                         | tf.keras.losses.SparseCategoricalCrossentropy   "sparse_categorical_crossentropy" 
-| Hinge                         | nn.HingeEmbeddingLoss() | tf.keras.losses.Hinge                           "hinge"
-| Squared Hinge                                           | tf.keras.losses.SquaredHinge                    "squared_hinge"
-| Focal loss                      -                       | tfa.losses.SigmoidFocalCrossEntropy
-
+> - You can just consider the multi-label classifier as a combination of multiple independent binary classifiers.
+> - Cross-Entropy is called Categorical CrossEntropy in Keras.
 
 
 ## Backpropagation
 ![](img/update-weights.png)
 <br>
 
-### Aprende más
+
+## References
 - [Ejemplos oficiales de Keras](https://keras.io/examples)

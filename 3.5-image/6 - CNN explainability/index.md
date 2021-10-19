@@ -9,6 +9,13 @@ notebook: "CAM - Pytorch.ipynb"
 ---
 
 
+## Why explainability?
+
+<p align="center"><img width="70%" src="img/husky.png" /></p>
+
+
+## Ways of explainability
+
 - **AM**: Global Activation Map. Average feature map on the channel axis.
   - This shows a map all classes detected.
   - [Video by Jeremy Howard](https://youtu.be/hkBa9pU-H48?t=6005)
@@ -24,6 +31,8 @@ notebook: "CAM - Pytorch.ipynb"
   - [*paper*](https://arxiv.org/abs/1706.03825)
 - **Integrated gradients**
   - [Keras example](https://keras.io/examples/vision/integrated_gradients)
+- LIME
+  - Paper ["Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
 - Extra: [Distill: feature visualization](https://distill.pub/2017/feature-visualization)
 - Extra: [Distill: building blocks](https://distill.pub/2018/building-blocks)
 
