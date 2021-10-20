@@ -51,8 +51,6 @@ Note that the model backbone can be a resnet, densenet, inception...
 <p align="center"><img width="90%" src="img/model-unet.png" /></p>
 
 
-#### Advanced U-Net variants
-
 
 #### History of the styate of the art
 
