@@ -71,6 +71,26 @@ CutMix
 
 
 
+
+## LR Finder
+
+There are sevaral ways of computing the lr automatically:
+
+<p align="center"><img width="75%" src="img/lr_finder.jpeg" /></p>
+<p align="center"><img width="50%" src="img/lr_finder_2.png" /></p>
+
+|                  | Developed by          | Task in mind |
+|------------------|-----------------------|--------------|
+| Steep (green)    | Leslie Smith (Fastai) | All tasks    |
+| Minimun (orange) | Leslie Smith (Fastai) | All tasks    |
+| Valley (red)     | ESRI (defualt Fastai) | Vision tasks |
+| Slide (purple)   | Novetta               | NLP tasks    |
+
+
+> - https://www.novetta.com/2021/03/learning-rate/
+> - https://forums.fast.ai/t/automated-learning-rate-suggester/44199
+
+
 ## References
 
 [ResNet strikes back: An improved training procedure in timm](https://arxiv.org/abs/2110.00476)
