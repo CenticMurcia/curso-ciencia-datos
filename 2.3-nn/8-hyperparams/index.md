@@ -93,4 +93,5 @@ There are sevaral ways of computing the lr automatically:
 
 ## References
 
-[ResNet strikes back: An improved training procedure in timm](https://arxiv.org/abs/2110.00476)
+- Paper: [Revisiting ResNets: Improved Training and Scaling Strategies](https://arxiv.org/abs/2103.07579) (Mar 2021)
+- Paper: [ResNet strikes back: An improved training procedure in timm](https://arxiv.org/abs/2110.00476) (Oct 2021)
