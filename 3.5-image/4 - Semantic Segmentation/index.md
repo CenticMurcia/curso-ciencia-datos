@@ -39,17 +39,13 @@ Similar to how we treat standard categorical values, we'll create our target by 
 
 Note that the model backbone can be a resnet, densenet, inception...
 
+#### Naive model: Convolutions + Transpose Convolutions (stride=2)
 
-#### Naive model: Convolutions + DEcon
-
-- Deconvo
-- inverse conv
-- Transpose conv
 
 <p align="center"><img src="img/model-1.png" /></p>
 
 
-#### Better model: Convolutions + Decon + Residual connections = UNET
+#### Better model: Convs + TransposeConvs(stride=2) + Residual connections = UNET
 
 
 <p align="center"><img src="img/model-unet.png" /></p>
@@ -93,17 +89,9 @@ Note that the model backbone can be a resnet, densenet, inception...
 
 
 
-## Depth segmentation
-Learning the Depths of Moving People by Watching Frozen People (mannequin challenge) [paper](https://arxiv.org/abs/1904.11111)
-<p align="center"><img src="img/segmentationDepth.jpg"/></p>
-
-## Surface normal segmentation
-<p align="center"><img width="60%" src="img/segmentationOthers.png" /></p>
-
-- [paper](https://arxiv.org/abs/1411.4958) (2014)
-
 ## Reference
 
+- Blog: [An overview of semantic image segmentation](https://www.jeremyjordan.me/semantic-segmentation)
 - [Image Segmentation Using Deep Learning: A Survey](https://arxiv.org/abs/2001.05566)  Nov 2020
 - https://www.jeremyjordan.me/semantic-segmentation
 - https://www.jeremyjordan.me/evaluating-image-segmentation-models
