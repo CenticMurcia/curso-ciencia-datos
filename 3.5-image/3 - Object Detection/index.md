@@ -7,16 +7,17 @@ title: 🔲 Object detection
 ---
 
 
+## Introduction
+
+Get Bounding boxes around each object.
+
 <p align="center"><img width="50%" src="img/Obj_Det.png" /></p>
 
 
-## Introduction
+## 2 Tasks
 
-Get Bounding boxes around the object. 2 Tasks:
-
-- **Regression**: x,y,w,h Find the Bounding boxes aka regions of interest (RoIs)
-- **Classification**: Classify them as either a known class (c1,c2,c3,...) or background class
-
+- **Regression**: Find the position (`x`,`y`) and size (`w`,`h`) of each bounding box.
+- **Classification**: Classify each box as a known `class` (c1,c2,c3,...).
 
 
 <p align="center"><img width="40%" src="img/xywh.png" /></p>

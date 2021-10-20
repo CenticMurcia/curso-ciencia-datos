@@ -48,7 +48,7 @@ Note that the model backbone can be a resnet, densenet, inception...
 #### Better model: Convs + TransposeConvs(stride=2) + Residual connections = UNET
 
 
-<p align="center"><img src="img/model-unet.png" /></p>
+<p align="center"><img width="90%" src="img/model-unet.png" /></p>
 
 
 #### Advanced U-Net variants

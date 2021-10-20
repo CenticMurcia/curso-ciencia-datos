@@ -28,6 +28,7 @@ permalink: /references/
     - [Curso 2020 de Deep Larning](https://course.fast.ai): Solo parte 1 debido al covid
     - [Curso 2019 de Deep Larning](https://course19.fast.ai): Parte 1 (fácil) y 2 (avanzado)
     - [Curso 2018 de Machine Larning](http://course18.fast.ai/ml)
+    - [Walk with fastai](https://walkwithfastai.com) extra notebooks by Zachary Mueller
   - **Full Stack Deep Learning** (Free course)
     - [Spring 2021](https://docs.google.com/document/d/e/2PACX-1vSSSHcahlrJRvVq4qRKDX2jYLjhgpbWZjqmDcWZ7w3FWItZrlSKw6GY7rcSj5ZkJr6M0DaR8QbKCd8S/pub) (UC Berkeley)
     - [November 2019](https://course.fullstackdeeplearning.com) (bootcamp)
