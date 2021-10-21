@@ -3,26 +3,21 @@ layout: home
 
 parent_id: 3-apps
 id: 3.6-audio
-title: Audio
+title: 🔈 Audio
 
 img_icon: 3.6-audio.svg
 ---
 
-<p align="center"><img src="./wave formula.png" height="400px"></p>
-
-
-# Create dataset
-
-youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=TCudWnNMr0s
 
 
 
-# 1D wave signal
+
+## 1D wave signal
 
 
 Sample rate: Points per second
 
-Due to the [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem) the highest frecuency that you can caputure is **Sampling_Rate_Freq/2**.
+Due to the [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem) the highest frecuency that you can caputure is **Sampling Rate / 2**.
 
 
 | Sample rate | Max freq  | Description                                               |        
@@ -41,48 +36,28 @@ Due to the [Nyquist–Shannon sampling theorem](https://en.wikipedia.org/wiki/Ny
 | 384.000 Hz  | 192 kHz   | Highest sample rate available for common software.        |
 
 
-[source](https://github.com/audiojs/sample-rate)
+> Source: [https://github.com/audiojs/sample-rate](https://github.com/audiojs/sample-rate)
 
 
 
-# Espectogram
+## Create dataset
 
-### Time parameters (X axis):
-
-|                   | Decription                                    | Librosa      | Usually     |
-|:-----------------:|:----------------------------------------------|:------------:|-------------|
-| **Sampling Rate** | Constant: Depends how the signal was recorded | `sr`         | 22kHz, 44.1kHz, 48kHz |
-| **Window size**   | Number of 1D points to compute the FourTrans  | `n_fft`      | 40ms...100ms |
-| **Hop size**      | Window displacement. Usually win_size // 4    | `hop_length` | 512         |
-| **Window shape**  | Uniform, Normal, hann                         | `window`     | 'hann'      |
-
-### Frequencies parameters (Y axis):
-
-|                   | Decription                                    | Librosa      | Usually       |
-|:-----------------:|:----------------------------------------------|:------------:|---------------|
-| **Min frequency** | Lowest frequency (in Hz)                      | `fmin`       | 0.0           |
-| **Max frequency** | Highest frequency (in Hz). If None: sr / 2.0  | `fmax`       | None          |
-| **Resolution**    | Number of freqs from minFreq to maxFreq       | `n_mels`     | 224, 256, 512 |
-| **Y scale**       | linear, log, mel                              |              |               |
+youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=TCudWnNMr0s
 
 
-> Why log or mel scale instead of linear?
-> - The difference between 500 and 1000 Hz is obvious
-> - whereas the difference between 7500 and 8000 Hz is barely noticeable.
 
-
-### Amplitude parameter (pixel intensity)
+## Amplitude parameter (pixel intensity)
 - scale: linear or Decibel
 
 
-### Example
+## Example
 
 ```python
 filename = 'my_sound.wav'
 y, sr = librosa.load(filename)
 ```
 
-### References
+## References
 
 - https://fastaudio.github.io/
 - https://www.youtube.com/c/ValerioVelardoTheSoundofAI/videos
