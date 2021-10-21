@@ -5,7 +5,7 @@ parent_id: 3.6-audio
 id: 1 - Mel Spectogram
 title: "🔈 Mel Spectogram"
 
-notebook: Mel Spectogram.ipynb
+notebook: "Mel Spectogram.ipynb"
 ---
 
 
