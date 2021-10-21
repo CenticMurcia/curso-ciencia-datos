@@ -4,6 +4,8 @@ layout: page
 parent_id: 3.5-image
 id: 4 - Semantic Segmentation
 title: ✂️ Semantic Segmentatition
+
+notebook: "Segmentation CAMVID_TINY - Fastai.ipynb"
 ---
 
 
