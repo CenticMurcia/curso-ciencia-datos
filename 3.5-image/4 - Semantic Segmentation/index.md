@@ -93,8 +93,7 @@ Note that the model backbone can be a resnet, densenet, inception...
 
 ## Notebook: CAMVID dataset
 
-
-<p align="center"><img width="80%" src="img/CAMVID-dataset.jpg.png" /></p>
+<p align="center"><img width="80%" src="img/CAMVID-dataset.jpg" /></p>
 
 
 
