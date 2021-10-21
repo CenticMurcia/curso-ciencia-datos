@@ -91,6 +91,12 @@ Note that the model backbone can be a resnet, densenet, inception...
 <p align="center"><img width="100%" src="img/loss-dice.png" /></p>
 
 
+## Notebook: CAMVID dataset
+
+
+<p align="center"><img width="80%" src="img/CAMVID-dataset.jpg.png" /></p>
+
+
 
 ## Reference
 
