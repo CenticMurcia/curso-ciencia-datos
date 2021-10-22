@@ -26,6 +26,15 @@ Get Bounding boxes around each object.
 <p align="center"><img width="40%" src="img/xywh.png" /></p>
 
 
+## Datasets
+
+- COCO_TINY: 200 images
+- COCO_SAMPLE
+- PASCAL_2007
+- PASCAL_2012
+- [Roboflow public datasets](https://public.roboflow.com/)
+
+
 ## Types of models
 
 > - **Region-based**: First determine the regions of interest (boxes), then classify the object.
@@ -47,25 +56,54 @@ Get Bounding boxes around each object.
 | [**YOLO v3**     ](https://arxiv.org/abs/1804.02767) | An Incremental Improvement | Apr 2018 | Single-shot  |
 | [**EfficientDet**](https://arxiv.org/abs/1911.09070) | Based on EfficientNet      | Nov 2019 | Single-shot  |
 | [**YOLO v4**     ](https://arxiv.org/abs/2004.10934) | Optimal Speed and Accuracy | Apr 2020 | Single-shot  |
+| [**PP-YOLO**     ](https://arxiv.org/abs/2007.12099) | Better YOLO with PaddlPaddle |  Jul 2020 | Single-shot |
 | [**YOLO v5**     ](https://github.com/ultralytics/yolov5) | No official version   | Oct 2020 | Single-shot  |
 
 
-
-<p align="center"><img width="60%" src="img/EfficientDet.png" /></p>
-<p align="center"><img width="60%" src="img/YOLOv5.png" /></p>
-<p align="center"><img width="60%" src="img/YOLOv5-models.png" /></p>
+<p align="center"><img width="80%" src="img/YOLOv5.png" /></p>
 
 
+| Model        | size<sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |Speed<br><sup>CPU b1<br>(ms) |params<br><sup>(M) |FLOPs<br><sup>@640 (B)
+|:------------:|:---------:|:-----:|:-----:|:-----:|:-----:|:-----:
+| **YOLOv5n**  |  640x640  |28.4   |46.0   |45     |1.9    |4.5
+| **YOLOv5s**  |  640x640  |37.2   |56.0   |98     |7.2    |16.5
+| **YOLOv5m**  |  640x640  |45.2   |63.9   |224    |21.2   |49.0
+| **YOLOv5l**  |  640x640  |48.8   |67.2   |430    |46.5   |109.1
+| **YOLOv5x**  |  640x640  |50.7   |68.9   |766    |86.7   |205.7
+|              |           |       |       |       |       |
+| **YOLOv5n6** | 1280x1280 |34.0   |50.7   |153    |3.2    |4.6
+| **YOLOv5s6** | 1280x1280 |44.5   |63.0   |385    |16.8   |12.6
+| **YOLOv5m6** | 1280x1280 |51.0   |69.0   |887    |35.7   |50.0
+| **YOLOv5l6** | 1280x1280 |53.6   |71.6   |1784   |76.8   |111.4
+| **YOLOv5x6** | 1280x1280 |54.7   |72.4   |3136   |140.7  |209.8 
 
-## Common datasets
 
-- COCO_TINY: 200 images
-- COCO_SAMPLE
-- PASCAL_2007
-- PASCAL_2012
-- [Roboflow public datasets](https://public.roboflow.com/)
+```python
+model = torch.hub.load('ultralytics/yolov5', 'yolov5n', pretrained=True)
+
+x = torch.rand(1, 3, 640, 640)
+y = model(x)
+
+# Y:
+# ( torch.Size([1, 25200, 85]) , (torch.Size([1, 3, 80, 80, 85]),
+#                                 torch.Size([1, 3, 40, 40, 85]),
+#                                 torch.Size([1, 3, 20, 20, 85]))   )
+
+# THEN APPLY NMS (Non Max Suppression)
+```
+
+## Metric: mAP (mean Average Precision)
 
 
+- Mean Average Precision is the **area under the precision-recall curve**
+- F1 find the optimal confidence threshold in the **precision-recall curve**
+- In objet detection the threshold is the **IoU threshold**.
+
+<p align="center"><img width="50%" src="img/mAP.png" /></p>
+
+> Source: Roboflow
+> - [Blog post](https://blog.roboflow.com/mean-average-precision)
+> - [Youtube video](https://www.youtube.com/watch?v=oqXDdxF_Wuw)
 
 ## References
 
