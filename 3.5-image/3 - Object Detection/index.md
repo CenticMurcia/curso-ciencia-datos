@@ -63,9 +63,14 @@ Get Bounding boxes around each object.
 - COCO_SAMPLE
 - PASCAL_2007
 - PASCAL_2012
+- [Roboflow public datasets](https://public.roboflow.com/)
+
+
 
 ## References
 
+- Roboflow video porject [Detect rebbits](https://www.youtube.com/watch?v=oPvqKgq3ppc)
+- [Counting-Fish](https://github.com/jshaffer94247/Counting-Fish)
 - [IceVision](https://airctic.com)
   - [Models](https://airctic.com/0.8.1/models)
 - [Decoding: State Of The Art Object Detection](https://towardsdatascience.com/decoding-state-of-the-art-object-detection-99f79d97b75d?gi=96374331d71c)

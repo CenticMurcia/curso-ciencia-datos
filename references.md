@@ -33,12 +33,13 @@ permalink: /references/
     - [Spring 2021](https://docs.google.com/document/d/e/2PACX-1vSSSHcahlrJRvVq4qRKDX2jYLjhgpbWZjqmDcWZ7w3FWItZrlSKw6GY7rcSj5ZkJr6M0DaR8QbKCd8S/pub) (UC Berkeley)
     - [November 2019](https://course.fullstackdeeplearning.com) (bootcamp)
   - [PyTorch Lightning MasterClass](https://www.youtube.com/playlist?list=PLaMu-SDt_RB5NUm67hU2pdE75j6KaIOv2) (youtube playlist)
-- Soluciones de competiciones pasadas de **Kaggle**
+- **Kaggle** past solutions
   - [Kaggle Solutions](https://farid.one/kaggle-solutions) by Farid Rashidi ⭐
-  - [KaggleDB solutions](https://kaggledb.com/solutions)
-  - http://ndres.me/kaggle-past-solutions/
-  - http://www.chioka.in/kaggle-competition-solutions/
-  - https://github.com/ShuaiW/kaggle-classification/
+  - [Kagoole](https://kagoole.herokuapp.com) ⭐
+  - [KaggleDB solutions](https://kaggledb.com/solutions) ⭐
+  - [Kaggle Past Solutions](http://ndres.me/kaggle-past-solutions) last update at 2019
+  - [Kaggle - Classification](https://github.com/ShuaiW/kaggle-classification) last update at 2016
+  - [Kaggle Competition Past Solutions](http://www.chioka.in/kaggle-competition-solutions) last update at 2014
 
 
 ## 📚 Libros recomendados
@@ -53,6 +54,7 @@ permalink: /references/
 
 ## 📰 Noticias de IA
 
+- [Roboflow Blog](https://blog.roboflow.com/)
 - [Paper with Code Newsletter](https://paperswithcode.com/newsletter)
 - Full Stack Deep Learning: [Tooling Tuesdays](https://twitter.com/full_stack_dl/status/1343997170802806784): Thread of Threads on Twiter
 - [Kaggle Hidden Gems](https://twitter.com/hashtag/KaggleHiddenGems) by Martin Henze (Heads or Tails)
