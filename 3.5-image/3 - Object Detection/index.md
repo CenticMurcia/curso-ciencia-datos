@@ -37,35 +37,63 @@ Get Bounding boxes around each object.
 
 ## Types of models
 
-> - **Region-based**: First determine the regions of interest (boxes), then classify the object.
-> - **Single-shot**: Solve the two tasks together.
+> - **Region-based** (Sparse Prediction) (two-stage): First determine the regions of interest (boxes), then classify the object.
+> - **Single-shot** (Dense Prediction) (one-stage): Solve the two tasks together.
 
-| Name                                                 | Description                | Date     | Type         |
-|:----------------------------------------------------:|----------------------------|:--------:|:------------:|
-| [**R-CNN**       ](https://arxiv.org/abs/1311.2524)  |                            | Nov 2013 | Region-based |
-| [**Fast R-CNN**  ](https://arxiv.org/abs/1504.08083) |                            | Apr 2015 | Region-based |
-| [**Faster R-CNN**](https://arxiv.org/abs/1506.01497) |                            | Jun 2015 | Region-based |
-| [**YOLO v1**     ](https://arxiv.org/abs/1506.02640) | You Only Look Once         | Jun 2015 | Single-shot  |
-| [**SSD**         ](https://arxiv.org/abs/1512.02325) | Single Shot Detector       | Dec 2015 | Single-shot  |
-| [**FPN**         ](https://arxiv.org/abs/1612.03144) | Feature Pyramid Network    | Dec 2016 | Single-shot  |
-| [**YOLO v2**     ](https://arxiv.org/abs/1612.08242) | Better, Faster, Stronger   | Dec 2016 | Single-shot  |
-| [**Mask R-CNN**  ](https://arxiv.org/abs/1703.06870) |                            | Mar 2017 | Region-based |
-| [**RetinaNet**   ](https://arxiv.org/abs/1708.02002) | Focal Loss                 | Aug 2017 | Single-shot  |
-| [**PANet**       ](https://arxiv.org/abs/1803.01534) | Path Aggregation Network   | Mar 2018 | Single-shot  |
-| [**YOLO v3**     ](https://arxiv.org/abs/1804.02767) | An Incremental Improvement | Apr 2018 | Single-shot  |
-| [**EfficientDet**](https://arxiv.org/abs/1911.09070) | Based on EfficientNet      | Nov 2019 | Single-shot  |
-| [**YOLO v4**     ](https://arxiv.org/abs/2004.10934) | Optimal Speed and Accuracy | Apr 2020 | Single-shot  |
-| [**PP-YOLO**     ](https://arxiv.org/abs/2007.12099) | Better YOLO with PaddlPaddle |  Jul 2020 | Single-shot |
-| [**YOLO v5**     ](https://github.com/ultralytics/yolov5) | No official version   | Oct 2020 | Single-shot  |
+
+| Name                                                 | Description                | Date     | Type         | Grid size           | Anchors |
+|:----------------------------------------------------:|----------------------------|:--------:|:------------:|---------------------|---------|
+| [**R-CNN**       ](https://arxiv.org/abs/1311.2524)  |                            | Nov 2013 | Region-based |                     |        |
+| [**Fast R-CNN**  ](https://arxiv.org/abs/1504.08083) |                            | Apr 2015 | Region-based |                     |        |
+| [**Faster R-CNN**](https://arxiv.org/abs/1506.01497) |                            | Jun 2015 | Region-based |                     |        |
+| [**YOLO v1**     ](https://arxiv.org/abs/1506.02640) | You Only Look Once         | Jun 2015 | Single-shot  | 7x7                 |        |
+| [**SSD**         ](https://arxiv.org/abs/1512.02325) | Single Shot Detector       | Dec 2015 | Single-shot  |                     |        |
+| [**FPN**         ](https://arxiv.org/abs/1612.03144) | Feature Pyramid Network    | Dec 2016 | Single-shot  |                     |        |
+| [**YOLO v2**     ](https://arxiv.org/abs/1612.08242) | Better, Faster, Stronger   | Dec 2016 | Single-shot  |                     |        |
+| [**Mask R-CNN**  ](https://arxiv.org/abs/1703.06870) |                            | Mar 2017 | Region-based |                     |        |
+| [**RetinaNet**   ](https://arxiv.org/abs/1708.02002) | Focal Loss                 | Aug 2017 | Single-shot  |                     |        |
+| [**PANet**       ](https://arxiv.org/abs/1803.01534) | Path Aggregation Network   | Mar 2018 | Single-shot  |                     |        |
+| [**YOLO v3**     ](https://arxiv.org/abs/1804.02767) | An Incremental Improvement | Apr 2018 | Single-shot  | 13x13, 26x26, 52x52 |    3   |
+| [**EfficientDet**](https://arxiv.org/abs/1911.09070) | Based on EfficientNet      | Nov 2019 | Single-shot  |                     |        |
+| [**YOLO v4**     ](https://arxiv.org/abs/2004.10934) | Optimal Speed and Accuracy | Apr 2020 | Single-shot  |                     |        |
+| [**PP-YOLO**     ](https://arxiv.org/abs/2007.12099) | PaddlPaddle YOLO           | Jul 2020 | Single-shot  |                     |        |
+| [**YOLO v5**     ](https://github.com/ultralytics/yolov5) | No official version   | Oct 2020 | Single-shot  | 20x20, 40x40, 80x80 |    3   |
+
+> #### Models not based on anchor boxes
+> - CornerNet
+> - CenterNet
+> - MatrixNet
+> - FCOS
+> - RepPoints
 
 
 ## Model output = Fixed number of anchor boxes
 
-
 <p align="center"><img width="100%" src="img/YOLO-output.png" /></p>
 
+Each anchor boxes consist of:
 
-**YOLOv4** and **YOLOv5** improves the model internals but **has the same YOLOv3 head** for detection (with the 3 levels).
+- **P**: Probability of the box
+  - Needs to be **between [0,1]**
+  - Final P = sigmoid(P)
+-  **X** & **Y**: Position of the box
+  - It's the position of the center of the box
+  - Needs to be **between [0,1]**
+  - Final X = sigmoid(X)
+  - Final Y = sigmoid(Y)
+- **W** & **H**: Size of the box
+  - Needs to be **positive**
+  - Final W = eᵂ
+  - Final H = eᴴ
+- Probability of each Class
+  - One hot encoded vector
+  - 80 classes by default in YOLO
+
+> ## Post-processing (Only at inference time)
+> Choose these 2 thresholds
+> 1. Probability of the box threshold
+> 2. IoU threshold for NMS (Non Maximum Suppression)
+
 
 
 ## Ground truth label
