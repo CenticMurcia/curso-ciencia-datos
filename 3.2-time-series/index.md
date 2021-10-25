@@ -11,6 +11,37 @@ img_icon: 9-time2.svg
 <h1 align="center">🔮 Time Series</h1>
 
 
+## OPTION A: Generic models
+
+1. **Feature engeeering**: Generate a lot of possible useful features
+   - Generating 500 or 1000 features is normal
+   - [Tsfresh](https://tsfresh.readthedocs.io): Automatic calculates time series features
+   - [Trane](https://github.com/HDI-Project/Trane)
+2. **Feature selecetion**: Pick only useful features
+   - Recursive Feature Elimination (RFE)
+   - Shapley feature importances
+   - [shap-hypetune](https://github.com/cerlymarco/shap-hypetune) 
+3. **Train any ML/DL model**
+   - Gradient Boosting (LightGBM)
+   - Neural Network (FeedFoward, TabNet)
+
+
+## OPTION B: TimeSeries-specific models (see [Darts](https://github.com/unit8co/darts))
+
+- Classic models (Univariate)
+  - ARIMA
+  - ARIMAX
+  - Fractal Analysis
+- Classic models (Multiivariate interpretable)
+  - GAM
+  - Facebook Prophet
+    - [Predict Future Sales](https://www.kaggle.com/williammcmillan/predict-future-monthly-sales-with-prophet)
+    - [Hourly Energy Consumption](https://www.kaggle.com/robikscube/time-series-forecasting-with-prophet)
+- Deep Learning
+  - LSTM
+  - [N-BEATS](https://arxiv.org/abs/1905.10437)
+
+
 ## 🛠 Feature engeeering del tiempo
 
 ```python
@@ -42,26 +73,7 @@ agregates = ["count", "mean", "std", "min", "max", "sum", "median"]
 
 
 
-## Modelos especificos
-- Classic models (Univariate)
-  - ARIMA
-  - ARIMAX
-  - Fractal Analysis
-- Classic models (Multiivariate interpretable)
-  - GAM
-  - Facebook Prophet
-- Deep Learning
-  - LSTM
-  - [N-BEATS](https://arxiv.org/abs/1905.10437)
 
-> - [Darts](https://github.com/unit8co/darts): Time Series Made Easy in Python. It contains a variety of models, from classics such as ARIMA to deep neural networks.
-
-
-## Facebook Prophet
-
-competition using prophet:
-- [Predict Future Sales](https://www.kaggle.com/williammcmillan/predict-future-monthly-sales-with-prophet)
-- [Hourly Energy Consumption](https://www.kaggle.com/robikscube/time-series-forecasting-with-prophet)
 
 
 
@@ -79,3 +91,11 @@ plt.scatter(x,y, s=5)
 ```
 
 Read this article: [Caution with Random Forest](https://medium.com/datadriveninvestor/why-wont-time-series-data-and-random-forests-work-very-well-together-3c9f7b271631)
+
+
+
+
+## References
+
+- Kaggle competition: [Optiver Realized Volatility Prediction](https://www.kaggle.com/c/optiver-realized-volatility-prediction/overview)
+  - [Top 1 solution](https://www.kaggle.com/c/optiver-realized-volatility-prediction/discussion/278588)
