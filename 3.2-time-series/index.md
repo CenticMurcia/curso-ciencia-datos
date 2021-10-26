@@ -26,14 +26,12 @@ img_icon: 9-time2.svg
    - Neural Network (FeedFoward, TabNet)
 
 
-## OPTION B: TimeSeries-specific models (see [Darts](https://github.com/unit8co/darts))
+## OPTION B: TimeSeries-specific models (see [**Darts**](https://github.com/unit8co/darts))
 
 - Classic models (Univariate)
   - ARIMA
   - ARIMAX
   - Fractal Analysis
-- Classic models (Multiivariate interpretable)
-  - GAM
   - Facebook Prophet
     - [Predict Future Sales](https://www.kaggle.com/williammcmillan/predict-future-monthly-sales-with-prophet)
     - [Hourly Energy Consumption](https://www.kaggle.com/robikscube/time-series-forecasting-with-prophet)
