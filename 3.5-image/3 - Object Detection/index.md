@@ -165,8 +165,6 @@ y = model(x)
     - [C4W3L08 Anchor Boxes](https://www.youtube.com/watch?v=RTlwl2bv0Tg&t=4s)
     - [C4W3L09 YOLO Algorithm](https://www.youtube.com/watch?v=9s_FpMpdYW8)
   - [Decoding: State Of The Art Object Detection](https://towardsdatascience.com/decoding-state-of-the-art-object-detection-99f79d97b75d?gi=96374331d71c)
-  - YOLOv3
-    - [Video YOLOv3 from Scratch in Pytorch](https://www.youtube.com/watch?v=Grir6TZbc1M)
   - YOLOv4
     - https://blog.roboflow.com/a-thorough-breakdown-of-yolov4/
   - [**detectron 2**](https://ai.facebook.com/blog/-detectron2-a-pytorch-based-modular-object-detection-library-).
@@ -177,4 +175,6 @@ y = model(x)
   - [Counting-Fish](https://github.com/jshaffer94247/Counting-Fish)
   - [IceVision](https://airctic.com)
     - [Models](https://airctic.com/0.8.1/models)
+  - Video: [Tensorflow: Object Detection in 5 Hour](https://www.youtube.com/watch?v=yqkISICHH-U)
+  - Video: [Pytorch: YOLOv3 from scratch](https://www.youtube.com/watch?v=Grir6TZbc1M)
 
