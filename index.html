@@ -42,7 +42,12 @@ blocks:
 
                 {% if j.notebook != nil %}
                   <!--<a target="_blank" href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="{{site.baseurl}}/img/colab.svg"/></a>-->
-                  <a target="_blank" href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="https://img.shields.io/badge/-Notebook-grey?logo=googlecolab"/></a>
+                  <a target="_blank" href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="https://img.shields.io/badge/-{{ j.nb_btn_name | default: 'Notebook' }}-grey?logo={{ j.nb_btn_icon | default: 'googlecolab' }}"/></a>
+                {% endif %}
+
+                {% if j.notebook_2 != nil %}
+                  <!--<a target="_blank" href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="{{site.baseurl}}/img/colab.svg"/></a>-->
+                  <a target="_blank" href="https://colab.research.google.com/github/CenticMurcia/curso-ciencia-datos/blob/master/{{i.id}}/{{j.id}}/{{j.notebook}}"><img src="https://img.shields.io/badge/-{{ j.nb2_btn_name | default: 'Notebook' }}-grey?logo={{ j.nb2_btn_icon | default: 'googlecolab' }}"/></a>
                 {% endif %}
 
                 {% if j.notebook-exercise != nil %}
