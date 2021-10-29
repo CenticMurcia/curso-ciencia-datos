@@ -19,6 +19,13 @@ title: 📃📄 Document unwarp
 | [**RectiNet-v2**: A stacked network architecture for document image dewarping](https://arxiv.org/pdf/2102.01120v1.pdf) | 2021 |  |
 
 
+- **DocUNet** Only dewarp
+  - Dewarp by learning the global mapping directly (which can be challenging for images with multiple complex folds)
+- **DewarpNet** Only dewarp
+- **DocProj**: dewarp + illumination
+  
+
+
 ## Dataset
 - https://www.kaggle.com/c/denoising-dirty-documents/data
 
