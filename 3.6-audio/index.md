@@ -11,6 +11,15 @@ img_icon: 3.6-audio.svg
 
 
 
+## Make all sounds the same
+
+```bash
+ffmpeg -i nombre_file_wav -n -acodec pcm_s16le -ac 1 -ar 16000 nombre_fichero_salida
+```
+
+- `-n`: No sobreescribir fichero audo original
+- `-ac 1`: Mono
+
 
 ## 1D wave signal
 
