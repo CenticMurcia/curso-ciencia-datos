@@ -19,5 +19,12 @@ title: 📃📄 Document unwarp
 | [**RectiNet-v2**: A stacked network architecture for document image dewarping](https://arxiv.org/pdf/2102.01120v1.pdf) | 2021 |  |
 
 
+## Dataset
+- https://www.kaggle.com/c/denoising-dirty-documents/data
+
+
+## Other links
+- https://stackoverflow.com/questions/62492457/what-could-be-the-solution-for-automatically-document-image-unwarping-caused-by
+- https://github.com/thomasjhuang/deep-learning-for-document-dewarping
 - https://expressexpense.com/blog/free-receipt-images-ocr-machine-learning-dataset/
 - https://way2vat.com/receipt-data-augmentation-using-virtual-people-for-real-image-analysis/
