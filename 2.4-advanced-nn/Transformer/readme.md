@@ -1,5 +1,7 @@
 <h1 align="center">Transformer</h1>
 
+[If You Don't Understand Transformers: see these 3D charts](https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/286655)
+
 ### Positional Encoding
 ![](img/pos-enc.png)
 
