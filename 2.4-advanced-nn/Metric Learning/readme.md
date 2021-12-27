@@ -57,6 +57,25 @@ Cross-entropy is valid choice of loss function, same as contrastive or triplet o
 - Margin Loss
 - Hinge Loss
 
+## Kaggle competitions
+
+| Competition                                                                          | Reward  | End date   | Teams | Category  | Classes | Eval metric     |
+|:-------------------------------------------------------------------------------------|--------:|:----------:|------:|:---------:|--------:|:---------------:|
+| [Landmark Recognition 2021](https://www.kaggle.com/c/landmark-recognition-2021)      |      0$ | 2021-10-01 |  392  | Research  |  81.313 | GoogleGlobalAP  |
+| [Landmark Retrieval 2021](https://www.kaggle.com/c/landmark-retrieval-2021)          |      0$ | 2021-10-01 |  268  | Research  |  81.313 | mAP@100         |
+| [Hotel-ID 2021](https://www.kaggle.com/c/hotel-id-2021-fgvc8)                        |      0$ | 2021-05-26 |   92  | Research  |   7.770 | Mean AP at K    |
+| [Herbarium 2021](https://www.kaggle.com/c/herbarium-2021-fgvc8)                      |      0$ | 2021-05-26 |   80  | Research  |  64.500 | macro F1 score  |
+| [Shopee - Pruduct matching](https://www.kaggle.com/c/shopee-product-matching)        | 30,000$ | 2021-05-10 | 2464  | Featured  |  11.014 | Mean F1 score   |
+| [Landmark Recognition 2020](https://www.kaggle.com/c/landmark-recognition-2020)      | 25,000$ | 2020-09-29 |  763  | Research  |  81.313 | GlobalAP (GAP)  |
+| [Landmark Retrieval 2020](https://www.kaggle.com/c/landmark-retrieval-2020)          | 25,000$ | 2020-08-17 |  544  | Research  |  81.313 | mAP@100         |
+| [Herbarium 2020](https://www.kaggle.com/c/herbarium-2020-fgvc7)                      |      0$ | 2020-05-26 |  157  | Research  |         |                 |
+| [Herbarium 2019](https://www.kaggle.com/c/herbarium-2019-fgvc6)                      |      0$ | 2019-06-07 |   21  | Community |         |                 |
+| [Landmark Recognition 2019](https://www.kaggle.com/c/landmark-recognition-2019)      | 25,000$ | 2019-06-03 |  281  | Research  |         |                 |
+| [Landmark Retrieval 2019](https://www.kaggle.com/c/landmark-retrieval-2019)          | 25,000$ | 2019-06-03 |  144  | Research  |         |                 |
+| [Landmark Recognition 2018](https://www.kaggle.com/c/landmark-recognition-challenge) |  2,500$ | 2018-05-29 |  209  | Research  |         |                 |
+| [Landmark Retrieval 2018](https://www.kaggle.com/c/landmark-retrieval-challenge)     |  2,500$ | 2018-05-29 |  209  | Research  |         |                 |
+
+
 ## SimCLR: Metric Learning for unsupervised data
 
 <p align="center"><img width="50%" src="img/SimCLR.gif"/></p>
