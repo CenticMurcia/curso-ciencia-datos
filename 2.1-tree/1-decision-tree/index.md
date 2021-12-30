@@ -3,7 +3,7 @@ layout: page
 
 parent_id: 2.1-tree
 id: 1-decision-tree
-title: 🌳 Árbol de Decisión (DT)
+title: 🌳 Decision Tree (CART, C4.5, M5)
 
 notebook: notebook-modelCART-datasetAdult.ipynb
 ---

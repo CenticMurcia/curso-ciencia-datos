@@ -1,4 +1,11 @@
-<h1 align="center">Transformer</h1>
+---
+layout: page
+
+parent_id: 2.3-nn
+id: 5-transformer
+title: "Transformer (BERT, GPT, TabNet)"
+---
+
 
 [If You Don't Understand Transformers: see these 3D charts](https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/286655)
 

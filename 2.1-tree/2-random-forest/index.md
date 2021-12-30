@@ -3,7 +3,7 @@ layout: page
 
 parent_id: 2.1-tree
 id: 2-random-forest
-title: 🌳 Random Forest
+title: 🌳 Random Forest & Extra Trees
 
 notebook: notebook-adult-dataset.ipynb
 ---
