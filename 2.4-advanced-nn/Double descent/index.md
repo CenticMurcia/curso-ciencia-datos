@@ -1,0 +1,5 @@
+- https://forums.fast.ai/t/good-readings-2019/39367/124
+  - https://lilianweng.github.io/lil-log/2019/03/14/are-deep-neural-networks-dramatically-overfitted.html
+  - https://openai.com/blog/deep-double-descent/
+  - https://www.lesswrong.com/posts/FRv7ryoqtvSuqBxuT/understanding-deep-double-descent
+- https://mohammadpz.github.io/DD.html
