@@ -2,7 +2,7 @@
 layout: page
 
 parent_id: 2.3-nn
-id: 5-transformer
+id: 4-transformer
 title: "Transformer (BERT, GPT, TabNet)"
 ---
 

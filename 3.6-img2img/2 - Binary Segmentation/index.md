@@ -2,7 +2,7 @@
 layout: page
 
 parent_id: 3.5-image
-id: 7 - Binary Segmentation
+id: 2 - Binary Segmentation
 title: ✂️👩‍💼 Binary Segmentation (Portrait mode)
 
 notebook: Binary_Segmentation_fastai.ipynb

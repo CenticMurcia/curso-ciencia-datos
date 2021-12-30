@@ -57,6 +57,14 @@ Cross-entropy is valid choice of loss function, same as contrastive or triplet o
 - Margin Loss
 - Hinge Loss
 
+
+
+## Datasets
+
+- [CelebA Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html): Large-scale CelebFaces Attributes
+- [DeepFashion Database](https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html): Large-scale Fashion
+
+
 ## Kaggle competitions
 
 | Competition                                                                          | Reward  | End date   | Teams | Category  | Classes | Eval metric     |

@@ -3,7 +3,7 @@ layout: home
 
 parent_id: 3-apps
 id: 3.5-image
-title: 👀 Image
+title: 👀 Image recognition
 
 img_icon: 3.5-image.svg
 ---
