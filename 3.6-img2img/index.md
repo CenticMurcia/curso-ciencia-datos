@@ -33,4 +33,10 @@ img_icon: 3.5-image.svg
 - Denoising autoencoder (DAE)
 - Variational autoencoder (VAE)
 - Vector Quantisation Variational autoencoder (VQ-VAE)
+- Denoising Diffusion Probabilistic Models (DDPM)
 - GANs
+
+
+## Metrics
+
+- log likelihood
