@@ -5,7 +5,7 @@ parent_id: 3-apps
 id: 3.6-img2img
 title: 🎨 Image generation
 
-img_icon: 3.5-image.svg
+img_icon: 3.6-img2img.png
 ---
 
 
