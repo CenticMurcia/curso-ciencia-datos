@@ -3,7 +3,7 @@ layout: page
 
 parent_id: 3.5-image
 id: 1-img-clas
-title: "🐶🐱 Image classification (pets dataset)"
+title: "🔠 Image classification (🐶 pets dataset 🐱)"
 
 notebook: image-classification-oxford-pets.ipynb
 ---

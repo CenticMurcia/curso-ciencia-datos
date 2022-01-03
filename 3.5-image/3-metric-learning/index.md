@@ -1,4 +1,11 @@
-<h1 align="center">Metric Learning</h1>
+---
+layout: page
+
+parent_id: 3.5-image
+id: 3-metric-learning
+title: 🌌 Metric Learning
+---
+
 
 > Note that **Metric Learning** is also known as:
 > - **Similarity learning**

@@ -1,7 +1,7 @@
 ---
 layout: page
 
-parent_id: 3.5-image
+parent_id: 3.6-img2img
 id: 2 - Binary Segmentation
 title: ✂️👩‍💼 Binary Segmentation (Portrait mode)
 

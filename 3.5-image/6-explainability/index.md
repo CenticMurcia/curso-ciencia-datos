@@ -2,8 +2,8 @@
 layout: page
 
 parent_id: 3.5-image
-id: 6 - CNN explainability
-title: 🔍❔ CNN explainability
+id: 6-explainability
+title: 🔍 CNN explainability
 
 notebook: "CAM - Pytorch.ipynb"
 ---

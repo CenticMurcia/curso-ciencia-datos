@@ -2,8 +2,8 @@
 layout: page
 
 parent_id: 3.5-image
-id: 2 - Face identification
-title: 👨 Face identification
+id: 4-face-id
+title: 👨 Face identification (Metric Learning)
 ---
 
 
