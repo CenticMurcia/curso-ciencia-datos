@@ -23,7 +23,7 @@ img_icon: 3.6-img2img.png
 | Super-resolution     | Low resolution image | High resolution image  |
 | Document unwarp      | Warped ugly document | clean legible document |
 | Image inpainting     | Image with holes     | Reconstructed image    |
-| Image Generation     | Random noise         | AI-generated image     |
+| Image Generation     | Random noise + (class or text) | AI-generated image |
 
 
 ## DL models

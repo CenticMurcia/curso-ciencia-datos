@@ -58,3 +58,8 @@ The following overview shows the workflow for a single input image of Sylvestor 
 4. Apply your favorite clustering or classification techniques to the features to complete your recognition task. See below for our examples for classification and similarity detection, including an online web demo.
 
 
+## Datasets
+
+- [CelebA Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html): Large-scale CelebFaces Attributes
+
+
