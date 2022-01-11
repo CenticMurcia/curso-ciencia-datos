@@ -6,9 +6,20 @@ id: 5-clothe-id
 title: 👕 Clothes identification (Metric Learning)
 ---
 
-![](img/header.jpg)
+## Clothes segmentation
 
-## Datasets of clothes retrieval (picture2shopitem)
+| Challenge                                                                                    | Data      | Teams
+|----------------------------------------------------------------------------------------------|-----------|--------------------
+| [iMaterialist (Fashion) 2017](https://www.kaggle.com/c/imaterialist-challenge-FGVC2017)      |           |
+| [iMaterialist (Fashion) 2018](https://www.kaggle.com/c/imaterialist-challenge-fashion-2018)  |           |
+| [iMaterialist (Fashion) 2019](https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6)      | 23.53 GB  |
+| [iMaterialist (Fashion) 2020](https://www.kaggle.com/c/imaterialist-fashion-2020-fgvc7)      | 23.7 GB   |
+| [iMaterialist (Fashion) 2021](https://www.kaggle.com/c/imaterialist-fashion-2021-fgvc8)      | 23.7 GB   |
+
+
+## Clothes retrieval (picture2shopitem)
+
+![](img/header.jpg)
 
 
 | Dataset                                                                      | # pairs | # imgs  | # classes | train imgs | val imgs | test imgs |
