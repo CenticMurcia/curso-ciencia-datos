@@ -73,6 +73,12 @@ Note that the model backbone can be a resnet, densenet, inception...
 | [**PointRend**](https://arxiv.org/abs/1912.08193) | Image Segmentation as Rendering       | 2019     | ?         |
 
 
+## Post-processing (OPTIONAL)
+
+- Conditional Random Fields (CRF)
+- Grabcut
+  - [Deep cat](https://github.com/smeschke/deep_cat/blob/master/deepcat.pdf)
+
 
 ## Metric ands losses
 
