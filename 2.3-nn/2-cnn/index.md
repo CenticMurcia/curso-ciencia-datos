@@ -27,9 +27,6 @@ title: "Convolutional Neural Network (CNN, ResNet)"
 
 ## Sota CNNs
 
-![](img/NoisyStudent.png)
-
-
 |                         | Description                               | Paper                                        |
 |:-----------------------:|:------------------------------------------|:--------------------------------------------:|
 | **Inception v3**        |                                           | [Dec 2015](https://arxiv.org/abs/1512.00567) |
@@ -42,5 +39,10 @@ title: "Convolutional Neural Network (CNN, ResNet)"
 | **SENet**               | Squeeze and Excitation (channels weights) | [Sep 2017](https://arxiv.org/abs/1709.01507) |
 | **EfficientNet**        | Rethinking Model Scaling                  | [May 2019](https://arxiv.org/abs/1905.11946) |
 | **Noisy Student**       | Self-training                             | [Nov 2019](https://arxiv.org/abs/1911.04252) |
+| **EfficientNetV2**      | Smaller Models and Faster Training        | [Apr 2021](https://arxiv.org/abs/2104.00298) |
 | **ResNet strikes back** | An improved training procedure in timm    | [Oct 2021](https://arxiv.org/abs/2110.00476) |
 | **ConvNeXt**            | A ConvNet for the 2020s                   | [Jan 2022](https://arxiv.org/abs/2201.03545) | 
+
+![](img/NoisyStudent.png)
+
+![](img/convnext.jpeg)

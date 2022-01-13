@@ -197,7 +197,6 @@ y = model(x)
 
 ## Metric: mAP (mean Average Precision)
 
-
 - Mean Average Precision is the **area under the precision-recall curve**
 - F1 find the optimal confidence threshold in the **precision-recall curve**
 - In objet detection the threshold is the **IoU threshold**.
@@ -207,6 +206,13 @@ y = model(x)
 > Source: Roboflow
 > - [Blog post](https://blog.roboflow.com/mean-average-precision)
 > - [Youtube video](https://www.youtube.com/watch?v=oqXDdxF_Wuw)
+
+
+## Get more classes from classification datasets!
+
+- Paper: [Detecting Twenty-thousand Classes using Image-level Supervision](https://arxiv.org/abs/2201.02605)
+- [Github code](https://github.com/facebookresearch/Detic)
+- [Twit de Ivan Prado](https://twitter.com/ivanprado/status/1480898468394713088)
 
 ## References
 
