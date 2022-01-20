@@ -17,15 +17,23 @@ img_icon: 3.5-image.svg
 
 ## 💾 Formats
 
-- JPG: To speed up jpeg image I/O from the disk one should not use PIL, skimage and even OpenCV but look for libjpeg-turbo or PyVips.
+- JPG: To speed up jpeg image I/O from the disk one should not use PIL, skimage and even OpenCV but look for **`libjpeg-turbo`** or **`PyVips`**.
 - PNG:
 - DICOM (Medical Image)
   - [Some DICOM gotchas to be aware of (fastai)](https://www.kaggle.com/jhoward/some-dicom-gotchas-to-be-aware-of-fastai)
   - [DON'T see like a radiologist! (fastai)](https://www.kaggle.com/jhoward/don-t-see-like-a-radiologist-fastai)
 
+## 🐇 (Fast) Dataloaders
 
+**`ffcv`** is a dataloader that dramatically increases data throughput in model training
 
+- [Github repo](https://github.com/libffcv/ffcv)
+- [Documentation](https://docs.ffcv.io)
+- [Tweet](https://twitter.com/aleks_madry/status/1483523047273512978)
 
+![](img/ffcv.svg)
+
+> Realted work: [DeepSpeed](deepspeed.ai)
 
 ## 🔨 Image preprocessing
     
