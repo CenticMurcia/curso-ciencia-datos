@@ -8,7 +8,7 @@ title: Collaborative filtering
 img_icon: 3.3-collab-filtering.svg
 ---
 
-<h1 align="center">Recommendation<br>Systems</h1>
+<h1 align="center">Recommendation Systems</h1>
 
 > Existen 2 opciones
 > - **Collaborative Filtering**: Para cuando hay algunas reseñas de los usuarios hacia los productos
@@ -56,6 +56,7 @@ Si metemos esa información a sus respectivos **embeddings** seguro que mejoramo
 
 
 ### Referencias
+- [**Deep Learning for Recommender Systems: A Netflix Case Study**](https://ojs.aaai.org/index.php/aimagazine/article/view/18140)
 - https://www.kaggle.com/shawamar/product-recommendation-system-for-e-commerce
 - https://github.com/fastai/fastbook/blob/master/08_collab.ipynb
 - https://keras.io/examples/structured_data/collaborative_filtering_movielens/
