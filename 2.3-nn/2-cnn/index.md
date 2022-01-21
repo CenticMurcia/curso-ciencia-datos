@@ -47,3 +47,46 @@ title: "Convolutional Neural Network (CNN, ResNet)"
 ![](img/NoisyStudent.png)
 
 ![](img/convnext.jpeg)
+
+
+## Check TIMM bencmark results
+
+- [tweet](https://twitter.com/wightmanr/status/1484236491412832257)
+- [github repo](https://github.com/rwightman/pytorch-image-models/tree/master/results)
+- [Interactive google colab](https://colab.research.google.com/drive/1yPpAtsibYw8jkzOarLBhdXnWvJR0Uqlo?usp=sharing)
+
+Code of the Interactive google colab:
+
+```python
+! pip install pandas duckdb plotly
+! git clone https://github.com/rwightman/pytorch-image-models.git
+%cd pytorch-image-models/results
+
+import pandas as pd
+import plotly.express as px
+import duckdb
+
+db = duckdb.connect()
+data = db.execute("""
+SELECT * 
+FROM 'model_benchmark_amp_nhwc_rtx3090.csv' b 
+  JOIN 'results-imagenet-real.csv' r
+  ON b.model = r.model
+WHERE b.infer_batch_size = 256;
+""").fetch_df()
+
+data['family'] = data.model.map(lambda name: sorted(name.split('_'), key=len)[-1])
+
+px.scatter(
+    # data,
+    data[data.infer_step_time < 250], 
+    x='infer_step_time', 
+    y='top1', 
+    color='family',
+    size='param_count',
+    width=1200, 
+    height=1000, 
+    hover_name='model',
+    hover_data=['infer_samples_per_sec', 'infer_img_size']
+)
+```
