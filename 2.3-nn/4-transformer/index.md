@@ -63,3 +63,4 @@ for n,p in model.named_parameters():
 - High Level code: Usful for quick use and train
   - [Simple PyTorch-Lightning Transformer Example with Greedy Decoding](https://colab.research.google.com/drive/1swXWW5sOLW8zSZBaQBYcGQkQ_Bje_bmI)
   - [Solución de competición Riid de kaggle](https://github.com/jamarju/riiid-acp-pub/blob/main/02_train.ipynb) por Javier Martín y Andrés torrubia (Transformer en Pytorch con T-Fixup init)
+  - [**x-transformers**](https://github.com/lucidrains/x-transformers) por lucidrains
