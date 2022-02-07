@@ -197,7 +197,7 @@ y = model(x)
 
 ## Detect unknown classes
 
-- Paper: [VOS: Learning What You Don't Know by Virtual Outlier Synthesis](https://openreview.net/forum?id=TW7d65uYu5M)
+- Paper: [VOS: Learning What You Don't Know by Virtual Outlier Synthesis](https://arxiv.org/abs/2202.01197)
 - Repo: [This is the source code accompanying the paper](https://github.com/deeplearning-wisc/vos)
 
 ## Metric: mAP (mean Average Precision)
