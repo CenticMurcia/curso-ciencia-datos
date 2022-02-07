@@ -195,6 +195,11 @@ y = model(x)
 # THEN APPLY NMS (Non Max Suppression)
 ```
 
+## Detect unknown classes
+
+- Paper: [VOS: Learning What You Don't Know by Virtual Outlier Synthesis](https://openreview.net/forum?id=TW7d65uYu5M)
+- Repo: [This is the source code accompanying the paper](https://github.com/deeplearning-wisc/vos)
+
 ## Metric: mAP (mean Average Precision)
 
 - Mean Average Precision is the **area under the precision-recall curve**
