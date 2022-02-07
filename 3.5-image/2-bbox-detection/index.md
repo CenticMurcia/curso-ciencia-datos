@@ -139,10 +139,12 @@ Each anchor boxes consist of:
   - One hot encoded vector
   - 80 classes by default in YOLO
 
-> ## Post-processing (Only at inference time)
-> Choose these 2 thresholds
-> 1. Probability of the box threshold
-> 2. IoU threshold for NMS (Non Maximum Suppression)
+## Post-processing (Only at inference time)
+
+Choose these 2 thresholds:
+1. Probability of the box threshold
+2. **NMS** (Non Maximum Suppression): Set an IoU threshold between boxes
+   - [**Soft-NMS**](https://arxiv.org/abs/1704.04503): Para cuando dos objetos de la misma clase están muy juntos (un caballo detras de otro caballo)
 
 
 
