@@ -75,6 +75,10 @@ img_icon: 3.5-image.svg
 
 
 
+## TIMM
+
+https://medium.com/towards-data-science/getting-started-with-pytorch-image-models-timm-a-practitioners-guide-4e77b4bf9055
+
 
 ## OpenCV basics
 
